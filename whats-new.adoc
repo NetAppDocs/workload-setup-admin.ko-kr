@@ -1,0 +1,24 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes' 
+summary: 워크로드 팩토리 관리 기능의 새로운 기능, 즉 클라우드 공급자 자격 증명, 코드박스 개선 사항 등에 대해 알아보십시오. 
+---
+= 새로운 기능
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+워크로드 팩토리 관리 기능의 새로운 기능, 즉 클라우드 공급자 자격 증명, 코드박스 개선 사항 등에 대해 알아보십시오.
+
+
+
+== 2024년 7월 7일
+
+
+
+=== Workload Factory의 최초 릴리스
+
+AWS용 BlueXP Workload Factory는 Amazon FSx for NetApp ONTAP 파일 시스템을 사용하여 워크로드를 최적화하도록 설계된 강력한 라이프사이클 관리 플랫폼입니다. Workload Factory와 FSx for ONTAP를 사용하여 능률화할 수 있는 워크로드로는 데이터베이스, VMware Cloud on AWS, AI 챗봇 등이 있습니다.

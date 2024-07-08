@@ -1,0 +1,58 @@
+---
+settings:
+  name: Setup and administration
+  platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
+sidebar:
+  entries:
+  - title: 설치 및 관리 문서
+    url: "/index.html"
+  - title: 릴리스 정보
+    entries:
+    - title: 새로운 소식
+      url: "/whats-new.html"
+  - title: 시작하십시오
+    entries:
+    - title: 기본 사항 학습
+      entries:
+      - title: 워크로드 팩토리 개요
+        url: "/workload-factory-overview.html"
+      - title: 작동 모드
+        url: "/operational-modes.html"
+    - title: 빠른 시작
+      url: "/quick-start.html"
+    - title: Workload Factory에 가입하십시오
+      url: "/sign-up-saas.html"
+    - title: AWS 자격 증명을 추가합니다
+      url: "/add-credentials.html"
+    - title: 다음에 할 수 있는 일
+      url: "/whats-next.html"
+  - title: Workload Factory 관리
+    entries:
+    - title: Workload Factory에 로그인합니다
+      url: "/log-in.html"
+    - title: 코드박스를 사용하여 작업을 자동화합니다
+      entries:
+      - title: Codebox에 대해 알아봅니다
+        url: "/codebox-automation.html"
+      - title: 코드박스를 사용하여 코드를 생성합니다
+        url: "/use-codebox.html"
+    - title: 자격 증명을 제거합니다
+      url: "/manage-credentials.html"
+  - title: 지식 및 지원
+    entries:
+    - title: 지원을 위해 등록하십시오
+      url: "/support-registration.html"
+    - title: 도움을 받으십시오
+      url: "/get-help.html"
+  - title: 법적 고지
+    url: "/legal-notices.html"
+product-family:
+  name: BlueXP Workload Factory for AWS
+  repo: workload-family

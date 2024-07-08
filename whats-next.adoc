@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: whats-next.html 
+keywords: what you can do 
+summary: 이제 Workload Factory를 설정하고 FSx for ONTAP 파일 시스템을 생성 및 관리하고 기타 Workload Factory 기능을 사용할 수 있습니다. 
+---
+= 다음에 할 수 있는 일
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+이제 워크로드 팩토리을 설정했으므로 Amazon FSx for ONTAP 파일 시스템 생성, FSx for ONTAP 파일 시스템에 데이터베이스 구축, 그리고 FSx for ONTAP 파일 시스템을 외부 데이터 저장소로 사용하여 AWS 기반 VMware Cloud로 가상 머신 구성을 마이그레이션합니다.
+
+* https://docs.netapp.com/us-en/workload-fsx-ontap/index.html["NetApp ONTAP용 Amazon FSx"^]
++
+FSx for ONTAP을 스토리지 인프라로 사용하여 현재 데이터 목록을 평가하고 분석하여 잠재적인 비용 절감을 실현하십시오. 또한, 모범 사례를 기준으로 FSx for ONTAP 배포를 프로비저닝 및 템플릿 화하고, 고급 관리 기능에 액세스할 수 있습니다.
+
+* https://docs.netapp.com/us-en/workload-genai/index.html["제나이주식회사"^]
++
+RAG(Retrieval-Augmented Generation) 인프라를 배포 및 관리하여 AI 애플리케이션의 정확성과 고유성을 개선합니다. 기본 제공 데이터 보안 및 규정 준수를 통해 FSx for ONTAP에 대한 지식 기반을 구축하십시오.
+
+* https://docs.netapp.com/us-en/workload-databases/index.html["데이터베이스 워크로드"^]
++
+AWS에서 기존 데이터베이스 자산을 감지하고, FSx for ONTAP로 전환하여 잠재적 비용 절감을 평가하고, 최적화를 위한 내장 모범 사례를 통해 데이터베이스를 엔드 투 엔드 로 구축하고, CI/CD 파이프라인을 위한 씬 클로닝을 자동화합니다.
+
+* https://docs.netapp.com/us-en/workload-vmware/index.html["VMware 워크로드"^]
++
+스마트 권장사항과 자동 개선 기능을 통해 마이그레이션 및 운영을 간소화합니다. 효율적인 백업 및 강력한 재해 복구 솔루션 구축 VM을 모니터링하고 문제를 해결합니다.
+
+
