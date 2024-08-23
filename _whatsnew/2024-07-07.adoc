@@ -1,0 +1,9 @@
+= Workload Factory의 최초 릴리스
+:allow-uri-read: 
+
+
+
+
+=== Workload Factory의 최초 릴리스
+
+AWS용 BlueXP Workload Factory는 Amazon FSx for NetApp ONTAP 파일 시스템을 사용하여 워크로드를 최적화하도록 설계된 강력한 라이프사이클 관리 플랫폼입니다. Workload Factory와 FSx for ONTAP를 사용하여 능률화할 수 있는 워크로드로는 데이터베이스, VMware Cloud on AWS, AI 챗봇 등이 있습니다.

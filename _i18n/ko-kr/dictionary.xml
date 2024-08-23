@@ -463,8 +463,6 @@
   <block id="7c408fda146892c9e1c039f91fee3cd3" category="paragraph">코드박스 창에는 특정 작업 흐름 작업에 의해 생성되고 그래픽 마법사 또는 대화 채팅 인터페이스에 의해 일치하는 IAC가 표시됩니다. Codebox는 손쉬운 탐색 및 분석을 위한 색상 코딩 및 검색을 지원하지만 편집은 허용되지 않습니다. 자동화 카탈로그에는 복사하거나 저장할 수만 있습니다.</block>
   <block id="ec6b8f7cd0c5cd9853d947bc13f72f4b" category="inline-link-macro">Codebox에 대해 자세히 알아보십시오</block>
   <block id="7221d615997ca03d4480df5a43dae047" category="paragraph"><block ref="491e45ff3f847be901c7d8962829a3f8" category="inline-link-macro-rx"></block>..</block>
-  <block id="6495534fd654d5f36372a209ee27f0a4" category="section-title">스토리지 계산기</block>
-  <block id="8ab314706201f4dddfd4b45dee861f4a" category="paragraph">워크로드 팩토리에서는 스토리지 계산기를 제공하므로 FSx for ONTAP 파일 시스템의 스토리지 비용을 EBS(Elastic Block Store), EFS(Elastic File Systems) 및 FSx for Windows 파일 서버와 비교할 수 있습니다. 스토리지 요구사항에 따라 FSx for ONTAP 파일 시스템이 가장 비용 효율적인 옵션이라는 것을 알 수 있습니다.</block>
   <block id="3d40a6fbdf1b779c8b032be37bcf95a4" category="paragraph">여러 유형의 스토리지 시스템을 비교할 때 기준에는 필요한 총 용량과 총 성능이 포함되며, 필요한 IOPS 및 필요한 처리량이 포함됩니다.</block>
   <block id="c8d9b9f1a68d559ab984d4aa5efa4076" category="inline-link">스토리지 계산기 를 사용하여 비용 절감을 탐색하는 방법을 알아보십시오</block>
   <block id="62ee06e3888f5791ca82b765e4aa3773" category="paragraph"><block ref="62ee06e3888f5791ca82b765e4aa3773" category="inline-link-rx"></block></block>
@@ -506,5 +504,8 @@
   <block id="691e71734464aaf43017f5b033e54559" category="section-title">2024년 8월 4일</block>
   <block id="efa42d5c66cb9948f402ee559611e12d" category="section-title">Terraform 지원</block>
   <block id="1571710cf3c95e6290fc41ea04917d42" category="paragraph">Terraform은 Amazon FSx for NetApp ONTAP 파일 시스템 배포 및 스토리지 VM 생성에 지원됩니다. 이제 설정 및 관리 가이드에는 코드박스에서 Terraform을 사용하는 방법에 대한 지침이 나와 있습니다.</block>
-  <block id="1a83a24f33c92a88ea922a23bd6cf4e5" category="paragraph"><block ref="1a83a24f33c92a88ea922a23bd6cf4e5" category="inline-link-macro-rx"></block></block>
+  <block id="11cb17d1b990bbf37a24337d5692efa1" category="paragraph"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
+  <block id="462c14d3e045d4b0b69cee0781df3207" category="paragraph">워크로드는 비즈니스 목표를 달성하기 위해 설계된 리소스, 코드, 서비스 또는 애플리케이션의 조합을 포함합니다. 이는 고객 대상 애플리케이션부터 백엔드 프로세스까지 모든 것이 될 수 있습니다. 워크로드는 단일 AWS 계정 내의 리소스 서브셋과 관련되거나 여러 계정에 분산될 수 있습니다.</block>
+  <block id="fb44c12e7a424c0619764b1060434a74" category="section-title">비용 절감 계산기</block>
+  <block id="6904c85b1af908213d1642916b521739" category="paragraph">Workload Factory는 절약 계산기를 제공하므로 FSx for ONTAP 파일 시스템의 스토리지 비용을 EBS(Elastic Block Store), EFS(Elastic File Systems) 및 FSx for Windows 파일 서버와 비교할 수 있습니다. 스토리지 요구사항에 따라 FSx for ONTAP 파일 시스템이 가장 비용 효율적인 옵션이라는 것을 알 수 있습니다.</block>
 </blocks>
