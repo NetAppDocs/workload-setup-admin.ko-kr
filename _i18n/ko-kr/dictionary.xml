@@ -508,4 +508,14 @@
   <block id="462c14d3e045d4b0b69cee0781df3207" category="paragraph">워크로드는 비즈니스 목표를 달성하기 위해 설계된 리소스, 코드, 서비스 또는 애플리케이션의 조합을 포함합니다. 이는 고객 대상 애플리케이션부터 백엔드 프로세스까지 모든 것이 될 수 있습니다. 워크로드는 단일 AWS 계정 내의 리소스 서브셋과 관련되거나 여러 계정에 분산될 수 있습니다.</block>
   <block id="fb44c12e7a424c0619764b1060434a74" category="section-title">비용 절감 계산기</block>
   <block id="6904c85b1af908213d1642916b521739" category="paragraph">Workload Factory는 절약 계산기를 제공하므로 FSx for ONTAP 파일 시스템의 스토리지 비용을 EBS(Elastic Block Store), EFS(Elastic File Systems) 및 FSx for Windows 파일 서버와 비교할 수 있습니다. 스토리지 요구사항에 따라 FSx for ONTAP 파일 시스템이 가장 비용 효율적인 옵션이라는 것을 알 수 있습니다.</block>
+  <block id="2fd1745cefcdce50d6467d96e693f6b7" category="doc">RSS 구독</block>
+  <block id="0fa776fabe30e41d70bd8d9c9e64c974" category="paragraph">RSS 구독은 에서 사용할 수 <block ref="372504cb6bb48559009ff8f8cdb9a245" category="inline-link-macro-rx"></block>있습니다. RSS 피드를 사용하면 BlueXP  Workload Factory의 변경 사항을 쉽게 확인하고 확인할 수 있습니다.</block>
+  <block id="447fb3de7bec10468f55367375163603" category="inline-image-macro">Workload Factory 콘솔 도움말 드롭다운 메뉴의 스크린샷 RSS를 구독하기 위한 새 단추가 드롭다운 메뉴에 옵션으로 나타납니다.</block>
+  <block id="c508966f04ada556baaaa0b94e781209" category="paragraph"><block ref="c508966f04ada556baaaa0b94e781209" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="80f4b5aa553e3a44455088c83954a088" category="section-title">워크로드당 단일 권한 정책 지원</block>
+  <block id="c876ca70d1ae73b09cdc0004b328448e" category="paragraph">이제 Workload Factory에서 AWS 자격 증명을 추가할 때 각 워크로드 및 스토리지 관리에 대해 읽기 또는 자동화 모드를 지원하는 단일 권한 정책을 선택할 수 있습니다.</block>
+  <block id="41b3a089d4fbacfb53e9a5634cfc6647" category="inline-image-macro">자격 증명 페이지의 권한 구성 섹션의 스크린샷으로 스토리지 관리, AI 워크로드, 데이터베이스 워크로드 및 VMware 워크로드에 대한 권한 정책을 읽기 또는 자동화할 수 있습니다.</block>
+  <block id="fa5f572610383fbc01cbba40c0f535e2" category="paragraph"><block ref="fa5f572610383fbc01cbba40c0f535e2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1db25aada4bff8233b24c1d7b39230cd" category="paragraph"><block ref="1db25aada4bff8233b24c1d7b39230cd" category="inline-link-macro-rx"></block></block>
+  <block id="b5cef683aab00353096b98823a237e69" category="section-title">2024년 9월 1일</block>
 </blocks>
