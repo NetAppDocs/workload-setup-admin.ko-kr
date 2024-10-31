@@ -498,9 +498,6 @@
   <block id="1b2b6bf8e053a2f8088251c3a2cc65f9" category="list-text">UI를 사용하여 수행할 작업을 정의한 후 코드상자에서 AWS CLI를 복사합니다.</block>
   <block id="2532cd63354e6e99119077d45134b5ef" category="section-title">코드박스에서 Terraform을 사용합니다</block>
   <block id="a5a1cedd11df4667bf63eec57c1622aa" category="paragraph">Terraform을 사용하여 FSx for ONTAP 파일 시스템 및 기타 AWS 리소스를 구축하고 관리할 수 있습니다.</block>
-  <block id="372393cee3187826465089e7fa3db98e" category="list-text">에서 명령을 실행하려면 Terraform 서버가 필요합니다.</block>
-  <block id="90d8257298c061974c94790388e32bbd" category="list-text">UI를 사용하여 수행할 작업을 정의한 후 코드상자에서 Terraform 코드를 복사하거나 다운로드합니다.</block>
-  <block id="a2417f4d64bad3dff09f2bdbce4dc0e2" category="list-text">서버에 연결합니다.</block>
   <block id="691e71734464aaf43017f5b033e54559" category="section-title">2024년 8월 4일</block>
   <block id="efa42d5c66cb9948f402ee559611e12d" category="section-title">Terraform 지원</block>
   <block id="1571710cf3c95e6290fc41ea04917d42" category="paragraph">Terraform은 Amazon FSx for NetApp ONTAP 파일 시스템 배포 및 스토리지 VM 생성에 지원됩니다. 이제 설정 및 관리 가이드에는 코드박스에서 Terraform을 사용하는 방법에 대한 지침이 나와 있습니다.</block>
@@ -518,4 +515,8 @@
   <block id="fa5f572610383fbc01cbba40c0f535e2" category="paragraph"><block ref="fa5f572610383fbc01cbba40c0f535e2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1db25aada4bff8233b24c1d7b39230cd" category="paragraph"><block ref="1db25aada4bff8233b24c1d7b39230cd" category="inline-link-macro-rx"></block></block>
   <block id="b5cef683aab00353096b98823a237e69" category="section-title">2024년 9월 1일</block>
+  <block id="6e9e8f336be02f99477adc019bfcd183" category="list-text">Terraform이 설치된 시스템(Windows/Mac/Linux)이 필요합니다.</block>
+  <block id="613670bc7ca8a45f31728d87474749ac" category="list-text">사용자 인터페이스를 사용하여 수행할 작업을 정의한 후 Codebox에서 Terraform 코드를 다운로드합니다.</block>
+  <block id="53e9887aa73e6bb1fcf6b5b002e7f175" category="list-text">다운로드한 스크립트 아카이브를 Terraform이 설치된 시스템에 복사합니다.</block>
+  <block id="8db9de1de3844107194be0555d5ceb7c" category="list-text">zip 파일의 압축을 풀고 README.MD 파일의 단계를 따릅니다.</block>
 </blocks>
