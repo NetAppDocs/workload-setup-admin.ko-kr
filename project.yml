@@ -23,21 +23,23 @@ sidebar:
     entries:
     - title: 기본 사항 학습
       entries:
-      - title: 워크로드 팩토리 개요
+      - title: 워크로드 공장 개요
         url: "/workload-factory-overview.html"
       - title: 작동 모드
         url: "/operational-modes.html"
+      - title: 콘솔 환경
+        url: "/console-experiences.html"
     - title: 빠른 시작
       url: "/quick-start.html"
-    - title: Workload Factory에 가입하십시오
+    - title: 워크로드 팩토리에 가입합니다
       url: "/sign-up-saas.html"
     - title: AWS 자격 증명을 추가합니다
       url: "/add-credentials.html"
     - title: 다음에 할 수 있는 일
       url: "/whats-next.html"
-  - title: Workload Factory 관리
+  - title: 작업 부하 공장 관리
     entries:
-    - title: Workload Factory에 로그인합니다
+    - title: 워크로드 공장 에 로그인합니다
       url: "/log-in.html"
     - title: 코드박스를 사용하여 작업을 자동화합니다
       entries:
@@ -56,5 +58,5 @@ sidebar:
   - title: 법적 고지
     url: "/legal-notices.html"
 product-family:
-  name: BlueXP Workload Factory for AWS
+  name: BlueXP workload factory
   repo: workload-family

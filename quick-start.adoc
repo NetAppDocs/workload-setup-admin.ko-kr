@@ -2,18 +2,18 @@
 sidebar: sidebar 
 permalink: quick-start.html 
 keywords: quick start 
-summary: Workload Factory 콘솔을 위한 네트워킹을 준비하고, 계정을 등록 및 생성하고, 자격 증명을 추가하여 Workload Factory를 직접 관리할 수 있습니다. 
+summary: 워크로드 팩토리 콘솔을 위한 네트워킹을 준비하고, 계정을 등록 및 생성하고, 자격 증명을 추가하여 워크로드 팩토리로부터 AWS 리소스를 직접 관리할 수 있습니다. 
 ---
-= 워크로드 팩토리용 빠른 시작
+= BlueXP  워크로드 공장 빠른 시작
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
 
 
 [role="lead"]
-Workload Factory에서 계정을 등록 및 생성하고 자격 증명을 추가하여 Workload Factory에서 AWS 리소스를 직접 관리할 수 있도록 한 다음 Amazon FSx for NetApp ONTAP를 사용하여 워크로드를 최적화할 수 있습니다.
+워크로드 팩토리로 시작하기: 계정을 등록 및 생성하고 자격 증명을 추가하여 워크로드 팩토리에서 AWS 리소스를 직접 관리할 수 있도록 한 다음 Amazon FSx for NetApp ONTAP를 사용하여 워크로드를 최적화할 수 있습니다.
 
-Workload Factory는 사용자가 웹 기반 콘솔에서 클라우드 서비스로 액세스할 수 있습니다. 시작하기 전에 및 에 대해 이해하고 있어야 link:workload-factory-overview.html["워크로드 팩토리"] link:operational-modes.html["작동 모드"]합니다.
+워크로드 팩토리는 웹 기반 콘솔을 통해 사용자가 클라우드 서비스로 액세스할 수 있습니다. 시작하기 전에 및 에 대해 이해하고 있어야 link:workload-factory-overview.html["워크로드 공장"] link:operational-modes.html["작동 모드"]합니다.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] 등록하고 계정을 만듭니다
 [role="quick-margin-para"]
@@ -22,16 +22,16 @@ Workload Factory는 사용자가 웹 기반 콘솔에서 클라우드 서비스�
 [role="quick-margin-para"]
 link:sign-up-saas.html["계정 등록 및 생성 방법에 대해 알아보십시오"]..
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] AWS 자격 증명을 Workload Factory에 추가합니다
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] 워크로드 팩토리에 AWS 자격 증명을 추가합니다
 [role="quick-margin-para"]
-이 단계는 선택 사항입니다. AWS 계정에 액세스하기 위해 자격 증명을 추가하지 않고 Workload Factory를 _Basic_mode에서 사용할 수 있습니다. Read_mode 또는 _automate_ 모드에서 AWS 자격 증명을 Workload Factory에 추가하면 Workload Factory 계정에서 FSx for ONTAP 파일 시스템을 생성 및 관리하고 데이터베이스 및 GenAI 같은 특정 워크로드를 배포 및 관리하는 데 필요한 권한을 얻을 수 있습니다.
+이 단계는 선택 사항입니다. AWS 계정에 액세스하기 위해 자격 증명을 추가하지 않고 _Basic_mode에서 워크로드 팩터리를 사용할 수 있습니다. Read_mode 또는 _automate_mode에서 AWS 자격 증명을 워크로드 팩토리에 추가하면 워크로드 공장 계정에서 FSx for ONTAP 파일 시스템을 생성 및 관리하고 데이터베이스 및 GenAI 같은 특정 워크로드를 배포 및 관리하는 데 필요한 권한을 얻을 수 있습니다.
 
 [role="quick-margin-para"]
 link:add-credentials.html["계정에 자격 증명을 추가하는 방법에 대해 알아봅니다"]..
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] FSx for ONTAP를 사용하여 워크로드를 최적화하십시오
 [role="quick-margin-para"]
-이제 계정을 등록하고 계정을 생성했으며 AWS 자격 증명을 선택적으로 추가했으므로 Workload Factory를 사용하여 FSx for ONTAP 을 사용하여 워크로드를 최적화할 수 있습니다. 아래 링크를 사용하여 각 워크로드 유형에 대한 단계별 지침을 따르십시오.
+등록 및 계정을 생성하고 AWS 자격 증명을 선택적으로 추가했으므로 이제 워크로드 팩토리를 사용하여 FSx for ONTAP 를 사용하여 워크로드를 최적화할 수 있습니다. 아래 링크를 사용하여 각 워크로드 유형에 대한 단계별 지침을 따르십시오.
 
 [role="quick-margin-list"]
 * https://docs.netapp.com/us-en/workload-fsx-ontap/index.html["NetApp ONTAP용 Amazon FSx"^]

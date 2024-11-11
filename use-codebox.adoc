@@ -2,24 +2,24 @@
 sidebar: sidebar 
 permalink: use-codebox.html 
 keywords: codebox, automation, cloudformation, rest api, aws cli, permissions 
-summary: Codebox를 사용하여 워크로드 팩토리로부터 지원되는 모든 작업을 실행하는 데 필요한 코드를 생성할 수 있습니다. Workload Factory REST API, AWS CLI, AWS CloudFormation을 사용하여 사용하고 실행할 수 있는 코드를 생성할 수 있습니다. 
+summary: Codebox를 사용하여 BlueXP  워크로드 팩터리에서 지원되는 모든 작업을 실행하는 데 필요한 코드를 생성할 수 있습니다. 
 ---
-= 자동화를 위해 코드박스를 사용하십시오
+= BlueXP  워크로드 팩토리에서 자동화를 위해 코드박스를 사용하십시오
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
 
 
 [role="lead"]
-Codebox를 사용하여 워크로드 팩토리로부터 지원되는 모든 작업을 실행하는 데 필요한 코드를 생성할 수 있습니다. Workload Factory REST API, AWS CLI, AWS CloudFormation을 사용하여 소비하고 실행할 수 있는 코드를 생성할 수 있습니다.
+Codebox를 사용하여 BlueXP  워크로드 팩터리에서 지원되는 모든 작업을 실행하는 데 필요한 코드를 생성할 수 있습니다. 워크로드 팩토리 REST API, AWS CLI, AWS CloudFormation을 사용하여 소비하고 실행할 수 있는 코드를 생성할 수 있습니다.
 
-Codebox는 각 사용자에 대해 Workload Factory 계정에 제공된 AWS 권한에 따라 코드에 적절한 데이터를 입력하여 Workload Factory 운영 모드(기본, 읽기 및 자동화)와 연계됩니다. 이 코드는 코드를 실행하기 전에 누락된 정보(예: 자격 증명)를 채우거나 특정 데이터를 사용자 지정할 수 있는 템플릿처럼 사용할 수 있습니다.
+Codebox는 각 사용자에 대해 워크로드 팩토리 계정에 제공된 AWS 권한에 따라 코드에 적절한 데이터를 채워 워크로드 팩토리 운영 모드(기본, 읽기 및 자동화)에 맞춥니다. 이 코드는 코드를 실행하기 전에 누락된 정보(예: 자격 증명)를 채우거나 특정 데이터를 사용자 지정할 수 있는 템플릿처럼 사용할 수 있습니다.
 
 
 
 == 코드박스 사용 방법
 
-Workload Factory UI 마법사에서 값을 입력하면 각 필드를 입력할 때 Codebox에서 데이터 업데이트를 확인할 수 있습니다. 마법사를 완료한 후 페이지 하단에서 * 만들기 * 버튼을 선택하기 전에 코드상자에서 복사하기를 선택하여 구성을 구축하는 데 필요한 코드를 캡처합니다 image:button-copy-codebox.png["복사 버튼"] . 예를 들어, 새 Microsoft SQL Server를 생성하는 이 스크린샷은 REST API 구현을 위한 VPC 및 가용 영역에 대한 마법사 항목과 코드박스에 있는 해당 항목을 보여 줍니다.
+워크로드 팩토리 UI 마법사에서 값을 입력하면 각 필드를 완성하는 동안 코드상자에서 데이터 업데이트를 확인할 수 있습니다. 마법사를 완료한 후 페이지 하단에서 * 만들기 * 버튼을 선택하기 전에 코드상자에서 복사하기를 선택하여 구성을 구축하는 데 필요한 코드를 캡처합니다 image:button-copy-codebox.png["복사 버튼"] . 예를 들어, 새 Microsoft SQL Server를 생성하는 이 스크린샷은 REST API 구현을 위한 VPC 및 가용 영역에 대한 마법사 항목과 코드박스에 있는 해당 항목을 보여 줍니다.
 
 image:screenshot-codebox-example1.png["UI에서 Microsoft SQL Server를 만드는 방법과 코드상자에서 VPC 및 가용 영역에 대한 해당 항목을 보여 주는 스크린샷."]
 
@@ -29,9 +29,9 @@ image:screenshot-codebox-example1.png["UI에서 Microsoft SQL Server를 만드�
 
 == Codebox에서 CloudFormation 코드를 사용합니다
 
-Codebox에서 생성된 CloudFormation 코드를 복사한 다음 AWS 계정에서 Amazon Web Services CloudFormation 스택을 시작할 수 있습니다. CloudFormation은 Workload Factory UI에서 정의한 작업을 수행합니다.
+Codebox에서 생성된 CloudFormation 코드를 복사한 다음 AWS 계정에서 Amazon Web Services CloudFormation 스택을 시작할 수 있습니다. CloudFormation은 워크로드 팩토리 UI에서 정의한 작업을 수행합니다.
 
-CloudFormation 코드를 사용하는 단계는 FSx for ONTAP 파일 시스템을 구축하는지, 계정 자격 증명을 생성하는지, 기타 Workload Factory 작업을 수행하는지에 따라 다를 수 있습니다.
+CloudFormation 코드를 사용하는 단계는 FSx for ONTAP 파일 시스템을 구축하거나, 계정 자격 증명을 생성하는지, 기타 워크로드 공장 작업을 수행하는지에 따라 다를 수 있습니다.
 
 CloudFormation에서 생성된 YAML 파일 내의 코드는 보안상의 이유로 7일 후에 만료됩니다.
 
@@ -83,14 +83,14 @@ CloudFormation에서 생성된 YAML 파일 내의 코드는 보안상의 이유�
 . 코드를 실행할 AWS 계정에 로그인합니다.
 . 빠른 스택 만들기 페이지의 기능 에서 * AWS CloudFormation이... * 을 선택합니다.
 . Create stack * 을 선택합니다.
-. AWS 또는 Workload Factory에서 진행 상황을 모니터링합니다.
+. AWS 또는 워크로드 팩토리로부터 진행 상황을 모니터링합니다.
 
 
 
 
 == 코드박스의 REST API 코드를 사용합니다
 
-Codebox에서 생성된 워크로드 팩토리 REST API를 사용하여 FSx for ONTAP 파일 시스템 및 기타 AWS 리소스를 구축하고 관리할 수 있습니다.
+Codebox에서 생성된 워크로드 공장 REST API를 사용하여 FSx for ONTAP 파일 시스템 및 기타 AWS 리소스를 구축하고 관리할 수 있습니다.
 
 curl을 지원하고 인터넷에 연결된 모든 호스트에서 API를 실행할 수 있습니다.
 

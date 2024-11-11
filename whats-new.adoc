@@ -2,16 +2,28 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, enhancements, fixes' 
-summary: 워크로드 팩토리 관리 기능의 새로운 기능, 즉 클라우드 공급자 자격 증명, 코드박스 개선 사항 등에 대해 알아보십시오. 
+summary: 클라우드 공급자 자격 증명, Codebox 개선 사항 등과 같은 워크로드 공장 관리 기능의 새로운 기능에 대해 알아보십시오. 
 ---
-= 새로운 기능
+= BlueXP  워크로드 공장 관리 기능의 새로운 기능
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
 
 
 [role="lead"]
-워크로드 팩토리 관리 기능의 새로운 기능, 즉 클라우드 공급자 자격 증명, 코드박스 개선 사항 등에 대해 알아보십시오.
+클라우드 공급자 자격 증명, Codebox 개선 사항 등과 같은 워크로드 공장 관리 기능의 새로운 기능에 대해 알아보십시오.
+
+
+
+== 2024년 11월 11일
+
+
+
+=== BlueXP  콘솔에 워크로드 팩토리 통합
+
+이제 에서 워크로드 팩토리를 사용할 수 link:https://console.bluexp.netapp.com["BlueXP 콘솔"^]있습니다. BlueXP  콘솔 환경은 워크로드 팩토리 콘솔과 동일한 기능을 제공합니다.
+
+link:https://docs.netapp.com/workload-setup-admin/console-experiences.html["BlueXP  콘솔에서 워크로드 팩토리에 액세스하는 방법을 알아보십시오"]
 
 
 
@@ -21,19 +33,19 @@ summary: 워크로드 팩토리 관리 기능의 새로운 기능, 즉 클라우
 
 === RSS 구독
 
-RSS 구독은 에서 사용할 수 link:https://console.workloads.netapp.com/["워크로드 팩토리 콘솔"^]있습니다. RSS 피드를 사용하면 BlueXP  Workload Factory의 변경 사항을 쉽게 확인하고 확인할 수 있습니다.
+RSS 구독은 에서 사용할 수 link:https://console.workloads.netapp.com/["워크로드 팩토리 콘솔"^]있습니다. RSS 피드를 사용하면 BlueXP  워크로드 팩토리에서의 변경 사항을 쉽게 확인하고 인식할 수 있습니다.
 
-image:screenshot-rss-subscribe-button.png["Workload Factory 콘솔 도움말 드롭다운 메뉴의 스크린샷 RSS를 구독하기 위한 새 단추가 드롭다운 메뉴에 옵션으로 나타납니다."]
+image:screenshot-rss-subscribe-button.png["작업 부하 공장 콘솔 도움말 드롭다운 메뉴의 스크린샷 RSS를 구독하기 위한 새 단추가 드롭다운 메뉴에 옵션으로 나타납니다."]
 
 
 
 === 워크로드당 단일 권한 정책 지원
 
-이제 Workload Factory에서 AWS 자격 증명을 추가할 때 각 워크로드 및 스토리지 관리에 대해 읽기 또는 자동화 모드를 지원하는 단일 권한 정책을 선택할 수 있습니다.
+워크로드 팩토리에서 AWS 자격 증명을 추가할 때 이제 각 워크로드 및 스토리지 관리에 대해 읽기 또는 자동화 모드를 포함한 단일 권한 정책을 선택할 수 있습니다.
 
 image:screenshot-single-permission-policy-support.png["자격 증명 페이지의 권한 구성 섹션의 스크린샷으로 스토리지 관리, AI 워크로드, 데이터베이스 워크로드 및 VMware 워크로드에 대한 권한 정책을 읽기 또는 자동화할 수 있습니다."]
 
-link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["AWS 자격 증명을 Workload Factory에 추가합니다"^]
+link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["워크로드 팩토리에 AWS 자격 증명을 추가합니다"^]
 
 
 
@@ -53,6 +65,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["코드
 
 
 
-=== Workload Factory의 최초 릴리스
+=== BlueXP  워크로드 공장 초기 릴리즈
 
-AWS용 BlueXP Workload Factory는 Amazon FSx for NetApp ONTAP 파일 시스템을 사용하여 워크로드를 최적화하도록 설계된 강력한 라이프사이클 관리 플랫폼입니다. Workload Factory와 FSx for ONTAP를 사용하여 능률화할 수 있는 워크로드로는 데이터베이스, VMware Cloud on AWS, AI 챗봇 등이 있습니다.
+BlueXP  워크로드 팩토리는 Amazon FSx for NetApp ONTAP 파일 시스템을 사용하여 워크로드를 최적화하도록 설계된 강력한 라이프사이클 관리 플랫폼입니다. 워크로드 팩토리 및 FSx for ONTAP를 사용하여 능률적으로 처리할 수 있는 워크로드에는 데이터베이스, AWS 기반 VMware Cloud로의 VMware 마이그레이션, AI 챗봇 등이 있습니다.
