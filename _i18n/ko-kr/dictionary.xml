@@ -415,7 +415,6 @@
   <block id="5975f7e9036c78e6217b16f295f0ca75" category="inline-link-macro">BlueXP 콘솔</block>
   <block id="d2feef96259a41a7842dc5e7af577d63" category="paragraph">이제 에서 워크로드 팩토리를 사용할 수 <block ref="391de7a3bac2bc77fa53dffb3f53801a" category="inline-link-macro-rx"></block>있습니다. BlueXP  콘솔 환경은 워크로드 팩토리 콘솔과 동일한 기능을 제공합니다.</block>
   <block id="717f9c6475fbb39a24ab9942c1a903c0" category="inline-link-macro">BlueXP  콘솔에서 워크로드 팩토리에 액세스하는 방법을 알아보십시오</block>
-  <block id="df2137c00b08ad833b0954cdd4247de3" category="paragraph"><block ref="df2137c00b08ad833b0954cdd4247de3" category="inline-link-macro-rx"></block></block>
   <block id="4fa2f246a664251a157926c2e11e1eb3" category="summary">AWS 자격 증명을 추가하여 워크로드 팩토리가 AWS 계정에서 클라우드 리소스를 구축하고 관리하는 데 필요한 권한을 갖도록 합니다.</block>
   <block id="188c7f44ffe17186c8dcbc38640d54e1" category="paragraph">AWS 자격 증명을 추가 및 관리하여 워크로드 팩토리에게 AWS 계정에서 클라우드 리소스를 구축하고 관리하는 데 필요한 권한을 부여합니다.</block>
   <block id="ef76867d2d387a61f890c38a33b72db2" category="paragraph">AWS 계정 자격 증명을 추가하지 않으면 워크로드 팩토리얼은 _BASIC_MODE에서 작동합니다. 읽기 모드 및 자동화 모드와 같은 다른 작업 모드를 사용하도록 자격 증명을 추가할 수 있습니다. <block ref="3ecbe38d325fe0025957d871a4619a77" category="inline-link-macro-rx"></block>..</block>
@@ -564,4 +563,5 @@
   <block id="280ab23085110ae96b1c8df197382d0b" category="sidebar">워크로드 팩토리에 가입합니다</block>
   <block id="cb1411d161cdf3fea65b5b1351ffa45b" category="sidebar">작업 부하 공장 관리</block>
   <block id="2003c10ae1eaa96c8dd0c849f3e0b79e" category="sidebar">워크로드 공장 에 로그인합니다</block>
+  <block id="1a34f743bd98b1658401ce2f8206ff9a" category="paragraph"><block ref="1a34f743bd98b1658401ce2f8206ff9a" category="inline-link-macro-rx"></block></block>
 </blocks>

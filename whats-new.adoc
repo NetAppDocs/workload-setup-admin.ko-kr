@@ -23,7 +23,7 @@ summary: 클라우드 공급자 자격 증명, Codebox 개선 사항 등과 같�
 
 이제 에서 워크로드 팩토리를 사용할 수 link:https://console.bluexp.netapp.com["BlueXP 콘솔"^]있습니다. BlueXP  콘솔 환경은 워크로드 팩토리 콘솔과 동일한 기능을 제공합니다.
 
-link:https://docs.netapp.com/workload-setup-admin/console-experiences.html["BlueXP  콘솔에서 워크로드 팩토리에 액세스하는 방법을 알아보십시오"]
+link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["BlueXP  콘솔에서 워크로드 팩토리에 액세스하는 방법을 알아보십시오"]
 
 
 
