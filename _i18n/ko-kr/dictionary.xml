@@ -69,28 +69,21 @@
   <block id="1767b6ef838f3d4774bc0f274ffd6680" category="inline-link-macro">Codebox 사용 방법에 대해 알아봅니다</block>
   <block id="431b5bf36166f939706fd1cd6625e311" category="paragraph"><block ref="58039229c34145102d9497de13b6e7b4" category="inline-link-macro-rx"></block>..</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">도움을 받으십시오</block>
-  <block id="3c6efe0ce159fb5b8ee4882bcf3ad973" category="paragraph">NetApp은 Workload Factory와 다양한 방법으로 클라우드 서비스를 지원합니다. 기술 자료(KB) 기사 및 커뮤니티 포럼과 같은 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. 지원 등록에는 웹 티켓팅을 통한 원격 기술 지원이 포함됩니다.</block>
   <block id="6a7b2c9c4cec65ad972b108fa0a1192b" category="section-title">FSx for ONTAP에 대한 지원을 받으십시오</block>
-  <block id="4435b263dd1a35bcd8dfda050db92b3b" category="paragraph">FSx for ONTAP, 인프라 또는 서비스를 사용하는 솔루션과 관련된 기술 지원은 해당 제품의 워크로드 팩토리 설명서에서 "도움말 얻기"를 참조하십시오.</block>
   <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">ONTAP용 Amazon FSx</block>
   <block id="9d06990508d25d367d9158c6558eb9c8" category="paragraph"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
   <block id="35f9849ffdd809bda11d0fc56e1e3583" category="paragraph">Workload Factory 및 해당 스토리지 솔루션 및 서비스에 대한 기술 지원을 받으려면 아래에 설명된 지원 옵션을 사용하십시오.</block>
   <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">자체 지원 옵션을 사용합니다</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">이 옵션은 하루 24시간, 주 7일 동안 무료로 사용할 수 있습니다.</block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">문서화</block>
-  <block id="d935525f4850c4638cbf48ae53fb4686" category="paragraph">현재 보고 있는 Workload Factory 문서</block>
   <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">기술 자료</block>
   <block id="436f63b446dba5a418c698d49bd39718" category="list-text"><block ref="436f63b446dba5a418c698d49bd39718" category="inline-link-rx"></block></block>
-  <block id="ba6274b9c9d1f81bb3a648fa289986b8" category="paragraph">Workload Factory 기술 문서를 검색하여 문제 해결에 도움이 되는 문서를 찾습니다.</block>
   <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">커뮤니티</block>
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
-  <block id="7faef90df03399696ba9d4815b37171a" category="paragraph">Workload Factory 커뮤니티에 참여하여 진행 중인 토론을 따르거나 새로운 토론을 만드십시오.</block>
   <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">NetApp Support로 케이스 생성</block>
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">위의 자체 지원 옵션 외에도 NetApp 지원 전문가와 협력하여 지원을 활성화한 이후의 모든 문제를 해결할 수 있습니다.</block>
   <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">시작하기 전에</block>
   <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">지원 등록 방법을 알아보십시오</block>
-  <block id="a12ea39ddf1c98adfd7f751299705efa" category="paragraph">케이스 생성 * 기능을 사용하려면 먼저 지원을 등록해야 합니다. NetApp 지원 사이트 자격 증명을 워크로드 팩토리 로그인과 연결합니다. <block ref="d9fea24984986beabae03291c4b721de" category="inline-link-macro-rx"></block>..</block>
-  <block id="356c88ac4b0ec3f7689cc91f54701fef" category="list-text">Workload Factory 콘솔의 오른쪽 위에서 * Help &gt; Support * 를 선택합니다.</block>
   <block id="aadd86a3fadf19221852692c6e4adc2f" category="paragraph">이 옵션을 선택하면 BlueXP 콘솔에 새 브라우저 탭이 열리고 지원 대시보드가 로드됩니다.</block>
   <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">리소스 * 페이지의 기술 지원 아래에서 사용 가능한 옵션 중 하나를 선택합니다.</block>
   <block id="6a1b74969231967ed071d465206b15c7" category="list-text">전화로 통화하려면 * 전화 * 를 선택하십시오. 전화를 걸 수 있는 전화 번호가 나열된 netapp.com 페이지로 연결됩니다.</block>
@@ -264,8 +257,6 @@
   <block id="28fc544db57c6f54a41eaa5c6ebc4a57" category="paragraph"><block ref="28fc544db57c6f54a41eaa5c6ebc4a57" category="inline-image-macro-rx" type="image"></block></block>
   <block id="243263104c829e77835d632f591230d5" category="summary">NetApp 기술 지원 팀과 지원 케이스를 생성하기 전에 NetApp Support 사이트 계정을 BlueXP에 추가한 다음 지원 등록을 해야 합니다.</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">지원을 위해 등록하십시오</block>
-  <block id="996ad73a480311d4f86d6946935389d2" category="paragraph">Workload Factory 및 해당 스토리지 솔루션 및 서비스에 대한 기술 지원을 받으려면 지원 등록을 해야 합니다. Workload Factory와는 별도의 웹 기반 콘솔인 BlueXP 콘솔에서 지원을 받으려면 등록해야 합니다.</block>
-  <block id="c552970fd4dc8118ba1806da596acad9" category="paragraph">지원을 등록한다고 해서 클라우드 공급자 파일 서비스에 대한 NetApp 지원이 활성화되지 않습니다. 클라우드 공급자 파일 서비스, 인프라 또는 서비스를 사용하는 솔루션과 관련된 기술 지원은 해당 제품에 대한 Workload Factory 설명서의 "도움말 얻기"를 참조하십시오.</block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">지원 등록 개요</block>
   <block id="d7e4bb081bf4ec4814d83edcfbdb8b96" category="paragraph">계정 ID 지원 가입 등록(BlueXP의 지원 리소스 페이지에 있는 20자리 960xxxxxxxxx 일련 번호)은 단일 지원 구독 ID로 사용됩니다. 각 BlueXP 계정 수준 지원 구독을 등록해야 합니다.</block>
   <block id="f9e05c2b383e3f11e3b4bebbe8952225" category="paragraph">등록하면 지원 티켓 열기 및 자동 사례 생성과 같은 기능을 사용할 수 있습니다. 아래 설명과 같이 BlueXP에 NetApp Support 사이트(NSS) 계정을 추가하여 등록을 완료합니다.</block>
@@ -332,8 +323,6 @@
   <block id="922bba58b532e71878d3d5858f7e8194" category="list-text">클라우드에서 Amazon FSx for NetApp ONTAP 파일 시스템을 검색, 배포 및 관리합니다. FSx for ONTAP은 일관된 하이브리드 클라우드 경험을 제공하는 네이티브 AWS 관리형 서비스에 ONTAP의 모든 기능을 제공합니다.</block>
   <block id="6d46b033eabdea8f60b174a46dfcfb14" category="list-text">온프레미스 vSphere 환경을 AWS의 VMware Cloud로 마이그레이션합니다</block>
   <block id="f760ee48ca0d5104a3c884c851536392" category="list-text">VMware Cloud on AWS 마이그레이션 어드바이저를 사용하면 온프레미스 vSphere 환경에서 현재 가상 머신 구성을 분석하고 권장 VM 레이아웃을 AWS 기반 VMware Cloud에 배포하고 맞춤형 Amazon FSx for NetApp ONTAP 파일 시스템을 외부 데이터 저장소로 사용할 수 있습니다.</block>
-  <block id="9a65d2a72eb8a959d799dda25fa053e1" category="list-text">최적화된 데이터베이스 구축</block>
-  <block id="65ebf27c56e124c006284c1cd9f06d3d" category="list-text">AWS 리소스 프로비저닝, 스토리지 프로비저닝, 네트워킹 및 OS 구성을 포함한 Microsoft SQL Server, 데이터베이스 및 데이터베이스 클론을 구축하고 최적화된 구축 구성을 활용하여 일관되고 오류 없는 설정 프로세스를 보장합니다.</block>
   <block id="c8556381857e2b130302cd1951b0b62c" category="list-text">AI 챗봇 개발</block>
   <block id="b74c52466a8f67e18b547bf25d14844f" category="list-text">FSx for ONTAP 파일 시스템을 활용하여 조직의 챗봇 소스 및 AI Engine 데이터베이스를 저장합니다. 이를 통해 조직의 비정형 데이터를 엔터프라이즈 챗봇 애플리케이션에 포함할 수 있습니다.</block>
   <block id="1a78f887c27cbb9e00745a4c2bb056a1" category="list-text">Amazon EBS(Elastic Block Store) 또는 EFS(Elastic File System) 스토리지 또는 Amazon FSx for Windows File Server를 사용하는 현재 배포를 분석하여 Amazon FSx for NetApp ONTAP으로 전환할 경우 절감할 수 있는 비용을 확인하십시오. 또한 계산기를 사용하여 계획 중인 향후 배포를 위한 "가상" 시나리오를 수행할 수도 있습니다.</block>
@@ -354,9 +343,6 @@
   <block id="7c408fda146892c9e1c039f91fee3cd3" category="paragraph">코드박스 창에는 특정 작업 흐름 작업에 의해 생성되고 그래픽 마법사 또는 대화 채팅 인터페이스에 의해 일치하는 IAC가 표시됩니다. Codebox는 손쉬운 탐색 및 분석을 위한 색상 코딩 및 검색을 지원하지만 편집은 허용되지 않습니다. 자동화 카탈로그에는 복사하거나 저장할 수만 있습니다.</block>
   <block id="ec6b8f7cd0c5cd9853d947bc13f72f4b" category="inline-link-macro">Codebox에 대해 자세히 알아보십시오</block>
   <block id="7221d615997ca03d4480df5a43dae047" category="paragraph"><block ref="491e45ff3f847be901c7d8962829a3f8" category="inline-link-macro-rx"></block>..</block>
-  <block id="3d40a6fbdf1b779c8b032be37bcf95a4" category="paragraph">여러 유형의 스토리지 시스템을 비교할 때 기준에는 필요한 총 용량과 총 성능이 포함되며, 필요한 IOPS 및 필요한 처리량이 포함됩니다.</block>
-  <block id="c8d9b9f1a68d559ab984d4aa5efa4076" category="inline-link">스토리지 계산기 를 사용하여 비용 절감을 탐색하는 방법을 알아보십시오</block>
-  <block id="62ee06e3888f5791ca82b765e4aa3773" category="paragraph"><block ref="62ee06e3888f5791ca82b765e4aa3773" category="inline-link-rx"></block></block>
   <block id="c257f5c852c12409e63afb17104f69c5" category="section-title">REST API</block>
   <block id="0fe398a436a33849be29455ed17d4185" category="list-text">API는 REST 기술과 최신 모범 사례를 기반으로 설계되었습니다. 핵심 기술로는 HTTP와 JSON이 있습니다.</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">시작하십시오</block>
@@ -535,7 +521,6 @@
   <block id="691199ddecf65c4783496c94612dd07f" category="paragraph">워크로드 팩토리부터 시작하는 데 필요한 링크는 없지만, 경우에 따라 모든 워크로드 팩토리 기능 및 워크로드 기능의 잠금을 해제하기 위한 링크를 만들어야 할 수도 있습니다.</block>
   <block id="977c73c0914e897973f4ba0be879711f" category="paragraph">Codebox는 개발자와 DevOps 엔지니어가 워크로드 팩토리에서 지원하는 작업을 실행하는 데 필요한 코드를 생성할 수 있도록 지원하는 IAC(Infrastructure as Code) 공동 파일럿입니다. 코드 형식에는 워크로드 팩토리 REST API, AWS CLI, AWS CloudFormation이 포함됩니다.</block>
   <block id="4d062c42aef687546a9198cf40695389" category="paragraph">Codebox는 워크로드 공장 운영 모드(기본, 읽기 및 자동화)에 맞춰 조정되며 실행 준비를 위한 명확한 경로 및 빠른 재사용을 위한 자동화 카탈로그를 설정합니다.</block>
-  <block id="4242d4bda912ada98fa8b7882d2419a1" category="paragraph">워크로드 팩토리에는 절약 계산기가 제공되므로 FSx for ONTAP 파일 시스템의 스토리지 비용을 EBS(Elastic Block Store), EFS(Elastic File Systems) 및 FSx for Windows 파일 서버와 비교할 수 있습니다. 스토리지 요구사항에 따라 FSx for ONTAP 파일 시스템이 가장 비용 효율적인 옵션이라는 것을 알 수 있습니다.</block>
   <block id="200e3179449390bdf5f3f8d9a199630c" category="section-title">워크로드 팩토리 사용을 위한 툴</block>
   <block id="b5a374f3f5b31b5057808689d26fe2c4" category="paragraph">다음 툴과 함께 BlueXP  워크로드 팩토리를 사용할 수 있습니다.</block>
   <block id="d5688c5bf16d0126d5b27759385bd41e" category="list-text">* 워크로드 팩토리 콘솔 * : 워크로드 팩토리 콘솔은 애플리케이션 및 프로젝트에 대한 전체적인 보기를 제공하는 시각적 인터페이스를 제공합니다</block>
@@ -558,4 +543,20 @@
   <block id="1a34f743bd98b1658401ce2f8206ff9a" category="paragraph"><block ref="1a34f743bd98b1658401ce2f8206ff9a" category="inline-link-macro-rx"></block></block>
   <block id="428b0b39be2352757edeb5f9f12a7bdd" category="inline-link">BlueXP  워크로드 공장</block>
   <block id="7cf449620aa459bc5c449db69b07e507" category="paragraph"><block ref="7cf449620aa459bc5c449db69b07e507" category="inline-link-rx"></block></block>
+  <block id="b6a4501cc05e54e2e5a513c3b552183a" category="paragraph">NetApp은 BlueXP  워크로드 팩토리 및 클라우드 서비스를 다양한 방식으로 지원합니다. 기술 자료(KB) 기사 및 커뮤니티 포럼과 같은 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. 지원 등록에는 웹 티켓팅을 통한 원격 기술 지원이 포함됩니다.</block>
+  <block id="261966eaf033c38f6934f2c8fc36d79c" category="paragraph">FSx for ONTAP, 인프라 또는 서비스를 사용하는 솔루션과 관련된 기술 지원은 해당 제품의 워크로드 공장 설명서의 "도움말 얻기"를 참조하십시오.</block>
+  <block id="5b49df4e58e2a4750acd8bfa8687ccd6" category="paragraph">현재 보고 있는 작업 부하 공장 문서입니다.</block>
+  <block id="ba51332e265e54eb4295d6e7d057bad8" category="paragraph">워크로드 팩토리 기술 문서를 검색하여 문제 해결에 유용한 문서를 찾습니다.</block>
+  <block id="fc3e8f3c2017c33d444d483913a485ba" category="paragraph">워크로드 공장 커뮤니티에 참여하여 진행 중인 토론을 따르거나 새 토론을 만드십시오.</block>
+  <block id="ffa18fada5deeeb1e533786297855e7d" category="paragraph">케이스 생성 * 기능을 사용하려면 먼저 지원을 등록해야 합니다. NetApp 지원 사이트 자격 증명을 워크로드 공장 로그인에 연결하십시오. <block ref="d9fea24984986beabae03291c4b721de" category="inline-link-macro-rx"></block>..</block>
+  <block id="e13a5649dfef3a1c76c4be8e463226d7" category="list-text">워크로드 팩토리 콘솔의 오른쪽 위에서 * Help &gt; Support * 를 선택합니다.</block>
+  <block id="ce638fcfafd4d79a49524062225d7fbc" category="paragraph">BlueXP  워크로드 팩토리 및 스토리지 솔루션 및 서비스와 관련된 기술 지원을 받으려면 지원 등록을 해야 합니다. 워크로드 공장 과는 별도의 웹 기반 콘솔인 BlueXP  콘솔에서 지원을 등록해야 합니다.</block>
+  <block id="2cbcc262b0a39ec19c5f69bffccb70fb" category="paragraph">지원을 등록한다고 해서 클라우드 공급자 파일 서비스에 대한 NetApp 지원이 활성화되지 않습니다. 클라우드 공급자 파일 서비스, 인프라 또는 서비스를 사용하는 솔루션과 관련된 기술 지원은 해당 제품에 대한 워크로드 공장 설명서의 "도움말 얻기"를 참조하십시오.</block>
+  <block id="fd1a283b46f9e16faf592b1eb5138a94" category="list-text">데이터베이스 라이프사이클 관리</block>
+  <block id="47b4ea23585c5454c4427e68acf95fc4" category="list-text">Amazon FSx for NetApp ONTAP를 사용하여 데이터베이스 워크로드를 검색하고 비용 절감 효과를 분석, SQL 서버 데이터베이스를 FSx for ONTAP 스토리지로 마이그레이션할 때 스토리지 및 애플리케이션의 이점을 활용하고, 공급업체 모범 사례를 구현하는 SQL 서버, 데이터베이스, 데이터베이스 클론을 배포하고, 인프라를 코드 공동 파일럿으로 사용하여 운영을 자동화하고, SQL 서버 환경을 지속적으로 모니터링 및 최적화하여 성능, 가용성, 보호, 비용 효율성을 개선합니다.</block>
+  <block id="9c38730e32d53f3eda487d3abd1ce6e9" category="paragraph">워크로드 팩토리에서 절약 계산기를 제공하므로 FSx for ONTAP 파일 시스템의 스토리지 환경 또는 데이터베이스 워크로드를 EBS(Elastic Block Store), EFS(Elastic File Systems) 및 FSx for Windows 파일 서버와 비교할 수 있습니다. 스토리지 요구사항에 따라 FSx for ONTAP 파일 시스템이 가장 비용 효율적인 옵션이라는 것을 알 수 있습니다.</block>
+  <block id="9f346a017efd92b537be153b5fc3b7d1" category="inline-link-macro">스토리지 환경의 비용 절감 방법을 알아보십시오</block>
+  <block id="764ffbbd234e8c610462259cf8d50b5a" category="list-text"><block ref="764ffbbd234e8c610462259cf8d50b5a" category="inline-link-macro-rx"></block></block>
+  <block id="28926214529dd2082ee42d4efccc4f1e" category="inline-link-macro">데이터베이스 워크로드 비용 절감 방법을 알아보십시오</block>
+  <block id="ec6c7e2795e3d76a80250e83f4a0055e" category="list-text"><block ref="ec6c7e2795e3d76a80250e83f4a0055e" category="inline-link-macro-rx"></block></block>
 </blocks>
