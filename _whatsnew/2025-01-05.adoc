@@ -1,0 +1,11 @@
+= BlueXP  워크로드 팩토리에서 서비스 계정 지원
+:allow-uri-read: 
+
+
+
+
+=== BlueXP  워크로드 팩토리에서 서비스 계정 지원
+
+이제 서비스 계정이 BlueXP  워크로드 팩토리에서 지원됩니다. 서비스 계정을 생성하여 인프라 운영을 자동화할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/manage-service-accounts.html["서비스 계정 생성 및 관리"]
