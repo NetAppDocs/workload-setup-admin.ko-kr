@@ -29,6 +29,8 @@ sidebar:
         url: "/operational-modes.html"
       - title: 콘솔 환경
         url: "/console-experiences.html"
+      - title: 권한
+        url: "/permissions-reference.html"
     - title: 빠른 시작
       url: "/quick-start.html"
     - title: 워크로드 팩토리에 가입합니다

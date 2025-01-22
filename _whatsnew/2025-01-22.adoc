@@ -1,0 +1,11 @@
+= BlueXP  워크로드 팩토리 권한
+:allow-uri-read: 
+
+
+
+
+=== BlueXP  워크로드 팩토리 권한
+
+이제 BlueXP  워크로드 팩토리에서 스토리지 환경 검색부터 스토리지 또는 GenAI 워크로드에 대한 기술 자료 등의 AWS 리소스 구축에 이르기까지 다양한 작업을 실행하는 데 사용하는 권한을 확인할 수 있습니다. 스토리지, 데이터베이스, VMware 및 GenAI 워크로드에 대한 IAM 정책 및 권한을 볼 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["BlueXP  워크로드 팩토리 권한"]
