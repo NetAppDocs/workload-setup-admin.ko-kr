@@ -1688,6 +1688,9 @@ GenAI IAM 정책은 작동 모드에서만 사용할 수 있습니다.
 | 지역에서 사용 가능한 기반 모델을 표시합니다 | Bedrock: ListFoundationModels를 참조하십시오 | 구축 | 자동화 
 
 
+| 기초 모델에 대한 액세스 권한을 확인합니다 | Bedrock: GetFoundationModelAvailability를 참조하십시오 | 구축 | 자동화 
+
+
 | AI 엔진 마법사에서 FSx 및 Bedrock을 지원하는 영역을 확보할 수 있습니다 | SSM:GetParametersByPath 입니다 | 구축 | 자동화 
 
 
@@ -1782,9 +1785,6 @@ GenAI IAM 정책은 작동 모드에서만 사용할 수 있습니다.
 
 
 | 로그:TagResource | 구축 | 자동화 
-
-
-| 기초 모델에 대한 액세스 권한을 확인합니다 | Bedrock: GetFoundationModelAvailability를 참조하십시오 | 문제 해결 | 자동화 
 |===
 ====
 
