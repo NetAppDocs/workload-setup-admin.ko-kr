@@ -315,10 +315,18 @@ BlueXP  작업 부하 공장 기능 및 서비스를 사용하려면 작업 부
 .3+| KMS 키 세부 정보를 얻고 FSx for ONTAP 암호화를 사용합니다 | KMS: CreateGrant | 구축 | 자동화 
 
 
-| KMS: 설명 * | 구축 | 자동화 
+| KMS: 설명 * | 구축  a| 
+* 읽기
+* 자동화
 
 
-| KMS: 목록 * | 구축 | 자동화 
+
+
+| KMS: 목록 * | 구축  a| 
+* 읽기
+* 자동화
+
+
 
 
 | 비용 절감 계산기에 Elastic File System에 대해 설명하십시오 | Elasticfilesystem: 설명* | 비용 절감 효과를 | 읽기 
