@@ -595,7 +595,6 @@
   <block id="897945ecf5c18d38834da2efd9b74699" category="list-text">서비스 계정 삭제 대화 상자에서 텍스트 상자에 * DELETE * 를 입력합니다.</block>
   <block id="6b7a52834d577f2e4ac4d587036728f4" category="list-text">삭제를 확인하려면 * 삭제 * 를 선택합니다.</block>
   <block id="0b296fc415fe75b2e0eb7ea5db103354" category="paragraph">서비스 계정이 삭제됩니다.</block>
-  <block id="37b8354fe553b0151888468751ea8eb0" category="section-title">2025년 1월 5일</block>
   <block id="99b22223be957cc9c37eee0aecb2007b" category="list-text">자동화를 촉진하기 위한 서비스 계정</block>
   <block id="cb62deea87371902deaeb1b0a009e387" category="list-text">서비스 계정을 사용하여 BlueXP  워크로드 공장 운영을 안전하고 안정적으로 자동화합니다. 서비스 계정은 사용자 관리 제한 없이 안정적이고 오래 지속되는 자동화를 제공하며 API 액세스만 제공하므로 더욱 안전합니다.</block>
   <block id="13b1a844b08d2d7b8144e4c0db6b5552" category="paragraph">계정을 만들면 해당 계정의 single_account admin_user가 됩니다.</block>
@@ -963,4 +962,86 @@
   <block id="3133cc4fd29893a0163684e3e3f59633" category="paragraph">권한이 추가되고 제거됨에 따라 아래 섹션에 해당 권한이 표시됩니다.</block>
   <block id="009d2060a609114df262eff04e83f241" category="section-title">2025년 1월 22일</block>
   <block id="d08ccf52b4cdd08e41cfb99ec42e0b29" category="sidebar">권한</block>
+  <block id="e2cc7d8ef2a865dce7c7e225dd72d92c" category="doc">BlueXP  워크로드 공장 콘솔에서 사용할 수 있는 CloudShell</block>
+  <block id="7f1ab9d2ad99562dfd8cff4cb4c70b29" category="paragraph">CloudShell은 BlueXP  워크로드 공장 콘솔의 모든 곳에서 사용할 수 있습니다. CloudShell을 사용하면 BlueXP  계정에 제공한 AWS 및 ONTAP 자격 증명을 사용하고 셸 유사 환경에서 AWS CLI 명령 또는 ONTAP CLI 명령을 실행할 수 있습니다.</block>
+  <block id="4ab00ae468588a563b956d814954695d" category="inline-link-macro">CloudShell을 사용합니다</block>
+  <block id="2004b4ad1feb57e1e4505f5888cfbb60" category="paragraph"><block ref="2004b4ad1feb57e1e4505f5888cfbb60" category="inline-link-macro-rx"></block></block>
+  <block id="f3a98886e89c22ab1a8df16ff87d5b3c" category="section-title">데이터베이스에 대한 사용 권한 업데이트</block>
+  <block id="0d8e78270e3796caacf42c07616b7e32" category="paragraph">이제 데이터베이스에 대해 _READ_MODE에서 다음 권한을 사용할 수<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block> 있습니다.</block>
+  <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">권한 참조 변경 로그</block>
+  <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
+  <block id="3528b115bbe0e91f700d310d0ea17581" category="section-title">2025년 2월 3일</block>
+  <block id="f178e0fd9fcc4b5a6fc2d338458b6cd3" category="summary">BlueXP  워크로드 팩토리 사용자 인터페이스의 어디서나 CloudShell을 사용하여 AWS 또는 ONTAP CLI 명령을 실행할 수 있습니다.</block>
+  <block id="922fc3bba93bebc201e0899daa104cdf" category="doc">BlueXP  워크로드 팩토리에서 CloudShell을 사용합니다</block>
+  <block id="d59a89cea13e89eca14a0cc511502b8f" category="paragraph">CloudShell을 열어 BlueXP  워크로드 팩토리 사용자 인터페이스의 모든 위치에서 AWS 또는 ONTAP CLI 명령을 실행합니다.</block>
+  <block id="04c6abdf6dfbe761a16c8603f6d0f6f2" category="paragraph">CloudShell을 사용하면 BlueXP  워크로드 팩토리 사용자 인터페이스 내에서 셀과 유사한 환경에서 AWS CLI 명령 또는 ONTAP CLI 명령을 실행할 수 있습니다. 브라우저에서 터미널 세션을 시뮬레이션하여 터미널 기능을 제공하고 워크로드 팩토리 백엔드를 통해 메시지를 프록싱합니다. 여기에서 BlueXP  계정에 제공한 AWS 자격 증명과 ONTAP 자격 증명을 사용할 수 있습니다.</block>
+  <block id="65b336958c485c86a0de553a015bdd0d" category="paragraph">CloudShell의 기능은 다음과 같습니다.</block>
+  <block id="a7a0775c1947243b3a6c24c48bdea382" category="list-text">여러 CloudShell 세션: 한 번에 여러 CloudShell 세션을 배포하여 여러 명령 시퀀스를 병렬로 실행합니다.</block>
+  <block id="d62fc5a6d3868c32bb1ab00a844b9d65" category="list-text">다중 보기: CloudShell 탭 세션을 분할하여 두 개 이상의 탭을 동시에 가로 또는 세로로 볼 수 있습니다</block>
+  <block id="cc086be288b80495cadf609c200395fd" category="list-text">세션 이름 바꾸기: 필요에 따라 세션 이름을 바꿉니다</block>
+  <block id="8971c7670b135c8f559b79a967c153d7" category="list-text">마지막 세션 콘텐츠 지속성: 실수로 세션을 닫은 경우 마지막 세션을 다시 엽니다</block>
+  <block id="063f6a4e6ec0e1b2436c14b2b5aec12a" category="list-text">설정 환경 설정: 글꼴 크기 및 출력 유형을 변경합니다</block>
+  <block id="7ecafb2a126ddd20e4af39475aaaa9e2" category="paragraph">CloudShell은 AWS 자격 증명의 컨텍스트에서 작동합니다. CloudShell을 사용하려면 하나 이상의 AWS 자격 증명을 제공해야 합니다.</block>
+  <block id="3fd37cbd3ed011cecdd18aadab5eafb3" category="admonition">CloudShell은 모든 AWS 또는 ONTAP CLI 명령을 실행할 수 있습니다. 하지만 FSx for ONTAP 파일 시스템 내에서 작업하려면 다음 명령을 실행해야 합니다<block ref="c984027e1f41d301c7393346780a9c16" prefix=" " category="inline-code"></block>.</block>
+  <block id="29c424808b1ff1c13d6bb81e6a7b5b05" category="section-title">CloudShell 구축</block>
+  <block id="0fdd6dc99919df7360b4ae27d37e8f3e" category="paragraph">BlueXP  워크로드 팩토리 콘솔의 모든 위치에서 CloudShell을 배포할 수 있습니다. 또한 FSx for ONTAP 파일 시스템 내의 스토리지에서 CloudShell을 배포할 수 있습니다.</block>
+  <block id="323c6e4cf955d16e1bbc9adae1670cc3" category="open-title">워크로드 팩토리 콘솔에서 구축</block>
+  <block id="09ce4b6ae45502f8fa436097be0ef8b5" category="list-text">상단 탐색 모음에서 CloudShell 을 엽니다.</block>
+  <block id="cad3d7ac91ea604173406c363b1c63e6" category="inline-image-macro">위쪽 탐색 모음에 CloudShell 아이콘을 보여 주는 스크린샷</block>
+  <block id="f2aa98d11c37bcff3a3e0de6af22abc7" category="paragraph"><block ref="f2aa98d11c37bcff3a3e0de6af22abc7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="22d4fda2b81cb432d82aec18ba8a3c56" category="list-text">CloudShell 세션에 대한 자격 증명과 지역을 선택한 다음 화살표를 선택하여 계속합니다.</block>
+  <block id="646a59dbe0b61f54c34bfd556c65da3b" category="inline-image-macro">새 CloudShell 세션을 보여 주는 스크린샷</block>
+  <block id="700a03c5329ddd167df74b66d20ca912" category="paragraph"><block ref="700a03c5329ddd167df74b66d20ca912" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3435647271a6f955b1a9177ac9e55baf" category="list-text">를 입력하여<block ref="657f8b8da628ef83cf69101b6817150a" prefix=" " category="inline-code"></block> 사용 가능한 CloudShell 명령 및 지침을 확인하거나 다음 CLI 참조 문서에서 사용 가능한 명령을 참조하십시오.</block>
+  <block id="ad66291ec1106821b643e94161ce6191" category="inline-link-macro">AWS CLI 참조</block>
+  <block id="46f635b4cd68f38d7206ff7454204e70" category="list-text"><block ref="2f97a9fa9f38cdeb484a5dd5f6b91a96" category="inline-link-macro-rx"></block>: FSx for ONTAP와 관련된 명령의 경우 * FSX * 를 선택하십시오.</block>
+  <block id="37888f4436a67135b7af33cedc29e2a9" category="inline-link-macro">ONTAP CLI 참조입니다</block>
+  <block id="007f7ecbc75b3fc0bafefe8712e42e55" category="list-text"><block ref="007f7ecbc75b3fc0bafefe8712e42e55" category="inline-link-macro-rx"></block></block>
+  <block id="c344cbcae2dab0cb8147a60d8f43f903" category="list-text">CloudShell 세션 내에서 명령을 실행합니다.</block>
+  <block id="2103942a2c420bdeb15390d88e350838" category="open-title">스토리지에서 구축</block>
+  <block id="b8613e46a68d4b177aeb2fe1cdab9b07" category="list-text">Storage * 에서 * Go to storage inventory * 를 선택합니다.</block>
+  <block id="a1c8ad0ac4339ad1c44f047ff8456c56" category="list-text">FSx for ONTAP * 탭에서 파일 시스템의 세 점 메뉴를 선택한 다음 * Open CloudShell * 을 선택합니다.</block>
+  <block id="b15f76b63a4ca4ca1577f8fc396e80d3" category="paragraph">CloudShell 세션이 선택한 파일 시스템의 컨텍스트에서 열립니다.</block>
+  <block id="207a95a0a302452a35a77c4fbbf38905" category="paragraph">이 스크린샷에 표시된 CloudShell 작업은 열린 CloudShell 세션 탭의 3점 메뉴를 선택하여 완료할 수 있습니다. 이러한 각 작업에 대한 지침은 다음과 같습니다.</block>
+  <block id="54fb61e4e09baa57bff32158fe5c05cb" category="inline-image-macro">이름 바꾸기, 복제, 다른 탭 닫기, 모두 닫기 등의 옵션이 있는 CloudShell 탭 세 개의 점 메뉴를 보여 주는 스크린샷</block>
+  <block id="81a9e8038945d6142798001db5770332" category="paragraph"><block ref="81a9e8038945d6142798001db5770332" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3efc66df7492b3ffcca7a9721a7b5bcc" category="section-title">CloudShell 세션 탭의 이름을 변경합니다</block>
+  <block id="633842af0eac9ec747edc78eddad128c" category="paragraph">CloudShell 세션 탭의 이름을 변경하여 세션을 쉽게 식별할 수 있습니다.</block>
+  <block id="cfd31b2e21a02f206d5c236d2b9cddf2" category="list-text">CloudShell 세션 탭에서 점 3개 메뉴를 선택합니다.</block>
+  <block id="6f8614f1580cf2c6afb8b45a067936bf" category="list-text">이름 바꾸기 * 를 선택합니다.</block>
+  <block id="9cf2d3245c37df3eca3de9544c3be83f" category="list-text">세션 탭의 새 이름을 입력한 다음 탭 이름 바깥쪽을 클릭하여 새 이름을 설정합니다.</block>
+  <block id="85a4b155e3f69dff8dc321d64a863777" category="paragraph">CloudShell 세션 탭에 새 이름이 나타납니다.</block>
+  <block id="6f5df5463043b5950f21e2038f72f759" category="section-title">중복된 CloudShell 세션 탭</block>
+  <block id="4430066cba5e021308c2bf62f61c68fb" category="paragraph">CloudShell 세션 탭을 복제하여 이름, 자격 증명 및 지역이 동일한 새 세션을 만들 수 있습니다. 원본 탭의 코드가 복제된 탭에 중복되지 않습니다.</block>
+  <block id="3cf3a984f792c68d00d0ddbaa1549d75" category="list-text">복제 * 를 선택합니다.</block>
+  <block id="ef0a97806db7327ef0ffc41183dfb3ff" category="paragraph">새 탭이 원래 탭과 같은 이름으로 나타납니다.</block>
+  <block id="b5e93baec9c74e7bd6b5a08deee3472e" category="section-title">CloudShell 세션 탭을 닫습니다</block>
+  <block id="f7dad63311508db89de89b4d4c87204f" category="paragraph">CloudShell 탭을 한 번에 하나씩 닫거나, 작업하지 않는 다른 탭을 닫거나, 모든 탭을 한 번에 닫을 수 있습니다.</block>
+  <block id="36ddaebda56a8c215a8dfff5eb57566d" category="list-text">다음 중 하나를 선택합니다.</block>
+  <block id="e94cd98358b7ef706b5e6a1eb425d7a4" category="list-text">CloudShell Tab 창에서 "X"를 선택하여 한 번에 하나의 탭을 닫습니다.</block>
+  <block id="20bd292386015ab9bbf9bdc545a29f61" category="list-text">작업 중인 탭을 제외한 열려 있는 다른 모든 탭을 닫으려면 * 다른 탭 닫기 * 를 선택합니다.</block>
+  <block id="a821da3cfb5781e50da687cb8168975d" category="list-text">모든 탭을 닫으려면 * 모든 탭 닫기 * 를 선택합니다.</block>
+  <block id="11d45033000825cfe02455065881779c" category="paragraph">선택한 CloudShell 세션 탭이 닫힙니다.</block>
+  <block id="eb36a9996d7071d8a3bc88081958259f" category="section-title">CloudShell 세션 탭을 분할합니다</block>
+  <block id="2abf2b468b90d47cd40da1682f6e0bc4" category="paragraph">CloudShell 세션 탭을 분할하여 두 개 이상의 탭을 동시에 볼 수 있습니다.</block>
+  <block id="48c7c41b72e1d678923ce3571aa65b2d" category="paragraph-title">단계</block>
+  <block id="f70a8087804334c46314b7b22718eba7" category="paragraph">CloudShell 세션 탭을 CloudShell 창의 위쪽, 아래쪽, 왼쪽 또는 오른쪽으로 끌어 놓아 보기를 분할합니다.</block>
+  <block id="b4473fd670e2ec43e4f656fe655a4c35" category="inline-image-macro">가로로 분할된 두 개의 CloudShell 탭을 보여 주는 스크린샷 탭이 나란히 표시됩니다.</block>
+  <block id="541a26908a416cf0911d9e5231d0ef74" category="paragraph"><block ref="541a26908a416cf0911d9e5231d0ef74" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="15bbc14ab214ce8d22cbbdfdf319d828" category="section-title">마지막 CloudShell 세션을 다시 엽니다</block>
+  <block id="240c3daa75057ab498529c248f565139" category="paragraph">CloudShell 세션을 실수로 종료한 경우 다시 열 수 있습니다.</block>
+  <block id="470f69d1d15931435b3d98ec0fa93480" category="paragraph">상단 탐색 모음에서 CloudShell 아이콘을 선택합니다.</block>
+  <block id="d6bae394f1010742fdae7b1244f45c40" category="paragraph">최신 CloudShell 세션이 열립니다.</block>
+  <block id="dfaeb18551197bed5eec6a2801accd3b" category="section-title">CloudShell 세션에 대한 설정을 업데이트합니다</block>
+  <block id="433acad846fd0b916086af8f4f657288" category="paragraph">CloudShell 세션의 글꼴 및 출력 유형 설정을 업데이트할 수 있습니다.</block>
+  <block id="7e043e4b9a91037ca7facea7bf7d8146" category="list-text">CloudShell 세션을 배포합니다.</block>
+  <block id="50cb43a7d46bd9c81dad143a5e033ab1" category="list-text">CloudShell 탭에서 설정 아이콘을 선택합니다.</block>
+  <block id="6269d6cf5220cae8555012542cd08042" category="paragraph">설정 대화 상자가 나타납니다.</block>
+  <block id="42298888a13205e4322dcd9225293f7d" category="list-text">필요에 따라 글꼴 크기와 출력 유형을 업데이트합니다.</block>
+  <block id="8fe373598a4f9c7a1934291e23665c0d" category="admonition">풍부한 출력은 JSON 객체 및 테이블 서식에 적용됩니다. 다른 모든 출력은 일반 텍스트로 표시됩니다.</block>
+  <block id="24347b3ddf5a25cc9c27e54ae285ade1" category="list-text">Apply * 를 선택합니다.</block>
+  <block id="e266fd38895bd2f3c549295f4bc59641" category="paragraph">CloudShell 설정이 업데이트됩니다.</block>
+  <block id="986aee2caba870111e5ce3c5571c82de" category="section-title">2025년 2월 2일</block>
+  <block id="3bc27c585525ff1458c1330314a77ebb" category="paragraph">포함:_whatsnew/2025-02-02.adoc[]</block>
+  <block id="bd901b05034bb9be1d918012998e8f7b" category="section-title">2025년 1월 5일</block>
 </blocks>

@@ -1373,7 +1373,11 @@ BlueXP  작업 부하 공장 기능 및 서비스를 사용하려면 작업 부
 | 프로비저닝된 EC2 인스턴스 프로필에서 역할을 분리합니다 | IAM:RemoveRoleFromInstanceProfile 을 참조하십시오 | 구축 | 자동화 
 
 
-| 역할에서 사용 가능한 사용 권한을 확인하고 필요한 사용 권한과 비교합니다 | IAM: SimulatePrincipalPolicy(IAM: 시뮬레이션 정책) | 구축 | 자동화 
+| 역할에서 사용 가능한 사용 권한을 확인하고 필요한 사용 권한과 비교합니다 | IAM: SimulatePrincipalPolicy(IAM: 시뮬레이션 정책) | 구축  a| 
+* 읽기
+* 자동화
+
+
 |===
 . 권한이 WLMDB로 시작하는 리소스로 제한됩니다.
 . "IAM:CreateServiceLinkedRole" 제한:"ec2.amazonaws.com"*
@@ -2073,3 +2077,9 @@ VMware 워크로드에 대한 IAM 정책은 VMware 워크로드 공장이 운영
 == 변경 로그
 
 권한이 추가되고 제거됨에 따라 아래 섹션에 해당 권한이 표시됩니다.
+
+
+
+=== 2025년 2월 3일
+
+이제 데이터베이스에 대해 _READ_MODE에서 다음 권한을 사용할 수 `iam:SimulatePrincipalPolicy` 있습니다.

@@ -1,0 +1,19 @@
+= BlueXP  워크로드 공장 콘솔에서 사용할 수 있는 CloudShell
+:allow-uri-read: 
+
+
+
+
+=== BlueXP  워크로드 공장 콘솔에서 사용할 수 있는 CloudShell
+
+CloudShell은 BlueXP  워크로드 공장 콘솔의 모든 곳에서 사용할 수 있습니다. CloudShell을 사용하면 BlueXP  계정에 제공한 AWS 및 ONTAP 자격 증명을 사용하고 셸 유사 환경에서 AWS CLI 명령 또는 ONTAP CLI 명령을 실행할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["CloudShell을 사용합니다"]
+
+
+
+=== 데이터베이스에 대한 사용 권한 업데이트
+
+이제 데이터베이스에 대해 _READ_MODE에서 다음 권한을 사용할 수 `iam:SimulatePrincipalPolicy` 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["권한 참조 변경 로그"]

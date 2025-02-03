@@ -51,6 +51,8 @@ sidebar:
         url: "/codebox-automation.html"
       - title: 코드박스를 사용하여 코드를 생성합니다
         url: "/use-codebox.html"
+    - title: CloudShell을 사용합니다
+      url: "/use-cloudshell.html"
     - title: 자격 증명을 제거합니다
       url: "/manage-credentials.html"
   - title: 지식 및 지원
