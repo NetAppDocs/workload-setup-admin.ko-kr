@@ -155,9 +155,7 @@ image:screenshot-cloudshell-split-view.png["가로로 분할된 두 개의 Cloud
 CloudShell 세션을 실수로 종료한 경우 다시 열 수 있습니다.
 
 .단계
-상단 탐색 모음에서 CloudShell 아이콘을 선택합니다.
-
-image:screenshot-select-cloudshell-icon.png["위쪽 탐색 모음에 CloudShell 아이콘을 보여 주는 스크린샷"]
+ CloudShell 아이콘을 image:cloudshell-icon.png["구름 모양 아이콘의 스크린샷"]상단 탐색 모음에서선택합니다.
 
 .결과
 최신 CloudShell 세션이 열립니다.
