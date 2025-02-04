@@ -49,11 +49,8 @@ BlueXP  워크로드 팩토리 콘솔의 모든 위치에서 CloudShell을 배�
 --
 .단계
 . 중 하나를 사용하여 link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^]로그인합니다.
-. 상단 탐색 모음에서 CloudShell 을 엽니다.
-+
-image:screenshot-select-cloudshell-icon.png["위쪽 탐색 모음에 CloudShell 아이콘을 보여 주는 스크린샷"]
-
-. CloudShell 세션에 대한 자격 증명과 지역을 선택한 다음 화살표를 선택하여 계속합니다.
+. 상단 탐색 모음에서 CloudShell image:cloudshell-icon.png["구름 모양 아이콘의 스크린샷"]을 엽니다.
+. CloudShell 창에서 CloudShell 세션의 자격 증명과 지역을 선택한 다음 화살표를 선택하여 계속합니다.
 +
 image:screenshot-deploy-cloudshell-session.png["새 CloudShell 세션을 보여 주는 스크린샷"]
 
