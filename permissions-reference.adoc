@@ -140,81 +140,7 @@ BlueXP  작업 부하 공장 기능 및 서비스를 사용하려면 작업 부
 | EC2: AuthorizeSecurityGroupIngress 를 참조하십시오 | 구축 | 자동화 
 
 
-.2+| FSx for ONTAP 파일 시스템에 대한 보안 그룹 송신 및 수신을 관리합니다 | EC2: RevokeSecurityGroupIngress 를 참조하십시오 | 관리 운영 | 자동화 
-
-
-| EC2: DeleteSecurityGroup | 관리 운영 | 자동화 
-
-
-.16+| FSx for ONTAP 파일 시스템 리소스를 생성, 확인, 관리합니다 | FSx:CreateVolume * | 관리 운영 | 자동화 
-
-
-| FSX:TagResource * | 관리 운영 | 자동화 
-
-
-| FSx:CreateStorageVirtualMachine * | 관리 운영 | 자동화 
-
-
-| FSX:DeleteFileSystem * 을 참조하십시오 | 관리 운영 | 자동화 
-
-
-| FSx:DeleteStorageVirtualMachine * | 관리 운영 | 자동화 
-
-
-| FSx:파일 시스템 설명 * | 인벤토리  a| 
-* 읽기
-* 자동화
-
-
-
-
-| FSX:DescripbeStorageVirtualMachines * | 인벤토리  a| 
-* 읽기
-* 자동화
-
-
-
-
-| FSX:UpdateFileSystem* | 관리 운영 | 자동화 
-
-
-| FSX:UpdateStorageVirtualMachine* | 관리 운영 | 자동화 
-
-
-| FSx:볼륨 설명 * | 인벤토리  a| 
-* 읽기
-* 자동화
-
-
-
-
-| FSX:UpdateVolume * | 관리 운영 | 자동화 
-
-
-| FSx:DeleteVolume * 을 참조하십시오 | 관리 운영 | 자동화 
-
-
-| FSX:UntagResource * | 관리 운영 | 자동화 
-
-
-| FSX:백업 설명 * | 관리 운영  a| 
-* 읽기
-* 자동화
-
-
-
-
-| FSx:CreateBackup * | 관리 운영 | 자동화 
-
-
-| FSX:CreateVolumeFromBackup* | 관리 운영 | 자동화 
-
-
-| FSx for ONTAP 리소스의 태그를 나열합니다 | FSX:ListTagsForResource.를 참조하십시오 | 인벤토리  a| 
-* 읽기
-* 자동화
-
-
+| 허가된 역할은 FSx for ONTAP과 다른 AWS 서비스 간에 통신을 제공합니다 | IAM: CreateServiceLinkedRole | 구축 | 자동화 
 
 
 .7+| FSx for ONTAP 파일 시스템 배포 양식을 작성하는 방법에 대해 자세히 알아보십시오 | EC2: 설명  a| 
@@ -294,6 +220,23 @@ BlueXP  작업 부하 공장 기능 및 서비스를 사용하려면 작업 부
 
 
 
+.3+| KMS 키 세부 정보를 얻고 FSx for ONTAP 암호화를 사용합니다 | KMS: CreateGrant | 구축 | 자동화 
+
+
+| KMS: 설명 * | 구축  a| 
+* 읽기
+* 자동화
+
+
+
+
+| KMS: 목록 * | 구축  a| 
+* 읽기
+* 자동화
+
+
+
+
 | EC2 인스턴스의 볼륨 세부 정보를 가져옵니다 | EC2: 설명 볼륨을 참조하십시오  a| 
 * 인벤토리
 * 비용 절감 효과를
@@ -312,24 +255,84 @@ BlueXP  작업 부하 공장 기능 및 서비스를 사용하려면 작업 부
 
 
 
-.3+| KMS 키 세부 정보를 얻고 FSx for ONTAP 암호화를 사용합니다 | KMS: CreateGrant | 구축 | 자동화 
-
-
-| KMS: 설명 * | 구축  a| 
-* 읽기
-* 자동화
-
-
-
-
-| KMS: 목록 * | 구축  a| 
-* 읽기
-* 자동화
-
-
-
-
 | 비용 절감 계산기에 Elastic File System에 대해 설명하십시오 | Elasticfilesystem: 설명* | 비용 절감 효과를 | 읽기 
+
+
+| FSx for ONTAP 리소스의 태그를 나열합니다 | FSX:ListTagsForResource.를 참조하십시오 | 인벤토리  a| 
+* 읽기
+* 자동화
+
+
+
+
+.2+| FSx for ONTAP 파일 시스템에 대한 보안 그룹 송신 및 수신을 관리합니다 | EC2: RevokeSecurityGroupIngress 를 참조하십시오 | 관리 운영 | 자동화 
+
+
+| EC2: DeleteSecurityGroup | 관리 운영 | 자동화 
+
+
+.16+| FSx for ONTAP 파일 시스템 리소스를 생성, 확인, 관리합니다 | FSx:CreateVolume * | 관리 운영 | 자동화 
+
+
+| FSX:TagResource * | 관리 운영 | 자동화 
+
+
+| FSx:CreateStorageVirtualMachine * | 관리 운영 | 자동화 
+
+
+| FSX:DeleteFileSystem * 을 참조하십시오 | 관리 운영 | 자동화 
+
+
+| FSx:DeleteStorageVirtualMachine * | 관리 운영 | 자동화 
+
+
+| FSx:파일 시스템 설명 * | 인벤토리  a| 
+* 읽기
+* 자동화
+
+
+
+
+| FSX:DescripbeStorageVirtualMachines * | 인벤토리  a| 
+* 읽기
+* 자동화
+
+
+
+
+| FSX:UpdateFileSystem* | 관리 운영 | 자동화 
+
+
+| FSX:UpdateStorageVirtualMachine* | 관리 운영 | 자동화 
+
+
+| FSx:볼륨 설명 * | 인벤토리  a| 
+* 읽기
+* 자동화
+
+
+
+
+| FSX:UpdateVolume * | 관리 운영 | 자동화 
+
+
+| FSx:DeleteVolume * 을 참조하십시오 | 관리 운영 | 자동화 
+
+
+| FSX:UntagResource * | 관리 운영 | 자동화 
+
+
+| FSX:백업 설명 * | 관리 운영  a| 
+* 읽기
+* 자동화
+
+
+
+
+| FSx:CreateBackup * | 관리 운영 | 자동화 
+
+
+| FSX:CreateVolumeFromBackup* | 관리 운영 | 자동화 
 
 
 | CloudWatch 메트릭 보고 | CloudWatch: PutMetricData를 참조하십시오 | 관리 운영 | 자동화 
