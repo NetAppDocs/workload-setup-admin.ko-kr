@@ -1652,6 +1652,15 @@ GenAI IAM 정책은 작동 모드에서만 사용할 수 있습니다.
 | 구축 및 리빌드 작업 중 AI 엔진 스택 생성에서 생성된 리소스에 태그를 지정합니다 | EC2: CreateTags(태그 생성) | 구축 | 자동화 
 
 
+.2+| ai-engine 스택에서 WLMAI 백엔드에 암호화 된 이벤트를 게시합니다 | KMS : GenerateDataKey | 구축 | 자동화 
+
+
+| KMS: 암호 해독 | 구축 | 자동화 
+
+
+| ai-engine 스택에서 WLMAI 백엔드에 이벤트 및 사용자 지정 리소스를 게시합니다 | SNS: 게시 | 구축 | 자동화 
+
+
 | AI 엔진 배포 마법사 중 vPC 나열 | EC2: 설명 | 구축 | 자동화 
 
 
@@ -1706,6 +1715,9 @@ GenAI IAM 정책은 작동 모드에서만 사용할 수 있습니다.
 | 기초 모델에 대한 액세스 권한을 확인합니다 | Bedrock: GetFoundationModelAvailability를 참조하십시오 | 구축 | 자동화 
 
 
+| 배포 및 재구축 작업 중에 CloudWatch 로그 그룹을 생성해야 하는지 확인합니다 | 로그:DescripbeLogGroups | 구축 | 자동화 
+
+
 | AI 엔진 마법사에서 FSx 및 Bedrock을 지원하는 영역을 확보할 수 있습니다 | SSM:GetParametersByPath 입니다 | 구축 | 자동화 
 
 
@@ -1715,13 +1727,10 @@ GenAI IAM 정책은 작동 모드에서만 사용할 수 있습니다.
 | AI 엔진으로 전송된 명령에서 SSM 응답을 가져옵니다 | SSM: GetCommandInvocation 을 참조하십시오 | 구축 | 자동화 
 
 
-.3+| AI 엔진에 대한 SSM 연결을 점검하십시오 | SSM: SendCommand 를 참조하십시오 | 구축 | 자동화 
+.2+| AI 엔진에 대한 SSM 연결을 점검하십시오 | SSM: SendCommand 를 참조하십시오 | 구축 | 자동화 
 
 
 | SSM: GetConnectionStatus 를 참조하십시오 | 구축 | 자동화 
-
-
-| SSM: SendCommand 를 참조하십시오 | 구축 | 자동화 
 
 
 .8+| 구축 및 리빌드 작업 중에 스택 생성 중에 AI 엔진 인스턴스 프로필을 생성할 수 있습니다 | IAM: CreateRole | 구축 | 자동화 
@@ -1773,9 +1782,6 @@ GenAI IAM 정책은 작동 모드에서만 사용할 수 있습니다.
 
 
 | SSM: PutParameter | 구축 | 자동화 
-
-
-| 배포 및 재구축 작업 중에 CloudWatch 로그 그룹을 생성해야 하는지 확인합니다 | 로그:DescripbeLogGroups | 구축 | 자동화 
 
 
 .2+| 배포 및 재구축 작업 중에 AI 엔진 로그를 CloudWatch 로그 그룹으로 보냅니다 | 로그:CreateLogGroup | 구축 | 자동화 
@@ -1917,6 +1923,30 @@ VMware 워크로드에 대한 IAM 정책은 VMware 워크로드 공장이 운영
 | 목적 | 조치 | 사용된 위치 | 모드를 선택합니다 
 
 
+| 보안 그룹을 연결하고 프로비저닝된 노드에 대한 규칙을 수정합니다 | EC2: AuthorizeSecurityGroupIngress 를 참조하십시오 | 구축 | 자동화 
+
+
+| EBS 볼륨을 생성합니다 | EC2: CreateVolume | 구축 | 자동화 
+
+
+| VMware 워크로드에서 생성한 FSx for NetApp ONTAP 리소스에 대한 사용자 지정 값에 태그를 지정합니다 | FSX:태그 리소스 | 구축 | 자동화 
+
+
+| CloudFormation 템플릿을 만들고 유효성을 검사합니다 | CloudFormation:CreateStack | 구축 | 자동화 
+
+
+| 생성된 인스턴스에서 태그 및 네트워크 보안을 관리합니다 | EC2:CreateSecurityGroup입니다 | 구축 | 자동화 
+
+
+| 생성된 인스턴스를 시작합니다 | EC2: 런인스턴스 | 구축 | 자동화 
+
+
+| EC2 인스턴스 세부 정보를 가져옵니다 | EC2: DescribeInstances(지시 인스턴스) | 구축 | 자동화 
+
+
+| 배포 및 재구축 작업 중에 스택을 생성하는 동안 이미지를 나열합니다 | EC2: DescribeImages(설명 영상) | 구축 | 자동화 
+
+
 | 선택한 환경에서 VPC를 가져와 배포 양식을 작성합니다 | EC2: 설명  a| 
 * 구축
 * 인벤토리
@@ -2021,13 +2051,16 @@ VMware 워크로드에 대한 IAM 정책은 VMware 워크로드 공장이 운영
 | 자동화 
 
 
-.4+| KMS 키 세부 정보를 확인하고 Amazon FSx for NetApp ONTAP 암호화에 사용합니다 | KMS: CreateGrant | 구축 | 자동화 
+.5+| KMS 키 세부 정보를 확인하고 Amazon FSx for NetApp ONTAP 암호화에 사용합니다 | KMS: CreateGrant | 구축 | 자동화 
 
 
 | KMS: 설명 * | 구축 | 자동화 
 
 
 | KMS: 목록 * | 구축 | 자동화 
+
+
+| KMS: 암호 해독 | 구축 | 자동화 
 
 
 | KMS : GenerateDataKey | 구축 | 자동화 

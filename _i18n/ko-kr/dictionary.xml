@@ -1046,4 +1046,12 @@
   <block id="7413e05cafe498b54ab1b5640cc3ba82" category="paragraph"> CloudShell 아이콘을 <block ref="22292d13795e0e4de9ba364021c92eab" category="inline-image-macro-rx" type="image"></block>상단 탐색 모음에서선택합니다.</block>
   <block id="a5fab0062142f5ef0615c361259b0b89" category="cell">허가된 역할은 FSx for ONTAP과 다른 AWS 서비스 간에 통신을 제공합니다</block>
   <block id="8832fb7d0699d4878c8449616cd47613" category="cell">IAM: CreateServiceLinkedRole</block>
+  <block id="f018d84c71280c7c2350ecdc41af9036" category="cell">ai-engine 스택에서 WLMAI 백엔드에 암호화 된 이벤트를 게시합니다</block>
+  <block id="e3fee6f099023b5f4b39c1c744c6ea99" category="cell">KMS: 암호 해독</block>
+  <block id="5407beb6c8285b66530a423f5e1a1c44" category="cell">ai-engine 스택에서 WLMAI 백엔드에 이벤트 및 사용자 지정 리소스를 게시합니다</block>
+  <block id="85f90a8db0a64c1052007e6603c729f3" category="cell">EBS 볼륨을 생성합니다</block>
+  <block id="9b72805c27ddeb5ac656bcddaa415cb8" category="cell">VMware 워크로드에서 생성한 FSx for NetApp ONTAP 리소스에 대한 사용자 지정 값에 태그를 지정합니다</block>
+  <block id="043622d556b2884b98fb152bcf740dcd" category="cell">CloudFormation 템플릿을 만들고 유효성을 검사합니다</block>
+  <block id="7396fdf6f4dfc93451cc96093ccbe43e" category="cell">EC2 인스턴스 세부 정보를 가져옵니다</block>
+  <block id="1be679c04c8e52e60ad090d4b7848d64" category="cell">배포 및 재구축 작업 중에 스택을 생성하는 동안 이미지를 나열합니다</block>
 </blocks>
