@@ -1054,4 +1054,18 @@
   <block id="043622d556b2884b98fb152bcf740dcd" category="cell">CloudFormation 템플릿을 만들고 유효성을 검사합니다</block>
   <block id="7396fdf6f4dfc93451cc96093ccbe43e" category="cell">EC2 인스턴스 세부 정보를 가져옵니다</block>
   <block id="1be679c04c8e52e60ad090d4b7848d64" category="cell">배포 및 재구축 작업 중에 스택을 생성하는 동안 이미지를 나열합니다</block>
+  <block id="4dcec483cf1f239f85db3400f495b54a" category="cell">EC2 인스턴스의 공용 네트워크 연결과 상관없이 필요한 서비스에 VPC 엔드포인트가 없으면 생성합니다</block>
+  <block id="5e5a90d60662f7306336a047b5b3b7f6" category="cell">배포를 트리거하기 전에 리소스에 대한 계정 제한을 확인하십시오</block>
+  <block id="da7dbf1119bff3389296d7d9a38be487" category="cell">CloudFormation: DescripbeAccountLimits 를 참조하십시오</block>
+  <block id="e0db06144a611c9dacbb1cbdc47398a2" category="cell">계정이 AWS Compute Optimizer에 등록되었는지 확인합니다</block>
+  <block id="68f6ffe8302b37908ab1031d603a8537" category="cell">계산 최적화 프로그램: GetEnrollmentStatus</block>
+  <block id="e1b0fb1c7834e30cc2855e9e5978a6b2" category="cell">AWS Compute Optimizer에서 기존 권장 사항 기본 설정을 업데이트하여 SQL Server 워크로드에 대한 제안을 조정합니다</block>
+  <block id="e7878b5da7a61064cc75fec0ae2842c4" category="cell">컴퓨팅 최적화 프로그램: 권장 사항 권장 사항 기본 설정</block>
+  <block id="e1faa0bf56d94349eb5128478fc9e6c9" category="cell">AWS Compute Optimizer에서 특정 리소스에 적용되는 권장 사항 기본 설정을 확인합니다</block>
+  <block id="f4003017b8bd9e7024276d1eae7c252d" category="cell">Compute-Optimizer: GetEffective권장 사항 기본 설정</block>
+  <block id="bb90c212b52ea746f2de78f88fd32dfa" category="cell">AWS Compute Optimizer가 Amazon EC2(Amazon Elastic Compute Cloud) 인스턴스에 대해 생성하는 권장 사항을 가져옵니다</block>
+  <block id="1b9183fc54789ff2117d927730975ee9" category="cell">컴퓨팅 최적화: GetEC2InstanceRecommendations 를 참조하십시오</block>
+  <block id="38b28dd168a209df2daf8eaf5b0fc216" category="cell">자동 크기 조정 그룹에 대한 인스턴스 연결을 확인합니다</block>
+  <block id="841ea3d3891ce9dc21992730680d4dac" category="cell">자동 크기 조정: AutoScalingGroup 설명</block>
+  <block id="9d85d66bd60c64faffe2799f428cd8b3" category="cell">자동 크기 조정:자동 크기 조정 설명</block>
 </blocks>

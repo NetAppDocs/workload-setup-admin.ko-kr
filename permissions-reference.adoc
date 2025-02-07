@@ -763,6 +763,9 @@ BlueXP  작업 부하 공장 기능 및 서비스를 사용하려면 작업 부
 
 
 
+| EC2 인스턴스의 공용 네트워크 연결과 상관없이 필요한 서비스에 VPC 엔드포인트가 없으면 생성합니다 | EC2: CreateVpcEndpoint입니다 | 구축 | 자동화 
+
+
 | 유효성 검사 노드(t2.micro/t3.micro)에 대해 지역에서 사용할 수 있는 인스턴스 유형 가져오기 | EC2: InstanceTypeOfferings를 설명합니다 | 구축  a| 
 * 읽기
 * 자동화
@@ -810,6 +813,13 @@ BlueXP  작업 부하 공장 기능 및 서비스를 사용하려면 작업 부
 
 
 | 환경에서 실행 중인 CloudFormation 스택 목록을 확인하여 할당량 제한을 확인합니다 | CloudFormation: ListStacks | 구축  a| 
+* 읽기
+* 자동화
+
+
+
+
+| 배포를 트리거하기 전에 리소스에 대한 계정 제한을 확인하십시오 | CloudFormation: DescripbeAccountLimits 를 참조하십시오 | 구축  a| 
 * 읽기
 * 자동화
 
@@ -948,6 +958,48 @@ BlueXP  작업 부하 공장 기능 및 서비스를 사용하려면 작업 부
 * 자동화
 
 
+
+
+| 계정이 AWS Compute Optimizer에 등록되었는지 확인합니다 | 계산 최적화 프로그램: GetEnrollmentStatus  a| 
+* 비용 절감 효과를
+* 최적화
+
+| 자동화 
+
+
+| AWS Compute Optimizer에서 기존 권장 사항 기본 설정을 업데이트하여 SQL Server 워크로드에 대한 제안을 조정합니다 | 컴퓨팅 최적화 프로그램: 권장 사항 권장 사항 기본 설정  a| 
+* 비용 절감 효과를
+* 최적화
+
+| 자동화 
+
+
+| AWS Compute Optimizer에서 특정 리소스에 적용되는 권장 사항 기본 설정을 확인합니다 | Compute-Optimizer: GetEffective권장 사항 기본 설정  a| 
+* 비용 절감 효과를
+* 최적화
+
+| 자동화 
+
+
+| AWS Compute Optimizer가 Amazon EC2(Amazon Elastic Compute Cloud) 인스턴스에 대해 생성하는 권장 사항을 가져옵니다 | 컴퓨팅 최적화: GetEC2InstanceRecommendations 를 참조하십시오  a| 
+* 비용 절감 효과를
+* 최적화
+
+| 자동화 
+
+
+.2+| 자동 크기 조정 그룹에 대한 인스턴스 연결을 확인합니다 | 자동 크기 조정: AutoScalingGroup 설명  a| 
+* 비용 절감 효과를
+* 최적화
+
+| 자동화 
+
+
+| 자동 크기 조정:자동 크기 조정 설명  a| 
+* 비용 절감 효과를
+* 최적화
+
+| 자동화 
 
 
 .4+| 배포 또는 AWS 계정에서 관리되는 AD, FSx for ONTAP 및 SQL 사용자 자격 증명에 대한 SSM 매개 변수를 가져오고 나열하고 생성하고 삭제합니다 | SSM: GetParameter(GetParameter  a| 
