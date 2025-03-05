@@ -65,7 +65,7 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/manage-service-accounts.
 
 === BlueXP  콘솔에 워크로드 팩토리 통합
 
-이제 에서 워크로드 팩토리를 사용할 수 link:https://console.bluexp.netapp.com["BlueXP 콘솔"^]있습니다. BlueXP  콘솔 환경은 워크로드 팩토리 콘솔과 동일한 기능을 제공합니다.
+이제 에서 워크로드 팩토리를 사용할 수 link:https://console.bluexp.netapp.com["BlueXP 콘솔"]있습니다. BlueXP  콘솔 환경은 워크로드 팩토리 콘솔과 동일한 기능을 제공합니다.
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["BlueXP  콘솔에서 워크로드 팩토리에 액세스하는 방법을 알아보십시오"]
 
@@ -77,7 +77,7 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html
 
 === RSS 구독
 
-RSS 구독은 에서 사용할 수 link:https://console.workloads.netapp.com/["워크로드 팩토리 콘솔"^]있습니다. RSS 피드를 사용하면 BlueXP  워크로드 팩토리에서의 변경 사항을 쉽게 확인하고 인식할 수 있습니다.
+RSS 구독은 에서 사용할 수 link:https://console.workloads.netapp.com/["워크로드 팩토리 콘솔"]있습니다. RSS 피드를 사용하면 BlueXP  워크로드 팩토리에서의 변경 사항을 쉽게 확인하고 인식할 수 있습니다.
 
 image:screenshot-rss-subscribe-button.png["작업 부하 공장 콘솔 도움말 드롭다운 메뉴의 스크린샷 RSS를 구독하기 위한 새 단추가 드롭다운 메뉴에 옵션으로 나타납니다."]
 
@@ -89,7 +89,7 @@ image:screenshot-rss-subscribe-button.png["작업 부하 공장 콘솔 도움말
 
 image:screenshot-single-permission-policy-support.png["자격 증명 페이지의 권한 구성 섹션의 스크린샷으로 스토리지 관리, AI 워크로드, 데이터베이스 워크로드 및 VMware 워크로드에 대한 권한 정책을 읽기 또는 자동화할 수 있습니다."]
 
-link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["워크로드 팩토리에 AWS 자격 증명을 추가합니다"^]
+link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["워크로드 팩토리에 AWS 자격 증명을 추가합니다"]
 
 
 
@@ -101,7 +101,7 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["�
 
 Terraform은 Amazon FSx for NetApp ONTAP 파일 시스템 배포 및 스토리지 VM 생성에 지원됩니다. 이제 설정 및 관리 가이드에는 코드박스에서 Terraform을 사용하는 방법에 대한 지침이 나와 있습니다.
 
-link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["코드박스에서 Terraform을 사용합니다"^]
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["코드박스에서 Terraform을 사용합니다"]
 
 
 

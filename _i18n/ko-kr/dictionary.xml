@@ -364,7 +364,6 @@
   <block id="691e71734464aaf43017f5b033e54559" category="section-title">2024년 8월 4일</block>
   <block id="efa42d5c66cb9948f402ee559611e12d" category="section-title">Terraform 지원</block>
   <block id="1571710cf3c95e6290fc41ea04917d42" category="paragraph">Terraform은 Amazon FSx for NetApp ONTAP 파일 시스템 배포 및 스토리지 VM 생성에 지원됩니다. 이제 설정 및 관리 가이드에는 코드박스에서 Terraform을 사용하는 방법에 대한 지침이 나와 있습니다.</block>
-  <block id="11cb17d1b990bbf37a24337d5692efa1" category="paragraph"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
   <block id="462c14d3e045d4b0b69cee0781df3207" category="paragraph">워크로드는 비즈니스 목표를 달성하기 위해 설계된 리소스, 코드, 서비스 또는 애플리케이션의 조합을 포함합니다. 이는 고객 대상 애플리케이션부터 백엔드 프로세스까지 모든 것이 될 수 있습니다. 워크로드는 단일 AWS 계정 내의 리소스 서브셋과 관련되거나 여러 계정에 분산될 수 있습니다.</block>
   <block id="fb44c12e7a424c0619764b1060434a74" category="section-title">비용 절감 계산기</block>
   <block id="2fd1745cefcdce50d6467d96e693f6b7" category="doc">RSS 구독</block>
@@ -379,15 +378,12 @@
   <block id="ebcd96574a726227b2c1017e8efe81c1" category="doc">BlueXP  워크로드 공장 초기 릴리즈</block>
   <block id="d2587bb8ad424cee3050c3b7958dd388" category="paragraph">BlueXP  워크로드 팩토리는 Amazon FSx for NetApp ONTAP 파일 시스템을 사용하여 워크로드를 최적화하도록 설계된 강력한 라이프사이클 관리 플랫폼입니다. 워크로드 팩토리 및 FSx for ONTAP를 사용하여 능률적으로 처리할 수 있는 워크로드에는 데이터베이스, AWS 기반 VMware Cloud로의 VMware 마이그레이션, AI 챗봇 등이 있습니다.</block>
   <block id="e5d3c7248ff4540f88c13fbf9252d0a3" category="inline-link-macro">워크로드 팩토리 콘솔</block>
-  <block id="3171014553de64cf509a3b587c8baeb3" category="paragraph">RSS 구독은 에서 사용할 수 <block ref="9d5ad87a67c1830e37fdd19a7a179db6" category="inline-link-macro-rx"></block>있습니다. RSS 피드를 사용하면 BlueXP  워크로드 팩토리에서의 변경 사항을 쉽게 확인하고 인식할 수 있습니다.</block>
   <block id="0796995437665af1d920169e03b4542b" category="inline-image-macro">작업 부하 공장 콘솔 도움말 드롭다운 메뉴의 스크린샷 RSS를 구독하기 위한 새 단추가 드롭다운 메뉴에 옵션으로 나타납니다.</block>
   <block id="482a329f24c123c31a109c24729cb2cd" category="paragraph"><block ref="482a329f24c123c31a109c24729cb2cd" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4e47b743d0cc8e0b8906e37286d9b43b" category="paragraph">워크로드 팩토리에서 AWS 자격 증명을 추가할 때 이제 각 워크로드 및 스토리지 관리에 대해 읽기 또는 자동화 모드를 포함한 단일 권한 정책을 선택할 수 있습니다.</block>
   <block id="9f46892803d8b6c63d3b7f51fd44a421" category="inline-link-macro">워크로드 팩토리에 AWS 자격 증명을 추가합니다</block>
-  <block id="d9dd14fb1d1e7ca9c6da6770d9176783" category="paragraph"><block ref="d9dd14fb1d1e7ca9c6da6770d9176783" category="inline-link-macro-rx"></block></block>
   <block id="dfc4a97a3fe947a314ae908cf036cbfe" category="doc">BlueXP  콘솔에 워크로드 팩토리 통합</block>
   <block id="5975f7e9036c78e6217b16f295f0ca75" category="inline-link-macro">BlueXP 콘솔</block>
-  <block id="d2feef96259a41a7842dc5e7af577d63" category="paragraph">이제 에서 워크로드 팩토리를 사용할 수 <block ref="391de7a3bac2bc77fa53dffb3f53801a" category="inline-link-macro-rx"></block>있습니다. BlueXP  콘솔 환경은 워크로드 팩토리 콘솔과 동일한 기능을 제공합니다.</block>
   <block id="717f9c6475fbb39a24ab9942c1a903c0" category="inline-link-macro">BlueXP  콘솔에서 워크로드 팩토리에 액세스하는 방법을 알아보십시오</block>
   <block id="4fa2f246a664251a157926c2e11e1eb3" category="summary">AWS 자격 증명을 추가하여 워크로드 팩토리가 AWS 계정에서 클라우드 리소스를 구축하고 관리하는 데 필요한 권한을 갖도록 합니다.</block>
   <block id="188c7f44ffe17186c8dcbc38640d54e1" category="paragraph">AWS 자격 증명을 추가 및 관리하여 워크로드 팩토리에게 AWS 계정에서 클라우드 리소스를 구축하고 관리하는 데 필요한 권한을 부여합니다.</block>
@@ -1068,4 +1064,8 @@
   <block id="38b28dd168a209df2daf8eaf5b0fc216" category="cell">자동 크기 조정 그룹에 대한 인스턴스 연결을 확인합니다</block>
   <block id="841ea3d3891ce9dc21992730680d4dac" category="cell">자동 크기 조정: AutoScalingGroup 설명</block>
   <block id="9d85d66bd60c64faffe2799f428cd8b3" category="cell">자동 크기 조정:자동 크기 조정 설명</block>
+  <block id="7115d78353263dbb2dbe063624f9f601" category="paragraph"><block ref="7115d78353263dbb2dbe063624f9f601" category="inline-link-macro-rx"></block></block>
+  <block id="bf2cca138f5e3f74f2e6b73d8e8b2452" category="paragraph">RSS 구독은 에서 사용할 수 <block ref="a65cf6b405017af965199f55f7b4fce1" category="inline-link-macro-rx"></block>있습니다. RSS 피드를 사용하면 BlueXP  워크로드 팩토리에서의 변경 사항을 쉽게 확인하고 인식할 수 있습니다.</block>
+  <block id="1a88151efda7b7ae7945b1161fe70fdc" category="paragraph"><block ref="1a88151efda7b7ae7945b1161fe70fdc" category="inline-link-macro-rx"></block></block>
+  <block id="cf1f4a083afa7ccb1141e827deb4cdc2" category="paragraph">이제 에서 워크로드 팩토리를 사용할 수 <block ref="4623dd80d89c29fbf0d2b04387a56c33" category="inline-link-macro-rx"></block>있습니다. BlueXP  콘솔 환경은 워크로드 팩토리 콘솔과 동일한 기능을 제공합니다.</block>
 </blocks>
