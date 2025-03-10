@@ -2174,7 +2174,7 @@ VMware 워크로드에 대한 IAM 정책은 VMware 워크로드 공장이 운영
 
 === 2025년 3월 2일
 
-이제 데이터베이스에 대해 _READ_MODE에서 다음 권한을 사용할 수 `iam:SimulatePrincipalPolicy` 있습니다.
+이제 데이터베이스에 대해 _READ_MODE에서 다음 권한을 사용할 수 `iam:SimulatePrincipalPolicy` 있습니다. 이제 GenAI에 대해 _AUTOMATE_MODE에서 다음 권한을 사용할 수 `bedrock:GetFoundationModel` 있습니다.
 
 
 
