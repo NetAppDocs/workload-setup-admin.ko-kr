@@ -1558,6 +1558,7 @@ GenAI IAM 정책은 작동 모드에서만 사용할 수 있습니다.
         "bedrock:InvokeModelWithResponseStream",
         "bedrock:InvokeModel",
         "bedrock:ListFoundationModels",
+        "bedrock:GetFoundationModel",
         "bedrock:GetFoundationModelAvailability",
         "bedrock:GetModelInvocationLoggingConfiguration"
       ],
@@ -1764,6 +1765,9 @@ GenAI IAM 정책은 작동 모드에서만 사용할 수 있습니다.
 | 지역에서 사용 가능한 기반 모델을 표시합니다 | Bedrock: ListFoundationModels를 참조하십시오 | 구축 | 자동화 
 
 
+| 기반 모델에 대한 정보 확인 | Bedrock: GetFoundationModel 을 참조하십시오 | 구축 | 자동화 
+
+
 | 기초 모델에 대한 액세스 권한을 확인합니다 | Bedrock: GetFoundationModelAvailability를 참조하십시오 | 구축 | 자동화 
 
 
@@ -1773,7 +1777,7 @@ GenAI IAM 정책은 작동 모드에서만 사용할 수 있습니다.
 | AI 엔진 마법사에서 FSx 및 Bedrock을 지원하는 영역을 확보할 수 있습니다 | SSM:GetParametersByPath 입니다 | 구축 | 자동화 
 
 
-| 구축 및 리빌드 작업 중에 AI 엔진 구축을 위한 최신 Amazon Linux 이미지를 확인할 수 있습니다 | SSM:GetParameters 를 참조하십시오 | 구축 | 자동화 
+| 구축 및 리빌드 작업 중에 AI 엔진 구축에 필요한 최신 Amazon Linux 이미지를 확인할 수 있습니다 | SSM:GetParameters 를 참조하십시오 | 구축 | 자동화 
 
 
 | AI 엔진으로 전송된 명령에서 SSM 응답을 가져옵니다 | SSM: GetCommandInvocation 을 참조하십시오 | 구축 | 자동화 
@@ -2165,6 +2169,12 @@ VMware 워크로드에 대한 IAM 정책은 VMware 워크로드 공장이 운영
 == 변경 로그
 
 권한이 추가되고 제거됨에 따라 아래 섹션에 해당 권한이 표시됩니다.
+
+
+
+=== 2025년 3월 2일
+
+이제 데이터베이스에 대해 _READ_MODE에서 다음 권한을 사용할 수 `iam:SimulatePrincipalPolicy` 있습니다.
 
 
 
