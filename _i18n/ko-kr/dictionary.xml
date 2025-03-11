@@ -1071,5 +1071,5 @@
   <block id="1311c4cbbe5b925c15d25fe5ff7b022b" category="cell">Bedrock: GetFoundationModel 을 참조하십시오</block>
   <block id="dec23cffbd0de1b8096bc26072eb0b7d" category="cell">구축 및 리빌드 작업 중에 AI 엔진 구축에 필요한 최신 Amazon Linux 이미지를 확인할 수 있습니다</block>
   <block id="6928ceecf566ab44f308d64b3806a0bc" category="section-title">2025년 3월 2일</block>
-  <block id="be728667d7e3ba95278ef62ba5d75639" category="paragraph">이제 데이터베이스에 대해 _READ_MODE에서 다음 권한을 사용할 수<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block> 있습니다. 이제 GenAI에 대해 _AUTOMATE_MODE에서 다음 권한을 사용할 수<block ref="1311c4cbbe5b925c15d25fe5ff7b022b" prefix=" " category="inline-code"></block> 있습니다.</block>
+  <block id="d783298edb81a604dd8765a5040ef52e" category="paragraph">이제 GenAI에 대해 _AUTOMATE_MODE에서 다음 권한을 사용할 수<block ref="1311c4cbbe5b925c15d25fe5ff7b022b" prefix=" " category="inline-code"></block> 있습니다.</block>
 </blocks>
