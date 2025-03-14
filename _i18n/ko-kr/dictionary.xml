@@ -1072,4 +1072,8 @@
   <block id="dec23cffbd0de1b8096bc26072eb0b7d" category="cell">구축 및 리빌드 작업 중에 AI 엔진 구축에 필요한 최신 Amazon Linux 이미지를 확인할 수 있습니다</block>
   <block id="6928ceecf566ab44f308d64b3806a0bc" category="section-title">2025년 3월 2일</block>
   <block id="d783298edb81a604dd8765a5040ef52e" category="paragraph">이제 GenAI에 대해 _AUTOMATE_MODE에서 다음 권한을 사용할 수<block ref="1311c4cbbe5b925c15d25fe5ff7b022b" prefix=" " category="inline-code"></block> 있습니다.</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">블로그 및 커뮤니티</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 커뮤니티</block>
+  <block id="abd0fe91ce589ecf3c7bad0543ccad16" category="sidebar">BlueXP 블로그</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
 </blocks>
