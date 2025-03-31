@@ -63,6 +63,13 @@ BlueXP  작업 부하 공장 기능 및 서비스를 사용하려면 작업 부
         "cloudwatch:GetMetricStatistics"
       ],
       "Resource": "*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "iam:SimulatePrincipalPolicy"
+      ],
+      "Resource": "*"
     }
   ]
 }
@@ -89,6 +96,7 @@ BlueXP  작업 부하 공장 기능 및 서비스를 사용하려면 작업 부
         "kms:CreateGrant",
         "cloudwatch:PutMetricData",
         "cloudwatch:GetMetricData",
+        "iam:SimulatePrincipalPolicy",
         "cloudwatch:GetMetricStatistics"
       ],
       "Resource": "*"
@@ -407,6 +415,7 @@ BlueXP  작업 부하 공장 기능 및 서비스를 사용하려면 작업 부
         "ssm:GetParametersByPath",
         "ssm:GetCommandInvocation",
         "ssm:SendCommand",
+        "ssm:GetConnectionStatus",
         "ssm:DescribePatchBaselines",
         "ssm:DescribeInstancePatchStates",
         "ssm:ListCommands",
@@ -426,6 +435,14 @@ BlueXP  작업 부하 공장 기능 및 서비스를 사용하려면 작업 부
         "ssm:DeleteParameters"
       ],
       "Resource": "arn:aws:ssm:*:*:parameter/netapp/wlmdb/*"
+    },
+    {
+      "Sid": "IAMGroup",
+      "Effect": "Allow",
+      "Action": [
+        "iam:SimulatePrincipalPolicy"
+      ],
+      "Resource": "*"
     }
   ]
 }
@@ -1428,7 +1445,7 @@ BlueXP  작업 부하 공장 기능 및 서비스를 사용하려면 작업 부
 | 프로비저닝된 EC2 인스턴스 프로필에서 역할을 분리합니다 | IAM:RemoveRoleFromInstanceProfile 을 참조하십시오 | 구축 | 자동화 
 
 
-| 역할에서 사용 가능한 사용 권한을 확인하고 필요한 사용 권한과 비교합니다 | IAM: SimulatePrincipalPolicy(IAM: 시뮬레이션 정책) | 구축  a| 
+| 워크로드 작업을 시뮬레이션하여 사용 가능한 권한을 검증하고 필요한 AWS 계정 권한과 비교하십시오 | IAM: SimulatePrincipalPolicy(IAM: 시뮬레이션 정책) | 구축  a| 
 * 읽기
 * 자동화
 
@@ -1507,10 +1524,10 @@ GenAI IAM 정책은 작동 모드에서만 사용할 수 있습니다.
       "Effect": "Allow",
       "Action": [
         "iam:CreateRole",
+        "iam:CreatePolicy",
         "iam:CreateInstanceProfile",
         "iam:AddRoleToInstanceProfile",
         "iam:PutRolePolicy",
-        "iam:SimulatePrincipalPolicy",
         "iam:GetRolePolicy",
         "iam:GetRole",
         "iam:TagRole"
@@ -1550,19 +1567,6 @@ GenAI IAM 정책은 작동 모드에서만 사용할 수 있습니다.
         "arn:aws:fsx:*:*:volume/*/*",
         "arn:aws:fsx:*:*:storage-virtual-machine/*/*"
       ]
-    },
-    {
-      "Sid": "BedrockGroup",
-      "Effect": "Allow",
-      "Action": [
-        "bedrock:InvokeModelWithResponseStream",
-        "bedrock:InvokeModel",
-        "bedrock:ListFoundationModels",
-        "bedrock:GetFoundationModel",
-        "bedrock:GetFoundationModelAvailability",
-        "bedrock:GetModelInvocationLoggingConfiguration"
-      ],
-      "Resource": "*"
     },
     {
       "Sid": "SSMParameterStore",
@@ -1661,7 +1665,21 @@ GenAI IAM 정책은 작동 모드에서만 사용할 수 있습니다.
       "Resource": "arn:aws:logs:*:*:log-group:/netapp/wlmai*:*"
     },
     {
-      "Sid": "CloudWatch2",
+      "Sid": "BedrockGroup",
+      "Effect": "Allow",
+      "Action": [
+        "bedrock:InvokeModelWithResponseStream",
+        "bedrock:InvokeModel",
+        "bedrock:ListFoundationModels",
+        "bedrock:GetFoundationModelAvailability",
+        "bedrock:GetModelInvocationLoggingConfiguration",
+        "bedrock:PutModelInvocationLoggingConfiguration",
+        "bedrock:ListInferenceProfiles"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "CloudWatchBedrock",
       "Effect": "Allow",
       "Action": [
         "logs:CreateLogGroup",
@@ -1669,6 +1687,22 @@ GenAI IAM 정책은 작동 모드에서만 사용할 수 있습니다.
         "logs:TagResource"
       ],
       "Resource": "arn:aws:logs:*:*:log-group:/aws/bedrock*"
+    },
+    {
+      "Sid": "BedrockLoggingAttachRole",
+      "Effect": "Allow",
+      "Action": [
+        "iam:AttachRolePolicy",
+        "iam:PassRole"
+      ],
+      "Resource": "arn:aws:iam::*:role/NetApp_AI_Bedrock*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "iam:SimulatePrincipalPolicy"
+      ],
+      "Resource": "*"
     }
   ]
 }
@@ -1705,7 +1739,7 @@ GenAI IAM 정책은 작동 모드에서만 사용할 수 있습니다.
 | 구축 및 리빌드 작업 중 AI 엔진 스택 생성에서 생성된 리소스에 태그를 지정합니다 | EC2: CreateTags(태그 생성) | 구축 | 자동화 
 
 
-.2+| ai-engine 스택에서 WLMAI 백엔드에 암호화 된 이벤트를 게시합니다 | KMS : GenerateDataKey | 구축 | 자동화 
+.2+| AI 엔진 스택에서 WLMAI 백엔드에 암호화된 이벤트를 게시합니다 | KMS : GenerateDataKey | 구축 | 자동화 
 
 
 | KMS: 암호 해독 | 구축 | 자동화 
@@ -1738,7 +1772,7 @@ GenAI IAM 정책은 작동 모드에서만 사용할 수 있습니다.
 | 구축 및 리빌드 작업 중에 AI 엔진 스택을 생성하는 동안 이미지를 나열합니다 | EC2: DescribeImages(설명 영상) | 구축 | 자동화 
 
 
-.2+| 구축 및 리빌드 작업 중에 AI 인스턴스 스택 생성 중에 AI 인스턴스 및 개인 엔드포인트 보안 그룹을 생성 및 업데이트합니다 | EC2: RevokeSecurityGroupEgress | 구축 | 자동화 
+.2+| 구축 및 리빌드 작업 중에 AI 인스턴스 스택 생성 중에 AI 인스턴스 및 프라이빗 엔드포인트 보안 그룹을 생성하고 업데이트합니다 | EC2: RevokeSecurityGroupEgress | 구축 | 자동화 
 
 
 | EC2: RevokeSecurityGroupIngress 를 참조하십시오 | 구축 | 자동화 
@@ -1765,16 +1799,13 @@ GenAI IAM 정책은 작동 모드에서만 사용할 수 있습니다.
 | 지역에서 사용 가능한 기반 모델을 표시합니다 | Bedrock: ListFoundationModels를 참조하십시오 | 구축 | 자동화 
 
 
-| 기반 모델에 대한 정보 확인 | Bedrock: GetFoundationModel 을 참조하십시오 | 구축 | 자동화 
-
-
 | 기초 모델에 대한 액세스 권한을 확인합니다 | Bedrock: GetFoundationModelAvailability를 참조하십시오 | 구축 | 자동화 
 
 
-| 배포 및 재구축 작업 중에 CloudWatch 로그 그룹을 생성해야 하는지 확인합니다 | 로그:DescripbeLogGroups | 구축 | 자동화 
+| 배포 및 재구축 작업 중에 Amazon CloudWatch 로그 그룹을 생성해야 하는지 확인합니다 | 로그:DescripbeLogGroups | 구축 | 자동화 
 
 
-| AI 엔진 마법사에서 FSx 및 Bedrock을 지원하는 영역을 확보할 수 있습니다 | SSM:GetParametersByPath 입니다 | 구축 | 자동화 
+| AI 엔진 마법사에서 FSx 및 Amazon Bedrock을 지원하는 영역을 확보할 수 있습니다 | SSM:GetParametersByPath 입니다 | 구축 | 자동화 
 
 
 | 구축 및 리빌드 작업 중에 AI 엔진 구축에 필요한 최신 Amazon Linux 이미지를 확인할 수 있습니다 | SSM:GetParameters 를 참조하십시오 | 구축 | 자동화 
@@ -1813,19 +1844,19 @@ GenAI IAM 정책은 작동 모드에서만 사용할 수 있습니다.
 | IAM: 암호 역할 | 구축 | 자동화 
 
 
-| 역할에서 사용 가능한 권한을 검증하고 배포 및 재구축 작업 중에 필요한 권한과 비교합니다 | IAM: SimulatePrincipalPolicy(IAM: 시뮬레이션 정책) | 구축 | 자동화 
+| 워크로드 작업을 시뮬레이션하여 사용 가능한 권한을 검증하고 필요한 AWS 계정 권한과 비교하십시오 | IAM: SimulatePrincipalPolicy(IAM: 시뮬레이션 정책) | 구축 | 자동화 
 
 
-| "지식 기반 생성" 마법사 중에 FSx 파일 시스템을 나열합니다 | FSx:볼륨 설명 | 기술 자료 작성 | 자동화 
+| "기술 자료 생성" 마법사에서 FSx for ONTAP 파일 시스템을 나열합니다 | FSx:볼륨 설명 | 기술 자료 작성 | 자동화 
 
 
-| "기술 자료 생성" 마법사 중에 FSx 파일 시스템 볼륨을 나열합니다 | FSx:파일 시스템 설명 | 기술 자료 작성 | 자동화 
+| "기술 자료 생성" 마법사 중에 FSx for ONTAP 파일 시스템 볼륨을 나열합니다 | FSx:파일 시스템 설명 | 기술 자료 작성 | 자동화 
 
 
-| 리빌드 작업 중에 AI 엔진의 knowledgebase를 관리합니다 | FSX:ListTagsForResource.를 참조하십시오 | 문제 해결 | 자동화 
+| 리빌드 작업 중에 AI 엔진에 대한 지식 기반을 관리합니다 | FSX:ListTagsForResource.를 참조하십시오 | 문제 해결 | 자동화 
 
 
-| "기술 자료 생성" 마법사 중에 FSx 파일 시스템 스토리지 가상 머신 나열 | FSX:DescripbeStorageVirtualMachines를 참조하십시오 | 구축 | 자동화 
+| "기술 자료 생성" 마법사에서 FSx for ONTAP 파일 시스템 스토리지 가상 머신 나열 | FSX:DescripbeStorageVirtualMachines를 참조하십시오 | 구축 | 자동화 
 
 
 | 지식 베이스를 새 인스턴스로 이동합니다 | FSx:UntagResource | 문제 해결 | 자동화 
@@ -1840,28 +1871,43 @@ GenAI IAM 정책은 작동 모드에서만 사용할 수 있습니다.
 | SSM: PutParameter | 구축 | 자동화 
 
 
-.2+| 배포 및 재구축 작업 중에 AI 엔진 로그를 CloudWatch 로그 그룹으로 보냅니다 | 로그:CreateLogGroup | 구축 | 자동화 
+.2+| 배포 및 재구축 작업 중에 AI 엔진 로그를 Amazon CloudWatch 로그 그룹으로 보냅니다 | 로그:CreateLogGroup | 구축 | 자동화 
 
 
 | 로그: PutRetentionPolicy | 구축 | 자동화 
 
 
-| AI 엔진 로그를 CloudWatch 로그 그룹으로 보냅니다 | 로그:TagResource | 문제 해결 | 자동화 
+| AI 엔진 로그를 Amazon CloudWatch 로그 그룹으로 보냅니다 | 로그:TagResource | 문제 해결 | 자동화 
 
 
-| CloudWatch에서 SSM 응답 받기(응답이 너무 긴 경우) | 로그:DescripbeLogStreams | 문제 해결 | 자동화 
+| Amazon CloudWatch에서 SSM 응답 받기(응답이 너무 긴 경우) | 로그:DescripbeLogStreams | 문제 해결 | 자동화 
 
 
-| CloudWatch에서 SSM 응답을 받으십시오 | 로그:GetLogEvents | 문제 해결 | 자동화 
+| Amazon CloudWatch에서 SSM 응답을 받으십시오 | 로그:GetLogEvents | 문제 해결 | 자동화 
 
 
-.3+| 배포 및 재구축 작업 중에 스택 재조정 중에 Bedrock 로그에 대한 CloudWatch 로그 그룹을 생성합니다 | 로그:CreateLogGroup | 구축 | 자동화 
+.3+| 배포 및 재구축 작업 중에 스택 재조정 중에 Amazon Bedrock 로그에 대한 Amazon CloudWatch 로그 그룹을 생성합니다 | 로그:CreateLogGroup | 구축 | 자동화 
 
 
 | 로그: PutRetentionPolicy | 구축 | 자동화 
 
 
 | 로그:TagResource | 구축 | 자동화 
+
+
+| Amazon CloudWatch로 Bedrock 로그를 전송하세요 | Bedrock: PutModelInvocationLoggingConfiguration의 약어입니다 | 문제 해결 | 자동화 
+
+
+| 아마존 Bedrock 로그를 Amazon CloudWatch로 전송할 수 있는 역할을 생성합니다 | IAM: AttachRolePolicy | 문제 해결 | 자동화 
+
+
+| 아마존 Bedrock 로그를 Amazon CloudWatch로 전송할 수 있는 역할을 생성합니다 | IAM: 암호 역할 | 문제 해결 | 자동화 
+
+
+| 아마존 Bedrock 로그를 Amazon CloudWatch로 전송할 수 있는 역할을 생성합니다 | IAM: createPolicy | 문제 해결 | 자동화 
+
+
+| 모델에 대한 추론 프로파일을 나열합니다 | Bedrock: ListInferenceProfiles 를 참조하십시오 | 문제 해결 | 자동화 
 |===
 ====
 
@@ -1882,23 +1928,35 @@ VMware 워크로드에 대한 IAM 정책은 VMware 워크로드 공장이 운영
 [source, json]
 ----
 {
-  "Effect": "Allow",
-  "Action": [
-    "ec2:DescribeRegions",
-    "ec2:DescribeAvailabilityZones",
-    "ec2:DescribeVpcs",
-    "ec2:DescribeSecurityGroups",
-    "ec2:DescribeSubnets",
-    "ssm:GetParametersByPath",
-    "kms:DescribeKey",
-    "kms:ListKeys",
-    "kms:ListAliases"
-  ],
-  "Resource": "*"
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "ec2:DescribeRegions",
+        "ec2:DescribeAvailabilityZones",
+        "ec2:DescribeVpcs",
+        "ec2:DescribeSecurityGroups",
+        "ec2:DescribeSubnets",
+        "ssm:GetParametersByPath",
+        "kms:DescribeKey",
+        "kms:ListKeys",
+        "kms:ListAliases"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "iam:SimulatePrincipalPolicy"
+      ],
+      "Resource": "*"
+    }
+  ]
 }
 ----
 --
-.작동 모드
+.자동 모드
 --
 [source, json]
 ----
@@ -2132,7 +2190,7 @@ VMware 워크로드에 대한 IAM 정책은 VMware 워크로드 공장이 운영
 | 자동화 
 
 
-| SimulatePrincipalPolicy는 역할에서 사용 가능한 권한의 유효성을 검사하고 필요한 권한과 비교하기 위해 필요합니다 | IAM: SimulatePrincipalPolicy(IAM: 시뮬레이션 정책) | 구축 | 자동화 
+| 워크로드 작업을 시뮬레이션하여 사용 가능한 권한을 검증하고 필요한 AWS 계정 권한과 비교하십시오 | IAM: SimulatePrincipalPolicy(IAM: 시뮬레이션 정책) | 구축 | 자동화 
 
 
 .4+| SSM 매개 변수 저장소는 Amazon FSx for NetApp ONTAP의 자격 증명을 저장하는 데 사용됩니다 | SSM:GetParameter입니다  a| 
@@ -2169,6 +2227,31 @@ VMware 워크로드에 대한 IAM 정책은 VMware 워크로드 공장이 운영
 == 변경 로그
 
 권한이 추가되고 제거됨에 따라 아래 섹션에 해당 권한이 표시됩니다.
+
+
+
+=== 2025년 3월 30일
+
+
+
+==== GenAI 워크로드 권한이 업데이트됩니다
+
+GenAI용 _AUTOMATE MODE_에서 다음 권한을 사용할 수 있습니다.
+
+* `bedrock:PutModelInvocationLoggingConfiguration`
+* `iam:AttachRolePolicy`
+* `iam:PassRole`
+* `iam:createPolicy`
+* `bedrock:ListInferenceProfiles`
+
+
+GenAI에 대한 _AUTOMATE MODE_에서 다음 권한이 제거되었습니다 `Bedrock:GetFoundationModel`.
+
+
+
+==== IAM: SimulatePrincipalPolicy 권한 업데이트
+
+ `iam:SimulatePrincipalPolicy`권한은 AWS 계정 자격 증명을 추가하거나 워크로드 팩토리 콘솔에서 새 워크로드 기능을 추가할 때 자동 권한 검사를 활성화할 경우 모든 워크로드 권한 정책의 일부입니다. 이 권한은 워크로드 작업을 시뮬레이션하고 워크로드 팩토리에서 리소스를 구축하기 전에 필요한 AWS 계정 권한이 있는지 확인합니다. 이 검사를 사용하면 실패한 작업에서 리소스를 정리하고 누락된 권한을 추가하는 데 필요한 시간과 노력을 줄일 수 있습니다.
 
 
 
