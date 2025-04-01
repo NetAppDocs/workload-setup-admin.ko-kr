@@ -1051,7 +1051,6 @@
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 커뮤니티</block>
   <block id="abd0fe91ce589ecf3c7bad0543ccad16" category="sidebar">BlueXP 블로그</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
-  <block id="42bc8432872c22cf4fdbb156ae58a17e" category="doc">CloudShell은 ONTAP CLI 명령에 대해 AI에서 생성된 오류를 보고합니다</block>
   <block id="3450754e7ec63bd0a961376c9928752a" category="paragraph">CloudShell을 사용할 경우 ONTAP CLI 명령을 실행하고 오류가 발생할 때마다 실패 설명, 장애 원인, 상세한 해결 방법 등을 통해 AI에서 생성된 오류에 대한 응답을 받을 수 있습니다.</block>
   <block id="4ef50e373522b91f7df59d5cba69a8b7" category="section-title">IAM: SimulatePermissionPolicy 권한 업데이트</block>
   <block id="906699741ebd9905a07af900abcfd438" category="paragraph">이제 AWS 계정 자격 증명을 추가하거나 GenAI 워크로드와 같은 새로운 워크로드 기능을 추가할 때 워크로드 팩토리 콘솔에서 권한을 관리할 수 있습니다<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>.</block>
@@ -1126,4 +1125,5 @@
   <block id="da1654cced07f7b0be3ee4215ae83b0b" category="list-text">파이프, 백그라운드 실행<block ref="c2249209343ab488c055da76368f04a0" prefix=" " category="inline-code"></block>, 리디렉션<block ref="58ba3bb1a1772a74392e5e86bd2be4b7" prefix=" " category="inline-code"></block> 등의 셸 연산자는<block ref="b99834bc19bbad24580b3adfa04fb947" prefix=" " category="inline-code"></block> 지원되지 않습니다. 이러한 연산자를 포함하면 명령 실행이 실패합니다.</block>
   <block id="bc7864e70344eae19121f3e6408c5e04" category="list-text">를 입력하여<block ref="657f8b8da628ef83cf69101b6817150a" prefix=" " category="inline-code"></block> 사용 가능한 <block ref="0bdecf44265be755040a6284b4703b71" category="inline-xref-macro-rx"></block>지침 및 지침을 확인하거나 다음 CLI 참조 문서에서 사용 가능한 명령을 참조하십시오.</block>
   <block id="34b14d4981e88ee13798aea3eecf0674" category="paragraph">ONTAP CLI 명령을 실행한 후 오류가 발생하면 전구 아이콘을 선택하여 장애의 설명, 장애의 원인 및 자세한 해결책이 포함된 간단한 AI 생성 오류 응답을 확인하십시오. 자세한 내용을 보려면 * 자세히 보기 * 를 선택하십시오.</block>
+  <block id="ef74d01649997b60252254da8a1573fd" category="doc">CloudShell은 ONTAP CLI 명령에 대한 AI에서 생성된 오류 응답을 보고합니다</block>
 </blocks>
