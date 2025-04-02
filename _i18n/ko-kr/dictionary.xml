@@ -1129,5 +1129,5 @@
   <block id="e388026a0cea886de58a344e102aff29" category="cell">관리되는 EC2 인스턴스 그룹(SQL 노드)에 대한 SSM 연결 상태 가져오기</block>
   <block id="3320749a6854264e1889d72d7f41a0bf" category="cell">SSM: DescripbeInstanceInformation을 참조하십시오</block>
   <block id="99e26a6b02df18a6d3fcaa201c832eff" category="section-title">2025년 4월 2일</block>
-  <block id="3721724ce177d539f2733638cda0c562" category="paragraph">이제 데이터베이스에 대한 _READ MODE_에서 다음 권한을 사용할 수 있습니다. 'sm:DescripbeInstanceInformation'.</block>
+  <block id="ecffd7b63fa9fc5c65235a6db0f2a9b2" category="paragraph">이제 데이터베이스에 대해 _READ MODE_에서 다음 권한을 사용할 수<block ref="3320749a6854264e1889d72d7f41a0bf" prefix=" " category="inline-code"></block> 있습니다.</block>
 </blocks>
