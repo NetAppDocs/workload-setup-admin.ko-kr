@@ -1059,7 +1059,6 @@
   <block id="04c38dfa84592feebab3e30dfe4a019a" category="list-text">선택 사항: * 자동 권한 확인 사용 * 을 선택하여 워크로드 작업을 완료하는 데 필요한 AWS 계정 권한이 있는지 확인하십시오. 검사를 활성화하면 사용 권한 정책에 가<block ref="23bd3e826a13b6d94db9e07f105dfed2" prefix=" " category="inline-code"></block> 추가됩니다. 이 권한은 사용 권한을 확인하는 용도로만 사용됩니다. 자격 증명을 추가한 후 사용 권한을 제거할 수 있지만 부분적으로 성공한 작업을 위해 리소스가 생성되지 않도록 유지하고 필요한 수동 리소스 정리를 방지하는 것이 좋습니다.</block>
   <block id="c3c7c9c146408a0ee564eedba4821f52" category="list-text">선택 사항: * 자동 권한 확인 사용 * 을 선택하여 워크로드 작업을 완료하는 데 필요한 AWS 계정 권한이 있는지 확인하십시오. 검사를 사용하면<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block> 사용 권한 정책에 사용 권한이 추가됩니다. 이 권한은 사용 권한을 확인하는 용도로만 사용됩니다. 자격 증명을 추가한 후 사용 권한을 제거할 수 있지만 부분적으로 성공한 작업을 위해 리소스가 생성되지 않도록 유지하고 필요한 수동 리소스 정리를 방지하는 것이 좋습니다.</block>
   <block id="ad9001b544dade5536691ec3feee578f" category="inline-link-macro">BlueXP  워크로드 팩트에 대한 권한</block>
-  <block id="4c1bf71f3b414847584faa395569aa99" category="paragraph">에 대해 자세히 <block ref="0ea8d4071df9710eb1c660a6314e7a7f" category="inline-link-macro-rx"></block>알아보십시오.</block>
   <block id="2a358d687197b0311c68b4c8a7e35e1c" category="cell">워크로드 작업을 시뮬레이션하여 사용 가능한 권한을 검증하고 필요한 AWS 계정 권한과 비교하십시오</block>
   <block id="8c5e268f15aeebda6b5b234b3f7c7174" category="cell">AI 엔진 스택에서 WLMAI 백엔드에 암호화된 이벤트를 게시합니다</block>
   <block id="9b1384398d4de5545bd0dad2106d6b0d" category="cell">ai-engine 스택에서 WLMAI 백엔드에 이벤트 및 사용자 지정 리소스를 게시합니다</block>
@@ -1130,4 +1129,5 @@
   <block id="3320749a6854264e1889d72d7f41a0bf" category="cell">SSM: DescripbeInstanceInformation을 참조하십시오</block>
   <block id="99e26a6b02df18a6d3fcaa201c832eff" category="section-title">2025년 4월 2일</block>
   <block id="ecffd7b63fa9fc5c65235a6db0f2a9b2" category="paragraph">이제 데이터베이스에 대해 _READ MODE_에서 다음 권한을 사용할 수<block ref="3320749a6854264e1889d72d7f41a0bf" prefix=" " category="inline-code"></block> 있습니다.</block>
+  <block id="0c749cb02f361ac40b1f6fc23a0feaf9" category="paragraph">에 대해 자세히 <block ref="8b9a4f89ed6bf874edd6af12deea004c" category="inline-link-macro-rx"></block>알아보십시오.</block>
 </blocks>
