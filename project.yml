@@ -23,7 +23,7 @@ sidebar:
     entries:
     - title: 기본 사항 학습
       entries:
-      - title: 워크로드 공장 개요
+      - title: BlueXP  워크로드 팩토리에 대해 알아보십시오
         url: "/workload-factory-overview.html"
       - title: 작동 모드
         url: "/operational-modes.html"
