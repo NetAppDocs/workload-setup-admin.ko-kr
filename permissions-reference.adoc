@@ -421,6 +421,7 @@ BlueXP  작업 부하 공장 기능 및 서비스를 사용하려면 작업 부
         "ssm:ListCommands",
         "ssm:DescribeInstanceInformation",
         "fsx:ListTagsForResource"
+        "logs:DescribeLogGroups"
       ],
       "Resource": [
         "*"
@@ -568,6 +569,7 @@ BlueXP  작업 부하 공장 기능 및 서비스를 사용하려면 작업 부
         "logs:ListLogDeliveries",
         "logs:PutLogEvents",
         "logs:TagResource",
+        "logs:PutRetentionPolicy",
         "servicequotas:ListServiceQuotas",
         "sns:ListTopics",
         "sns:Publish",
@@ -674,17 +676,6 @@ BlueXP  작업 부하 공장 기능 및 서비스를 사용하려면 작업 부
 [cols="2, 2, 1, 1"]
 |===
 | 목적 | 조치 | 사용된 위치 | 모드를 선택합니다 
-
-
-| SSM 출력 잘림이 발생하면 워크로드 팩터리가 SQL 인스턴스에 대한 Amazon CloudWatch 로그로 전환됩니다. | 로그:GetLogEvents  a| 
-* 스토리지 평가
-* 인벤토리
-
- a| 
-* 읽기 전용
-* 읽기/쓰기
-
-
 
 
 | FSx for ONTAP, EBS 및 FSx for Windows 파일 서버에 대한 메트릭 통계를 확인합니다 | CloudWatch: GetMetricStatistics  a| 
@@ -1345,6 +1336,35 @@ BlueXP  작업 부하 공장 기능 및 서비스를 사용하려면 작업 부
 
 
 | 로그:TagResource | 구축 | 읽기/쓰기 
+
+
+| SSM 출력 잘림이 발생하면 워크로드 팩터리가 SQL 인스턴스에 대한 Amazon CloudWatch 로그로 전환됩니다 | 로그:GetLogEvents  a| 
+* 스토리지 평가(최적화)
+* 인벤토리
+
+ a| 
+* 읽기 전용
+* 읽기/쓰기
+
+
+
+
+| 워크로드 팩토리얼에서 현재 로그 그룹을 가져올 수 있도록 허용하고 워크로드 팩토리얼에서 생성한 로그 그룹에 대해 보존이 설정되어 있는지 확인합니다 | 로그:DescripbeLogGroups  a| 
+* 스토리지 평가(최적화)
+* 인벤토리
+
+| 읽기 전용 
+
+
+| 워크로드 팩토리얼에서 SSM 명령 출력에 대한 불필요한 로그 스트림 축적을 방지하기 위해 워크로드 팩터리에서 생성한 로그 그룹에 대해 1일 보존 정책을 설정할 수 있습니다 | 로그: PutRetentionPolicy  a| 
+* 스토리지 평가(최적화)
+* 인벤토리
+
+ a| 
+* 읽기 전용
+* 읽기/쓰기
+
+
 
 
 | SQL, 도메인 및 FSx for ONTAP에 대해 제공된 자격 증명에 대한 암호를 사용자 계정에 생성합니다 | servicequotas:ListServiceQuotas 입니다 | 구축 | 읽기/쓰기 
@@ -2284,7 +2304,14 @@ VMware 워크로드에 대한 IAM 정책은 VMware 워크로드 공장이 운영
 
 이제 GenAI에 대해 _Read/Write_mode에서 다음 권한을 사용할 수 `qbusiness:ListApplications` 있습니다.
 
-이제 데이터베이스에 대해 _Read-only_ 모드에서 다음 권한을 사용할 수 `logs:GetLogEvents` 있습니다.
+이제 데이터베이스에 대해 _Read-only_ 모드에서 다음 권한을 사용할 수 있습니다.
+
+* `logs:GetLogEvents`
+* `logs:DescribeLogGroups`
+
+
+이제 데이터베이스에 대해 _Read/Write_mode에서 다음 권한을 사용할 수
+`logs:PutRetentionPolicy` 있습니다.
 
 
 

@@ -1116,8 +1116,6 @@
   <block id="c0ee691320caa89b529bc0bcaf9cc696" category="paragraph">하지만 워크로드 공장에서 VMware 워크로드(기본 모드)를 생성 및 구축하는 데 대한 자동화 제어 기능은 없습니다. VMware 워크로드를 생성하려면 코드박스에서 코드를 복사하고 AWS 계정에 수동으로 로그인한 다음 생성된 코드에 누락된 항목을 수동으로 채워 이 기능을 사용해야 합니다.</block>
   <block id="b91c58f3e94e0488074053d96cd4bbec" category="paragraph">읽기 전용 또는 읽기/쓰기 모드 권한을 제공하면 워크로드 팩토리에서는 해당 AWS 계정 내의 리소스 및 프로세스를 관리할 수 있는 권한이 있는 정책을 인스턴스에 연결합니다. 이를 통해 워크로드 팩토리는 스토리지 환경 검색부터 GenAI 워크로드에 대한 스토리지 관리 또는 기술 자료의 파일 시스템 같은 AWS 리소스 구축까지 다양한 작업을 실행할 수 있습니다.</block>
   <block id="4d372922f30597b3e046274dbb3cecd2" category="list-text">읽기 전용</block>
-  <block id="d066bc059c61c75a41706f175a5b3f8b" category="cell">SSM 출력 잘림이 발생하면 워크로드 팩터리가 SQL 인스턴스에 대한 Amazon CloudWatch 로그로 전환됩니다.</block>
-  <block id="2e50818bd890a03b645105690ca2ee60" category="list-text">스토리지 평가</block>
   <block id="38ef2c2517cd341233b9181c09ba8071" category="paragraph">GenAI IAM 정책은 읽기/쓰기 모드에서만 사용할 수 있습니다.</block>
   <block id="123ce9aa4e0770ecb435c005fa9b436c" category="cell">Amazon Q Business 응용 프로그램을 나열합니다</block>
   <block id="4f3c534c90392632c7d275f54d5b35a0" category="cell">qbusiness: ListApplications를 참조하십시오</block>
@@ -1127,7 +1125,6 @@
   <block id="9dd35b54afccc27a1cc96eab777dbc8e" category="cell">배포 및 재구축 작업 중에 스택 생성 중에 Amazon Bedrock 로그에 대한 Amazon CloudWatch 로그 그룹을 생성합니다</block>
   <block id="dac96c84baa92faab0eb342df5283a1b" category="section-title">2025년 5월 4일</block>
   <block id="b1351fb22e71d3c2b886e8e0819e632f" category="paragraph">이제 GenAI에 대해 _Read/Write_mode에서 다음 권한을 사용할 수<block ref="4f3c534c90392632c7d275f54d5b35a0" prefix=" " category="inline-code"></block> 있습니다.</block>
-  <block id="17cf827d0ea669f390d3f954ed27424d" category="paragraph">이제 데이터베이스에 대해 _Read-only_ 모드에서 다음 권한을 사용할 수<block ref="6d952035baa97bd601f4d280f10fcc53" prefix=" " category="inline-code"></block> 있습니다.</block>
   <block id="83300e091c617144cede34b6c898e63b" category="paragraph">이제 데이터베이스에 대해 _Read-only_ 모드에서 다음 권한을 사용할 수<block ref="3320749a6854264e1889d72d7f41a0bf" prefix=" " category="inline-code"></block> 있습니다.</block>
   <block id="be999711faeee231a254e996141ed09f" category="paragraph">이제 GenAI에 대해 _Read/Write mode_에서 다음 권한을 사용할 수 있습니다.</block>
   <block id="9f4fc0ded0d1671253e5c8e38cd9464f" category="paragraph">GenAI에 대한 _Read/Write mode_에서 다음 권한이 제거되었습니다<block ref="8a44b1c8d2e06b1acd7404fbb70437cc" prefix=" " category="inline-code"></block>.</block>
@@ -1140,4 +1137,12 @@
   <block id="7a0e532396f167d85a7b425f941d0613" category="list-text">* 읽기 전용 모드 * 사용자가 다양한 리소스와 도구를 탐지할 수 있도록 지원하여 관련 마법사를 완료할 수 있도록 지원함으로써 기본 모드의 사용 환경을 개선합니다.</block>
   <block id="4951a0172d4fd2c8116296e71073f31c" category="list-text">* 읽기/쓰기 모드 * 는 완전 신뢰 관계를 나타내며, 실행을 위해 필요하고 검증된 권한이 있는 할당된 자격 증명과 함께 사용자를 대신하여 실행 및 자동화하도록 설계되었습니다.</block>
   <block id="1c9640aa9075334712c6c2b922771c50" category="paragraph"><block ref="1c9640aa9075334712c6c2b922771c50" category="inline-link-rx"></block></block>
+  <block id="5474924c6e07cdae5b2fb3dcc561d06d" category="cell">SSM 출력 잘림이 발생하면 워크로드 팩터리가 SQL 인스턴스에 대한 Amazon CloudWatch 로그로 전환됩니다</block>
+  <block id="5d1d5ff6c3c427c682d491550e8f89b3" category="list-text">스토리지 평가(최적화)</block>
+  <block id="515b5649d13529809187e8bce4dca692" category="cell">워크로드 팩토리얼에서 현재 로그 그룹을 가져올 수 있도록 허용하고 워크로드 팩토리얼에서 생성한 로그 그룹에 대해 보존이 설정되어 있는지 확인합니다</block>
+  <block id="c1fe33a4a51fbfbc7672aeed10dd19b9" category="cell">워크로드 팩토리얼에서 SSM 명령 출력에 대한 불필요한 로그 스트림 축적을 방지하기 위해 워크로드 팩터리에서 생성한 로그 그룹에 대해 1일 보존 정책을 설정할 수 있습니다</block>
+  <block id="19c89da108a378e8d938a37afe67bcab" category="paragraph">이제 데이터베이스에 대해 _Read-only_ 모드에서 다음 권한을 사용할 수 있습니다.</block>
+  <block id="1636ccb01570c55081666deb02ddfb9c" category="list-text"><block ref="6d952035baa97bd601f4d280f10fcc53" prefix="" category="inline-code"></block></block>
+  <block id="c4a094604e7db845f5356b4563efc223" category="list-text"><block ref="99a70cb6d5b807589a0a1aa9bbcfea7d" prefix="" category="inline-code"></block></block>
+  <block id="555669c70b999168141bdf48d9c2de24" category="paragraph">이제 데이터베이스에 대해 _Read/Write_mode에서 다음 권한을 사용할 수<block ref="9c72603737d6e2074ae7fab048b5d3d1" prefix=" " category="inline-code"></block> 있습니다.</block>
 </blocks>
