@@ -1140,9 +1140,9 @@
   <block id="5474924c6e07cdae5b2fb3dcc561d06d" category="cell">SSM 출력 잘림이 발생하면 워크로드 팩터리가 SQL 인스턴스에 대한 Amazon CloudWatch 로그로 전환됩니다</block>
   <block id="5d1d5ff6c3c427c682d491550e8f89b3" category="list-text">스토리지 평가(최적화)</block>
   <block id="515b5649d13529809187e8bce4dca692" category="cell">워크로드 팩토리얼에서 현재 로그 그룹을 가져올 수 있도록 허용하고 워크로드 팩토리얼에서 생성한 로그 그룹에 대해 보존이 설정되어 있는지 확인합니다</block>
-  <block id="c1fe33a4a51fbfbc7672aeed10dd19b9" category="cell">워크로드 팩토리얼에서 SSM 명령 출력에 대한 불필요한 로그 스트림 축적을 방지하기 위해 워크로드 팩터리에서 생성한 로그 그룹에 대해 1일 보존 정책을 설정할 수 있습니다</block>
   <block id="19c89da108a378e8d938a37afe67bcab" category="paragraph">이제 데이터베이스에 대해 _Read-only_ 모드에서 다음 권한을 사용할 수 있습니다.</block>
   <block id="1636ccb01570c55081666deb02ddfb9c" category="list-text"><block ref="6d952035baa97bd601f4d280f10fcc53" prefix="" category="inline-code"></block></block>
   <block id="c4a094604e7db845f5356b4563efc223" category="list-text"><block ref="99a70cb6d5b807589a0a1aa9bbcfea7d" prefix="" category="inline-code"></block></block>
   <block id="555669c70b999168141bdf48d9c2de24" category="paragraph">이제 데이터베이스에 대해 _Read/Write_mode에서 다음 권한을 사용할 수<block ref="9c72603737d6e2074ae7fab048b5d3d1" prefix=" " category="inline-code"></block> 있습니다.</block>
+  <block id="b29cc709bba52572eccdff0248448fed" category="cell">SSM 명령 출력에 대한 불필요한 로그 스트림이 누적되지 않도록 워크로드 팩터리에서 워크로드 팩터리에서 생성된 로그 그룹에 대해 1일 보존 정책을 설정할 수 있습니다</block>
 </blocks>
