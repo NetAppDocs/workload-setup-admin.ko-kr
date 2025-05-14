@@ -1136,7 +1136,6 @@
   <block id="822748e99c70e9162ce5432b2e1eff5c" category="section-title">2025년 5월 4일</block>
   <block id="7a0e532396f167d85a7b425f941d0613" category="list-text">* 읽기 전용 모드 * 사용자가 다양한 리소스와 도구를 탐지할 수 있도록 지원하여 관련 마법사를 완료할 수 있도록 지원함으로써 기본 모드의 사용 환경을 개선합니다.</block>
   <block id="4951a0172d4fd2c8116296e71073f31c" category="list-text">* 읽기/쓰기 모드 * 는 완전 신뢰 관계를 나타내며, 실행을 위해 필요하고 검증된 권한이 있는 할당된 자격 증명과 함께 사용자를 대신하여 실행 및 자동화하도록 설계되었습니다.</block>
-  <block id="1c9640aa9075334712c6c2b922771c50" category="paragraph"><block ref="1c9640aa9075334712c6c2b922771c50" category="inline-link-rx"></block></block>
   <block id="5474924c6e07cdae5b2fb3dcc561d06d" category="cell">SSM 출력 잘림이 발생하면 워크로드 팩터리가 SQL 인스턴스에 대한 Amazon CloudWatch 로그로 전환됩니다</block>
   <block id="5d1d5ff6c3c427c682d491550e8f89b3" category="list-text">스토리지 평가(최적화)</block>
   <block id="515b5649d13529809187e8bce4dca692" category="cell">워크로드 팩토리얼에서 현재 로그 그룹을 가져올 수 있도록 허용하고 워크로드 팩토리얼에서 생성한 로그 그룹에 대해 보존이 설정되어 있는지 확인합니다</block>
@@ -1145,4 +1144,13 @@
   <block id="c4a094604e7db845f5356b4563efc223" category="list-text"><block ref="99a70cb6d5b807589a0a1aa9bbcfea7d" prefix="" category="inline-code"></block></block>
   <block id="555669c70b999168141bdf48d9c2de24" category="paragraph">이제 데이터베이스에 대해 _Read/Write_mode에서 다음 권한을 사용할 수<block ref="9c72603737d6e2074ae7fab048b5d3d1" prefix=" " category="inline-code"></block> 있습니다.</block>
   <block id="b29cc709bba52572eccdff0248448fed" category="cell">SSM 명령 출력에 대한 불필요한 로그 스트림이 누적되지 않도록 워크로드 팩터리에서 워크로드 팩터리에서 생성된 로그 그룹에 대해 1일 보존 정책을 설정할 수 있습니다</block>
+  <block id="200e3179449390bdf5f3f8d9a199630c" category="section-title">워크로드 팩토리 사용을 위한 툴</block>
+  <block id="b5a374f3f5b31b5057808689d26fe2c4" category="paragraph">다음 툴과 함께 BlueXP  워크로드 팩토리를 사용할 수 있습니다.</block>
+  <block id="4b50901597179fa075617d96ccf51901" category="list-text">* 워크로드 팩토리 콘솔 * : 워크로드 팩토리 콘솔은 애플리케이션과 프로젝트에 대한 시각적이고 포괄적인 뷰를 제공합니다.</block>
+  <block id="590410b3a112ba2f531f9aae44e29ed1" category="list-text">* BlueXP  콘솔 *: BlueXP  콘솔은 하이브리드 인터페이스 환경을 제공하므로 다른 BlueXP  서비스와 함께 BlueXP  워크로드 팩토리를 사용할 수 있습니다.</block>
+  <block id="62c5120220d244bd5e611d7c4459b5c5" category="list-text">* 질문하기 *: 질문하기 AI 도우미를 사용하여 워크로드 팩토리 웹 UI를 벗어나지 않고도 워크로드 공장에 대해 자세히 알아보십시오. 워크로드 기본 도움말 메뉴에서 질문하기 에 액세스합니다.</block>
+  <block id="e234d079cc2fccaeed8041a81e1e8122" category="list-text">* CloudShell CLI *: 워크로드 팩토리에는 단일 브라우저 기반 CLI를 통해 모든 계정에서 AWS 및 NetApp 환경을 관리하고 운영할 수 있는 CloudShell CLI가 포함되어 있습니다. 워크로드 팩토리 콘솔의 상단 표시줄에서 CloudShell에 액세스합니다.</block>
+  <block id="dfbf98e5a4263fb93c5b851bfc384ae3" category="list-text">* REST API *: 워크로드 팩토리 REST API를 사용하여 FSx for ONTAP 파일 시스템 및 기타 AWS 리소스를 배포하고 관리합니다.</block>
+  <block id="57f4ce64453b6cd8aa398c4f88d38c2e" category="list-text">* CloudFormation *: AWS CloudFormation 코드를 사용하여 AWS 계정의 CloudFormation 스택에서 AWS 및 타사 리소스를 모델링, 프로비저닝 및 관리하기 위해 워크로드 팩토리 콘솔에 정의한 작업을 수행합니다.</block>
+  <block id="06c2e2277da374dd2cc7b735a1d1e848" category="list-text">* Terraform BlueXP  워크로드 팩토리 공급자 *: Terraform을 사용하여 워크로드 팩토리 콘솔에서 생성된 인프라 워크플로우를 구축하고 관리하십시오.</block>
 </blocks>

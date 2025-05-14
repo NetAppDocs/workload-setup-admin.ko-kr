@@ -127,7 +127,20 @@ link:codebox-automation.html["Codebox에 대해 자세히 알아보십시오"]..
 * link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["데이터베이스 워크로드 비용 절감 방법을 알아보십시오"^]
 
 
-https://raw.githubusercontent.com/NetAppDocs/workload-family/main/_include/learn-about-tools.adoc[]
+
+
+== 워크로드 팩토리 사용을 위한 툴
+
+다음 툴과 함께 BlueXP  워크로드 팩토리를 사용할 수 있습니다.
+
+* * 워크로드 팩토리 콘솔 * : 워크로드 팩토리 콘솔은 애플리케이션과 프로젝트에 대한 시각적이고 포괄적인 뷰를 제공합니다.
+* * BlueXP  콘솔 *: BlueXP  콘솔은 하이브리드 인터페이스 환경을 제공하므로 다른 BlueXP  서비스와 함께 BlueXP  워크로드 팩토리를 사용할 수 있습니다.
+* * 질문하기 *: 질문하기 AI 도우미를 사용하여 워크로드 팩토리 웹 UI를 벗어나지 않고도 워크로드 공장에 대해 자세히 알아보십시오. 워크로드 기본 도움말 메뉴에서 질문하기 에 액세스합니다.
+* * CloudShell CLI *: 워크로드 팩토리에는 단일 브라우저 기반 CLI를 통해 모든 계정에서 AWS 및 NetApp 환경을 관리하고 운영할 수 있는 CloudShell CLI가 포함되어 있습니다. 워크로드 팩토리 콘솔의 상단 표시줄에서 CloudShell에 액세스합니다.
+* * REST API *: 워크로드 팩토리 REST API를 사용하여 FSx for ONTAP 파일 시스템 및 기타 AWS 리소스를 배포하고 관리합니다.
+* * CloudFormation *: AWS CloudFormation 코드를 사용하여 AWS 계정의 CloudFormation 스택에서 AWS 및 타사 리소스를 모델링, 프로비저닝 및 관리하기 위해 워크로드 팩토리 콘솔에 정의한 작업을 수행합니다.
+* * Terraform BlueXP  워크로드 팩토리 공급자 *: Terraform을 사용하여 워크로드 팩토리 콘솔에서 생성된 인프라 워크플로우를 구축하고 관리하십시오.
+
 
 
 
