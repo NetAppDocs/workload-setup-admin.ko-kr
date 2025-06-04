@@ -1762,6 +1762,14 @@ GenAI IAM 정책은 읽기/쓰기 모드에서만 사용할 수 있습니다.
       "Resource": "*"
     },
     {
+      "Sid": "S3",
+      "Effect": "Allow",
+      "Action": [
+        "s3:ListAllMyBuckets"
+      ],
+      "Resource": "*"
+    },
+    {
       "Effect": "Allow",
       "Action": [
         "iam:SimulatePrincipalPolicy"
@@ -1792,6 +1800,9 @@ GenAI IAM 정책은 읽기/쓰기 모드에서만 사용할 수 있습니다.
 
 
 | AI 엔진 태그를 표시합니다 | EC2: DescribeTags(설명 태그) | 구축 | 읽기/쓰기 
+
+
+| S3 버킷 나열 | S3:ListAllMyBucket | 구축 | 읽기/쓰기 
 
 
 | AI 엔진 스택 생성 전에 VPC 엔드포인트 나열 | EC2: CreateVpcEndpoint입니다 | 구축 | 읽기/쓰기 
@@ -2297,6 +2308,12 @@ VMware 워크로드에 대한 IAM 정책은 VMware 워크로드 공장이 운영
 == 변경 로그
 
 권한이 추가되고 제거됨에 따라 아래 섹션에 해당 권한이 표시됩니다.
+
+
+
+=== 2025년 6월 3일
+
+이제 GenAI에 대해 _Read/Write_mode에서 다음 권한을 사용할 수 `s3:ListAllMyBuckets` 있습니다.
 
 
 
