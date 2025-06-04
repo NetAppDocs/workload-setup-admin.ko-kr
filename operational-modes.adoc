@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: operational-modes.html 
-keywords: modes, zero-trust, full-trust, read, basic, automate, aws, aws accounts, keys, multiple accounts, permissions, aws permissions, policy, policies, credentials 
-summary: 워크로드 팩토리는 IT 정책에 따라 워크로드 팩토리와 클라우드 자산 간의 액세스를 신중하게 제어할 수 있는 세 가지 운영 모드를 제공합니다. 사용하는 운영 모드는 워크로드 팩토리에 제공하는 AWS 권한의 수준에 따라 결정됩니다. 
+keywords: modes, zero-trust, full-trust, read-only, basic, read/write, aws, aws accounts, keys, multiple accounts, permissions, aws permissions, policy, policies, credentials 
+summary: 워크로드 팩토리는 IT 정책에 따라 워크로드 팩토리와 클라우드 자산 간의 액세스를 신중하게 제어할 수 있는 세 가지 운영 모드를 제공합니다. 
 ---
 = 운영 모드 및 AWS 자격 증명에 대해 자세히 알아보십시오
 :allow-uri-read: 
@@ -62,7 +62,7 @@ summary: 워크로드 팩토리는 IT 정책에 따라 워크로드 팩토리와
 | 읽기 전용 | 읽기 전용 | 필요하지 않습니다 
 
 
-| 읽기/쓰기 | 읽기-쓰기 자격 증명 | 필수 요소입니다 
+| 읽기/쓰기 | 읽기/쓰기 자격 증명 | 필수 요소입니다 
 |===
 https://docs.netapp.com/us-en/workload-fsx-ontap/links-overview.html["링크에 대해 자세히 알아보세요"^]
 
@@ -70,7 +70,7 @@ https://docs.netapp.com/us-en/workload-fsx-ontap/links-overview.html["링크에 
 
 === 작동 모드의 예
 
-워크로드 구성요소 하나에 대해 하나의 모드를, 다른 구성요소에 대해 다른 모드를 제공하도록 자격 증명을 설정할 수 있습니다. 예를 들어, FSx for ONTAP 파일 시스템을 구축 및 관리하는 작업에 대해 읽기/쓰기 모드를 구성할 수 있지만 워크로드 팩토리를 사용하여 데이터베이스 워크로드를 생성하고 배포하기 위한 읽기 모드만 구성할 수 있습니다.
+워크로드 구성요소 하나에 대해 하나의 모드를, 다른 구성요소에 대해 다른 모드를 제공하도록 자격 증명을 설정할 수 있습니다. 예를 들어, FSx for ONTAP 파일 시스템을 배포하고 관리하는 작업의 경우 읽기/쓰기 모드를 구성할 수 있지만, 워크로드 팩토리를 사용하여 데이터베이스 워크로드를 생성하고 배포하는 경우에는 읽기 전용 모드만 구성할 수 있습니다.
 
 워크로드 공장 계정의 단일 자격 증명 집합 내에서 이러한 기능을 제공하거나 각 자격 증명이 고유한 작업 부하 배포 기능을 제공할 때 여러 자격 증명 집합을 만들 수 있습니다.
 
@@ -78,7 +78,7 @@ https://docs.netapp.com/us-en/workload-fsx-ontap/links-overview.html["링크에 
 
 ==== 예 1
 
-다음 권한이 부여된 자격 증명을 사용하는 계정 사용자는 FSx for ONTAP 파일 시스템을 생성하고, 데이터베이스를 구축하고, 계정에 사용된 다른 유형의 AWS 스토리지를 볼 수 있는 모든 권한(읽기/쓰기 모드)을 갖게 됩니다.
+다음 권한이 부여된 자격 증명을 사용하는 계정 사용자는 FSx for ONTAP 파일 시스템 생성, 데이터베이스 배포, 계정에서 사용되는 다른 유형의 AWS 스토리지 보기에 대한 전체 제어 권한(읽기/쓰기 모드)을 갖습니다.
 
 image:screenshot-credentials1.png["두 가지 유형의 작업 권한을 제공하는 하나의 자격 증명 집합을 보여 주는 스크린샷"]
 
@@ -90,7 +90,7 @@ image:screenshot-credentials1.png["두 가지 유형의 작업 권한을 제공�
 
 여기서 사용자는 선택한 자격 증명 세트에 따라 서로 다른 작동 기능을 사용할 수 있도록 두 개의 자격 증명을 만들었습니다. 일반적으로 각 자격 증명 세트는 다른 AWS 계정에 페어링됩니다.
 
-첫 번째 자격 증명 세트에는 FSx for ONTAP 파일 시스템 생성 시 사용자와 이 계정에 사용되는 다른 유형의 AWS 스토리지 보기 기능을 완벽하게 제어할 수 있는 권한이 있지만, VMware 워크로드 작업 시에는 읽기 권한만 포함됩니다.
+첫 번째 자격 증명 세트에는 사용자에게 FSx for ONTAP 파일 시스템을 생성하는 데 필요한 모든 권한(및 계정에서 사용되는 다른 유형의 AWS 스토리지를 볼 수 있는 권한)을 부여하는 권한이 포함되어 있지만, VMware 워크로드를 사용하는 경우 읽기 전용 권한만 부여됩니다.
 
 image:screenshot-credentials-comparison-example-1.png["두 가지 유형의 작업 권한을 제공하는 하나의 자격 증명 집합을 보여 주는 스크린샷"]
 

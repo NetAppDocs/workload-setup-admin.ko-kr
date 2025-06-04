@@ -20,7 +20,7 @@ BlueXP  작업 부하 공장 기능 및 서비스를 사용하려면 작업 부
 
 == 사용 권한을 사용하는 이유
 
-읽기 전용 또는 읽기/쓰기 모드 권한을 제공하면 워크로드 팩토리에서는 해당 AWS 계정 내의 리소스 및 프로세스를 관리할 수 있는 권한이 있는 정책을 인스턴스에 연결합니다. 이를 통해 워크로드 팩토리는 스토리지 환경 검색부터 GenAI 워크로드에 대한 스토리지 관리 또는 기술 자료의 파일 시스템 같은 AWS 리소스 구축까지 다양한 작업을 실행할 수 있습니다.
+_읽기 전용_ 또는 _읽기/쓰기_ 모드 권한을 제공하면 워크로드 팩토리는 해당 AWS 계정 내의 리소스와 프로세스를 관리할 수 있는 권한이 있는 정책을 인스턴스에 연결합니다. 이를 통해 워크로드 팩토리는 스토리지 환경 검색부터 GenAI 워크로드에 대한 스토리지 관리 또는 기술 자료의 파일 시스템 같은 AWS 리소스 구축까지 다양한 작업을 실행할 수 있습니다.
 
 예를 들어, 데이터베이스 워크로드의 경우 필요한 권한이 워크로드 팩토리에 부여된 경우 지정된 계정 및 지역의 모든 EC2 인스턴스를 스캔하고 모든 Windows 기반 시스템을 필터링합니다. AWS Systems Manager(SSM) 에이전트가 호스트에 설치되어 실행되고 System Manager 네트워킹이 올바르게 구성된 경우, 워크로드 팩토리에서는 Windows 시스템에 액세스하여 SQL Server 소프트웨어의 설치 여부를 확인할 수 있습니다.
 
@@ -1512,7 +1512,7 @@ BlueXP  작업 부하 공장 기능 및 서비스를 사용하려면 작업 부
 
 VMware 워크로드에 대한 IAM 정책은 VMware 워크로드 공장이 운영하는 운영 모드에 따라 퍼블릭 클라우드 환경 내에서 리소스와 프로세스를 관리하는 데 필요한 권한을 제공합니다.
 
-GenAI IAM 정책은 읽기/쓰기 모드에서만 사용할 수 있습니다.
+GenAI IAM 정책은 _읽기/쓰기_ 모드에서만 사용할 수 있습니다.
 
 .GenAI 워크로드를 위한 IAM 정책
 [%collapsible]
@@ -2327,14 +2327,14 @@ VMware 워크로드에 대한 IAM 정책은 VMware 워크로드 공장이 운영
 * `logs:DescribeLogGroups`
 
 
-이제 데이터베이스에 대해 _Read/Write_mode에서 다음 권한을 사용할 수
-`logs:PutRetentionPolicy` 있습니다.
+다음 권한은 이제 데이터베이스에 대한 _읽기/쓰기_ 모드에서 사용 가능합니다. 
+`logs:PutRetentionPolicy` .
 
 
 
 === 2025년 4월 2일
 
-이제 데이터베이스에 대해 _Read-only_ 모드에서 다음 권한을 사용할 수 `ssm:DescribeInstanceInformation` 있습니다.
+다음 권한은 이제 데이터베이스에 대한 _읽기 전용_ 모드에서 사용 가능합니다.  `ssm:DescribeInstanceInformation` .
 
 
 
@@ -2344,7 +2344,7 @@ VMware 워크로드에 대한 IAM 정책은 VMware 워크로드 공장이 운영
 
 ==== GenAI 워크로드 권한이 업데이트됩니다
 
-이제 GenAI에 대해 _Read/Write mode_에서 다음 권한을 사용할 수 있습니다.
+이제 GenAI의 _읽기/쓰기 모드_에서 다음 권한을 사용할 수 있습니다.
 
 * `bedrock:PutModelInvocationLoggingConfiguration`
 * `iam:AttachRolePolicy`
@@ -2353,7 +2353,7 @@ VMware 워크로드에 대한 IAM 정책은 VMware 워크로드 공장이 운영
 * `bedrock:ListInferenceProfiles`
 
 
-GenAI에 대한 _Read/Write mode_에서 다음 권한이 제거되었습니다 `Bedrock:GetFoundationModel`.
+GenAI의 _읽기/쓰기 모드_에서 다음 권한이 제거되었습니다.  `Bedrock:GetFoundationModel` .
 
 
 
@@ -2365,10 +2365,10 @@ GenAI에 대한 _Read/Write mode_에서 다음 권한이 제거되었습니다 `
 
 === 2025년 3월 2일
 
-이제 GenAI에 대해 _Read/Write_mode에서 다음 권한을 사용할 수 `bedrock:GetFoundationModel` 있습니다.
+다음 권한은 이제 GenAI의 _읽기/쓰기_ 모드에서 사용할 수 있습니다.  `bedrock:GetFoundationModel` .
 
 
 
 === 2025년 2월 3일
 
-이제 데이터베이스에 대해 _Read-only_ 모드에서 다음 권한을 사용할 수 `iam:SimulatePrincipalPolicy` 있습니다.
+다음 권한은 이제 데이터베이스에 대한 _읽기 전용_ 모드에서 사용 가능합니다.  `iam:SimulatePrincipalPolicy` .
