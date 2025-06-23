@@ -23,10 +23,10 @@ BlueXP  워크로드 팩토리는 2개의 웹 기반 콘솔을 통해 액세스
 
 == BlueXP  콘솔에서 워크로드 팩토리에 액세스합니다
 
-BlueXP 에서 워크로드 팩토리에 액세스할 수 있습니다. BluXP Workload Factory를 사용하여 AWS 스토리지 및 작업 부하 기능을 수행할 수 있을 뿐만 아니라 복사 및 동기화, 디지털 지갑 등의 다른 BlueXP  플랫폼 서비스에도 액세스할 수 있습니다.
+BlueXP 에서 워크로드 팩토리에 액세스할 수 있습니다. AWS 스토리지 및 워크로드 기능을 위해 BlueXP Workload Factory를 사용하는 것 외에도 Copy and Sync, Digital Wallet 등 다른 BlueXP 플랫폼 서비스에 액세스할 수도 있습니다.
 
 .단계
-. 에 로그인합니다 link:https://console.workloads.netapp.com["워크로드 팩토리 콘솔"^]
+. 에 link:https://console.workloads.netapp.com["워크로드 팩토리 콘솔"^]로그인합니다.
 . 사용할 워크로드를 탐색하고 시작할 옵션을 선택합니다.
 
 
@@ -37,7 +37,7 @@ BlueXP 에서 워크로드 팩토리에 액세스할 수 있습니다. BluXP Wo
 워크로드 팩토리 콘솔에서 워크로드 팩토리얼에 액세스할 수 있습니다.
 
 .단계
-. 에 로그인합니다 link:https://console.bluexp.netapp.com["BlueXP 콘솔"^]
+. 에 link:https://console.bluexp.netapp.com["BlueXP 콘솔"^]로그인합니다.
 . 왼쪽 탐색 모음에서 * 워크로드 * 를 선택합니다.
 . 모든 워크로드를 보려면 * Home * 을 선택하고 * Storage * 또는 * Databases * 와 같은 하나의 워크로드를 선택하십시오.
 . 워크로드를 시작할 옵션을 선택하십시오.

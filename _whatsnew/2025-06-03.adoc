@@ -1,0 +1,11 @@
+= BlueXP 워크로드 팩토리 알림 서비스 지원
+:allow-uri-read: 
+
+
+
+
+=== BlueXP 워크로드 팩토리 알림 서비스 지원
+
+BlueXP 워크로드 팩토리 알림 서비스를 사용하면 워크로드 팩토리가 BlueXP 알림 서비스 또는 Amazon SNS 주제로 알림을 전송할 수 있습니다. BlueXP 알림으로 전송된 알림은 BlueXP 알림 패널에 표시됩니다. 워크로드 팩토리가 Amazon SNS 주제에 알림을 게시하면 해당 주제 구독자(예: 사용자 또는 다른 애플리케이션)는 해당 주제에 대해 구성된 엔드포인트(예: 이메일 또는 SMS 메시지)에서 알림을 수신합니다.
+
+https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["BlueXP 워크로드 팩토리 알림 구성"]

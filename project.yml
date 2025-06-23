@@ -45,6 +45,8 @@ sidebar:
       url: "/log-in.html"
     - title: 서비스 계정을 관리합니다
       url: "/manage-service-accounts.html"
+    - title: 알림을 구성합니다
+      url: "/configure-notifications.html"
     - title: 코드박스를 사용하여 작업을 자동화합니다
       entries:
       - title: Codebox에 대해 알아봅니다
