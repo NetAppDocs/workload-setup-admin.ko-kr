@@ -640,12 +640,8 @@
   <block id="9fd6274c053251e7fdd752215a510290" category="cell">파일 시스템 및 볼륨 메트릭을 가져옵니다</block>
   <block id="f63e0d20057299c9c16bd0c2c9e92a5c" category="cell">CloudWatch: GetMetricData</block>
   <block id="3a902f1e8a6db9861a0a7608e2c5f711" category="cell">CloudWatch: GetMetricStatistics</block>
-  <block id="659cdc74d03020d9c8bbdcda0749ab88" category="section-title">데이터베이스 작업 부하에 대한 권한</block>
-  <block id="2ceb20f97dd8f727dfbba8dbbe9a3496" category="paragraph">데이터베이스 워크로드에 사용할 수 있는 IAM 정책은 작업 중인 운영 모드에 따라 공용 클라우드 환경 내에서 리소스 및 프로세스를 관리하는 데 필요한 권한을 워크로드 공장이 제공합니다.</block>
-  <block id="6f652f163aedad876c63ce0e89417171" category="example-title">데이터베이스 워크로드에 대한 IAM 정책</block>
   <block id="685902496cc1b2431527838eb3dd51f8" category="paragraph">다음 표에는 데이터베이스 워크로드에 대한 사용 권한이 나와 있습니다.</block>
   <block id="0647b03c182e6a539e314bf5657eba2e" category="example-title">데이터베이스 워크로드에 대한 사용 권한 테이블</block>
-  <block id="8fb4617a750c0b3b751013d02219f99b" category="cell">FSx for ONTAP, EBS 및 FSx for Windows 파일 서버에 대한 메트릭 통계를 확인합니다</block>
   <block id="9d0f530f355f04b5462f43ae04528fde" category="cell">이벤트의 트리거를 나열하고 설정합니다</block>
   <block id="124f2c65b8b708241b7552a865ae2f29" category="cell">SNS: ListTopics 를 참조하십시오</block>
   <block id="b561747f1044749aaeab8082f02c0c2f" category="cell">EC2: 설명</block>
@@ -746,7 +742,6 @@
   <block id="da044dbe1821a39f63f98e823344b062" category="cell">CloudFormation: DescribeStackEvents</block>
   <block id="f404fc6d0850472807e4fcd86203a313" category="cell">CloudFormation: DescribeStacks</block>
   <block id="6f25bb2faea408ecb06dc30a96791ac2" category="cell">CloudFormation:ValidateTemplate 을 참조하십시오</block>
-  <block id="039c0d5ce3b1eaded6c4634f95b0978c" category="cell">컴퓨팅 최적화 권장 사항을 위한 메트릭 가져오기</block>
   <block id="6ecc76cab2e7449f332b847599e62d5f" category="cell">지역에서 사용 가능한 디렉토리를 가져옵니다</block>
   <block id="f4e46229f95e1a17f96ebacbac65751b" category="cell">프로비저닝된 EC2 인스턴스에 연결된 보안 그룹에 대한 규칙을 추가합니다</block>
   <block id="1f4dd9a69501cc464524fc5da8bcd1b7" category="cell">재시도 및 롤백을 위해 중첩된 스택 템플릿을 생성합니다</block>
@@ -1108,7 +1103,6 @@
   <block id="1311c4cbbe5b925c15d25fe5ff7b022b" category="cell">Bedrock: GetFoundationModel 을 참조하십시오</block>
   <block id="9dd35b54afccc27a1cc96eab777dbc8e" category="cell">배포 및 재구축 작업 중에 스택 생성 중에 Amazon Bedrock 로그에 대한 Amazon CloudWatch 로그 그룹을 생성합니다</block>
   <block id="dac96c84baa92faab0eb342df5283a1b" category="section-title">2025년 5월 4일</block>
-  <block id="b1351fb22e71d3c2b886e8e0819e632f" category="paragraph">이제 GenAI에 대해 _Read/Write_mode에서 다음 권한을 사용할 수<block ref="4f3c534c90392632c7d275f54d5b35a0" prefix=" " category="inline-code"></block> 있습니다.</block>
   <block id="bf0dcc34b100cf0ff91c26bbd98029f7" category="list-text">자동 완성 지원: 명령 입력을 시작하고 * TAB * 키를 사용하여 사용 가능한 옵션을 봅니다</block>
   <block id="822748e99c70e9162ce5432b2e1eff5c" category="section-title">2025년 5월 4일</block>
   <block id="7a0e532396f167d85a7b425f941d0613" category="list-text">* 읽기 전용 모드 * 사용자가 다양한 리소스와 도구를 탐지할 수 있도록 지원하여 관련 마법사를 완료할 수 있도록 지원함으로써 기본 모드의 사용 환경을 개선합니다.</block>
@@ -1116,7 +1110,6 @@
   <block id="5474924c6e07cdae5b2fb3dcc561d06d" category="cell">SSM 출력 잘림이 발생하면 워크로드 팩터리가 SQL 인스턴스에 대한 Amazon CloudWatch 로그로 전환됩니다</block>
   <block id="5d1d5ff6c3c427c682d491550e8f89b3" category="list-text">스토리지 평가(최적화)</block>
   <block id="515b5649d13529809187e8bce4dca692" category="cell">워크로드 팩토리얼에서 현재 로그 그룹을 가져올 수 있도록 허용하고 워크로드 팩토리얼에서 생성한 로그 그룹에 대해 보존이 설정되어 있는지 확인합니다</block>
-  <block id="19c89da108a378e8d938a37afe67bcab" category="paragraph">이제 데이터베이스에 대해 _Read-only_ 모드에서 다음 권한을 사용할 수 있습니다.</block>
   <block id="1636ccb01570c55081666deb02ddfb9c" category="list-text"><block ref="6d952035baa97bd601f4d280f10fcc53" prefix="" category="inline-code"></block></block>
   <block id="c4a094604e7db845f5356b4563efc223" category="list-text"><block ref="99a70cb6d5b807589a0a1aa9bbcfea7d" prefix="" category="inline-code"></block></block>
   <block id="b29cc709bba52572eccdff0248448fed" category="cell">SSM 명령 출력에 대한 불필요한 로그 스트림이 누적되지 않도록 워크로드 팩터리에서 워크로드 팩터리에서 생성된 로그 그룹에 대해 1일 보존 정책을 설정할 수 있습니다</block>
@@ -1131,7 +1124,6 @@
   <block id="beec07f99f03a1aa1948ba788ce7e6c1" category="cell">S3 버킷 나열</block>
   <block id="e21c94a36c6dbf24001a64bddce9456f" category="cell">S3:ListAllMyBucket</block>
   <block id="c34c5eed5692ab9466e57060b06ae6ae" category="section-title">2025년 6월 3일</block>
-  <block id="c918d3e0e49fdadeab4e77e3905135bd" category="paragraph">이제 GenAI에 대해 _Read/Write_mode에서 다음 권한을 사용할 수<block ref="e21c94a36c6dbf24001a64bddce9456f" prefix=" " category="inline-code"></block> 있습니다.</block>
   <block id="af06e2a95bd9706f705a4480e8f40846" category="list-text">* Terraform BlueXP  워크로드 팩토리 공급자 *: Terraform을 사용하여 워크로드 팩토리 콘솔에서 생성된 인프라 워크플로우를 구축하고 관리하십시오.</block>
   <block id="4ead5e435cb4f2c7cf627b1d1e84c333" category="paragraph">워크로드 팩토리 사용자 인터페이스와 문서에서는 이제 읽기 권한을 나타내는 데 "읽기 전용"을 사용하고 자동화 권한을 나타내는 데 "읽기/쓰기"를 사용합니다.</block>
   <block id="db17079394a3464c0d2748f3f16fbfbf" category="paragraph">AWS 계정 자격 증명을 추가하지 않으면 워크로드 팩토리얼은 _Basic_mode에서 작동합니다. 자격 증명을 추가하여 _읽기 전용_ 모드 및 _읽기/쓰기_ 모드와 같은 다른 작업 모드를 활성화할 수 있습니다. <block ref="3ecbe38d325fe0025957d871a4619a77" category="inline-link-macro-rx"></block>..</block>
@@ -1163,4 +1155,14 @@
   <block id="2e600fc81eb21acd31aa44d1697dc84f" category="list-text">에 <block ref="fe6e1b2479e1125e03c713ad62b5343f" category="inline-link-macro-rx"></block>로그인합니다.</block>
   <block id="cec87015738d7f42431131824e107880" category="paragraph">BlueXP 에서 워크로드 팩토리에 액세스할 수 있습니다. AWS 스토리지 및 워크로드 기능을 위해 BlueXP Workload Factory를 사용하는 것 외에도 Copy and Sync, Digital Wallet 등 다른 BlueXP 플랫폼 서비스에 액세스할 수도 있습니다.</block>
   <block id="7454fc4c14df2a987637928e569efe3a" category="section-title">2025년 6월 29일</block>
+  <block id="cb30bdb55bb8a7a0530a31a5e6cdd0bb" category="paragraph">다음 권한은 이제 데이터베이스에 대한 _읽기 전용_ 모드에서 사용 가능합니다. <block ref="f63e0d20057299c9c16bd0c2c9e92a5c" prefix=" " category="inline-code"></block> .</block>
+  <block id="e429c7230e4b94caf26e6020e5ea6f7a" category="paragraph"><block ref="e429c7230e4b94caf26e6020e5ea6f7a" category="inline-link-rx"></block></block>
+  <block id="4da84f2c396b854d2e6828b8992fe2a6" category="section-title">데이터베이스 워크로드에 대한 권한</block>
+  <block id="a1de7ac981533bac2ba982c9a691d511" category="paragraph">데이터베이스 워크로드에 사용할 수 있는 IAM 정책은 워크로드 팩토리가 퍼블릭 클라우드 환경 내에서 리소스와 프로세스를 관리하는 데 필요한 권한을 제공하며, 이는 사용자가 운영하는 운영 모드에 따라 달라집니다.</block>
+  <block id="b09fc7726cc5650dddd20718f2586995" category="example-title">데이터베이스 워크로드에 대한 IAM 정책</block>
+  <block id="3399757d7ea2a9e2fd7770bc1e6f5aa1" category="cell">FSx for ONTAP, EBS 및 FSx for Windows File Server에 대한 메트릭 통계를 얻고 컴퓨팅 최적화 권장 사항을 확인하세요.</block>
+  <block id="c79482c3221294b91b9c5eeecca327a6" category="cell">등록된 SQL 노드에서 Amazon CloudWatch에 저장된 성능 지표를 수집합니다. 데이터는 등록된 SQL 인스턴스의 인스턴스 관리 화면에서 성능 추세 차트로 생성됩니다.</block>
+  <block id="bf8eef80d28e69579638cd56629c94fb" category="paragraph">다음 권한은 이제 GenAI의 _읽기/쓰기_ 모드에서 사용할 수 있습니다. <block ref="e21c94a36c6dbf24001a64bddce9456f" prefix=" " category="inline-code"></block> .</block>
+  <block id="b8be7a72d02de0cfb42fb93375981cdb" category="paragraph">다음 권한은 이제 GenAI의 _읽기/쓰기_ 모드에서 사용할 수 있습니다. <block ref="4f3c534c90392632c7d275f54d5b35a0" prefix=" " category="inline-code"></block> .</block>
+  <block id="bebb3c7ec8a634b68ad1060e27e7dc42" category="paragraph">이제 데이터베이스에 대해 _읽기 전용_ 모드에서 다음 권한을 사용할 수 있습니다.</block>
 </blocks>

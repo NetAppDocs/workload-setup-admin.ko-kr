@@ -1,6 +1,14 @@
-= BlueXP 워크로드 팩토리 알림 서비스 지원
+= 데이터베이스에 대한 사용 권한 업데이트
 :allow-uri-read: 
 
+
+
+
+=== 데이터베이스에 대한 사용 권한 업데이트
+
+다음 권한은 이제 데이터베이스에 대한 _읽기 전용_ 모드에서 사용 가능합니다.  `cloudwatch:GetMetricData` .
+
+https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["권한 참조 변경 로그"]
 
 
 

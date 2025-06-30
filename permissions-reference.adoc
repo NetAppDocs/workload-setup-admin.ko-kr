@@ -362,9 +362,9 @@ _읽기 전용_ 또는 _읽기/쓰기_ 모드 권한을 제공하면 워크로�
 ====
 
 
-=== 데이터베이스 작업 부하에 대한 권한
+=== 데이터베이스 워크로드에 대한 권한
 
-데이터베이스 워크로드에 사용할 수 있는 IAM 정책은 작업 중인 운영 모드에 따라 공용 클라우드 환경 내에서 리소스 및 프로세스를 관리하는 데 필요한 권한을 워크로드 공장이 제공합니다.
+데이터베이스 워크로드에 사용할 수 있는 IAM 정책은 워크로드 팩토리가 퍼블릭 클라우드 환경 내에서 리소스와 프로세스를 관리하는 데 필요한 권한을 제공하며, 이는 사용자가 운영하는 운영 모드에 따라 달라집니다.
 
 필요한 IAM 정책을 보려면 운영 모드를 선택하십시오.
 
@@ -385,6 +385,7 @@ _읽기 전용_ 또는 _읽기/쓰기_ 모드 권한을 제공하면 워크로�
       "Effect": "Allow",
       "Action": [
         "cloudwatch:GetMetricStatistics",
+        "cloudwatch:GetMetricData",
         "sns:ListTopics",
         "ec2:DescribeInstances",
         "ec2:DescribeVpcs",
@@ -678,7 +679,7 @@ _읽기 전용_ 또는 _읽기/쓰기_ 모드 권한을 제공하면 워크로�
 | 목적 | 조치 | 사용된 위치 | 모드를 선택합니다 
 
 
-| FSx for ONTAP, EBS 및 FSx for Windows 파일 서버에 대한 메트릭 통계를 확인합니다 | CloudWatch: GetMetricStatistics  a| 
+| FSx for ONTAP, EBS 및 FSx for Windows File Server에 대한 메트릭 통계를 얻고 컴퓨팅 최적화 권장 사항을 확인하세요. | CloudWatch: GetMetricStatistics  a| 
 * 인벤토리
 * 비용 절감 효과를
 
@@ -687,6 +688,9 @@ _읽기 전용_ 또는 _읽기/쓰기_ 모드 권한을 제공하면 워크로�
 * 읽기/쓰기
 
 
+
+
+| 등록된 SQL 노드에서 Amazon CloudWatch에 저장된 성능 지표를 수집합니다. 데이터는 등록된 SQL 인스턴스의 인스턴스 관리 화면에서 성능 추세 차트로 생성됩니다. | CloudWatch: GetMetricData | 인벤토리 | 읽기 전용 
 
 
 | 이벤트의 트리거를 나열하고 설정합니다 | SNS: ListTopics 를 참조하십시오 | 구축  a| 
@@ -1209,9 +1213,6 @@ _읽기 전용_ 또는 _읽기/쓰기_ 모드 권한을 제공하면 워크로�
 
 
 | CloudFormation:ValidateTemplate 을 참조하십시오 | 구축 | 읽기/쓰기 
-
-
-| 컴퓨팅 최적화 권장 사항을 위한 메트릭 가져오기 | CloudWatch: GetMetricStatistics | 비용 절감 효과를 | 읽기/쓰기 
 
 
 | 지역에서 사용 가능한 디렉토리를 가져옵니다 | DS:설명 디렉토리 | 구축 | 읽기/쓰기 
@@ -2311,17 +2312,23 @@ VMware 워크로드에 대한 IAM 정책은 VMware 워크로드 공장이 운영
 
 
 
+=== 2025년 6월 29일
+
+다음 권한은 이제 데이터베이스에 대한 _읽기 전용_ 모드에서 사용 가능합니다.  `cloudwatch:GetMetricData` .
+
+
+
 === 2025년 6월 3일
 
-이제 GenAI에 대해 _Read/Write_mode에서 다음 권한을 사용할 수 `s3:ListAllMyBuckets` 있습니다.
+다음 권한은 이제 GenAI의 _읽기/쓰기_ 모드에서 사용할 수 있습니다.  `s3:ListAllMyBuckets` .
 
 
 
 === 2025년 5월 4일
 
-이제 GenAI에 대해 _Read/Write_mode에서 다음 권한을 사용할 수 `qbusiness:ListApplications` 있습니다.
+다음 권한은 이제 GenAI의 _읽기/쓰기_ 모드에서 사용할 수 있습니다.  `qbusiness:ListApplications` .
 
-이제 데이터베이스에 대해 _Read-only_ 모드에서 다음 권한을 사용할 수 있습니다.
+이제 데이터베이스에 대해 _읽기 전용_ 모드에서 다음 권한을 사용할 수 있습니다.
 
 * `logs:GetLogEvents`
 * `logs:DescribeLogGroups`
