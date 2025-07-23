@@ -39,6 +39,14 @@ AI 챗봇 개발:: FSx for ONTAP 파일 시스템을 활용하여 조직의 챗�
 
 
 
+== 보안
+
+BlueXP workload factory 의 보안은 NetApp 의 최우선 과제입니다. 워크로드 팩토리의 모든 워크로드는 Amazon FSx for NetApp ONTAP 에서 실행됩니다. 또한, link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/security.html["AWS 보안 기능"^] , BlueXP workload factory 수신되었습니다. link:https://netapp-security.trustshare.com/certifications/soc2type_1?documentId=84d4110a-3fc7-4d0c-9c65-b9f0d034c058["SOC2 유형 1 준수"^] .
+
+BlueXP workload factory 용 Amazon FSx for NetApp ONTAP 는 link:https://aws.amazon.com/solutions/guidance/deploying-enterprise-apps-with-netapp-bluexp-workload-factory-for-aws-and-amazon-fsx-for-netapp-ontap/["엔터프라이즈 앱 배포를 위한 AWS 솔루션"^] 잘 설계된 모범 사례를 염두에 두고 만들어졌습니다.
+
+
+
 == 비용
 
 워크로드 공장은 무료로 사용할 수 있습니다. AWS(Amazon Web Services)에 지불하는 비용은 구축할 스토리지와 워크로드 서비스에 따라 다릅니다. Amazon FSx for NetApp ONTAP 파일 시스템, VMware Cloud on AWS 인프라, AWS 서비스 등의 비용이 포함됩니다.
