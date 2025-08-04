@@ -98,11 +98,79 @@ BlueXP 콘솔 또는 워크로드 팩토리 콘솔을 사용하여 워크로드 
 
 === Amazon SNS 알림 필터링
 
-Amazon SNS 주제를 구독하면 기본적으로 해당 주제에 게시된 모든 알림을 받게 됩니다. 주제에서 특정 알림만 수신하려면 필터 정책을 사용하여 수신할 알림을 제어할 수 있습니다.
+Amazon SNS 주제를 구독하면 기본적으로 해당 주제에 게시된 모든 알림을 받게 됩니다.  해당 주제의 특정 알림만 받으려면 필터 정책을 사용하여 받을 알림을 제어할 수 있습니다.  필터 정책을 사용하면 Amazon SNS가 필터 정책과 일치하는 알림만 구독자에게 전달합니다.
 
-필터 정책 생성에 대한 자세한 내용은 다음을 참조하세요.  https://docs.aws.amazon.com/sns/latest/dg/sns-message-filtering.html["아마존 SNS 문서"^] .
+다음 기준으로 Amazon SNS 알림을 필터링할 수 있습니다.
 
-필터 정책의 예는 다음을 참조하세요.  https://docs.aws.amazon.com/sns/latest/dg/example-filter-policies.html["Amazon SNS 필터 정책 예시"^] .
+[cols="3*"]
+|===
+| 설명 | 필터 정책 필드 이름 | 가능한 값 
+
+
+| 리소스 유형 | `resourceType`  a| 
+* `DB`
+* `Microsoft SQL Server host`
+* `PostgreSQL Server host`
+
+
+
+
+| 워크로드 | `workload` | `WLMDB` 
+
+
+| 우선 사항 | `priority`  a| 
+* `Success`
+* `Info`
+* `Recommendation`
+* `Warning`
+* `Error`
+* `Critical`
+
+
+
+
+| 알림 유형입니다 | `notificationType`  a| 
+* `Deployment`
+* `Well-architected`
+
+
+|===
+.단계
+. Amazon SNS 콘솔에서 SNS 주제에 대한 구독 세부 정보를 편집합니다.
+. *구독 필터 정책* 영역에서 *메시지 속성*으로 필터링하도록 선택합니다.
+. *구독 필터 정책* 옵션을 활성화합니다.
+. *JSON 편집기* 상자에 JSON 필터 정책을 입력합니다.
++
+예를 들어, 다음 JSON 필터 정책은 WLMDB 작업 부하와 관련된 Microsoft SQL Server 리소스의 알림을 수락하고, 성공 또는 오류의 우선순위를 가지며, Well-architected 상태에 대한 세부 정보를 제공합니다.
+
++
+[source, json]
+----
+{
+  "accountId": [
+    "account-a"
+  ],
+  "resourceType": [
+    "Microsoft SQL Server host"
+  ],
+  "workload": [
+    "WLMDB"
+  ],
+  "priority": [
+    "Success",
+    "Error"
+  ],
+  "notificationType": [
+    "Well-architected"
+  ]
+}
+----
+. *변경 사항 저장*을 선택하세요.
+
+
+필터 정책의 다른 예는 다음을 참조하세요. https://docs.aws.amazon.com/sns/latest/dg/example-filter-policies.html["Amazon SNS 필터 정책 예시"^] .
+
+필터 정책 생성에 대한 자세한 내용은 다음을 참조하세요. https://docs.aws.amazon.com/sns/latest/dg/sns-message-filtering.html["아마존 SNS 문서"^] .
 
 
 

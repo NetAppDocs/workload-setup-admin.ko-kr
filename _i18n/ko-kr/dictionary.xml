@@ -1209,11 +1209,8 @@
   <block id="e457faf451b04c78c6b2c6bc25491ad1" category="section-title">알림을 필터링합니다</block>
   <block id="3180a00483bf6ffa5db8c6178c4eb67a" category="paragraph">알림에 필터를 적용하여 불필요한 알림 트래픽을 줄이고 특정 사용자에게 특정 알림 유형을 타겟팅할 수 있습니다. SNS 알림에는 Amazon SNS 정책을, BlueXP 알림에는 BlueXP 알림 설정을 사용하면 됩니다.</block>
   <block id="4ccc3070ee3f76f6afb040d5f99b3bdd" category="section-title">Amazon SNS 알림 필터링</block>
-  <block id="103130451f8943db9cb57de31a66dc79" category="paragraph">Amazon SNS 주제를 구독하면 기본적으로 해당 주제에 게시된 모든 알림을 받게 됩니다. 주제에서 특정 알림만 수신하려면 필터 정책을 사용하여 수신할 알림을 제어할 수 있습니다.</block>
   <block id="3f6971d458153040675cf8e95795f3b0" category="inline-link">아마존 SNS 문서</block>
-  <block id="c7fbd94f814dfe1f2c13e1ea015a39d7" category="paragraph">필터 정책 생성에 대한 자세한 내용은 다음을 참조하세요. <block ref="c589c7fc86bb393dc58d099c6c8ea47e" category="inline-link-rx"></block> .</block>
   <block id="aacb2329b4899fc1a4b8f0f2f67b0398" category="inline-link">Amazon SNS 필터 정책 예시</block>
-  <block id="0ef8ad02e6dcecafa6e5e696fe553279" category="paragraph">필터 정책의 예는 다음을 참조하세요. <block ref="7c3f3bfbc0dabec1aca15cb9aeb0e326" category="inline-link-rx"></block> .</block>
   <block id="92bb95ca7ce65dc7bedcbf84528f75fd" category="section-title">BlueXP 알림 필터링</block>
   <block id="ac6e44b462d88f56828f381faa7907ca" category="paragraph">BlueXP 경고 및 알림 설정을 사용하면 BlueXP에서 받는 경고 및 알림을 중요, 정보, 경고 등의 심각도 수준에 따라 필터링할 수 있습니다.</block>
   <block id="eeb8e055593f1709925a03e2ebb13265" category="inline-link">BlueXP 설명서</block>
@@ -1225,4 +1222,33 @@
   <block id="eece9c219f85d9ffb785cea21dafab78" category="paragraph">BlueXP workload factory 의 보안은 NetApp 의 최우선 과제입니다. 워크로드 팩토리의 모든 워크로드는 Amazon FSx for NetApp ONTAP 에서 실행됩니다. 또한, <block ref="ccc35ad3502dffbee7f06fd01d3728f9" category="inline-link-macro-rx"></block> , BlueXP workload factory 수신되었습니다. <block ref="87b5f9f30f065d1ad679fca208226814" category="inline-link-macro-rx"></block> .</block>
   <block id="5bc45c9bf327952786de480d68cc107d" category="inline-link-macro">엔터프라이즈 앱 배포를 위한 AWS 솔루션</block>
   <block id="8097660ab0d3d7b21c8c1e1937f57a7a" category="paragraph">BlueXP workload factory 용 Amazon FSx for NetApp ONTAP 는 <block ref="eada645bedd6ca3d760173ba22baf6b0" category="inline-link-macro-rx"></block> 잘 설계된 모범 사례를 염두에 두고 만들어졌습니다.</block>
+  <block id="29281e8d047885f5a1eb2289174ea81b" category="paragraph">Amazon SNS 주제를 구독하면 기본적으로 해당 주제에 게시된 모든 알림을 받게 됩니다.  해당 주제의 특정 알림만 받으려면 필터 정책을 사용하여 받을 알림을 제어할 수 있습니다.  필터 정책을 사용하면 Amazon SNS가 필터 정책과 일치하는 알림만 구독자에게 전달합니다.</block>
+  <block id="3cf5ea90b43a94f968c221cb35825fc3" category="paragraph">다음 기준으로 Amazon SNS 알림을 필터링할 수 있습니다.</block>
+  <block id="f371924f658239435c3c02b060070903" category="cell">필터 정책 필드 이름</block>
+  <block id="e5a4fea3be20093aed1158f2955f3df4" category="cell">가능한 값</block>
+  <block id="8372260cbe8cea7a79534ca84168f5c0" category="cell"><block ref="6f4747111234dff4c7bcdf083b346a94" prefix="" category="inline-code"></block></block>
+  <block id="548c05b614fd845ec14b1bf066a0359a" category="list-text"><block ref="0a5a4d7386065c6c6ac19c303768c7e1" prefix="" category="inline-code"></block></block>
+  <block id="1a9b9aa12f6070dd31084dd22a2812a5" category="list-text"><block ref="e835d924dbed210507b4890fa87226cc" prefix="" category="inline-code"></block></block>
+  <block id="33c939ce687916c112fecadb39b53890" category="list-text"><block ref="9e6273da219351fd1bcd2dc6910acaf3" prefix="" category="inline-code"></block></block>
+  <block id="860a9c42987aebce0c8da0540c5a84f2" category="cell"><block ref="a1c25bfa5aa64d28b6eeb6ccfab62a2b" prefix="" category="inline-code"></block></block>
+  <block id="fdfea20d870634468185f5980bb76cf6" category="cell"><block ref="1b039aabfeae7361177bf028a8a1f6ce" prefix="" category="inline-code"></block></block>
+  <block id="502996d9790340c5fd7b86a5b93b1c9f" category="cell">우선 사항</block>
+  <block id="6dd9cfc9dd7efe6460008e181811c4a0" category="cell"><block ref="b988295c268025b49dfb3df26171ddc3" prefix="" category="inline-code"></block></block>
+  <block id="fbe75968bd07c8022a510a9eb171f5ac" category="list-text"><block ref="505a83f220c02df2f85c3810cd9ceb38" prefix="" category="inline-code"></block></block>
+  <block id="e8e3ca76fb86257b3cc96203366fa277" category="list-text"><block ref="4059b0251f66a18cb56f544728796875" prefix="" category="inline-code"></block></block>
+  <block id="c64d5eb9dc14f012f24968850e94aa1d" category="list-text"><block ref="c76e3867213cff8946148c6510af0736" prefix="" category="inline-code"></block></block>
+  <block id="ef925ecc7a0f852e4cc42d5b5925caa4" category="list-text"><block ref="0eaadb4fcb48a0a0ed7bc9868be9fbaa" prefix="" category="inline-code"></block></block>
+  <block id="f892aecb309efd2eb00bf81d0da7e2d3" category="list-text"><block ref="902b0d55fddef6f8d651fe1035b7d4bd" prefix="" category="inline-code"></block></block>
+  <block id="ae988fdad1245dfcc2f6cd9b316f8a3a" category="list-text"><block ref="278d01e5af56273bae1bb99a98b370cd" prefix="" category="inline-code"></block></block>
+  <block id="12872cc0e76936a8938cd15fccb4c868" category="cell"><block ref="2c4033243bcb1298d8fc9ed74dc33162" prefix="" category="inline-code"></block></block>
+  <block id="705efd3635abaaf44ee75b810cdff54c" category="list-text"><block ref="ea355214fd4bc7c57f471bd92918879b" prefix="" category="inline-code"></block></block>
+  <block id="720b4ee1679e3fd7a1c3ea6320dc37af" category="list-text"><block ref="64096d5dd63fb80716eda8d7d149213d" prefix="" category="inline-code"></block></block>
+  <block id="cf213a8c125f78fbb8341b43ed68ce68" category="list-text">Amazon SNS 콘솔에서 SNS 주제에 대한 구독 세부 정보를 편집합니다.</block>
+  <block id="b08ee187ef6fa7757182e5e859d9b459" category="list-text">*구독 필터 정책* 영역에서 *메시지 속성*으로 필터링하도록 선택합니다.</block>
+  <block id="68c18f90be4f6f573214f60e5f17c2c0" category="list-text">*구독 필터 정책* 옵션을 활성화합니다.</block>
+  <block id="c30414ebd52e1f91206e36d5447fe193" category="list-text">*JSON 편집기* 상자에 JSON 필터 정책을 입력합니다.</block>
+  <block id="f1c903d40dc21b2881decd70039432bf" category="paragraph">예를 들어, 다음 JSON 필터 정책은 WLMDB 작업 부하와 관련된 Microsoft SQL Server 리소스의 알림을 수락하고, 성공 또는 오류의 우선순위를 가지며, Well-architected 상태에 대한 세부 정보를 제공합니다.</block>
+  <block id="302ef561e28f7d7cd13d1042cece78e1" category="list-text">*변경 사항 저장*을 선택하세요.</block>
+  <block id="179469fcde96eae5af1f559799d08b2a" category="paragraph">필터 정책의 다른 예는 다음을 참조하세요.<block ref="7c3f3bfbc0dabec1aca15cb9aeb0e326" category="inline-link-rx"></block> .</block>
+  <block id="b52828f726867aaf1bf7b2a16b29e5e2" category="paragraph">필터 정책 생성에 대한 자세한 내용은 다음을 참조하세요.<block ref="c589c7fc86bb393dc58d099c6c8ea47e" category="inline-link-rx"></block> .</block>
 </blocks>
