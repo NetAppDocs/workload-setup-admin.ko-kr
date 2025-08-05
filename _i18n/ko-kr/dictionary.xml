@@ -1251,4 +1251,13 @@
   <block id="302ef561e28f7d7cd13d1042cece78e1" category="list-text">*변경 사항 저장*을 선택하세요.</block>
   <block id="179469fcde96eae5af1f559799d08b2a" category="paragraph">필터 정책의 다른 예는 다음을 참조하세요.<block ref="7c3f3bfbc0dabec1aca15cb9aeb0e326" category="inline-link-rx"></block> .</block>
   <block id="b52828f726867aaf1bf7b2a16b29e5e2" category="paragraph">필터 정책 생성에 대한 자세한 내용은 다음을 참조하세요.<block ref="c589c7fc86bb393dc58d099c6c8ea47e" category="inline-link-rx"></block> .</block>
+  <block id="f06afead014f9779fefbb6d2a2224bfd" category="cell">복제 관계 생성에 실패했습니다.</block>
+  <block id="4d99e7fabf8a3228a9ae1e670f61053c" category="cell">SnapMirror 복제 관계 생성에 실패했습니다.  자세한 내용은 Tracker를 참조하세요.</block>
+  <block id="8c340dc334134096f68b880b42a8692c" category="cell">복제</block>
+  <block id="278d01e5af56273bae1bb99a98b370cd" category="cell">비판적인</block>
+  <block id="c31576c9f98b33a8fa810835cefa86d2" category="cell">일반 보관</block>
+  <block id="36df1b975561708b246ef1801ea416e5" category="cell">ONTAP 용 FSx</block>
+  <block id="521987edc4d9059fc32abee2d3f5d6ae" category="cell">ONTAP 생성 실패를 위한 FSx</block>
+  <block id="dd34477f0a88e199c56ea0813db3e18d" category="cell">FSx for ONTAP 파일 시스템 생성 프로세스가 실패했습니다.  자세한 내용은 Tracker를 참조하세요.</block>
+  <block id="dfe4f4248d3875aa3b31ac02e60b0e87" category="cell">FSx for ONTAP 파일 시스템 작업</block>
 </blocks>
