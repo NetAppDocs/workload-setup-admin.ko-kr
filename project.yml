@@ -22,7 +22,7 @@ sidebar:
     entries:
     - title: 기본 사항 학습
       entries:
-      - title: BlueXP  워크로드 팩토리에 대해 알아보십시오
+      - title: NetApp Workload Factory에 대해 알아보세요
         url: "/workload-factory-overview.html"
       - title: 작동 모드
         url: "/operational-modes.html"
@@ -32,15 +32,15 @@ sidebar:
         url: "/permissions-reference.html"
     - title: 빠른 시작
       url: "/quick-start.html"
-    - title: 워크로드 팩토리에 가입합니다
+    - title: Workload Factory에 가입하세요
       url: "/sign-up-saas.html"
     - title: AWS 자격 증명을 추가합니다
       url: "/add-credentials.html"
-    - title: 워크로드 팩토리로 워크로드 최적화
+    - title: Workload Factory로 워크로드 최적화
       url: "/whats-next.html"
-  - title: 작업 부하 공장 관리
+  - title: 워크로드 팩토리 관리
     entries:
-    - title: 워크로드 공장 에 로그인합니다
+    - title: Workload Factory에 로그인하세요
       url: "/log-in.html"
     - title: 서비스 계정을 관리합니다
       url: "/manage-service-accounts.html"
@@ -65,5 +65,5 @@ sidebar:
   - title: 법적 고지
     url: "/legal-notices.html"
 product-family:
-  name: BlueXP workload factory
+  name: NetApp Workload Factory
   repo: workload-family

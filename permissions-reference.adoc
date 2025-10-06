@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: permissions-reference.html 
 keywords: permissions, actions 
-summary: BlueXP  작업 부하 공장 기능 및 서비스를 사용하려면 작업 부하 공장에서 클라우드 환경에서 작업을 수행할 수 있도록 권한을 제공해야 합니다. 
+summary: NetApp Workload Factory 기능과 서비스를 사용하려면 Workload Factory가 클라우드 환경에서 작업을 수행할 수 있도록 권한을 제공해야 합니다. 
 ---
-= BlueXP  워크로드 팩트에 대한 권한
+= NetApp Workload Factory에 대한 권한
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,27 +14,27 @@ summary: BlueXP  작업 부하 공장 기능 및 서비스를 사용하려면 �
 
 
 [role="lead"]
-BlueXP  작업 부하 공장 기능 및 서비스를 사용하려면 작업 부하 공장에서 클라우드 환경에서 작업을 수행할 수 있도록 권한을 제공해야 합니다.
+NetApp Workload Factory 기능과 서비스를 사용하려면 Workload Factory가 클라우드 환경에서 작업을 수행할 수 있도록 권한을 제공해야 합니다.
 
 
 
 == 사용 권한을 사용하는 이유
 
-_읽기 전용_ 또는 _읽기/쓰기_ 모드 권한을 제공하면 워크로드 팩토리는 해당 AWS 계정 내의 리소스와 프로세스를 관리할 수 있는 권한이 있는 정책을 인스턴스에 연결합니다. 이를 통해 워크로드 팩토리는 스토리지 환경 검색부터 GenAI 워크로드에 대한 스토리지 관리 또는 기술 자료의 파일 시스템 같은 AWS 리소스 구축까지 다양한 작업을 실행할 수 있습니다.
+_읽기 전용_ 또는 _읽기/쓰기_ 모드 권한을 제공하면 Workload Factory는 해당 AWS 계정 내의 리소스와 프로세스를 관리할 수 있는 권한이 있는 정책을 인스턴스에 연결합니다.  이를 통해 Workload Factory는 스토리지 환경 검색부터 스토리지 관리의 파일 시스템이나 GenAI 워크로드의 지식 기반과 같은 AWS 리소스 배포까지 다양한 작업을 실행할 수 있습니다.
 
-예를 들어, 데이터베이스 워크로드의 경우 필요한 권한이 워크로드 팩토리에 부여된 경우 지정된 계정 및 지역의 모든 EC2 인스턴스를 스캔하고 모든 Windows 기반 시스템을 필터링합니다. AWS Systems Manager(SSM) 에이전트가 호스트에 설치되어 실행되고 System Manager 네트워킹이 올바르게 구성된 경우, 워크로드 팩토리에서는 Windows 시스템에 액세스하여 SQL Server 소프트웨어의 설치 여부를 확인할 수 있습니다.
+예를 들어 데이터베이스 워크로드의 경우 Workload Factory에 필요한 권한이 부여되면 지정된 계정 및 지역의 모든 EC2 인스턴스를 스캔하고 모든 Windows 기반 머신을 필터링합니다.  AWS Systems Manager(SSM) 에이전트가 호스트에 설치되어 실행 중이고 System Manager 네트워킹이 올바르게 구성된 경우 Workload Factory는 Windows 머신에 액세스하여 SQL Server 소프트웨어가 설치되었는지 확인할 수 있습니다.
 
 
 
 == 워크로드별 권한
 
-각 워크로드는 작업 부하 공장에서 특정 작업을 수행하기 위해 권한을 사용합니다. 사용 중인 작업 부하로 스크롤하여 사용 권한 목록, 용도, 사용 위치 및 사용 권한 지원 모드를 확인합니다.
+각 워크로드는 Workload Factory에서 특정 작업을 수행하기 위해 권한을 사용합니다.  사용하는 작업 부하로 스크롤하여 권한 목록, 권한의 목적, 사용 위치, 권한을 지원하는 모드를 확인하세요.
 
 
 
 === 저장소 사용 권한
 
-스토리지에 사용할 수 있는 IAM 정책은 작업 중인 운영 모드에 따라 퍼블릭 클라우드 환경 내에서 리소스 및 프로세스를 관리하는 데 필요한 권한을 워크로드 공장이 제공합니다.
+Storage에 사용할 수 있는 IAM 정책은 Workload Factory가 퍼블릭 클라우드 환경 내에서 리소스와 프로세스를 관리하는 데 필요한 권한을 제공하며, 이는 사용자가 운영하는 운영 모드에 따라 달라집니다.
 
 필요한 IAM 정책을 보려면 운영 모드를 선택하십시오.
 
@@ -364,7 +364,7 @@ _읽기 전용_ 또는 _읽기/쓰기_ 모드 권한을 제공하면 워크로�
 
 === 데이터베이스 워크로드에 대한 권한
 
-데이터베이스 워크로드에 사용할 수 있는 IAM 정책은 워크로드 팩토리가 퍼블릭 클라우드 환경 내에서 리소스와 프로세스를 관리하는 데 필요한 권한을 제공하며, 이는 사용자가 운영하는 운영 모드에 따라 달라집니다.
+데이터베이스 워크로드에 사용할 수 있는 IAM 정책은 Workload Factory가 퍼블릭 클라우드 환경 내에서 리소스와 프로세스를 관리하는 데 필요한 권한을 제공하며, 이는 사용자가 운영하는 운영 모드에 따라 달라집니다.
 
 필요한 IAM 정책을 보려면 운영 모드를 선택하십시오.
 
@@ -467,7 +467,7 @@ _읽기 전용_ 또는 _읽기/쓰기_ 모드 권한을 제공하면 워크로�
   "Version": "2012-10-17",
   "Statement": [
     {
-      "Sid": "EC2Group",
+      "Sid": "EC2TagGroup",
       "Effect": "Allow",
       "Action": [
         "ec2:AllocateAddress",
@@ -539,6 +539,7 @@ _읽기 전용_ 또는 _읽기/쓰기_ 모드 권한을 제공하면 워크로�
         "cloudformation:ValidateTemplate",
         "cloudformation:DescribeAccountLimits",
         "cloudwatch:GetMetricStatistics",
+        "cloudwatch:GetMetricData",
         "ds:DescribeDirectories",
         "ec2:CreateLaunchTemplate",
         "ec2:CreateLaunchTemplateVersion",
@@ -546,27 +547,50 @@ _읽기 전용_ 또는 _읽기/쓰기_ 모드 권한을 제공하면 워크로�
         "ec2:CreateSecurityGroup",
         "ec2:CreateTags",
         "ec2:CreateVpcEndpoint",
-        "ec2:Describe*",
-        "ec2:Get*",
+        "ec2:DescribeInstances",
+        "ec2:DescribeVolumes",
+        "ec2:DescribeSecurityGroups",
+        "ec2:DescribeImages",
+        "ec2:DescribeKeyPairs",
+        "ec2:DescribeVpcs",
+        "ec2:DescribeSubnets",
+        "ec2:DescribeTags",
+        "ec2:DescribeAddresses",
+        "ec2:DescribeNetworkInterfaces",
+        "ec2:DescribeRegions",
+        "ec2:DescribeRouteTables",
+        "ec2:DescribeInstanceTypes",
+        "ec2:DescribeVpcEndpoints",
+        "ec2:DescribeInstanceTypeOfferings",
+        "ec2:DescribeSnapshots",
+        "ec2:DescribeLaunchTemplates",
         "ec2:RunInstances",
         "ec2:ModifyVpcAttribute",
-        "ec2messages:*",
         "fsx:CreateFileSystem",
         "fsx:UpdateFileSystem",
         "fsx:CreateStorageVirtualMachine",
         "fsx:CreateVolume",
         "fsx:UpdateVolume",
-        "fsx:Describe*",
-        "fsx:List*",
+        "fsx:DescribeFileSystems",
+        "fsx:DescribeStorageVirtualMachines",
+        "fsx:DescribeVolumes",
+        "fsx:DescribeFileSystemAliases",
+        "fsx:DescribeBackups",
+        "fsx:ListTagsForResource",
         "kms:CreateGrant",
-        "kms:Describe*",
-        "kms:List*",
+        "kms:DescribeKey",
+        "kms:DescribeCustomKeyStores",
+        "kms:ListAliases",
+        "kms:ListKeys",
         "kms:GenerateDataKey",
         "kms:Decrypt",
         "logs:CreateLogGroup",
         "logs:CreateLogStream",
-        "logs:DescribeLog*",
-        "logs:GetLog*",
+        "logs:DescribeLogGroups",
+        "logs:DescribeLogStreams",
+        "logs:GetLogEvents",
+        "logs:GetLogGroupFields",
+        "logs:GetLogRecord",
         "logs:ListLogDeliveries",
         "logs:PutLogEvents",
         "logs:TagResource",
@@ -574,9 +598,13 @@ _읽기 전용_ 또는 _읽기/쓰기_ 모드 권한을 제공하면 워크로�
         "servicequotas:ListServiceQuotas",
         "sns:ListTopics",
         "sns:Publish",
-        "ssm:Describe*",
-        "ssm:Get*",
-        "ssm:List*",
+        "ssm:DescribeInstanceInformation",
+        "ssm:DescribeInstancePatchStates",
+        "ssm:DescribePatchBaselines",
+        "ssm:GetParametersByPath",
+        "ssm:GetCommandInvocation",
+        "ssm:GetConnectionStatus",
+        "ssm:ListCommands",
         "ssm:PutComplianceItems",
         "ssm:PutConfigurePackageResult",
         "ssm:PutInventory",
@@ -584,13 +612,23 @@ _읽기 전용_ 또는 _읽기/쓰기_ 모드 권한을 제공하면 워크로�
         "ssm:UpdateAssociationStatus",
         "ssm:UpdateInstanceAssociationStatus",
         "ssm:UpdateInstanceInformation",
-        "ssmmessages:*",
+        "ssmmessages:CreateControlChannel",
+        "ssmmessages:CreateDataChannel",
+        "ssmmessages:OpenControlChannel",
+        "ssmmessages:OpenDataChannel",
         "compute-optimizer:GetEnrollmentStatus",
         "compute-optimizer:PutRecommendationPreferences",
         "compute-optimizer:GetEffectiveRecommendationPreferences",
         "compute-optimizer:GetEC2InstanceRecommendations",
         "autoscaling:DescribeAutoScalingGroups",
-        "autoscaling:DescribeAutoScalingInstances"
+        "autoscaling:DescribeAutoScalingInstances",
+        "bedrock:GetFoundationModelAvailability",
+        "bedrock:ListInferenceProfiles",
+        "iam:GetPolicy",
+        "iam:GetPolicyVersion",
+        "iam:GetRole",
+        "iam:GetRolePolicy",
+        "iam:GetUser"
       ],
       "Resource": "*"
     },
@@ -606,28 +644,28 @@ _읽기 전용_ 또는 _읽기/쓰기_ 모드 권한을 제공하면 워크로�
       ]
     },
     {
-      "Sid": "IAMGroup",
+      "Sid": "IAMGroup1",
       "Effect": "Allow",
       "Action": [
         "iam:AddRoleToInstanceProfile",
         "iam:CreateInstanceProfile",
-        "iam:CreateRole",
         "iam:DeleteInstanceProfile",
-        "iam:GetPolicy",
-        "iam:GetPolicyVersion",
-        "iam:GetRole",
-        "iam:GetRolePolicy",
-        "iam:GetUser",
         "iam:PutRolePolicy",
         "iam:RemoveRoleFromInstanceProfile"
       ],
-      "Resource": "*"
+      "Resource": [
+        "arn:aws:iam::*:instance-profile/*",
+        "arn:aws:iam::*:role/WLMDB*"
+      ]
     },
     {
-      "Sid": "IAMGroup1",
+      "Sid": "IAMGroup2",
       "Effect": "Allow",
       "Action": "iam:CreateServiceLinkedRole",
-      "Resource": "*",
+      "Resource": [
+        "arn:aws:iam::*:instance-profile/*",
+        "arn:aws:iam::*:role/WLMDB*"
+      ],
       "Condition": {
         "StringLike": {
           "iam:AWSServiceName": "ec2.amazonaws.com"
@@ -635,15 +673,24 @@ _읽기 전용_ 또는 _읽기/쓰기_ 모드 권한을 제공하면 워크로�
       }
     },
     {
-      "Sid": "IAMGroup2",
+      "Sid": "IAMGroup3",
       "Effect": "Allow",
       "Action": "iam:PassRole",
-      "Resource": "*",
+      "Resource": [
+        "arn:aws:iam::*:instance-profile/*",
+        "arn:aws:iam::*:role/WLMDB*"
+      ],
       "Condition": {
         "StringEquals": {
           "iam:PassedToService": "ec2.amazonaws.com"
         }
       }
+    },
+    {
+      "Sid": "IAMGroup4",
+      "Effect": "Allow",
+      "Action": "iam:CreateRole",
+      "Resource": "arn:aws:iam::*:role/WLMDB*"
     },
     {
       "Sid": "SSMParameterStore",
@@ -1242,29 +1289,17 @@ _읽기 전용_ 또는 _읽기/쓰기_ 모드 권한을 제공하면 워크로�
 | 유효성 검사 노드를 위해 임시로 만든 보안 그룹을 삭제합니다 | EC2: DeleteSecurityGroup | 구축 | 읽기/쓰기 
 
 
-.2+| 프로비저닝을 위한 인스턴스 세부 정보를 가져옵니다 | EC2:설명 *  a| 
-* 구축
-* 인벤토리
-* 비용 절감 효과를
-
+.2+| 프로비저닝을 위한 인스턴스 세부 정보를 가져옵니다 | ec2:주소 설명  a| 
+구축
 | 읽기/쓰기 
 
 
-| EC2: GET *  a| 
-* 구축
-* 인벤토리
-* 비용 절감 효과를
-
+| ec2:DescribeLaunchTemplates  a| 
+구축
 | 읽기/쓰기 
 
 
 | 생성된 인스턴스를 시작합니다 | EC2: 런인스턴스 | 구축 | 읽기/쓰기 
-
-
-| System Manager는 API 작업에 AWS 메시지 전달 서비스 엔드포인트를 사용합니다 | ec2messages: *  a| 
-* 배포 * 인벤토리
-
-| 읽기/쓰기 
 
 
 .3+| 프로비저닝에 필요한 FSx for ONTAP 리소스를 생성합니다. 기존 FSx for ONTAP 시스템의 경우 SQL 볼륨을 호스팅하는 새로운 SVM이 생성됩니다. | FSX:CreateFileSystem 을 참조하십시오 | 구축 | 읽기/쓰기 
@@ -1280,226 +1315,206 @@ _읽기 전용_ 또는 _읽기/쓰기_ 모드 권한을 제공하면 워크로�
 | 읽기/쓰기 
 
 
-.2+| FSx for ONTAP 정보를 확인하십시오 | FSX: 설명 *  a| 
-* 구축
-* 인벤토리
-* 운영 관리
-* 비용 절감 효과를
-
+.2+| FSx for ONTAP 정보를 확인하십시오 | fsx:파일 시스템 별칭 설명  a| 
+구축
 | 읽기/쓰기 
 
 
-| FSX:목록 *  a| 
+| 파일 시스템 여유 공간을 해결하기 위해 FSx for ONTAP 파일 시스템의 크기를 조정합니다 | FSx:UpdateFilesystem입니다 | 최적화 
+
+
+| 읽기/쓰기 | 로그 및 TempDB 드라이브 크기를 수정하기 위해 볼륨 크기를 조정합니다 | FSX:UpdateVolume을 참조하십시오 | 최적화 
+
+
+| 읽기/쓰기 .3+| KMS 키 세부 정보를 얻고 FSx for ONTAP 암호화를 사용합니다 | KMS: CreateGrant | 구축 
+
+
+| 읽기/쓰기 | kms:사용자 정의 키 저장소 설명 | 구축 
+
+
+| 읽기/쓰기 | KMS : GenerateDataKey | 구축 
+
+
+| 읽기/쓰기 .8+| EC2 인스턴스에서 실행되는 검증 및 프로비저닝 스크립트를 위한 CloudWatch 로그를 생성합니다 | 로그:CreateLogGroup | 구축 
+
+
+| 읽기/쓰기 | 로그: CreateLogStream | 구축 
+
+
+| 읽기/쓰기 | 로그:DescripbeLogStreams  a| 
 * 구축
-* 인벤토리
-
-| 읽기/쓰기 
+* 평가
 
 
-| 파일 시스템 여유 공간을 해결하기 위해 FSx for ONTAP 파일 시스템의 크기를 조정합니다 | FSx:UpdateFilesystem입니다 | 최적화 | 읽기/쓰기 
 
 
-| 로그 및 TempDB 드라이브 크기를 수정하기 위해 볼륨 크기를 조정합니다 | FSX:UpdateVolume을 참조하십시오 | 최적화 | 읽기/쓰기 
+| 읽기/쓰기 | 로그:GetLogGroupFields | 구축 
 
 
-.4+| KMS 키 세부 정보를 얻고 FSx for ONTAP 암호화를 사용합니다 | KMS: CreateGrant | 구축 | 읽기/쓰기 
+| 읽기/쓰기 | 로그:GetLogRecord | 구축 
 
 
-| KMS: 설명 * | 구축 | 읽기/쓰기 
+| 읽기/쓰기 | 로그:ListLogDeliveries입니다 | 구축 
 
 
-| KMS: 목록 * | 구축 | 읽기/쓰기 
-
-
-| KMS : GenerateDataKey | 구축 | 읽기/쓰기 
-
-
-.7+| EC2 인스턴스에서 실행되는 검증 및 프로비저닝 스크립트를 위한 CloudWatch 로그를 생성합니다 | 로그:CreateLogGroup | 구축 | 읽기/쓰기 
-
-
-| 로그: CreateLogStream | 구축 | 읽기/쓰기 
-
-
-| 로그:DescripbeLog * | 구축 | 읽기/쓰기 
-
-
-| 로그: getlog * | 구축 | 읽기/쓰기 
-
-
-| 로그:ListLogDeliveries입니다 | 구축 | 읽기/쓰기 
-
-
-| 로그: PutLogEvents  a| 
+| 읽기/쓰기 | 로그: PutLogEvents  a| 
 * 구축
 * 운영 관리
 
-| 읽기/쓰기 
 
 
-| 로그:TagResource | 구축 | 읽기/쓰기 
+
+| 읽기/쓰기 | 로그:TagResource | 구축 
 
 
-| SSM 출력 잘림이 발생하면 워크로드 팩터리가 SQL 인스턴스에 대한 Amazon CloudWatch 로그로 전환됩니다 | 로그:GetLogEvents  a| 
+| 읽기/쓰기 | SSM 출력 잘림이 발생하면 Workload Factory가 SQL 인스턴스에 대한 Amazon CloudWatch 로그로 전환됩니다. | 로그:GetLogEvents  a| 
 * 스토리지 평가(최적화)
 * 인벤토리
+
+
+
 
  a| 
 * 읽기 전용
 * 읽기/쓰기
 
-
-
-
-| 워크로드 팩토리얼에서 현재 로그 그룹을 가져올 수 있도록 허용하고 워크로드 팩토리얼에서 생성한 로그 그룹에 대해 보존이 설정되어 있는지 확인합니다 | 로그:DescripbeLogGroups  a| 
+| Workload Factory가 현재 로그 그룹을 가져오고 Workload Factory에서 생성한 로그 그룹에 대한 보존이 설정되었는지 확인하도록 허용합니다. | 로그:DescripbeLogGroups  a| 
 * 스토리지 평가(최적화)
 * 인벤토리
 
-| 읽기 전용 
 
 
-| SSM 명령 출력에 대한 불필요한 로그 스트림이 누적되지 않도록 워크로드 팩터리에서 워크로드 팩터리에서 생성된 로그 그룹에 대해 1일 보존 정책을 설정할 수 있습니다 | 로그: PutRetentionPolicy  a| 
+
+| 읽기 전용 | SSM 명령 출력에 대한 로그 스트림의 불필요한 누적을 방지하기 위해 Workload Factory에서 생성된 로그 그룹에 대해 1일 보존 정책을 설정하도록 Workload Factory에 허용합니다. | 로그: PutRetentionPolicy  a| 
 * 스토리지 평가(최적화)
 * 인벤토리
+
+
+
 
  a| 
 * 읽기 전용
 * 읽기/쓰기
 
+| SQL, 도메인 및 FSx for ONTAP에 대해 제공된 자격 증명에 대한 암호를 사용자 계정에 생성합니다 | servicequotas:ListServiceQuotas 입니다 | 구축 
 
 
-
-| SQL, 도메인 및 FSx for ONTAP에 대해 제공된 자격 증명에 대한 암호를 사용자 계정에 생성합니다 | servicequotas:ListServiceQuotas 입니다 | 구축 | 읽기/쓰기 
-
-
-.2+| 고객 SNS 항목을 나열하고 WLMDB 백엔드 SNS 및 고객 SNS에 게시합니다(선택한 경우) | SNS: ListTopics 를 참조하십시오 | 구축 | 읽기/쓰기 
+| 읽기/쓰기 .2+| 고객 SNS 항목을 나열하고 WLMDB 백엔드 SNS 및 고객 SNS에 게시합니다(선택한 경우) | SNS: ListTopics 를 참조하십시오 | 구축 
 
 
-| SNS: 게시 | 구축 | 읽기/쓰기 
+| 읽기/쓰기 | SNS: 게시 | 구축 
 
 
-.11+| 프로비저닝된 SQL 인스턴스에서 검색 스크립트를 실행하고 FSx for ONTAP 지원 AWS 지역의 최신 목록을 가져오려면 SSM 권한이 필요합니다. | SSM: 설명 * | 구축 | 읽기/쓰기 
+| 읽기/쓰기 .11+| 프로비저닝된 SQL 인스턴스에서 검색 스크립트를 실행하고 FSx for ONTAP 지원 AWS 지역의 최신 목록을 가져오려면 SSM 권한이 필요합니다. | SSM: PutComplianceItems 를 참조하십시오 | 구축 
 
 
-| SSM: GET *  a| 
-* 구축
-* 운영 관리
-
-| 읽기/쓰기 
+| 읽기/쓰기 | SSM: PutConfigurePackageResult 를 참조하십시오 | 구축 
 
 
-| SSM: 목록 * | 구축 | 읽기/쓰기 
+| 읽기/쓰기 | SSM: 재고 입고 | 구축 
 
 
-| SSM: PutComplianceItems 를 참조하십시오 | 구축 | 읽기/쓰기 
-
-
-| SSM: PutConfigurePackageResult 를 참조하십시오 | 구축 | 읽기/쓰기 
-
-
-| SSM: 재고 입고 | 구축 | 읽기/쓰기 
-
-
-| SSM: SendCommand 를 참조하십시오  a| 
+| 읽기/쓰기 | SSM: SendCommand 를 참조하십시오  a| 
 * 구축
 * 인벤토리
 * 운영 관리
 
-| 읽기/쓰기 
 
 
-| SSM: 업데이트 연결 상태 | 구축 | 읽기/쓰기 
+
+| 읽기/쓰기 | SSM: 업데이트 연결 상태 | 구축 
 
 
-| SSM: UpdateInstanceAssociationStatus 를 참조하십시오 | 구축 | 읽기/쓰기 
+| 읽기/쓰기 | SSM: UpdateInstanceAssociationStatus 를 참조하십시오 | 구축 
 
 
-| SSM: UpdateInstanceInformation 을 참조하십시오 | 구축 | 읽기/쓰기 
+| 읽기/쓰기 | SSM: UpdateInstanceInformation 을 참조하십시오 | 구축 
 
 
-| ssmmessages: *  a| 
+| 읽기/쓰기 | ssmmessages:CreateControlChannel | 구축 
+
+
+| 읽기/쓰기 | ssmmessages:CreateDataChannel | 구축 
+
+
+| 읽기/쓰기 | ssmmessages:OpenControlChannel | 구축 
+
+
+| 읽기/쓰기 | ssmmessages:오픈데이터채널 | 구축 
+
+
+| 읽기/쓰기 .4+| FSx for ONTAP, Active Directory 및 SQL 사용자에 대한 자격 증명 저장(SQL 사용자 인증에만 해당) | SSM: GetParameter(GetParameter  a| 
 * 구축
-* 인벤토리
 * 운영 관리
-
-| 읽기/쓰기 
-
-
-.4+| FSx for ONTAP, Active Directory 및 SQL 사용자에 대한 자격 증명 저장(SQL 사용자 인증에만 해당) | SSM: GetParameter(GetParameter  a| 
-* 구축
-* 운영 관리
-* 인벤토리
-
-| 읽기/쓰기 
-
-
-| SSM: GetParameters(GetParameters  a| 
-* 구축
 * 인벤토리
 
-| 읽기/쓰기 
 
 
-| SSM: PutParameter 1  a| 
+
+| 읽기/쓰기 | SSM: GetParameters(GetParameters  a| 
+* 구축
+* 인벤토리
+
+
+
+
+| 읽기/쓰기 | SSM: PutParameter 1  a| 
 * 구축
 * 운영 관리
 
-| 읽기/쓰기 
 
 
-| SSM: 매개 변수 삭제  a| 
+
+| 읽기/쓰기 | SSM: 매개 변수 삭제  a| 
 * 구축
 * 운영 관리
 
-| 읽기/쓰기 
 
 
-| 성공 또는 실패에 대한 신호 CloudFormation 스택. | 이 부분의 본문은 서명자 입니다 | 구축 | 읽기/쓰기 
+
+| 읽기/쓰기 | 성공 또는 실패에 대한 신호 CloudFormation 스택. | 이 부분의 본문은 서명자 입니다 | 구축 
 
 
-| 템플릿으로 생성된 EC2 역할을 EC2의 인스턴스 프로필에 추가하여 EC2의 스크립트가 배포에 필요한 리소스에 액세스할 수 있도록 합니다. | IAM:AddRoleToInstanceProfile 을 참조하십시오 | 구축 | 읽기/쓰기 
+| 읽기/쓰기 | 템플릿으로 생성된 EC2 역할을 EC2의 인스턴스 프로필에 추가하여 EC2의 스크립트가 배포에 필요한 리소스에 액세스할 수 있도록 합니다. | IAM:AddRoleToInstanceProfile 을 참조하십시오 | 구축 
 
 
-| EC2의 인스턴스 프로필을 생성하고 생성된 EC2 역할을 연결합니다. | IAM:CreateInstanceProfile | 구축 | 읽기/쓰기 
+| 읽기/쓰기 | EC2의 인스턴스 프로필을 생성하고 생성된 EC2 역할을 연결합니다. | IAM:CreateInstanceProfile | 구축 
 
 
-| 아래에 나열된 권한이 있는 템플릿을 통해 EC2 역할을 생성합니다 | IAM: CreateRole | 구축 | 읽기/쓰기 
+| 읽기/쓰기 | 아래에 나열된 권한이 있는 템플릿을 통해 EC2 역할을 생성합니다 | IAM: CreateRole | 구축 
 
 
-| EC2 서비스에 연결된 역할을 생성합니다 | IAM: CreateServiceLinkedRole (영어 | 구축 | 읽기/쓰기 
+| 읽기/쓰기 | EC2 서비스에 연결된 역할을 생성합니다 | IAM: CreateServiceLinkedRole (영어 | 구축 
 
 
-| 특히 검증 노드에 대해 구축 중에 생성된 인스턴스 프로필을 삭제합니다 | IAM: DeleteInstanceProfile | 구축 | 읽기/쓰기 
+| 읽기/쓰기 | 특히 검증 노드에 대해 구축 중에 생성된 인스턴스 프로필을 삭제합니다 | IAM: DeleteInstanceProfile | 구축 
 
 
-.5+| 역할 및 정책 세부 정보를 확인하여 사용 권한의 공백을 확인하고 배포를 검증합니다 | IAM: GetPolicy 를 참조하십시오 | 구축 | 읽기/쓰기 
+| 읽기/쓰기 .5+| 역할 및 정책 세부 정보를 확인하여 사용 권한의 공백을 확인하고 배포를 검증합니다 | IAM: GetPolicy 를 참조하십시오 | 구축 
 
 
-| IAM: GetPolicyVersion 을 참조하십시오 | 구축 | 읽기/쓰기 
+| 읽기/쓰기 | IAM: GetPolicyVersion 을 참조하십시오 | 구축 
 
 
-| IAM:GetRole | 구축 | 읽기/쓰기 
+| 읽기/쓰기 | IAM:GetRole | 구축 
 
 
-| IAM: GetRolePolicy 를 참조하십시오 | 구축 | 읽기/쓰기 
+| 읽기/쓰기 | IAM: GetRolePolicy 를 참조하십시오 | 구축 
 
 
-| IAM: GetUser | 구축 | 읽기/쓰기 
+| 읽기/쓰기 | IAM: GetUser | 구축 
 
 
-| 생성된 역할을 EC2 인스턴스로 전달합니다 | IAM: 패스역할 3 | 구축 | 읽기/쓰기 
+| 읽기/쓰기 | 생성된 역할을 EC2 인스턴스로 전달합니다 | IAM: 패스역할 3 | 구축 
 
 
-| 생성된 EC2 역할에 필요한 권한이 있는 정책을 추가합니다 | IAM: PutRolePolicy(입수 정책) | 구축 | 읽기/쓰기 
+| 읽기/쓰기 | 생성된 EC2 역할에 필요한 권한이 있는 정책을 추가합니다 | IAM: PutRolePolicy(입수 정책) | 구축 
 
 
-| 프로비저닝된 EC2 인스턴스 프로필에서 역할을 분리합니다 | IAM:RemoveRoleFromInstanceProfile 을 참조하십시오 | 구축 | 읽기/쓰기 
+| 읽기/쓰기 | 프로비저닝된 EC2 인스턴스 프로필에서 역할을 분리합니다 | IAM:RemoveRoleFromInstanceProfile 을 참조하십시오 | 구축 
 
 
-| 워크로드 작업을 시뮬레이션하여 사용 가능한 권한을 검증하고 필요한 AWS 계정 권한과 비교하십시오 | IAM: SimulatePrincipalPolicy(IAM: 시뮬레이션 정책) | 구축  a| 
-* 읽기 전용
-* 읽기/쓰기
-
-
+| 읽기/쓰기 | 워크로드 작업을 시뮬레이션하여 사용 가능한 권한을 검증하고 필요한 AWS 계정 권한과 비교하십시오 | IAM: SimulatePrincipalPolicy(IAM: 시뮬레이션 정책) | 구축 
 |===
 . 권한이 WLMDB로 시작하는 리소스로 제한됩니다.
 . "IAM:CreateServiceLinkedRole" 제한:"ec2.amazonaws.com"*
@@ -1511,7 +1526,7 @@ _읽기 전용_ 또는 _읽기/쓰기_ 모드 권한을 제공하면 워크로�
 
 === GenAI 워크로드에 대한 권한
 
-VMware 워크로드에 대한 IAM 정책은 VMware 워크로드 공장이 운영하는 운영 모드에 따라 퍼블릭 클라우드 환경 내에서 리소스와 프로세스를 관리하는 데 필요한 권한을 제공합니다.
+VMware 워크로드에 대한 IAM 정책은 VMware용 Workload Factory가 사용자의 운영 모드에 따라 퍼블릭 클라우드 환경 내의 리소스와 프로세스를 관리하는 데 필요한 권한을 제공합니다.
 
 GenAI IAM 정책은 _읽기/쓰기_ 모드에서만 사용할 수 있습니다.
 
@@ -1866,9 +1881,6 @@ GenAI IAM 정책은 _읽기/쓰기_ 모드에서만 사용할 수 있습니다.
 | EC2: AuthorizeSecurityGroupIngress 를 참조하십시오 | 구축 | 읽기/쓰기 
 
 
-| AI 엔진 배포 중에 Amazon Bedrock/Amazon CloudWatch 로깅 상태를 쿼리합니다 | Bedrock: GetModelInvocationLoggingConfiguration을 참조하십시오 | 구축 | 읽기/쓰기 
-
-
 | 기초 모델 중 하나에 대한 채팅 요청을 시작합니다 | Bedrock: InvokeModelWithResponseStream 을 호출합니다 | 구축 | 읽기/쓰기 
 
 
@@ -1977,18 +1989,6 @@ GenAI IAM 정책은 _읽기/쓰기_ 모드에서만 사용할 수 있습니다.
 | 로그:TagResource | 구축 | 읽기/쓰기 
 
 
-| Amazon CloudWatch로 Bedrock 로그를 전송하세요 | Bedrock: PutModelInvocationLoggingConfiguration의 약어입니다 | 문제 해결 | 읽기/쓰기 
-
-
-| 아마존 Bedrock 로그를 Amazon CloudWatch로 전송할 수 있는 역할을 생성합니다 | IAM: AttachRolePolicy | 문제 해결 | 읽기/쓰기 
-
-
-| 아마존 Bedrock 로그를 Amazon CloudWatch로 전송할 수 있는 역할을 생성합니다 | IAM: 암호 역할 | 문제 해결 | 읽기/쓰기 
-
-
-| 아마존 Bedrock 로그를 Amazon CloudWatch로 전송할 수 있는 역할을 생성합니다 | IAM: createPolicy | 문제 해결 | 읽기/쓰기 
-
-
 | 모델에 대한 추론 프로파일을 나열합니다 | Bedrock: ListInferenceProfiles 를 참조하십시오 | 문제 해결 | 읽기/쓰기 
 |===
 ====
@@ -1996,7 +1996,7 @@ GenAI IAM 정책은 _읽기/쓰기_ 모드에서만 사용할 수 있습니다.
 
 === VMware 워크로드에 대한 권한
 
-VMware 워크로드에 대한 IAM 정책은 VMware 워크로드 공장이 운영하는 운영 모드에 따라 퍼블릭 클라우드 환경 내에서 리소스와 프로세스를 관리하는 데 필요한 권한을 제공합니다.
+VMware 워크로드에 대한 IAM 정책은 VMware용 Workload Factory가 사용자의 운영 모드에 따라 퍼블릭 클라우드 환경 내의 리소스와 프로세스를 관리하는 데 필요한 권한을 제공합니다.
 
 필요한 IAM 정책을 보려면 운영 모드를 선택하십시오.
 
@@ -2312,6 +2312,19 @@ VMware 워크로드에 대한 IAM 정책은 VMware 워크로드 공장이 운영
 
 
 
+=== 2025년 10월 5일
+
+다음 권한은 GenAI에서 제거되었으며 이제 GenAI 엔진에서 처리됩니다.
+
+* `bedrock:GetModelInvocationLoggingConfiguration`
+* `bedrock:PutModelInvocationLoggingConfiguration`
+* `iam:AttachRolePolicy`
+* `iam:PassRole`
+* `iam:CreatePolicy`
+
+
+
+
 === 2025년 6월 29일
 
 다음 권한은 이제 데이터베이스에 대한 _읽기 전용_ 모드에서 사용 가능합니다.  `cloudwatch:GetMetricData` .
@@ -2366,7 +2379,7 @@ GenAI의 _읽기/쓰기 모드_에서 다음 권한이 제거되었습니다.  `
 
 ==== IAM: SimulatePrincipalPolicy 권한 업데이트
 
- `iam:SimulatePrincipalPolicy`권한은 AWS 계정 자격 증명을 추가하거나 워크로드 팩토리 콘솔에서 새 워크로드 기능을 추가할 때 자동 권한 검사를 활성화할 경우 모든 워크로드 권한 정책의 일부입니다. 이 권한은 워크로드 작업을 시뮬레이션하고 워크로드 팩토리에서 리소스를 구축하기 전에 필요한 AWS 계정 권한이 있는지 확인합니다. 이 검사를 사용하면 실패한 작업에서 리소스를 정리하고 누락된 권한을 추가하는 데 필요한 시간과 노력을 줄일 수 있습니다.
+그만큼 `iam:SimulatePrincipalPolicy` Workload Factory 콘솔에서 추가 AWS 계정 자격 증명을 추가하거나 새로운 워크로드 기능을 추가할 때 자동 권한 확인을 활성화하는 경우 권한은 모든 워크로드 권한 정책의 일부입니다.  이 권한은 워크로드 작업을 시뮬레이션하고 Workload Factory에서 리소스를 배포하기 전에 필요한 AWS 계정 권한이 있는지 확인합니다.  이 검사를 활성화하면 실패한 작업으로 인해 발생한 리소스를 정리하고 누락된 권한을 추가하는 데 필요한 시간과 노력이 줄어듭니다.
 
 
 

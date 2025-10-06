@@ -2,16 +2,16 @@
 sidebar: sidebar 
 permalink: whats-next.html 
 keywords: what you can do 
-summary: 로그인하고 워크로드 팩토리를 설정한 후에는 FSx for ONTAP 파일 시스템을 만들고 관리하고, 다른 워크로드 팩토리 기능을 사용할 수 있습니다. 
+summary: NetApp Workload Factory에 로그인하고 설정하면 FSx for ONTAP 파일 시스템을 만들고 관리하고, 다른 Workload Factory 기능을 사용할 수 있습니다. 
 ---
-= 워크로드 팩토리로 워크로드 최적화
+= NetApp Workload Factory로 워크로드 최적화
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
 
 
 [role="lead"]
-로그인하고 워크로드 팩토리를 설정한 후에는 Amazon FSx for ONTAP 파일 시스템 생성, FSx for ONTAP 파일 시스템에 데이터베이스 배포, FSx for ONTAP 파일 시스템을 외부 데이터 저장소로 사용하여 가상 머신 구성을 AWS의 VMware Cloud로 마이그레이션하는 등 여러 ONTAP 팩토리 기능을 사용할 수 있습니다.
+로그인하고 NetApp Workload Factory를 설정한 후에는 Amazon FSx for ONTAP 파일 시스템 생성, FSx for ONTAP 파일 시스템에 데이터베이스 배포, FSx for ONTAP 파일 시스템을 외부 데이터 저장소로 사용하여 가상 머신 구성을 AWS의 VMware Cloud로 마이그레이션하는 등 여러 가지 ONTAP Factory 기능을 사용할 수 있습니다.
 
 * https://docs.netapp.com/us-en/workload-fsx-ontap/index.html["NetApp ONTAP용 Amazon FSx"^]
 +

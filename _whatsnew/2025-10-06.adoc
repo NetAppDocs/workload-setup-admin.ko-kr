@@ -1,0 +1,15 @@
+= BlueXP workload factory NetApp 워크로드 팩토리로 변경되었습니다.
+:allow-uri-read: 
+
+
+
+
+=== BlueXP workload factory NetApp 워크로드 팩토리로 변경되었습니다.
+
+BlueXP 데이터 인프라 관리에 있어서의 역할을 더 잘 반영하도록 이름이 바뀌고 재설계되었습니다. 결과적으로 BlueXP workload factory NetApp 워크로드 팩토리로 이름이 변경되었습니다.
+
+
+
+=== MCP와 Ask Me 통합
+
+Workload Factory의 AI 어시스턴트인 Ask Me는 MCP(Model Context Protocol)와 통합되어 있습니다.  Ask Me는 MCP를 사용하여 외부 환경과 안전하게 인터페이스하고 API 도구를 쿼리하여 특정 스토리지 환경에 맞춤형 응답을 제공합니다.

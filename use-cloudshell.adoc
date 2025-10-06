@@ -1,23 +1,23 @@
 ---
 sidebar: sidebar 
 permalink: use-cloudshell.html 
-keywords: cloudshell, command line, aws cli, ontap cli, bluexp workload factory, workload factory 
-summary: BlueXP  워크로드 팩토리 사용자 인터페이스의 어디서나 CloudShell을 사용하여 AWS 또는 ONTAP CLI 명령을 실행할 수 있습니다. 
+keywords: cloudshell, command line, aws cli, ontap cli, NetApp Workload Factory, Workload Factory 
+summary: NetApp Workload Factory 사용자 인터페이스의 어느 곳에서나 CloudShell을 사용하여 AWS 또는 ONTAP CLI 명령을 실행할 수 있습니다. 
 ---
-= BlueXP  워크로드 팩토리에서 CloudShell을 사용합니다
+= NetApp Workload Factory에서 CloudShell 사용
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
 
 
 [role="lead"]
-CloudShell을 열어 BlueXP  워크로드 팩토리 사용자 인터페이스의 모든 위치에서 AWS 또는 ONTAP CLI 명령을 실행합니다.
+NetApp Workload Factory 콘솔의 어느 곳에서나 AWS 또는 ONTAP CLI 명령을 실행하려면 CloudShell을 엽니다.
 
 
 
 == 이 작업에 대해
 
-CloudShell을 사용하면 BlueXP  워크로드 팩토리 사용자 인터페이스 내에서 셀과 유사한 환경에서 AWS CLI 명령 또는 ONTAP CLI 명령을 실행할 수 있습니다. 브라우저에서 터미널 세션을 시뮬레이션하여 터미널 기능을 제공하고 워크로드 팩토리 백엔드를 통해 메시지를 프록싱합니다. 여기에서 BlueXP  계정에 제공한 AWS 자격 증명과 ONTAP 자격 증명을 사용할 수 있습니다.
+CloudShell을 사용하면 Workload Factory 콘솔 내에서 셸과 같은 환경에서 AWS CLI 명령이나 ONTAP CLI 명령을 실행할 수 있습니다.  브라우저에서 터미널 세션을 시뮬레이션하여 터미널 기능을 제공하고 Workload Factory의 백엔드를 통해 메시지를 프록시합니다.  NetApp 계정에서 제공한 AWS 자격 증명과 ONTAP 자격 증명을 사용할 수 있습니다.
 
 CloudShell의 기능은 다음과 같습니다.
 
@@ -32,53 +32,42 @@ CloudShell의 기능은 다음과 같습니다.
 
 
 
-=== CloudShell 명령
+== CloudShell 명령
 
 CloudShell GUI 인터페이스 내에서 를 `help` 입력하여 사용 가능한 CloudShell 명령을 볼 수 있습니다.  `help`명령을 실행하면 다음과 같은 참조가 나타납니다.
 
-설명:: NetApp CloudShell은 BlueXP  워크로드 팩토리에 제공되는 GUI 인터페이스로, 셸과 같은 환경에서 AWS CLI 명령 또는 ONTAP CLI 명령을 실행할 수 있습니다. 브라우저에서 터미널 세션을 시뮬레이션하여 터미널 기능을 제공하고 워크로드 공장에서 백엔드를 통해 메시지를 프록싱합니다. 여기에서 BlueXP  계정에 제공한 AWS 자격 증명과 ONTAP 자격 증명을 사용할 수 있습니다.
-사용 가능한 명령::
-+
---
+.설명
+NetApp CloudShell은 NetApp Workload Factory에 내장된 GUI 인터페이스로, 셸과 유사한 환경에서 AWS CLI 명령이나 ONTAP CLI 명령을 실행할 수 있습니다.  Workload Factory의 백엔드를 통해 터미널 기능을 제공하고 메시지를 프록시하여 브라우저에서 터미널 세션을 시뮬레이션합니다.  NetApp 계정에서 제공한 AWS 자격 증명과 ONTAP 자격 증명을 사용할 수 있습니다.
+
+.사용 가능한 명령
 * `clear`
 * `help`
 * `[--fsx <fsxId>] <ontap-command> [parameters]`
 * `aws <aws-command> <aws-sub-command> [parameters]`
 
 
---
-상황:: 각 터미널 세션은 자격 증명, 지역 및 선택적으로 FSx for ONTAP 파일 시스템과 같은 특정 컨텍스트에서 실행됩니다.
-+
---
-모든 AWS 명령은 제공된 컨텍스트에서 실행됩니다. AWS 명령은 제공된 자격 증명에 지정된 영역에서 사용 권한이 있는 경우에만 성공합니다.
+.상황
+각 터미널 세션은 자격 증명, 지역 및 선택적으로 FSx for ONTAP 파일 시스템과 같은 특정 컨텍스트에서 실행됩니다.
 
-선택 사항으로 ONTAP 명령을 지정할 수 `fsxId` 있습니다. 에 개별 ONTAP 명령을 제공하면 `fsxId` 이 ID가 컨텍스트의 ID를 재정의합니다. 터미널 세션에 FSx for ONTAP 파일 시스템 ID 컨텍스트가 없는 경우 각 ONTAP 명령을 제공해야 `fsxId` 합니다.
++ 모든 AWS 명령은 제공된 컨텍스트에서 실행됩니다.  AWS 명령은 제공된 자격 증명에 지정된 지역에서 권한이 있는 경우에만 성공합니다.
 
-다른 컨텍스트 세부 사항을 업데이트하려면 다음을 수행하십시오. * 자격 증명을 변경하려면 다음을 수행하십시오. "자격 증명 <credentialId> 사용" * 지역을 변경하려면 "지역 <regionCode> 사용" * FSx for ONTAP 파일 시스템을 변경하려면 "FSx <fileSystemId> 사용"
++ ONTAP 명령을 선택적으로 지정할 수 있습니다. `fsxId` .  당신이 제공하는 경우 `fsxId` 개별 ONTAP 명령을 사용하는 경우 이 ID는 컨텍스트의 ID를 재정의합니다.  터미널 세션에 FSx for ONTAP 파일 시스템 ID 컨텍스트가 없는 경우 다음을 제공해야 합니다. `fsxId` 각 ONTAP 명령과 함께.
 
---
-항목 표시::
-+
---
++ 다양한 컨텍스트 세부 사항을 업데이트하려면 다음을 수행합니다. * 자격 증명을 변경하려면: "using credentials <credentialId>" * 지역을 변경하려면: "using region <regionCode>" * ONTAP 파일 시스템에 대한 FSx를 변경하려면: "using fsx <fileSystemId>"
+
+.항목 표시
 * 사용 가능한 자격 증명을 표시하려면 "자격 증명 표시"
 * 사용 가능한 지역 표시하기: "지역 표시"
 * 명령 히스토리를 표시하려면: "show history"
 
 
---
-변수:: 다음은 변수를 설정하고 사용하는 예제입니다. 변수 값에 공백이 포함된 경우 따옴표 안에 값을 설정해야 합니다.
-+
---
-* 변수 설정 방법: $<variable>=<value>
-* 변수를 사용하려면: $<variable>
-* 변수 설정 예: $svm1=svm123
-* 변수 사용 예:--FSX FileSystem-1 volumes show--vserver$svm1
-* 문자열 값 $Comment1="공백이 있는 주석"으로 변수를 설정하는 예
+.변수
+다음은 변수를 설정하고 사용하는 예제입니다. 변수 값에 공백이 포함된 경우 따옴표 안에 값을 설정해야 합니다.
 
++ * 변수를 설정하려면: $<변수> = <값> * 변수를 사용하려면: $<변수> * 변수 설정 예: $svm1 = svm123 * 변수 사용 예: --fsx FileSystem-1 volumes show --vserver $svm1 * 문자열 값으로 변수를 설정하는 예 $comment1 = "공백이 있는 주석"
 
---
-연산자:: 파이프, 백그라운드 실행 `&`, 리디렉션 `>` 등의 셸 연산자는 `|` 지원되지 않습니다. 이러한 연산자를 포함하면 명령 실행이 실패합니다.
-
+.연산자
+파이프, 백그라운드 실행 `&`, 리디렉션 `>` 등의 셸 연산자는 `|` 지원되지 않습니다. 이러한 연산자를 포함하면 명령 실행이 실패합니다.
 
 
 
@@ -93,15 +82,15 @@ NOTE: CloudShell은 모든 AWS 또는 ONTAP CLI 명령을 실행할 수 있습�
 
 == CloudShell 구축
 
-BlueXP  워크로드 팩토리 콘솔의 모든 위치에서 CloudShell을 배포할 수 있습니다. 또한 FSx for ONTAP 파일 시스템 내의 스토리지에서 CloudShell을 배포할 수 있습니다.
+NetApp Workload Factory 콘솔의 어느 곳에서나 CloudShell을 배포할 수 있습니다.  NetApp 콘솔에서 CloudShell을 배포할 수도 있습니다.
 
 [role="tabbed-block"]
 ====
-.워크로드 팩토리 콘솔에서 구축
+.Workload Factory 콘솔에서 배포
 --
 .단계
-. 중 하나를 사용하여 link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^]로그인합니다.
-. 상단 탐색 모음에서 CloudShell image:cloudshell-icon.png["구름 모양 아이콘의 스크린샷"]을 엽니다.
+. 에 로그인하세요 https://console.workloads.netapp.com["워크로드 팩토리 콘솔"^] .
+. 메뉴에서 *관리*를 선택한 다음 *CloudShell*을 선택합니다.
 . CloudShell 창에서 CloudShell 세션의 자격 증명과 지역을 선택한 다음 화살표를 선택하여 계속합니다.
 +
 image:screenshot-deploy-cloudshell-session.png["새 CloudShell 세션을 보여 주는 스크린샷"]
@@ -119,14 +108,15 @@ ONTAP CLI 명령을 실행한 후 오류가 발생하면 전구 아이콘을 선
 
 
 --
-.스토리지에서 구축
+.NetApp 콘솔에서 배포
 --
 .단계
-. 중 하나를 사용하여 link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^]로그인합니다.
-. Storage * 에서 * Go to storage inventory * 를 선택합니다.
-. FSx for ONTAP * 탭에서 파일 시스템의 세 점 메뉴를 선택한 다음 * Open CloudShell * 을 선택합니다.
+. 에 로그인하세요link:https://console.netapp.com["NetApp 콘솔"^] .
+. 메뉴에서 *작업 부하*를 선택한 다음 *관리*를 선택합니다.
+. 관리 메뉴에서 *CloudShell*을 선택합니다.
+. CloudShell 창에서 CloudShell 세션의 자격 증명과 지역을 선택한 다음 화살표를 선택하여 계속합니다.
 +
-CloudShell 세션이 선택한 파일 시스템의 컨텍스트에서 열립니다.
+image:screenshot-deploy-cloudshell-session.png["새 CloudShell 세션을 보여 주는 스크린샷"]
 
 . 를 입력하여 `help` 사용 가능한 CloudShell 명령 및 지침을 확인하거나 다음 CLI 참조 문서에서 사용 가능한 명령을 참조하십시오.
 +
@@ -142,9 +132,9 @@ ONTAP CLI 명령을 실행한 후 오류가 발생하면 전구 아이콘을 선
 
 --
 ====
-이 스크린샷에 표시된 CloudShell 작업은 열린 CloudShell 세션 탭의 3점 메뉴를 선택하여 완료할 수 있습니다. 이러한 각 작업에 대한 지침은 다음과 같습니다.
+이 스크린샷에 표시된 CloudShell 작업은 열려 있는 CloudShell 세션 탭의 작업 메뉴를 선택하여 완료할 수 있습니다.  각 작업에 대한 지침은 다음과 같습니다.
 
-image:screenshot-cloudshell-tab-menu.png["이름 바꾸기, 복제, 다른 탭 닫기, 모두 닫기 등의 옵션이 있는 CloudShell 탭 세 개의 점 메뉴를 보여 주는 스크린샷"]
+image:screenshot-cloudshell-tab-menu.png["이름 바꾸기, 복제, 다른 탭 닫기, 모두 닫기 등의 옵션이 있는 CloudShell 탭 작업 메뉴를 보여주는 스크린샷입니다."]
 
 
 
@@ -153,7 +143,7 @@ image:screenshot-cloudshell-tab-menu.png["이름 바꾸기, 복제, 다른 탭 �
 CloudShell 세션 탭의 이름을 변경하여 세션을 쉽게 식별할 수 있습니다.
 
 .단계
-. CloudShell 세션 탭에서 점 3개 메뉴를 선택합니다.
+. CloudShell 세션 탭의 작업 메뉴를 선택합니다.
 . 이름 바꾸기 * 를 선택합니다.
 . 세션 탭의 새 이름을 입력한 다음 탭 이름 바깥쪽을 클릭하여 새 이름을 설정합니다.
 
@@ -168,7 +158,7 @@ CloudShell 세션 탭에 새 이름이 나타납니다.
 CloudShell 세션 탭을 복제하여 이름, 자격 증명 및 지역이 동일한 새 세션을 만들 수 있습니다. 원본 탭의 코드가 복제된 탭에 중복되지 않습니다.
 
 .단계
-. CloudShell 세션 탭에서 점 3개 메뉴를 선택합니다.
+. CloudShell 세션 탭의 작업 메뉴를 선택합니다.
 . 복제 * 를 선택합니다.
 
 
@@ -182,7 +172,7 @@ CloudShell 세션 탭을 복제하여 이름, 자격 증명 및 지역이 동일
 CloudShell 탭을 한 번에 하나씩 닫거나, 작업하지 않는 다른 탭을 닫거나, 모든 탭을 한 번에 닫을 수 있습니다.
 
 .단계
-. CloudShell 세션 탭에서 점 3개 메뉴를 선택합니다.
+. CloudShell 세션 탭의 작업 메뉴를 선택합니다.
 . 다음 중 하나를 선택합니다.
 +
 ** CloudShell Tab 창에서 "X"를 선택하여 한 번에 하나의 탭을 닫습니다.
@@ -205,18 +195,6 @@ CloudShell 세션 탭을 분할하여 두 개 이상의 탭을 동시에 볼 수
 CloudShell 세션 탭을 CloudShell 창의 위쪽, 아래쪽, 왼쪽 또는 오른쪽으로 끌어 놓아 보기를 분할합니다.
 
 image:screenshot-cloudshell-split-view.png["가로로 분할된 두 개의 CloudShell 탭을 보여 주는 스크린샷 탭이 나란히 표시됩니다."]
-
-
-
-== 마지막 CloudShell 세션을 다시 엽니다
-
-CloudShell 세션을 실수로 종료한 경우 다시 열 수 있습니다.
-
-.단계
- CloudShell 아이콘을 image:cloudshell-icon.png["구름 모양 아이콘의 스크린샷"]상단 탐색 모음에서선택합니다.
-
-.결과
-최신 CloudShell 세션이 열립니다.
 
 
 

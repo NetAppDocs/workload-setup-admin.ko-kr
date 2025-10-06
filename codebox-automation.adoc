@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: codebox-automation.html 
 keywords: codebox, automation 
-summary: 'Codebox는 개발자와 DevOps가 워크로드 팩토리에서 지원하는 작업을 실행하는 데 필요한 코드를 생성할 수 있도록 지원하는 IAC(Infrastructure as Code) 공동 파일럿입니다.' 
+summary: 'Codebox는 개발자와 DevOps가 NetApp Workload Factory에서 지원하는 모든 작업을 실행하는 데 필요한 코드를 생성하는 데 도움이 되는 Infrastructure as Code(IaC) 공동 파일럿입니다.' 
 ---
 = 코드박스 자동화에 대해 알아보십시오
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 'Codebox는 개발자와 DevOps가 워크로드 팩토리에서 지원�
 
 
 [role="lead"]
-Codebox는 개발자와 DevOps가 워크로드 팩토리에서 지원하는 작업을 실행하는 데 필요한 코드를 생성할 수 있도록 지원하는 IAC(Infrastructure as Code) 공동 파일럿입니다. Codebox는 워크로드 팩토리 작업 모드(_기본_, _읽기 전용_, _읽기/쓰기_)에 맞춰 조정되며 실행 준비에 대한 명확한 경로를 설정하는 동시에 빠른 향후 재사용을 위한 자동화 카탈로그를 제공합니다.
+Codebox는 개발자와 DevOps가 NetApp Workload Factory에서 지원하는 모든 작업을 실행하는 데 필요한 코드를 생성하는 데 도움이 되는 Infrastructure as Code(IaC) 공동 파일럿입니다.  Codebox는 Workload Factory 운영 모드(_기본_, _읽기 전용_, _읽기/쓰기_)에 맞춰 조정되며 실행 준비에 대한 명확한 경로를 설정하는 동시에 빠른 향후 재사용을 위한 자동화 카탈로그를 제공합니다.
 
 
 
@@ -23,7 +23,7 @@ Codebox는 두 가지 주요 IAC 기능을 제공합니다.
 * _Codebox Automation Catalog_ 저장된 모든 IAC 작업을 표시하여 나중에 사용할 수 있도록 쉽게 참조할 수 있습니다. 자동화 카탈로그 작업은 템플릿으로 저장되고 적용되는 리소스의 컨텍스트로 표시됩니다.
 
 
-또한 워크로드 팩토리 자격 증명을 설정할 때 Codebox는 IAM 정책을 생성하는 데 필요한 AWS 권한을 동적으로 표시합니다. 사용하려는 각 워크로드 팩토리 기능(데이터베이스, AI, FSx for ONTAP 등)에 대한 권한이 제공되며, 정책 사용자에게 _읽기 전용_ 권한이 주어지는지 또는 전체 _읽기/쓰기_ 권한이 주어지는지에 따라 사용자 정의됩니다. 워크로드 팩토리에서 워크로드를 관리할 수 있는 올바른 권한을 갖도록 Codebox에서 권한을 복사한 다음 AWS 관리 콘솔에 붙여 넣기만 하면 됩니다.
+또한 Workload Factory 자격 증명을 설정할 때 Codebox는 IAM 정책을 만드는 데 필요한 AWS 권한을 동적으로 표시합니다.  사용하려는 각 Workload Factory 기능(데이터베이스, AI, FSx for ONTAP 등)에 대한 권한이 제공되며, 정책 사용자에게 _읽기 전용_ 권한이 주어지는지 또는 전체 _읽기/쓰기_ 권한이 주어지는지에 따라 사용자 지정됩니다.  Codebox에서 권한을 복사한 다음 AWS Management Console에 붙여넣으면 Workload Factory가 워크로드를 관리할 수 있는 올바른 권한을 갖게 됩니다.
 
 
 
@@ -36,4 +36,10 @@ Codebox는 두 가지 주요 IAC 기능을 제공합니다.
 * AWS CloudFormation 을 참조하십시오
 
 
+
+
+== 관련 정보
+
 link:use-codebox.html["Codebox 사용 방법에 대해 알아봅니다"]..
+
+link:https://console.workloads.netapp.com/api-doc["Workload Factory REST API 문서"^] .
