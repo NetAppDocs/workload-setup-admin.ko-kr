@@ -39,6 +39,12 @@ Workload Factory는 다음 이벤트에 대한 알림을 보냅니다.
 | ONTAP 생성 실패를 위한 FSx | FSx for ONTAP 파일 시스템 생성 프로세스가 실패했습니다.  자세한 내용은 Tracker를 참조하세요. | FSx for ONTAP 파일 시스템 작업 | 비판적인 | 일반 보관 | ONTAP 용 FSx 
 
 
+| 자동 SSD 용량 또는 inode로 성공률 증가 | 최근 자동 용량 관리 업데이트 중에 FSx for ONTAP 파일 시스템은 SSD 용량이나 볼륨 inode를 성공적으로 늘렸습니다. 자세한 내용은 Tracker를 참조하세요. | 용량 관리 | 성공 | 일반 보관 | ONTAP 파일용 FSx 
+
+
+| 자동 SSD 용량 또는 inode로 인해 오류가 증가합니다. | 최근 자동 용량 관리 업데이트 중에 FSx for ONTAP 파일 시스템이 SSD 용량이나 볼륨 inode를 늘리지 못했습니다. 자세한 내용은 Tracker를 참조하세요. | 용량 관리 | 비판적인 | 일반 보관 | ONTAP 파일 시스템용 FSx 
+
+
 | FSx for ONTAP 문제가 감지되었습니다. | 모든 FSx for ONTAP 파일 시스템은 잘 설계된 문제에 대해 분석되었습니다.  검사 결과 하나 이상의 문제가 감지되었습니다.  자세한 내용은 Workload Factory 콘솔의 Storage 대시보드에서 잘 설계된 분석을 검토하세요. | 잘 설계된 분석 | 권장 사항 | 일반 보관 | ONTAP 파일 시스템용 FSx 
 |===
 

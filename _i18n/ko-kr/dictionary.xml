@@ -1261,4 +1261,12 @@
   <block id="a77641000b55773f3d4f4abfc8eaa6ac" category="sidebar">Workload Factory로 워크로드 최적화</block>
   <block id="bec1e3daee54f5a9410751eb03bd867e" category="sidebar">워크로드 팩토리 관리</block>
   <block id="7ffef60a0bb1e63a8505f9e4285dab5f" category="sidebar">Workload Factory에 로그인하세요</block>
+  <block id="9d4ab4efb1eff322f698ff725220f0c6" category="paragraph">NetApp Workload Factory 알림 서비스에는 스토리지의 자동 용량 관리에 대한 알림이 포함되어 있습니다.</block>
+  <block id="8880bf2394c75ebe6ed859ae103855bd" category="cell">자동 SSD 용량 또는 inode로 성공률 증가</block>
+  <block id="0f4ae4b5b0836264a3d9e9d0e29731c8" category="cell">최근 자동 용량 관리 업데이트 중에 FSx for ONTAP 파일 시스템은 SSD 용량이나 볼륨 inode를 성공적으로 늘렸습니다. 자세한 내용은 Tracker를 참조하세요.</block>
+  <block id="1d19e21de0f93b11f5ceb8b535a3afc2" category="cell">용량 관리</block>
+  <block id="cad4bcdf6806dc74dc24e416f5e646a0" category="cell">ONTAP 파일용 FSx</block>
+  <block id="8ae74df732197be5b987055e70bb307d" category="cell">자동 SSD 용량 또는 inode로 인해 오류가 증가합니다.</block>
+  <block id="564359bbc40d00ebaa88afdacbe218a7" category="cell">최근 자동 용량 관리 업데이트 중에 FSx for ONTAP 파일 시스템이 SSD 용량이나 볼륨 inode를 늘리지 못했습니다. 자세한 내용은 Tracker를 참조하세요.</block>
+  <block id="b271a75b2d121a8cb5f59ae458394323" category="section-title">2025년 9월 9일</block>
 </blocks>

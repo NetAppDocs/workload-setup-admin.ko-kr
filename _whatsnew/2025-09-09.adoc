@@ -1,0 +1,11 @@
+= 저장소에 대한 새로운 알림
+:allow-uri-read: 
+
+
+
+
+=== 저장소에 대한 새로운 알림
+
+NetApp Workload Factory 알림 서비스에는 스토리지의 자동 용량 관리에 대한 알림이 포함되어 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["NetApp Workload Factory에 대한 알림"]
