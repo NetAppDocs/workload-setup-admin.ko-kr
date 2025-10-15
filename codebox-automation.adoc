@@ -34,6 +34,7 @@ Codebox는 두 가지 주요 IAC 기능을 제공합니다.
 * 워크로드 팩토리 REST API
 * AWS CLI를 참조하십시오
 * AWS CloudFormation 을 참조하십시오
+* 테라폼
 
 
 
