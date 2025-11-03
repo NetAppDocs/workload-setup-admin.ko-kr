@@ -18,14 +18,10 @@ indexpage:
       url: workload-factory-overview.html
     - title: 등록
       url: sign-up-saas.html
-  - title: 작동 모드 및 자격 증명
-    links:
-    - title: 작동 모드에 대해 알아봅니다
-      url: operational-modes.html
     - title: AWS 자격 증명을 추가합니다
       url: add-credentials.html
-    - title: 자격 증명을 제거합니다
-      url: manage-credentials.html
+    - title: Workload Factory에 대한 권한
+      url: permissions-reference.html
   - title: 코드박스를 사용한 자동화
     links:
     - title: Codebox에 대해 알아봅니다

@@ -1,0 +1,27 @@
+= 권한 업데이트
+:allow-uri-read: 
+
+
+
+
+=== 권한 업데이트
+
+이번 릴리스에서는 보안과 사용자 제어를 강화하기 위해 저장소, 데이터베이스 및 VMware 워크로드에 대한 권한 정책을 대폭 업데이트했습니다.  원하는 대로 권한을 추가하거나 해제하여 권한 설정을 더욱 세부적으로 사용자 지정할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Workload Factory에 대한 권한 참조"]
+
+
+
+=== 저장소에 대한 새로운 알림
+
+NetApp Workload Factory 알림 서비스에는 스토리지의 자동 inode 관리에 대한 알림이 포함되어 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["NetApp Workload Factory에 대한 알림"]
+
+
+
+=== 자동 용량 및 inode 관리에 대한 임계값 경고
+
+스토리지에 대한 자동 용량 및 inode 관리 기능은 Workload Factory 알림 서비스에서 알림을 트리거하는 경고 임계값을 통해 설정될 수 있습니다.  이 기능을 사용하려면 먼저 Workload Factory 알림 서비스를 활성화해야 합니다.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["NetApp Workload Factory 에 대한 알림 구성"]

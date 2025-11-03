@@ -24,8 +24,6 @@ sidebar:
       entries:
       - title: NetApp Workload Factory에 대해 알아보세요
         url: "/workload-factory-overview.html"
-      - title: 작동 모드
-        url: "/operational-modes.html"
       - title: 콘솔 환경
         url: "/console-experiences.html"
       - title: 권한

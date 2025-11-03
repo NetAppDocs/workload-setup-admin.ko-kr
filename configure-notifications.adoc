@@ -46,6 +46,12 @@ Workload Factory는 다음 이벤트에 대한 알림을 보냅니다.
 
 
 | FSx for ONTAP 문제가 감지되었습니다. | 모든 FSx for ONTAP 파일 시스템은 잘 설계된 문제에 대해 분석되었습니다.  검사 결과 하나 이상의 문제가 감지되었습니다.  자세한 내용은 Workload Factory 콘솔의 Storage 대시보드에서 잘 설계된 분석을 검토하세요. | 잘 설계된 분석 | 권장 사항 | 일반 보관 | ONTAP 파일 시스템용 FSx 
+
+
+| FSx for ONTAP 에 대한 자동 용량 관리 이벤트 | FSx for ONTAP 파일 시스템의 SSD 성능 계층이 경고 임계값 용량/백분율 총계에 도달했습니다. | 용량 관리 | 경고 | 일반 보관 | ONTAP 파일 시스템용 FSx 
+
+
+| FSx for ONTAP 에 대한 자동 inode 관리 이벤트 | FSx for ONTAP 볼륨의 inode 수가 경고 임계값 수/백분율 총계에 도달했습니다. | 용량 관리 | 경고 | 일반 보관 | ONTAP 파일 시스템용 FSx 
 |===
 
 

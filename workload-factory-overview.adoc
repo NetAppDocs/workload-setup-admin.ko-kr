@@ -91,16 +91,11 @@ link:manage-service-accounts.html["서비스 계정을 관리하는 방법에 �
 
 
 
-=== 작동 모드
+=== 권한
 
-Workload Factory는 클라우드 자산에 대한 액세스를 신중하게 제어하고 IT 정책에 따라 Workload Factory에 점진적인 신뢰를 할당할 수 있는 세 가지 운영 모드를 제공합니다.
+Workload Factory는 클라우드 자산에 대한 액세스를 신중하게 제어하고 IT 정책에 따라 Workload Factory에 점진적인 신뢰를 할당할 수 있는 유연한 권한 정책을 제공합니다.
 
-* *기본 모드*는 제로 트러스트 관계를 나타내며 Workload Factory를 조기에 탐색하고 다양한 마법사를 사용하여 필요한 Infrastructure as Code를 생성하도록 설계되었습니다.  이 코드는 사용자가 관련 AWS 자격 증명과 함께 수동으로 복사하여 사용할 수 있습니다.
-* * 읽기 전용 모드 * 사용자가 다양한 리소스와 도구를 탐지할 수 있도록 지원하여 관련 마법사를 완료할 수 있도록 지원함으로써 기본 모드의 사용 환경을 개선합니다.
-* * 읽기/쓰기 모드 * 는 완전 신뢰 관계를 나타내며, 실행을 위해 필요하고 검증된 권한이 있는 할당된 자격 증명과 함께 사용자를 대신하여 실행 및 자동화하도록 설계되었습니다.
-
-
-link:operational-modes.html["Workload Factory 운영 모드에 대해 자세히 알아보세요."] .
+link:permissions-reference.html["Workload Factory 권한 정책에 대해 자세히 알아보세요."].
 
 
 
