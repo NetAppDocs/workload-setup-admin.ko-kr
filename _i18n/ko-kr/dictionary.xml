@@ -267,7 +267,6 @@
   <block id="bd282943a337f4287ca0d70f9a836261" category="section-title">코드박스 자동화</block>
   <block id="7c408fda146892c9e1c039f91fee3cd3" category="paragraph">코드박스 창에는 특정 작업 흐름 작업에 의해 생성되고 그래픽 마법사 또는 대화 채팅 인터페이스에 의해 일치하는 IAC가 표시됩니다. Codebox는 손쉬운 탐색 및 분석을 위한 색상 코딩 및 검색을 지원하지만 편집은 허용되지 않습니다. 자동화 카탈로그에는 복사하거나 저장할 수만 있습니다.</block>
   <block id="ec6b8f7cd0c5cd9853d947bc13f72f4b" category="inline-link-macro">Codebox에 대해 자세히 알아보십시오</block>
-  <block id="7221d615997ca03d4480df5a43dae047" category="paragraph"><block ref="491e45ff3f847be901c7d8962829a3f8" category="inline-link-macro-rx"></block>..</block>
   <block id="c257f5c852c12409e63afb17104f69c5" category="section-title">REST API</block>
   <block id="0fe398a436a33849be29455ed17d4185" category="list-text">API는 REST 기술과 최신 모범 사례를 기반으로 설계되었습니다. 핵심 기술로는 HTTP와 JSON이 있습니다.</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">시작하십시오</block>
@@ -313,7 +312,6 @@
   <block id="c938676b28ab6dd4d5cc28ebdf8c49b9" category="doc">콘솔 환경</block>
   <block id="ecbeaffbfe15c72e3bf702b0d0bf9694" category="section-title">2024년 11월 11일</block>
   <block id="7b2ab109a7f028a1314cfd59fab7b820" category="list-text">비용 절감을 위한 절약 계산기</block>
-  <block id="02161797e05b29a1a7b7b7f28b9e274a" category="paragraph">다른 제품에 대해 자세히 <block ref="307484147c616be6cc5c203f4bb58b5b" category="inline-link-macro-rx"></block>알아보십시오.</block>
   <block id="1a34f743bd98b1658401ce2f8206ff9a" category="paragraph"><block ref="1a34f743bd98b1658401ce2f8206ff9a" category="inline-link-macro-rx"></block></block>
   <block id="fd1a283b46f9e16faf592b1eb5138a94" category="list-text">데이터베이스 라이프사이클 관리</block>
   <block id="47b4ea23585c5454c4427e68acf95fc4" category="list-text">Amazon FSx for NetApp ONTAP를 사용하여 데이터베이스 워크로드를 검색하고 비용 절감 효과를 분석, SQL 서버 데이터베이스를 FSx for ONTAP 스토리지로 마이그레이션할 때 스토리지 및 애플리케이션의 이점을 활용하고, 공급업체 모범 사례를 구현하는 SQL 서버, 데이터베이스, 데이터베이스 클론을 배포하고, 인프라를 코드 공동 파일럿으로 사용하여 운영을 자동화하고, SQL 서버 환경을 지속적으로 모니터링 및 최적화하여 성능, 가용성, 보호, 비용 효율성을 개선합니다.</block>
@@ -348,7 +346,6 @@
   <block id="13b1a844b08d2d7b8144e4c0db6b5552" category="paragraph">계정을 만들면 해당 계정의 single_account admin_user가 됩니다.</block>
   <block id="c33f7c2cbeaca5f1462c1b3e1c276145" category="section-title">서비스 계정</block>
   <block id="25e9dc09fd109741b1c7237f825ab46e" category="inline-link-macro">서비스 계정을 관리하는 방법에 대해 알아봅니다</block>
-  <block id="09c9cabc1664a7683d1d411a37775b39" category="paragraph"><block ref="f09e11341fa2be3f754588bca37990f8" category="inline-link-macro-rx"></block>..</block>
   <block id="ca475a2b63c70fedcf8f6650024d480b" category="doc">BlueXP  워크로드 팩토리 권한</block>
   <block id="5291909ce92037a20a37f7a0c86dd921" category="paragraph">이제 BlueXP  워크로드 팩토리에서 스토리지 환경 검색부터 스토리지 또는 GenAI 워크로드에 대한 기술 자료 등의 AWS 리소스 구축에 이르기까지 다양한 작업을 실행하는 데 사용하는 권한을 확인할 수 있습니다. 스토리지, 데이터베이스, VMware 및 GenAI 워크로드에 대한 IAM 정책 및 권한을 볼 수 있습니다.</block>
   <block id="f157db6a1ae10e7a29a28440d21f5cb8" category="paragraph"><block ref="f157db6a1ae10e7a29a28440d21f5cb8" category="inline-link-macro-rx"></block></block>
@@ -958,7 +955,6 @@
   <block id="3b06bcb45233697647a5a550960f8d05" category="list-text">* NetApp 콘솔*: Amazon FSx for NetApp ONTAP for ONTAP 파일 시스템과 워크로드를 동일한 장소에서 관리할 수 있는 하이브리드 환경을 제공합니다.</block>
   <block id="3b94caaa5f175aae2e16887d7ce147da" category="list-text">*Workload Factory 콘솔*: Amazon FSx for NetApp ONTAP 에서 실행되는 워크로드에 중점을 둔 전용 Workload Factory 환경을 제공합니다.</block>
   <block id="0fe6cec212fb1ba5af4d190a28fa03ba" category="section-title">NetApp 콘솔에서 Workload Factory에 액세스</block>
-  <block id="4aebb3c6d2632b0a47717c897adea664" category="paragraph">NetApp 콘솔에서 Workload Factory에 액세스할 수 있습니다.  AWS 스토리지 및 워크로드 기능에 Workload Factory를 사용하는 것 외에도 NetApp Copy and Sync, NetApp Digital Wallet 등의 다른 데이터 서비스에도 액세스할 수 있습니다.</block>
   <block id="e0cfef909774dee6f2988d39c62d2aa4" category="list-text">NetApp 콘솔 메뉴에서 *워크로드*를 선택한 다음 *개요*를 선택합니다.</block>
   <block id="39d4b213cdbfaee4bf8255d21e45d7b3" category="section-title">Workload Factory 콘솔에서 Workload Factory에 액세스하세요</block>
   <block id="a30f0e49926a18e020f6f949bd717e28" category="paragraph">Workload Factory 콘솔에서 Workload Factory에 액세스할 수 있습니다.</block>
@@ -1234,9 +1230,29 @@
   <block id="bf7bed6002efd423b3f090dfda4fb38c" category="paragraph">Codebox는 각 사용자의 Workload Factory 계정에서 제공된 AWS 권한에 따라 코드에 적절한 데이터를 채워 Workload Factory 권한 정책에 맞춰 조정됩니다. 이 코드는 누락된 정보(예: 자격 증명)를 채우거나 코드를 실행하기 전에 특정 데이터를 사용자 지정할 수 있는 템플릿처럼 사용할 수 있습니다.</block>
   <block id="fd7910c842c61985f2e90af78f1b304f" category="paragraph">Workload Factory는 클라우드 자산에 대한 액세스를 신중하게 제어하고 IT 정책에 따라 Workload Factory에 점진적인 신뢰를 할당할 수 있는 유연한 권한 정책을 제공합니다.</block>
   <block id="1b512d78c8df2f0c24a19da35f804ca3" category="inline-link-macro">Workload Factory 권한 정책에 대해 자세히 알아보세요.</block>
-  <block id="9de83ea21033a65a11f8b135f0dfca93" category="paragraph"><block ref="14d3fbf26a974628349cadb25ac5954d" category="inline-link-macro-rx"></block>.</block>
   <block id="c51a57db8914c4d0002701f58f6f3d36" category="sidebar">Workload Factory에 대한 권한</block>
   <block id="67cc1fa9f1a93753f08cfa64d81c9661" category="inline-link">빌더 작업 부하</block>
   <block id="fadf0a6a0fc7dcefddc336cf580be28f" category="list-text"><block ref="fadf0a6a0fc7dcefddc336cf580be28f" category="inline-link-rx"></block></block>
   <block id="4dbca6300d097acc1ed4450a1e0d70d7" category="paragraph">버전 제어 시스템 및 CI/CD 흐름과 즉각적인 복제 통합을 지원하여 소프트웨어 버전 사용 및 액세스를 간소화하고 시간과 리소스를 절약합니다.</block>
+  <block id="97364a76409afb35bcf8e78ca91dd72d" category="paragraph">NetApp Console 에서 Workload Factory에 액세스할 수 있습니다. AWS 스토리지 및 워크로드 기능에 Workload Factory를 사용하는 것 외에도 NetApp Copy and Sync 등의 다른 데이터 서비스에도 액세스할 수 있습니다.</block>
+  <block id="01984b12c408bdab681895b084bd6c06" category="cell">ec2: 보안 그룹 탈퇴 취소</block>
+  <block id="c8f3ab0d5795ea54c17a7c0f85e22fbd" category="cell">fsx:백업 삭제</block>
+  <block id="efd5fd045b2b5a8ad184072097e91070" category="cell">ONTAP EMS 이벤트에 대한 FSx 가져오기</block>
+  <block id="b2ebd142eb09c979a63764f09a9ebbd9" category="cell">ONTAP EMS 분석을 위한 FSx</block>
+  <block id="fdd997ab8b4252f76acdda855bb7b890" category="cell">기반암:GetInferenceProfile</block>
+  <block id="b67afe892c78b2491b3d4ac0b4c2f0b0" category="cell">기반암:InvokeModelWihResponseStream</block>
+  <block id="101559ddc6f7b830adb3e15629c9d132" category="cell">AWS Cost Explorer에서 FSx for ONTAP 파일 시스템에 대한 비용 및 사용 데이터를 가져옵니다.</block>
+  <block id="bba6542a0e46014b21a818003b1e41d2" category="cell">ce:GetCostAndUsage</block>
+  <block id="e740b3f6978df04ae224fdb7fe816cb4" category="cell">비용 및 사용량 분석</block>
+  <block id="f74e5982a82afd7d2755b24355dd08c6" category="cell">ce:GetTags</block>
+  <block id="815e75619b370a1b845eccec6979ed74" category="section-title">2025년 11월 27일</block>
+  <block id="43481cea67e4e51df745177b32433321" category="paragraph">다음 권한이 저장소 워크로드에 추가되었습니다.</block>
+  <block id="4e736cb1760a43a4bf2b5d861b6deb96" category="list-text"><block ref="fdd997ab8b4252f76acdda855bb7b890" prefix="" category="inline-code"></block></block>
+  <block id="1ed1b1bc988715ea858abe38c168d87a" category="list-text"><block ref="00fe52afa6e3b9a0d389f529a2b88242" prefix="" category="inline-code"></block></block>
+  <block id="f80c2c54334d4ddca4016b89152c6684" category="list-text"><block ref="93804e96d3f417a0088c564647dd28e9" prefix="" category="inline-code"></block></block>
+  <block id="4ea213845e0e4bd9b85ae5f5095fef40" category="inline-link-macro">다양한 콘솔 경험에 대해 자세히 알아보세요</block>
+  <block id="0452a6e2337cd59ec7a4e17bd80cc097" category="paragraph"><block ref="0452a6e2337cd59ec7a4e17bd80cc097" category="inline-link-macro-rx"></block></block>
+  <block id="f09e11341fa2be3f754588bca37990f8" category="paragraph"><block ref="f09e11341fa2be3f754588bca37990f8" category="inline-link-macro-rx"></block></block>
+  <block id="14d3fbf26a974628349cadb25ac5954d" category="paragraph"><block ref="14d3fbf26a974628349cadb25ac5954d" category="inline-link-macro-rx"></block></block>
+  <block id="491e45ff3f847be901c7d8962829a3f8" category="paragraph"><block ref="491e45ff3f847be901c7d8962829a3f8" category="inline-link-macro-rx"></block></block>
 </blocks>

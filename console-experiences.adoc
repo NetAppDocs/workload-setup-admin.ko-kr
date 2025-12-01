@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: console-experiences.html 
-keywords: console, consoles, access, saas, Workload Factory, bluexp, NetApp Workload Factory, NetApp Console 
+keywords: console, consoles, access, saas, Workload Factory, NetApp Workload Factory, NetApp Console 
 summary: NetApp Workload Factory는 두 개의 웹 기반 콘솔을 통해 접근할 수 있습니다. 
 ---
 = 콘솔 환경
@@ -21,7 +21,7 @@ NetApp Workload Factory는 두 개의 웹 기반 콘솔을 통해 접근할 수 
 
 == NetApp 콘솔에서 Workload Factory에 액세스
 
-NetApp 콘솔에서 Workload Factory에 액세스할 수 있습니다.  AWS 스토리지 및 워크로드 기능에 Workload Factory를 사용하는 것 외에도 NetApp Copy and Sync, NetApp Digital Wallet 등의 다른 데이터 서비스에도 액세스할 수 있습니다.
+NetApp Console 에서 Workload Factory에 액세스할 수 있습니다. AWS 스토리지 및 워크로드 기능에 Workload Factory를 사용하는 것 외에도 NetApp Copy and Sync 등의 다른 데이터 서비스에도 액세스할 수 있습니다.
 
 .단계
 . 에 로그인하세요link:https://console.netapp.com["NetApp 콘솔"^] .
