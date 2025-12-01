@@ -1,0 +1,17 @@
+= 저장소에 대한 권한 업데이트
+:allow-uri-read: 
+
+
+
+
+=== 저장소에 대한 권한 업데이트
+
+FSx for ONTAP EMS 이벤트 분석기는 _운영 및 수정_ 권한 정책에서 다음 Amazon Bedrock 권한을 사용하여 스토리지 워크로드에 대한 이벤트 데이터를 가져옵니다.
+
+* `bedrock:ListInferenceProfiles`
+* `bedrock:GetInferenceProfile`
+* `bedrock:InvokeModelWithResponseStream`
+* `bedrock:InvokeModel`
+
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["권한 참조 변경 로그"]
