@@ -1257,4 +1257,10 @@
   <block id="491e45ff3f847be901c7d8962829a3f8" category="paragraph"><block ref="491e45ff3f847be901c7d8962829a3f8" category="inline-link-macro-rx"></block></block>
   <block id="6fe4c05a9bf5207dceacd4fcc6fc1064" category="doc">저장소에 대한 권한 업데이트</block>
   <block id="7d3f4d33aca7af4519cb87a63113caf9" category="paragraph">FSx for ONTAP EMS 이벤트 분석기는 _운영 및 수정_ 권한 정책에서 다음 Amazon Bedrock 권한을 사용하여 스토리지 워크로드에 대한 이벤트 데이터를 가져옵니다.</block>
+  <block id="499a631b37689fc0831d508e7df713ac" category="paragraph">다른 사람을 Workload Factory 계정에 초대하여 Workload Factory를 이용할 수 있도록 할 수도 있습니다.</block>
+  <block id="74c47b5a5003eaa998a2ddfd60579fcd" category="section-title">Workload Factory 계정에 다른 사람을 초대하세요</block>
+  <block id="cfe62ca3b745b1e1ba1704c2d481b1a0" category="paragraph">계정 관리자로서 다른 사용자를 Workload Factory 계정에 초대하여 Workload Factory에 액세스하고 사용할 수 있도록 할 수 있습니다. 계정 관리는 NetApp Console 에서만 가능합니다.</block>
+  <block id="4271c82b5b3d2551c37fdf5569e1bdf4" category="inline-link-macro">멤버(사용자 계정)를 추가하는 방법을 알아보세요.</block>
+  <block id="c128860bea2b6fa591ace59f9f82d9e2" category="paragraph">NetApp Console 설명서를 참조하십시오. <block ref="d39c43ee8c7f0d03870545e14a548b70" category="inline-link-macro-rx"></block>워크로드 팩토리 계정으로 연결하세요.</block>
+  <block id="51a52248cd0718b8835bd272badd5424" category="paragraph">초대받은 사용자는 워크로드 팩토리 계정에 가입하는 방법에 대한 안내가 포함된 이메일을 받게 됩니다.</block>
 </blocks>

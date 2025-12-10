@@ -13,7 +13,12 @@ summary: Workload Factory는 웹 기반 콘솔에서 접속할 수 있습니다.
 [role="lead"]
 NetApp Workload Factory는 웹 기반 콘솔에서 접근할 수 있습니다.  Workload Factory를 시작하려면 먼저 기존 NetApp 지원 사이트 자격 증명을 사용하거나 NetApp 클라우드 로그인을 만들어 가입해야 합니다.
 
-.이 작업에 대해
+다른 사람을 Workload Factory 계정에 초대하여 Workload Factory를 이용할 수 있도록 할 수도 있습니다.
+
+
+
+== Workload Factory에 가입하세요
+
 다음 옵션 중 하나를 사용하여 Workload Factory에 가입할 수 있습니다.
 
 * 기존 NetApp Support 사이트(NSS) 자격 증명
@@ -52,3 +57,14 @@ image:screenshot-account-selection.png["새 계정으로 로그인할 때 나타
 
 .결과
 이제 Workload Factory 로그인과 계정이 생겼습니다.  귀하는 계정 관리자로 간주되며 모든 Workload Factory 기능에 액세스할 수 있습니다.
+
+
+
+== Workload Factory 계정에 다른 사람을 초대하세요
+
+계정 관리자로서 다른 사용자를 Workload Factory 계정에 초대하여 Workload Factory에 액세스하고 사용할 수 있도록 할 수 있습니다. 계정 관리는 NetApp Console 에서만 가능합니다.
+
+NetApp Console 설명서를 참조하십시오. link:https://docs.netapp.com/us-en/console-setup-admin/task-iam-manage-members-permissions.html["멤버(사용자 계정)를 추가하는 방법을 알아보세요."^]워크로드 팩토리 계정으로 연결하세요.
+
+.결과
+초대받은 사용자는 워크로드 팩토리 계정에 가입하는 방법에 대한 안내가 포함된 이메일을 받게 됩니다.
