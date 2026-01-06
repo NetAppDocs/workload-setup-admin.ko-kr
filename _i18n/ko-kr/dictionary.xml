@@ -1231,9 +1231,6 @@
   <block id="fd7910c842c61985f2e90af78f1b304f" category="paragraph">Workload Factory는 클라우드 자산에 대한 액세스를 신중하게 제어하고 IT 정책에 따라 Workload Factory에 점진적인 신뢰를 할당할 수 있는 유연한 권한 정책을 제공합니다.</block>
   <block id="1b512d78c8df2f0c24a19da35f804ca3" category="inline-link-macro">Workload Factory 권한 정책에 대해 자세히 알아보세요.</block>
   <block id="c51a57db8914c4d0002701f58f6f3d36" category="sidebar">Workload Factory에 대한 권한</block>
-  <block id="67cc1fa9f1a93753f08cfa64d81c9661" category="inline-link">빌더 작업 부하</block>
-  <block id="fadf0a6a0fc7dcefddc336cf580be28f" category="list-text"><block ref="fadf0a6a0fc7dcefddc336cf580be28f" category="inline-link-rx"></block></block>
-  <block id="4dbca6300d097acc1ed4450a1e0d70d7" category="paragraph">버전 제어 시스템 및 CI/CD 흐름과 즉각적인 복제 통합을 지원하여 소프트웨어 버전 사용 및 액세스를 간소화하고 시간과 리소스를 절약합니다.</block>
   <block id="97364a76409afb35bcf8e78ca91dd72d" category="paragraph">NetApp Console 에서 Workload Factory에 액세스할 수 있습니다. AWS 스토리지 및 워크로드 기능에 Workload Factory를 사용하는 것 외에도 NetApp Copy and Sync 등의 다른 데이터 서비스에도 액세스할 수 있습니다.</block>
   <block id="01984b12c408bdab681895b084bd6c06" category="cell">ec2: 보안 그룹 탈퇴 취소</block>
   <block id="c8f3ab0d5795ea54c17a7c0f85e22fbd" category="cell">fsx:백업 삭제</block>
@@ -1266,4 +1263,7 @@
   <block id="5e3b7f958129022f75fe2931c55615b2" category="doc">Ask me AI 어시스턴트 홈페이지 통합</block>
   <block id="65bcc541760e8f25e0281edbfdfbf7f3" category="paragraph">Workload Factory 콘솔 홈 페이지에는 Ask me AI 어시스턴트가 내장되어 있어 스토리지 환경에 대한 질문을 하고, 환경에서 직접 맞춤형 인사이트를 얻고, 이전 대화를 참조할 수 있습니다. Ask me 기능을 사용하면 콘솔을 벗어나지 않고도 워크로드를 이해하고, 문제를 해결하고, Workload Factory에 대해 자세히 알아볼 수 있습니다.</block>
   <block id="334f5b13a66630c66877aaf36ce24673" category="section-title">2026년 1월 4일</block>
+  <block id="2bc4b4a88d694b207aacb90573eb4b7f" category="inline-link">EDA 워크로드</block>
+  <block id="f5051781c2f560348461adb9d928d406" category="list-text"><block ref="f5051781c2f560348461adb9d928d406" category="inline-link-rx"></block></block>
+  <block id="ce9f0edfab2350bf4aa1961cdca492ac" category="paragraph">자동화된 스토리지 파라미터 관리를 통해 여러 파일 시스템에서 ONTAP 에 맞게 FSx를 최적화하여 성능을 향상시키고 운영 비용을 절감하십시오.</block>
 </blocks>
