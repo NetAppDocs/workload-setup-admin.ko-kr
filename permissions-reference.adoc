@@ -359,7 +359,7 @@ Storage에 사용할 수 있는 IAM 정책은 Workload Factory가 퍼블릭 클�
 | 워크로드 작업을 시뮬레이션하여 사용 가능한 권한을 검증하고 필요한 AWS 계정 권한과 비교하십시오 | IAM: SimulatePrincipalPolicy(IAM: 시뮬레이션 정책) | 구축 | 모두 
 
 
-.4+| ONTAP EMS 이벤트에 대한 FSx 가져오기 | Bedrock: ListInferenceProfiles 를 참조하십시오 | ONTAP EMS 분석을 위한 FSx | 운영 및 개선 
+.4+| ONTAP EMS 이벤트에 대한 FSx에 AI 기반 인사이트를 제공합니다. | Bedrock: ListInferenceProfiles 를 참조하십시오 | ONTAP EMS 분석을 위한 FSx | 운영 및 개선 
 
 
 | 기반암:GetInferenceProfile | ONTAP EMS 분석을 위한 FSx | 운영 및 개선 
