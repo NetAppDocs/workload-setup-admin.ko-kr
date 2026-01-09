@@ -125,10 +125,11 @@ link:codebox-automation.html["Codebox에 대해 자세히 알아보십시오"]
 
 === 비용 절감 계산기
 
-Workload Factory는 FSx for ONTAP 파일 시스템의 스토리지 환경이나 데이터베이스 워크로드 비용을 Elastic Block Store(EBS), Elastic File Systems(EFS), FSx for Windows File Server와 비교할 수 있는 절감 계산기를 제공합니다.  스토리지 요구 사항에 따라 FSx for ONTAP 파일 시스템이 가장 비용 효율적인 옵션일 수 있습니다.
+Workload Factory는 스토리지 환경, 데이터베이스 또는 VMware 워크로드의 비용을 FSx for ONTAP 파일 시스템에서 다른 Amazon 서비스와 비교할 수 있도록 비용 절감 계산기를 제공합니다. 저장 용량 요구 사항에 따라 FSx for ONTAP 파일 시스템이 가장 비용 효율적인 옵션이 될 수 있습니다.
 
 * link:https://docs.netapp.com/us-en/workload-fsx-ontap/explore-savings.html["스토리지 환경의 비용 절감 방법을 알아보십시오"^]
 * link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["데이터베이스 워크로드 비용 절감 방법을 알아보십시오"^]
+* link:https://docs.netapp.com/us-en/workload-vmware/calculate-evs-savings.html["VMware 워크로드 비용 절감 방법을 알아보세요."^]
 
 
 

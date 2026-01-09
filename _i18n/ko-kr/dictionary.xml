@@ -1120,7 +1120,6 @@
   <block id="1e2cf39904eebcbddae0fe72e0186b8b" category="paragraph">Workload Factory를 시작하는 데는 링크가 필요하지 않지만, 어떤 경우에는 모든 Workload Factory 기능과 워크로드 기능을 잠금 해제하려면 링크를 만들어야 합니다.</block>
   <block id="528a4ef2f9c8bc3b67d3efa2374a45d4" category="paragraph">Codebox는 개발자와 DevOps 엔지니어가 Workload Factory에서 지원하는 모든 작업을 실행하는 데 필요한 코드를 생성하는 데 도움이 되는 Infrastructure as Code(IaC) 파일럿입니다.  코드 형식에는 Workload Factory REST API, AWS CLI, AWS CloudFormation이 포함됩니다.</block>
   <block id="7feb10c40d9ece4ba2534f19d82a64da" category="paragraph">Codebox는 Workload Factory 운영 모드(_기본_, _읽기 전용_, _읽기/쓰기_)에 맞춰 조정되며 실행 준비를 위한 명확한 경로와 빠른 향후 재사용을 위한 자동화 카탈로그를 설정합니다.</block>
-  <block id="ef4d1c07f18f4d56e44fa520425903f8" category="paragraph">Workload Factory는 FSx for ONTAP 파일 시스템의 스토리지 환경이나 데이터베이스 워크로드 비용을 Elastic Block Store(EBS), Elastic File Systems(EFS), FSx for Windows File Server와 비교할 수 있는 절감 계산기를 제공합니다.  스토리지 요구 사항에 따라 FSx for ONTAP 파일 시스템이 가장 비용 효율적인 옵션일 수 있습니다.</block>
   <block id="4bbb8d481021011f9afb73ca196bfecd" category="section-title">NetApp Workload Factory를 사용하는 도구</block>
   <block id="227f846d45d01d0f9fb62a784d506d51" category="paragraph">다음 도구와 함께 NetApp Workload Factory를 사용할 수 있습니다.</block>
   <block id="36445dd6e44838348239a5d874596e0d" category="list-text">*Workload Factory 콘솔*: Workload Factory 콘솔은 애플리케이션과 프로젝트에 대한 시각적이고 전체적인 보기를 제공합니다.</block>
@@ -1266,4 +1265,7 @@
   <block id="f5051781c2f560348461adb9d928d406" category="list-text"><block ref="f5051781c2f560348461adb9d928d406" category="inline-link-rx"></block></block>
   <block id="ce9f0edfab2350bf4aa1961cdca492ac" category="paragraph">자동화된 스토리지 파라미터 관리를 통해 여러 파일 시스템에서 ONTAP 에 맞게 FSx를 최적화하여 성능을 향상시키고 운영 비용을 절감하십시오.</block>
   <block id="27dd4ab95b0517b4bda67fc48ed886e9" category="cell">ONTAP EMS 이벤트에 대한 FSx에 AI 기반 인사이트를 제공합니다.</block>
+  <block id="2ae1b7a674baff982eb8eb9dc66927ee" category="paragraph">Workload Factory는 스토리지 환경, 데이터베이스 또는 VMware 워크로드의 비용을 FSx for ONTAP 파일 시스템에서 다른 Amazon 서비스와 비교할 수 있도록 비용 절감 계산기를 제공합니다. 저장 용량 요구 사항에 따라 FSx for ONTAP 파일 시스템이 가장 비용 효율적인 옵션이 될 수 있습니다.</block>
+  <block id="90c1b5a7280b55877e1905122cd1721a" category="inline-link-macro">VMware 워크로드 비용 절감 방법을 알아보세요.</block>
+  <block id="c3529158a61861198ed03e3bb9e49b49" category="list-text"><block ref="c3529158a61861198ed03e3bb9e49b49" category="inline-link-macro-rx"></block></block>
 </blocks>
