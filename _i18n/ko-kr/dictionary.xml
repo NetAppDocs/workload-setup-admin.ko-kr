@@ -287,7 +287,6 @@
   <block id="691e71734464aaf43017f5b033e54559" category="section-title">2024년 8월 4일</block>
   <block id="efa42d5c66cb9948f402ee559611e12d" category="section-title">Terraform 지원</block>
   <block id="1571710cf3c95e6290fc41ea04917d42" category="paragraph">Terraform은 Amazon FSx for NetApp ONTAP 파일 시스템 배포 및 스토리지 VM 생성에 지원됩니다. 이제 설정 및 관리 가이드에는 코드박스에서 Terraform을 사용하는 방법에 대한 지침이 나와 있습니다.</block>
-  <block id="462c14d3e045d4b0b69cee0781df3207" category="paragraph">워크로드는 비즈니스 목표를 달성하기 위해 설계된 리소스, 코드, 서비스 또는 애플리케이션의 조합을 포함합니다. 이는 고객 대상 애플리케이션부터 백엔드 프로세스까지 모든 것이 될 수 있습니다. 워크로드는 단일 AWS 계정 내의 리소스 서브셋과 관련되거나 여러 계정에 분산될 수 있습니다.</block>
   <block id="fb44c12e7a424c0619764b1060434a74" category="section-title">비용 절감 계산기</block>
   <block id="2fd1745cefcdce50d6467d96e693f6b7" category="doc">RSS 구독</block>
   <block id="80f4b5aa553e3a44455088c83954a088" category="section-title">워크로드당 단일 권한 정책 지원</block>
@@ -845,7 +844,6 @@
   <block id="19a5158f1235c29843008925adb7baf8" category="sidebar">알림을 구성합니다</block>
   <block id="2fae32629d4ef4fc6341f1751b405e45" category="section-title">보안</block>
   <block id="de7642ec23585171e85481d37460d1b2" category="inline-link-macro">AWS 보안 기능</block>
-  <block id="6ff7732866355a577fee1c91a01a3561" category="inline-link-macro">SOC2 유형 1 준수</block>
   <block id="5bc45c9bf327952786de480d68cc107d" category="inline-link-macro">엔터프라이즈 앱 배포를 위한 AWS 솔루션</block>
   <block id="29281e8d047885f5a1eb2289174ea81b" category="paragraph">Amazon SNS 주제를 구독하면 기본적으로 해당 주제에 게시된 모든 알림을 받게 됩니다.  해당 주제의 특정 알림만 받으려면 필터 정책을 사용하여 받을 알림을 제어할 수 있습니다.  필터 정책을 사용하면 Amazon SNS가 필터 정책과 일치하는 알림만 구독자에게 전달합니다.</block>
   <block id="3cf5ea90b43a94f968c221cb35825fc3" category="paragraph">다음 기준으로 Amazon SNS 알림을 필터링할 수 있습니다.</block>
@@ -1104,7 +1102,6 @@
   <block id="e89477f461ecef2d895595553cc0cfbf" category="list-text">Ask Me AI 비서</block>
   <block id="c0eadc4e4502d909eddd3b5b2d48b232" category="list-text">AI 비서에게 FSx for ONTAP 파일 시스템을 관리하고 운영하는 방법에 대해 질문해 보세요.  Ask Me는 MCP(Model Context Protocol)를 사용하여 외부 환경과 안전하게 인터페이스하고 API 도구를 쿼리하여 특정 스토리지 환경에 맞춤형 응답을 제공합니다.</block>
   <block id="f23d73684a524dc65f1c2ab55054ed6c" category="paragraph">Workload Factory를 사용하면 Amazon Web Services에서 클라우드 스토리지를 관리하고 워크로드 기능을 사용할 수 있습니다.</block>
-  <block id="59357af7cb9129e8c2be60c63512c221" category="paragraph">NetApp Workload Factory의 보안은 NetApp 의 최우선 순위입니다.  Workload Factory의 모든 워크로드는 Amazon FSx for NetApp ONTAP 에서 실행됩니다.  모든 것 외에도<block ref="ccc35ad3502dffbee7f06fd01d3728f9" category="inline-link-macro-rx"></block> , NetApp Workload Factory가 수신되었습니다.<block ref="87b5f9f30f065d1ad679fca208226814" category="inline-link-macro-rx"></block> .</block>
   <block id="cc3487971ff751f7d4df80cbca84205b" category="paragraph">NetApp Workload Factory Amazon FSx for NetApp ONTAP 는<block ref="eada645bedd6ca3d760173ba22baf6b0" category="inline-link-macro-rx"></block> 잘 설계된 모범 사례를 염두에 두고 만들어졌습니다.</block>
   <block id="6396fbe69c05e9a323cf53a0fbf0983d" category="paragraph">Workload Factory는 무료로 사용할 수 있습니다.  Amazon Web Services(AWS)에 지불하는 비용은 배포하려는 스토리지 및 워크로드 서비스에 따라 달라집니다.  여기에는 Amazon FSx for NetApp ONTAP , AWS 인프라의 VMware Cloud, AWS 서비스 등의 비용이 포함됩니다.</block>
   <block id="d866a7eda949420ef136789c93a23ee9" category="section-title">Workload Factory 작동 방식</block>
@@ -1268,4 +1265,155 @@
   <block id="2ae1b7a674baff982eb8eb9dc66927ee" category="paragraph">Workload Factory는 스토리지 환경, 데이터베이스 또는 VMware 워크로드의 비용을 FSx for ONTAP 파일 시스템에서 다른 Amazon 서비스와 비교할 수 있도록 비용 절감 계산기를 제공합니다. 저장 용량 요구 사항에 따라 FSx for ONTAP 파일 시스템이 가장 비용 효율적인 옵션이 될 수 있습니다.</block>
   <block id="90c1b5a7280b55877e1905122cd1721a" category="inline-link-macro">VMware 워크로드 비용 절감 방법을 알아보세요.</block>
   <block id="c3529158a61861198ed03e3bb9e49b49" category="list-text"><block ref="c3529158a61861198ed03e3bb9e49b49" category="inline-link-macro-rx"></block></block>
+  <block id="e9bb0779cc5e75ede07691420cf53f10" category="summary">Workload Factory는 워크로드 구성을 스캔하여 안정성, 보안, 운영 우수성, 비용 최적화 및 성능 효율성을 평가하고, 운영 우수성을 달성하는 데 도움이 되는 통찰력과 권장 사항을 제공합니다.</block>
+  <block id="32b4eab38fa52d3797017237d916e169" category="doc">잘 설계된 워크로드를 구축하고 운영합니다.</block>
+  <block id="9f90d642d2308ca0bef76516f43da4bf" category="paragraph">Workload Factory는 Amazon FSx for NetApp ONTAP NetApp 관리 제품군으로, AWS Well-Architected Framework에 부합하는 안정적이고 안전하며 효율적이고 비용 효율적인 스토리지 및 데이터베이스 구성을 유지 관리하고 운영할 수 있도록 지원합니다. Workload Factory는 스토리지 및 데이터베이스 워크로드에 대한 일일 분석, 권장 사항 및 자동 수정 기능을 제공하여 워크로드의 정상적인 운영을 지원합니다. Workload Factory는 이 프로세스를 자동화함으로써 인적 오류를 최소화하고 작업량 관리의 일관성을 보장합니다.</block>
+  <block id="9ffdb95250e26c7a6b468126ac7c75b0" category="section-title">작동 원리</block>
+  <block id="60eb4467b2b42285650cbb902455822e" category="paragraph">Workload Factory는 Amazon FSx for NetApp ONTAP 매일 분석합니다. 일일 분석은 잘 설계된 아키텍처의 상태와 통찰력 및 권장 사항을 제공하며, 구성 문제를 자동으로 수정하는 옵션을 통해 배포가 모범 사례를 준수하고 효율적으로 작동하도록 지원합니다.</block>
+  <block id="678b83ba882b41e4bae10f8e48f4a766" category="paragraph">일일 분석이 완료되면 배포에 대한 구성이 Well-architectured 대시보드에 "최적화됨" 또는 "최적화되지 않음"으로 표시됩니다. 여기에서 전체 최적화 점수, 범주별 구성 문제, 구성 문제 목록 및 권장 사항을 확인할 수 있습니다. 구성 문제에 대한 권장 사항을 검토할 수 있습니다. Workload Factory에서 일부 문제는 자동으로 해결할 수 있지만, 다른 문제는 수동 개입이 필요합니다. 이 경우 Workload Factory는 권장 변경 사항을 구현하는 데 도움이 되는 자세한 지침을 제공합니다.</block>
+  <block id="c41905bc26fe3f0d3782c7fadfcf4fc7" category="paragraph">스토리지 및 데이터베이스 워크로드에 대한 요구 사항은 다양하므로 사용자 환경에 적용되지 않는 특정 구성에 대한 분석은 제외할 수 있습니다. 이렇게 하면 불필요한 알림과 부정확한 최적화 결과를 방지할 수 있습니다. 특정 구성 분석이 기각되면 해당 구성은 전체 최적화 점수에 포함되지 않습니다.</block>
+  <block id="ee25e0b6cd574166f206b4c5b7f02df3" category="section-title">왜 중요한가</block>
+  <block id="152bff6d061f84223d0046a15effa86b" category="paragraph">Workload Factory는 대규모 스토리지 또는 데이터베이스 환경에 모범 사례를 수동으로 적용하는 어려운 작업을 간소화합니다. Workload Factory 콘솔에서 최적화되지 않은 구성을 분석하고 수정하는 기능을 결합하여 이 프로세스를 효율화합니다. Workload Factory 콘솔에서 적용된 수정 사항은 인적 오류의 위험을 제거하고 스토리지 및 데이터베이스 관리의 일관성을 보장합니다. 자동화를 활용하면 구성이 매번 정확하게 적용되고 시간이 지나도 그대로 유지되도록 보장할 수 있으므로 전체 스토리지 인프라에서 높은 성능 및 안정성 표준을 유지할 수 있습니다.</block>
+  <block id="a3bc2a6a859d792c531df9c9c525bcdb" category="section-title">Workload Factory를 사용하여 잘못된 구성을 감지하고 수정해 보세요.</block>
+  <block id="3b3d9b16b20a1d2dfd8b90ec4a5c674f" category="paragraph">Workload Factory를 시작하려면 가입 및 계정 생성, 자격 증명 추가, 연결 설정 등을 통해 Workload Factory가 AWS 리소스를 직접 관리할 수 있도록 설정한 다음 Amazon FSx for NetApp ONTAP 사용하여 워크로드를 최적화하십시오.</block>
+  <block id="529694d7ce17e2ca817cab9ae2f1451e" category="paragraph"><block ref="529694d7ce17e2ca817cab9ae2f1451e" category="inline-link-macro-rx"></block></block>
+  <block id="c6ee17dfa8bb85cfb470ccbc889f031c" category="section-title">스토리지 워크로드에 대한 모범 사례 및 권장 사항</block>
+  <block id="9dc9d1de2ed3e815404014374c515208" category="paragraph">Workload Factory는 스토리지 관리를 위한 ONTAP 구성 모범 사례에 대한 심층적인 정보를 제공합니다. 구체적으로, Workload Factory 내의 Storage 워크로드는 AWS Well-Architected Framework의 핵심 원칙을 준수하는지 스토리지 구성을 분석하고, 최적화되지 않은 구성에 대한 권장 사항 및 개선 방안을 제공합니다. 스토리지의 잘 설계된 상태 대시보드에서 최적의 성능과 안정성을 제공하는 FSx for ONTAP 파일 시스템을 구현하는 데 도움이 되는 유용한 정보를 확인할 수 있습니다.</block>
+  <block id="ffd9fc00ab43b8283346c6266e00d684" category="paragraph">잘 설계된 분석은 프레임워크의 다음 핵심 요소인 신뢰성, 보안, 운영 우수성, 비용 최적화 및 성능 효율성으로 구성을 분류합니다.</block>
+  <block id="820b8f74ad843d1574106ec4cadfc07e" category="section-title">신뢰할 수 있음</block>
+  <block id="32293fdcb7dff0798e6d06da4b108ce6" category="paragraph">신뢰성은 장애가 발생하더라도 워크로드가 의도된 기능을 정확하고 일관되게 수행하도록 보장합니다.</block>
+  <block id="554b13f76fb8ac95ab406262d15a2fa1" category="list-text">* ONTAP 백업을 위해 FSx를 예약하세요*</block>
+  <block id="af34c811ecdb16220adf8c0a67e5adbe" category="paragraph">FSx for ONTAP: 볼륨 백업은 데이터 보존 및 규정 준수 요구 사항을 지원하는 데 도움이 됩니다. FSx for ONTAP 백업을 사용하여 데이터에 대한 중앙 집중식 자동 백업 및 보존 전략을 구현하십시오.</block>
+  <block id="277088f7a0bc1d2b0023dc08b1d30e37" category="list-text">*로컬 스냅샷 예약*</block>
+  <block id="ce36269ae95cd0ab7422d78bb843b720" category="paragraph">효율적인 백업과 빠른 복원을 위해 로컬 스냅샷을 예약하세요. 스냅샷은 볼륨의 특정 시점의 모습을 즉시 보여주는 이미지입니다.</block>
+  <block id="b34347ddf6e48f7eb5aee09d6f7b92a6" category="list-text">*지역 간 복제*</block>
+  <block id="651789a3dcb2609efc180fcbd22d738b" category="paragraph">리전 간 복제를 통해 데이터가 다른 AWS 리전으로 복제되므로 데이터의 내구성과 가용성이 향상됩니다. Workload Factory는 재해 복구 및 규정 준수 요구 사항을 위해 지역 간 복제 구성을 권장합니다.</block>
+  <block id="1efec9308ce64129e1db77dd8baa679c" category="list-text">*데이터 복제 설정*</block>
+  <block id="793435fc062d4d74518687597c405959" category="paragraph">데이터 신뢰성을 높이기 위해 데이터를 동일 지역 또는 다른 지역의 FSx for ONTAP 파일 시스템으로 복제할 수 있습니다. 파일 시스템 간 마이그레이션, 재해 복구 및 장기 보존을 지원하기 위해 데이터 복제를 설정하십시오.</block>
+  <block id="4776b32ae8a508cea6dc14786e7b1d3f" category="list-text">*SSD 용량 임계값 높이기*</block>
+  <block id="e48d5f7bfc0f630823696ef4d2f1861d" category="paragraph">SSD 스토리지 계층의 사용률은 지속적으로 80%를 초과해서는 안 됩니다. 이는 용량 풀 스토리지 계층의 데이터 읽기 및 쓰기에 영향을 미치고 파일 시스템의 처리량 용량에 영향을 줄 수 있습니다. 용량이 부족해지면 데이터 볼륨이 읽기 전용으로 전환될 수 있으며, 새 데이터를 쓰려는 서비스가 실패할 수 있습니다.</block>
+  <block id="52dcb980883fc7c1570f6f9c4c6e4f47" category="list-text">*데이터 신뢰성을 확보하기 위해 라벨을 일치시키세요.*</block>
+  <block id="6b684c41f8808f2d21748ed56ee909d7" category="paragraph">데이터의 안정성을 보장하려면 소스 볼륨의 스냅샷 정책 레이블과 복제 정책 레이블이 일치해야 합니다.</block>
+  <block id="ec75a1c7b766068775fc7894ddaf83e4" category="list-text">*파일 용량 임계값 증가*</block>
+  <block id="0d73092e450f3018847f6e8ff85e28c0" category="paragraph">볼륨 용량 제한에 도달하는 것을 방지하기 위해 파일 용량 임계값을 높여야 합니다. 파일 용량(inode) 부족으로 인해 볼륨에 추가 데이터를 쓸 수 없습니다. Workload Factory는 사용 가능한 파일 용량의 활용률을 지속적으로 80% 미만으로 유지할 것을 권장합니다. 볼륨에 새 파일을 생성하려면 사용 가능한 파일 용량이 필요합니다.</block>
+  <block id="7d7265a6929882bb433fc74e8bee871a" category="paragraph">보안은 위험 평가 및 완화 전략을 통해 데이터, 시스템 및 자산을 보호하는 데 중점을 둡니다.</block>
+  <block id="6b164cf17f1cd008f12b094341cb3264" category="list-text">*ARP/AI 활성화*</block>
+  <block id="25f8ff1f36f295f75abe4713d79799cf" category="paragraph">NetApp AI 기반 자율형 랜섬웨어 보호(ARP/AI)는 사이버 복원력을 강화하고 진화하는 랜섬웨어 위협으로부터 볼륨을 능동적으로 보호합니다. Workload Factory는 모든 볼륨에 대해 ARP/AI를 활성화하는 것을 권장합니다.</block>
+  <block id="1218a704bef91508c259c867ba832d76" category="list-text">*볼륨에 대한 무단 접근*</block>
+  <block id="0f47a13bb4c0929efc89421b05c0e209" category="paragraph">iSCSI를 사용하여 애플리케이션 데이터를 제공하는 볼륨은 NAS에 병렬로 액세스하는 것을 허용해서는 안 됩니다. Workload Factory는 iSCSI 프로토콜을 통해 액세스하는 볼륨에 대해서는 추가 프로토콜 사용을 제한할 것을 권장합니다.</block>
+  <block id="17d2a91a4f3c01de4c2f05b2242e49d3" category="section-title">운영 우수성</block>
+  <block id="aae272278ce139a51849ab88adc7d597" category="paragraph">운영 효율성은 최적의 아키텍처와 비즈니스 가치를 제공하는 데 중점을 둡니다.</block>
+  <block id="2e8c868875c81824742ded82e0ff9518" category="list-text">*자동 용량 관리 활성화*</block>
+  <block id="c2af0d35add26707ebd7d7030d750beb" category="paragraph">SSD 계층이 임계값을 초과하지 않도록 정기적으로 관리하려면 자동 용량 관리를 활성화해야 합니다.</block>
+  <block id="32438b829cdc61174e9727896ad00733" category="list-text">*용량 활용률 임계값*</block>
+  <block id="938de8c74e8e4f67c370d24df8ab0411" category="paragraph">Workload Factory는 용량 활용률이 지속적으로 80%를 초과하지 않도록 권장합니다. 이는 애플리케이션의 데이터 읽기 및 쓰기에 영향을 미칠 수 있습니다. 용량 증가는 수동 또는 용량 자동 증가 기능을 사용하여 자동으로 수행할 수 있습니다.</block>
+  <block id="900f4b8178b38a2b7075005f38bd4a08" category="list-text">*용량 활용률이 거의 최대치에 도달했습니다*</block>
+  <block id="1771306e58ae20ceab27a04d0b17adcd" category="paragraph">워크로드 팩토리는 용량이 거의 꽉 찼을 때 애플리케이션 중단을 방지하기 위해 용량을 늘리는 조치를 취할 것을 권장합니다.</block>
+  <block id="dea8be5f351d7ba412ea10951c1fe16c" category="list-text">*캐시 관계 쓰기 모드*</block>
+  <block id="a58ce95d0ee8f9d592643a6f31d60878" category="paragraph">최적의 성능을 위해 Workload Factory는 워크로드에 가장 적합한 캐시 관계 쓰기 모드를 권장합니다. 쓰기 우회 모드는 작은 파일에 대한 읽기 중심 워크로드에서 더 나은 성능을 제공하는 반면, 쓰기 백 모드는 큰 파일에 대한 쓰기 중심 워크로드에서 더 나은 성능을 제공합니다.</block>
+  <block id="a39ae09f8be4327fc176cfeb76a0e366" category="section-title">비용 최적화</block>
+  <block id="99cf25f36b236182c66bfca4aa2c66cc" category="paragraph">비용 최적화는 비용을 최소화하면서 비즈니스 가치를 창출하는 것을 목표로 합니다.</block>
+  <block id="ff879d0ae47ba423426718c1437f43bc" category="list-text">*콜드 데이터를 계층화하여 총소유비용(TCO)을 최적화하세요*</block>
+  <block id="3fa1db8a8be8ef91cca2bf931c2698f3" category="paragraph">SSD 스토리지 계층 사용률을 줄이기 위해 콜드 데이터 계층화를 활성화해야 합니다. 각 볼륨에 계층화 정책을 적용하는 것이 좋습니다. FSx for ONTAP 데이터를 지속적으로 스캔하여 콜드 데이터를 감지하고 중단 없이 용량 스토리지 풀 계층으로 이동합니다.</block>
+  <block id="7cee9f2699d966625a5743c41334d168" category="list-text">*저장 효율성을 향상시키세요*</block>
+  <block id="4ac28dca7ab7f0f38a67c27c947662d5" category="paragraph">스토리지 활용도를 최적화하고 SSD 계층 비용을 절감하기 위해 압축, 데이터 중복 제거와 같은 스토리지 효율성 향상 기능을 활성화해야 합니다.</block>
+  <block id="fed8dca8f704b8520ccccb85704d4336" category="list-text">*불필요한 스냅샷 및 백업 삭제*</block>
+  <block id="0c3c1c3be816da545548a0d1ddb8eab2" category="paragraph">비용 절감을 위해 더 이상 필요하지 않은 스냅샷과 백업은 삭제해야 합니다.</block>
+  <block id="1828f0f67d6613341efbc43d822fd8dc" category="section-title">데이터베이스 워크로드에 대한 모범 사례 및 권장 사항</block>
+  <block id="1ed3d8c93156794cc432b123457d635f" category="paragraph">Workload Factory는 잘 설계된 데이터베이스 워크로드를 운영하기 위한 모범 사례 및 권장 사항을 제공합니다. 잘 설계된 아키텍처 분석은 스토리지 크기, 스토리지 레이아웃, 스토리지 구성, 컴퓨팅, 애플리케이션(SQL Server) 및 복원력과 관련된 Microsoft SQL Server 및 Oracle 데이터베이스 구성 및 설정을 평가합니다.</block>
+  <block id="894445e8ea6df545bfbc4247797a2162" category="section-title">저장 크기</block>
+  <block id="5418270ffed466b82b925869518520c0" category="list-text">*저장 계층*</block>
+  <block id="980f2b5cfc57d5b828fdc03fb48b0f83" category="paragraph">최적의 스토리지 성능을 위해 기본 SSD 계층에 ONTAP 볼륨용 FSx를 프로비저닝하십시오. 용량 풀 계층을 사용하면 성능이 저하되고 지연 시간이 길어질 수 있습니다.</block>
+  <block id="50a35154861297e0463ad6610197fd71" category="list-text">*파일 시스템 여유 공간*</block>
+  <block id="a10a412f9caed4ecf076cca6f86cb10d" category="paragraph">스토리지 성능을 최적화하려면 파일 시스템 용량을 프로비저닝 볼륨 전체 크기의 1.35배로 설정하십시오.</block>
+  <block id="8c8e78556bb98abf38a24ed03f6dea07" category="paragraph">파일 시스템 여유 공간 비율은 다음과 같습니다.</block>
+  <block id="d131cee6e951b8ef8aae640422adc7b4" category="list-text">공급 부족: 35% 미만</block>
+  <block id="a4f98ed8f549899ff7bdae93a70c058f" category="list-text">최적화 범위: 35-100%</block>
+  <block id="b19cbc3488f18abb8a96f4fa3aad65fc" category="list-text">과잉 공급: &gt; 100%</block>
+  <block id="e52ac523a924c00b4c5ccd742f0d98f3" category="list-text">*통나무 드라이브 크기*</block>
+  <block id="2b8f731c7d364a576204d430f0100367" category="paragraph">SQL Server 로그 드라이브의 크기를 정확하게 관리하고 정기적으로 모니터링하여 로그 드라이브 용량 부족으로 인한 트랜잭션 롤백, 데이터베이스 사용 불가, 데이터 손상 및 성능 저하와 같은 문제를 방지하십시오.</block>
+  <block id="970f93910a17f29e3e26236cfabbc6d2" category="paragraph">로그 드라이브 크기 비율은 다음과 같습니다.</block>
+  <block id="c0e089308165afd3e0d1fb0b051023c4" category="list-text">준비 부족: 20% 미만</block>
+  <block id="f5491831523573e7a5818c1338bc4b88" category="list-text">최적화: 20-30%</block>
+  <block id="12ec21a0f24807900988e40f718a19e1" category="list-text">과잉 공급: &gt; 30%</block>
+  <block id="300311b18477e304f1d9e66ce254c8fd" category="list-text">*TempDB 드라이브 크기*</block>
+  <block id="9dfd40ea7be8a60a0044599c85d43913" category="paragraph">SQL Server TempDB의 크기를 정확하게 설정하고 정기적으로 모니터링하여 성능을 최적화하고 전반적인 안정성을 유지하십시오. TempDB를 올바르게 구성하면 성능 문제와 불안정성을 방지할 수 있습니다. 공간 부족 또는 높은 경합률은 쿼리 속도 저하, 애플리케이션 시간 초과 및 시스템 충돌로 이어질 수 있습니다.</block>
+  <block id="dbaf4a3b8c991f3b5a574967d81bd31c" category="paragraph">TempDB 드라이브 크기 비율은 다음과 같습니다.</block>
+  <block id="338a1b3efc5ed9ede9251ea7522f9768" category="list-text">공급 부족: 10% 미만</block>
+  <block id="4a7bb04bbe354596b5e4e71552eac3a5" category="list-text">최적화: 10-20%</block>
+  <block id="e4bceb5f8d98ed0feed104f2d1f99eeb" category="list-text">과잉 공급: &gt; 20%</block>
+  <block id="196cc0216fd769aaf46f47da965f30f0" category="section-title">수납 공간 배치</block>
+  <block id="d8c5a700d63af4f6cb137eb741f48898" category="list-text">*데이터 파일(.mdf) 배치*</block>
+  <block id="407d6614acc148e0eecf7146b435fad9" category="paragraph">데이터 파일과 로그 파일을 서로 다른 드라이브에 분리하면 동시 I/O 작업, 독립적인 백업 일정 설정, 향상된 복원 기능 등을 통해 성능이 향상됩니다. 소규모 데이터베이스의 경우 데이터 및 로그 LUN 경로를 서로 다른 볼륨으로 분리하는 것이 좋습니다. 이러한 분리는 대용량 데이터베이스(&gt; 500GiB)가 두 개 이상 있는 경우에 필요합니다.</block>
+  <block id="22129f60f15a319851eb066d5b9e73d1" category="list-text">*로그 파일(.ldf) 위치*</block>
+  <block id="5b9b356226fe0fdbf3042c364d45373b" category="list-text">*TempDB 배치*</block>
+  <block id="c5d0775e1399ac44434cf0776c11771a" category="paragraph">TempDB를 전용 드라이브에 배치하여 TempDB I/O를 격리하고 다른 데이터베이스와의 I/O 경합을 방지하십시오. 이 최적화는 SQL Server의 전반적인 성능과 안정성을 향상시킵니다. 이를 준수하지 않을 경우 심각한 I/O 병목 현상, 쿼리 성능 저하 및 시스템 불안정성이 발생할 수 있습니다.</block>
+  <block id="6e8775bd755a8835ce86806d669677ea" category="section-title">스토리지 구성</block>
+  <block id="6fff5b0f8a5584251f9c517e970984b4" category="list-text">* ONTAP 구성 *</block>
+  <block id="1a434befae3f49ae09347ded52032f6f" category="cell">실재</block>
+  <block id="51ac4bf63a0c6a9cefa7ba69b4154ef1" category="cell">환경</block>
+  <block id="bd7a9717d29c5ddcab1bc175eda1e298" category="paragraph">용량</block>
+  <block id="6b8e4df83ce0d2861fa30424ab3604d5" category="list-text">씬 프로비저닝(-space-guarantee = none)</block>
+  <block id="d6e304975073ac043a7e7d6daba15520" category="list-text">자동 크기 조정</block>
+  <block id="3204353d2f7350083c0a5c28924ace38" category="list-text">자동 크기 조정 모드 = 성장</block>
+  <block id="7971a4b0abc2b9ae74cc5195faa61b2e" category="list-text">부분준비금 = 0%</block>
+  <block id="80fc91c23423ed00de6c501ea13a6c74" category="list-text">스냅샷 사본 예약 = 0%</block>
+  <block id="bfd0ba0068b81944482dc1bfbf945ac5" category="list-text">스냅샷 자동 삭제(볼륨/가장 오래된 스냅샷부터)</block>
+  <block id="ed1548b793e09ad5593d49fa73bcfa7a" category="list-text">공간 관리 시도 우선 = 볼륨 증가</block>
+  <block id="d1b4a4df24be90a6bb2ff55104e753b9" category="paragraph">스토리지 효율성과 비용 효율성을 최적화하려면 FSx for ONTAP 볼륨에 대해 씬 프로비저닝, 자동 크기 조정 및 공간 관리 옵션을 구성하십시오. 씬 프로비저닝이 없으면 스토리지가 사전에 할당되어 비효율적인 사용과 과잉 프로비저닝으로 인한 비용 증가를 초래합니다. 정적 할당은 사용하지 않는 용량에 대한 비용을 발생시켜 지출을 증가시키고, 동적 할당이 부족하면 확장성과 유연성이 저하되어 성능에 악영향을 미칩니다. 또한 공간 회수가 없으면 삭제된 데이터가 공간을 차지하여 효율성이 떨어집니다.</block>
+  <block id="acd64f8fed33a7b60eb1161b15a8b7cd" category="list-text">계층화 정책 = 스냅샷 전용</block>
+  <block id="5bf1f37a6e4c9cac9b1b07c9d134e902" category="list-text">단계별 최소 냉방일수 = 7</block>
+  <block id="71a7128c715acf96d61f1cd8d786c74f" category="paragraph">최적의 데이터베이스 성능과 비용 효율성을 위해 Workload Factory는 스냅샷만 용량 계층으로 이동할 것을 권장합니다. 이 전략은 비용을 절감하면서 높은 성능을 보장합니다. 특히 7일 이상 된 스냅샷은 티어링하는 것이 좋습니다.</block>
+  <block id="b26e74ed6e2892c7e2bb95e414d460c6" category="paragraph">LUN</block>
+  <block id="c1959a3aec57d9698b009c3acc71116e" category="paragraph">OS 유형 = 윈도우 2008</block>
+  <block id="ae770170ef6591797acad356c43a8d7a" category="paragraph">ONTAP LUN의 OS 유형 값은 I/O 정렬을 위해 운영 체제 파티셔닝 체계와 일치해야 합니다. 설정이 잘못되면 성능이 저하될 수 있습니다.</block>
+  <block id="fb7c414053dcc0cf0e717ee2669fcb4b" category="paragraph">공간 예약 가능</block>
+  <block id="e250dd22789da7ca04b77518717fb26b" category="paragraph">공간 예약이 활성화되면 ONTAP 디스크 공간 부족으로 인해 해당 LUN에 대한 쓰기 작업이 실패하지 않도록 볼륨에 충분한 공간을 예약합니다.</block>
+  <block id="ae4901100928c44257237cecf03a10d9" category="paragraph">공간 할당 활성화됨</block>
+  <block id="4f928ef391d44750172130e68397dbda" category="paragraph">이 옵션을 선택하면 FSx for ONTAP 이 볼륨이 가득 차서 쓰기를 허용할 수 없을 때 EC2 호스트에 알림을 보냅니다. 이 설정을 사용하면 EC2 호스트의 SQL Server에서 데이터를 삭제할 때 FSx for ONTAP 자동으로 공간을 회수할 수 있습니다. 이 기능을 비활성화하면 쓰기 오류가 발생할 수 있으며 공간이 비효율적으로 사용될 수 있습니다.</block>
+  <block id="93500df48c26b96ea97ca06b1759644f" category="list-text">*윈도우 저장소 구성*</block>
+  <block id="636bb240434852f12cce984d68a43b6a" category="paragraph">Microsoft 다중 경로 I/O(MPIO)</block>
+  <block id="c0ddafaef190fe389a1cdc8fb5d62c72" category="list-text">상태 = 활성화됨</block>
+  <block id="0fa6af19bdea795e9580313ea4cc3b2d" category="list-text">정책 = 라운드 로빈</block>
+  <block id="2b6db0933c6fb81f78bb99312b9531fd" category="list-text">세션 수 = 5</block>
+  <block id="accfcb146473c3c5fad0b38c182542f0" category="paragraph">FSx for ONTAP 에 프로비저닝된 LUN을 사용하는 EC2의 Microsoft SQL Server 데이터베이스에 대해 최적의 가동 시간과 데이터 액세스 일관성을 보장하기 위해 Workload Factory는 멀티패스 I/O(MPIO)를 활성화하고 구성하는 것을 권장합니다. MPIO는 ONTAP 용 FSx에 대한 여러 경로를 제공하여 복원력과 성능을 모두 향상시킵니다. 이 모범 사례는 구성 요소에 오류가 발생하더라도 데이터 액세스를 유지함으로써 잠재적인 데이터 손실이나 시스템 중단을 방지합니다.</block>
+  <block id="2cea162b682d428af2966968c1544afe" category="paragraph">할당 단위 크기</block>
+  <block id="4bef14121507c122cc877c2bf3cf9c8d" category="paragraph">NTFS 할당 단위 크기 = 64K</block>
+  <block id="7721cd44234239c5d1f89da7f5ba702e" category="paragraph">NTFS 할당 단위 크기를 64K로 설정하면 디스크 공간 활용도를 높이고, 조각화를 줄이며, 파일 읽기/쓰기 성능을 향상시킬 수 있습니다. 이 설정을 제대로 구성하지 않으면 디스크 사용 효율이 떨어지고 성능이 저하될 수 있습니다.</block>
+  <block id="a623a8d0366bf079411aa30be45b2d10" category="section-title">계산하다</block>
+  <block id="552508d9abd0206f8a2258a4e950c0ce" category="list-text">*컴퓨팅 적정화*</block>
+  <block id="5eb4e9d6e596897720c239e0a1cfe755" category="paragraph">SQL Server EC2 인스턴스의 최적 성능과 비용 효율성을 보장하기 위해 워크로드 요구 사항에 따라 인스턴스 크기를 적절하게 조정하는 것이 좋습니다. 현재 인스턴스의 리소스가 부족한 경우 업그레이드를 통해 CPU, 메모리 및 I/O 용량을 향상시킬 수 있습니다. 만약 용량이 과도하게 확보된 경우, 용량을 줄이면 성능을 유지하면서 비용을 절감할 수 있습니다.</block>
+  <block id="f4aa5339a6267f9aa498876d3f99817d" category="list-text">*운영체제 패치*</block>
+  <block id="257fc28b5d669adaeb61d34339d8ad8a" category="paragraph">가능한 한 최신 패치를 적용하여 보안과 안정성을 확보하십시오. 최신 패치를 적용하면 SQL Server 데이터베이스를 취약점으로부터 보호하고 시스템 안정성을 크게 향상시킬 수 있습니다.</block>
+  <block id="f7ea56e7a1a3d21f93afb8868a46597f" category="list-text">*네트워크 어댑터 설정*</block>
+  <block id="873cf5ed756029d2b03d4f8f5a63f42d" category="paragraph">Microsoft SQL Server 인스턴스에서 최적의 네트워크 성능을 위해서는 수신 측 스케일링(RSS)을 정확하게 구성하는 것이 필수적입니다. RSS는 네트워크 처리를 여러 프로세서에 분산시켜 병목 현상을 방지하고 시스템 성능을 향상시킵니다. Workload Factory는 다음과 같은 RSS 설정을 권장합니다.</block>
+  <block id="230d0de8eb9cc0af29b6f65dbec3f416" category="list-text">TCP 오프로딩 기능 비활성화: 모든 TCP 오프로딩 기능이 비활성화되어 있는지 확인하십시오.</block>
+  <block id="b93ca5665d3b8a0ee8810658e0ed7d16" category="list-text">수신 큐 개수: vCPU가 8개보다 크면 8로 설정합니다. vCPU 개수가 8개 이하인 경우, 해당 개수로 설정합니다.</block>
+  <block id="ad3bc285b8875e27bb37cf988c83e91a" category="list-text">RSS 프로필: NUMAStatic으로 설정하세요.</block>
+  <block id="141da671911df3ed7edc77ccfdf82e6f" category="list-text">기본 프로세서 번호: 2로 설정.</block>
+  <block id="00b979b0e1e12ffa9b6210f429e8645e" category="paragraph">이러한 설정을 따르면 Microsoft SQL Server 인스턴스의 성능과 안정성이 향상됩니다. 운영 환경에 변경 사항을 적용하기 전에 권장 설정을 테스트하여 성능 향상 여부를 확인하는 것이 좋습니다.</block>
+  <block id="213ae318e1d77a9d7c891744d5e088ad" category="section-title">응용 프로그램(SQL Server)</block>
+  <block id="ee998db55a5373c890946748cb8dafeb" category="list-text">*특허*</block>
+  <block id="8047eae9dfeb73342abc9f061f614516" category="paragraph">SQL Server 라이선스 평가 및 권장 사항은 호스트 수준에서 제공됩니다.</block>
+  <block id="47b3409519c82ccb6ca067b7954c5d4b" category="paragraph">최적화되지 않음: Workload Factory에서 사용자의 데이터베이스 인프라가 유료 상용 소프트웨어 라이선스 기능 중 어느 것도 사용하지 않는 것으로 감지되면 해당 라이선스는 "최적화되지 않음"으로 간주됩니다. 최적화되지 않은 라이선스는 불필요한 비용을 초래할 수 있습니다.</block>
+  <block id="0eebdaaceabb973f0fb9fa8442b52d8f" category="paragraph">최적화됨: 상용 소프트웨어 라이선스가 데이터베이스 성능 요구 사항을 충족할 때 해당 라이선스는 "최적화됨"으로 간주됩니다.</block>
+  <block id="a8642bb1e88dfe2e58d1d4d34aed2d28" category="list-text">*Microsoft SQL Server 패치*</block>
+  <block id="4eddb0eeecb1e4ae314e258e08e465e3" category="list-text">*맥스돕*</block>
+  <block id="6be0a3266d69978e2350a5623a35e617" category="paragraph">쿼리 성능을 최적화하려면 최대 병렬 처리 수준(MAXDOP)을 설정하여 병렬 처리의 균형을 맞추십시오. 정확한 MAXDOP 설정은 성능과 효율성을 향상시킵니다. MAXDOP 값을 4, 8 또는 16으로 설정하면 대부분의 사용 사례에서 최상의 결과를 얻을 수 있습니다. 워크로드를 테스트하고 CXPACKET과 같은 병렬 처리 관련 대기 유형을 모니터링하는 것이 좋습니다.</block>
+  <block id="66c44ae5bb6095407eca5355b0b9e5f9" category="paragraph">Microsoft SQL Server 볼륨을 백업하는 것은 데이터 보존 및 규정 준수 요구 사항을 충족하는 데 매우 중요합니다. FSx for ONTAP 백업을 사용하여 SQL Server 데이터에 대한 중앙 집중식 자동 백업 및 보존 전략을 구현하십시오.</block>
+  <block id="8fed534b92837766d0beda280a6179f0" category="inline-link-macro">ONTAP 파일 시스템을 위한 잘 설계된 FSx를 구현합니다.</block>
+  <block id="b90e7338ef0cc6f12d0e55b76172a446" category="list-text"><block ref="b90e7338ef0cc6f12d0e55b76172a446" category="inline-link-macro-rx"></block></block>
+  <block id="4da0b519f402cca2d38847e59fb3b885" category="inline-link-macro">잘 설계된 데이터베이스 워크로드를 구현하세요</block>
+  <block id="813bbef54984e0f92c8a1fe77f77d9a8" category="list-text"><block ref="813bbef54984e0f92c8a1fe77f77d9a8" category="inline-link-macro-rx"></block></block>
+  <block id="7f39dee910ffdf569a9923a9db84ffab" category="paragraph">워크로드란 비즈니스 목표를 달성하기 위해 설계된 리소스, 코드, 서비스 또는 애플리케이션의 조합을 의미합니다. 이는 고객 대면 애플리케이션부터 백엔드 프로세스에 이르기까지 무엇이든 될 수 있습니다. 워크로드는 단일 AWS 계정 내의 리소스 일부를 사용하거나 여러 계정에 걸쳐 리소스를 사용할 수 있습니다.</block>
+  <block id="7d077036b7365e47511d664ec7d5ffb6" category="inline-link-macro">SOC2 1종 규정 준수, SOC2 2종 규정 준수 및 HIPAA 규정 준수</block>
+  <block id="eb7ebe7af5ec92f47ad0ae86054e6ec8" category="paragraph">NetApp Workload Factory 의 보안은 NetApp 에게 최우선 과제입니다. Workload Factory의 모든 워크로드는 Amazon FSx for NetApp ONTAP 에서 실행됩니다. 이 모든 것 외에도 <block ref="ccc35ad3502dffbee7f06fd01d3728f9" category="inline-link-macro-rx"></block>NetApp Workload Factory 인증을 받았습니다. <block ref="0134e971074a8d8e006ed0d1df73287a" category="inline-link-macro-rx"></block>.</block>
+  <block id="3a2373d3120e6c0cd1b1153dfa8e8a01" category="section-title">잘 설계된 워크로드</block>
+  <block id="3710d77fd6ba0a217b088ccf0a5a1286" category="paragraph">Workload Factory는 AWS Well-Architected Framework에 부합하는 안정적이고 안전하며 효율적이고 비용 효율적인 스토리지 및 데이터베이스 구성을 유지 관리하고 운영할 수 있도록 지원합니다. Workload Factory는 FSx에서 ONTAP 파일 시스템, SQL Server 및 Oracle 데이터베이스 배포를 매일 검사하여 잠재적인 구성 오류에 대한 정보를 제공하고 문제를 해결하기 위한 수동 또는 자동 조치를 권장합니다.</block>
+  <block id="2628830b99f47f27a98c1f7762a77a74" category="inline-link-macro">잘 설계된 워크로드에 대해 자세히 알아보세요.</block>
+  <block id="9db706e219135a8d2d250234e44d99ce" category="paragraph"><block ref="9db706e219135a8d2d250234e44d99ce" category="inline-link-macro-rx"></block></block>
+  <block id="ee87d4c496da752f756c502bf6d73599" category="sidebar">자격 증명 및 권한</block>
+  <block id="f6943387bdd47daa5821d74a29309dfb" category="sidebar">작업 부하를 분석합니다</block>
+  <block id="12157536dba66bdf2384f415d35853f6" category="sidebar">데이터베이스 워크로드의 오류 로그를 분석합니다.</block>
+  <block id="d7d8ecd04b2f9d5a4c90cc532c81ad55" category="sidebar">스토리지 워크로드에 대한 EMS 이벤트를 보고 분석합니다.</block>
 </blocks>
