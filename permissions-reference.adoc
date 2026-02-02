@@ -73,9 +73,6 @@ Storage에 사용할 수 있는 IAM 정책은 Workload Factory가 퍼블릭 클�
         "elasticfilesystem:DescribeFileSystems",
         "ce:GetCostAndUsage",
         "ce:GetTags",
-        "ce:GetCostAndUsageWithResources",
-        "ce:GetCostForecast",
-        "ce:GetUsageForecast"
       ],
       "Resource": "*"
     },
@@ -110,10 +107,32 @@ Storage에 사용할 수 있는 IAM 정책은 Workload Factory가 퍼블릭 클�
         "fsx:DeleteBackup",
         "fsx:TagResource",
         "fsx:UntagResource",
+        "fsx:CreateAndAttachS3AccessPoint",
+        "fsx:DetachAndDeleteS3AccessPoint",
+        "s3:CreateAccessPoint",
+        "s3:DeleteAccessPoint",
+        "s3:GetObjectTagging",
         "bedrock:InvokeModelWithResponseStream",
         "bedrock:InvokeModel",
         "bedrock:ListInferenceProfiles",
-        "bedrock:GetInferenceProfile"
+        "bedrock:GetInferenceProfile",
+        "s3tables:CreateTableBucket",
+        "s3tables:ListTables",
+        "s3tables:GetTable",
+        "s3tables:GetTableMetadataLocation",
+        "s3tables:CreateTable",
+        "s3tables:GetNamespace",
+        "s3tables:PutTableData",
+        "s3tables:CreateNamespace",
+        "s3tables:GetTableData",
+        "s3tables:ListNamespaces",
+        "s3tables:ListTableBuckets",
+        "s3tables:GetTableBucket",
+        "s3tables:UpdateTableMetadataLocation",
+        "s3tables:ListTagsForResource",
+        "s3tables:TagResource",
+        "s3:GetObjectTagging",
+        "s3:ListBucket"
       ],
       "Resource": "*"
     },
@@ -375,6 +394,60 @@ Storage에 사용할 수 있는 IAM 정책은 Workload Factory가 퍼블릭 클�
 
 
 | ce:GetTags | 비용 및 사용량 분석 | 보기, 계획 및 분석 
+
+
+| S3 액세스 포인트를 생성하고 이를 FSx for ONTAP 파일 시스템에 연결합니다. | fsx:CreateAndAttachS3AccessPoint | S3 액세스 포인트 관리 | 운영 및 개선 
+
+
+| FSx for ONTAP 파일 시스템에서 S3 액세스 포인트를 분리하고 삭제합니다 | fsx:DetachAndDeleteS3AccessPoint | S3 액세스 포인트 관리 | 운영 및 개선 
+
+
+| 간소화된 버킷 액세스 관리를 위한 S3 액세스 포인트 생성 | s3:CreateAccessPoint | S3 액세스 포인트 관리 | 운영 및 개선 
+
+
+| S3 액세스 포인트를 삭제합니다 | s3:DeleteAccessPoint | S3 액세스 포인트 관리 | 운영 및 개선 
+
+
+| S3 액세스 포인트에 태그 추가 | s3:TagResource | S3 액세스 포인트 관리 | 운영 및 개선 
+
+
+| S3 액세스 포인트의 태그 나열 및 보기 | s3:ListTagsForResource | S3 액세스 포인트 관리 | 운영 및 개선 
+
+
+| S3 액세스 포인트에서 태그 제거 | s3:UntagResource | S3 액세스 포인트 관리 | 운영 및 개선 
+
+
+| S3 액세스 포인트 버킷에서 객체 검색 | s3:ListBucket | S3 버킷 작업 | 운영 및 개선 
+
+
+| S3 테이블 버킷 나열, 생성 및 설명 | s3tables:ListTableBuckets s3tables:CreateTableBucket s3tables:GetTableBucket | S3 table bucket 관리 | 운영 및 개선 
+
+
+| S3 테이블 나열, 생성 및 검색 | s3tables:ListTables s3tables:CreateTable s3tables:GetTable | S3 테이블 작업 | 운영 및 개선 
+
+
+| 테이블 메타데이터 위치 읽기 | s3tables:GetTableMetadataLocation | S3 테이블 메타데이터 작업 | 운영 및 개선 
+
+
+| 테이블 metadata 위치 업데이트 | s3tables:UpdateTableMetadataLocation | S3 테이블 메타데이터 작업 | 운영 및 개선 
+
+
+| 테이블 네임스페이스를 나열, 생성 및 조회합니다 | s3tables:ListNamespaces s3tables:CreateNamespace s3tables:GetNamespace | S3 네임스페이스 작업 | 운영 및 개선 
+
+
+| 테이블 데이터 읽기(select, scan) | s3tables:GetTableData | S3 테이블 데이터 작업 | 운영 및 개선 
+
+
+| 테이블 데이터 쓰기(삽입) | s3tables:PutTableData | S3 테이블 데이터 작업 | 운영 및 개선 
+
+
+| 인벤토리 테이블의 태그 나열(FSx for ONTAP, 스토리지 VM, 볼륨 ID 가져오기) | s3tables:ListTagsForResource | S3 테이블 태그 작업 | 운영 및 개선 
+
+
+| Workload Factory 조회를 위한 인벤토리 테이블에 태그를 지정합니다 | s3tables:TagResource | S3 테이블 태그 작업 | 운영 및 개선 
+
+
+| 액세스 포인트를 통해 객체 태깅 검색 | s3:GetObjectTagging | S3 객체 작업 | 운영 및 개선 
 |===
 ====
 
@@ -827,7 +900,7 @@ Storage에 사용할 수 있는 IAM 정책은 Workload Factory가 퍼블릭 클�
 
 | FSX:DescripbeStorageVirtualMachines를 참조하십시오  a| 
 * 구축
-* 운영 관리
+* 관리 운영
 * 인벤토리
 
 | 보기, 계획 및 분석 
@@ -835,14 +908,14 @@ Storage에 사용할 수 있는 IAM 정책은 Workload Factory가 퍼블릭 클�
 
 | FSx:파일 시스템 설명  a| 
 * 구축
-* 운영 관리
+* 관리 운영
 * 인벤토리
 * 비용 절감 효과를
 
 | 보기, 계획 및 분석 
 
 
-| FSX:ListTagsForResource.를 참조하십시오 | 운영 관리 | 보기, 계획 및 분석 
+| FSX:ListTagsForResource.를 참조하십시오 | 관리 운영 | 보기, 계획 및 분석 
 
 
 | CloudFormation 및 VPC에 대한 서비스 할당량 한도 가져오기 / SQL, 도메인 및 FSx for ONTAP 에 제공된 자격 증명에 대한 사용자 계정에서 비밀 만들기 | servicequotas:ListServiceQuotas 입니다 | 구축 | 보기, 계획 및 분석 
@@ -851,8 +924,8 @@ Storage에 사용할 수 있는 IAM 정책은 Workload Factory가 퍼블릭 클�
 | SSM 기반 쿼리를 사용하여 ONTAP용 FSx 지원 지역의 업데이트된 목록을 확인하십시오 | SSM:GetParametersByPath 입니다 | 구축 | 보기, 계획 및 분석 
 
 
-| 구축 후 작업 관리 명령을 전송한 후 SSM 응답을 폴링합니다 | SSM: GetCommandInvocation 을 참조하십시오  a| 
-* 운영 관리
+| 배포 후 관리 작업을 위한 명령을 전송한 후 SSM 응답을 폴링합니다 | SSM: GetCommandInvocation 을 참조하십시오  a| 
+* 관리 운영
 * 인벤토리
 * 비용 절감 효과를
 * 최적화
@@ -861,7 +934,7 @@ Storage에 사용할 수 있는 IAM 정책은 Workload Factory가 퍼블릭 클�
 
 
 | SSM을 통해 EC2 인스턴스에 명령을 보내 검색 및 관리 | SSM: SendCommand 를 참조하십시오  a| 
-* 운영 관리
+* 관리 운영
 * 인벤토리
 * 비용 절감 효과를
 * 최적화
@@ -870,7 +943,7 @@ Storage에 사용할 수 있는 IAM 정책은 Workload Factory가 퍼블릭 클�
 
 
 | 배포 후 인스턴스의 SSM 연결 상태를 가져옵니다 | SSM: GetConnectionStatus 를 참조하십시오  a| 
-* 운영 관리
+* 관리 운영
 * 인벤토리
 * 최적화
 
@@ -933,7 +1006,7 @@ Storage에 사용할 수 있는 IAM 정책은 Workload Factory가 퍼블릭 클�
 
 .4+| 배포 또는 AWS 계정에서 관리되는 AD, FSx for ONTAP 및 SQL 사용자 자격 증명에 대한 SSM 매개 변수를 가져오고 나열하고 생성하고 삭제합니다 | SSM: GetParameter(GetParameter  a| 
 * 구축
-* 운영 관리
+* 관리 운영
 * 인벤토리
 
 | 보기, 계획 및 분석 
@@ -941,7 +1014,7 @@ Storage에 사용할 수 있는 IAM 정책은 Workload Factory가 퍼블릭 클�
 
 | SSM: GetParameters(GetParameters  a| 
 * 구축
-* 운영 관리
+* 관리 운영
 * 인벤토리
 
 | 보기, 계획 및 분석 
@@ -949,14 +1022,14 @@ Storage에 사용할 수 있는 IAM 정책은 Workload Factory가 퍼블릭 클�
 
 | SSM: PutParameter 1  a| 
 * 구축
-* 운영 관리
+* 관리 운영
 
 | 보기, 계획 및 분석 
 
 
 | SSM: 매개 변수 삭제  a| 
 * 구축
-* 운영 관리
+* 관리 운영
 
 | 보기, 계획 및 분석 
 
@@ -1077,7 +1150,7 @@ Storage에 사용할 수 있는 IAM 정책은 Workload Factory가 퍼블릭 클�
 
 | WLMDB에서 생성한 Amazon FSx for NetApp ONTAP 리소스에 대한 사용자 지정 값에 태그를 지정하여 리소스 관리 중에 청구 세부 정보를 가져옵니다 | 자유무역협정(FSX)  a| 
 * 구축
-* 운영 관리
+* 관리 운영
 
 | 데이터베이스 호스트 생성 
 
@@ -1129,7 +1202,7 @@ Storage에 사용할 수 있는 IAM 정책은 Workload Factory가 퍼블릭 클�
 
 | FSX:CreateVolume 을 참조하십시오  a| 
 * 구축
-* 운영 관리
+* 관리 운영
 
 | 데이터베이스 호스트 생성 
 
@@ -1169,7 +1242,7 @@ Storage에 사용할 수 있는 IAM 정책은 Workload Factory가 퍼블릭 클�
 
 | 로그: PutLogEvents  a| 
 * 구축
-* 운영 관리
+* 관리 운영
 
 | 데이터베이스 호스트 생성 
 
@@ -2009,6 +2082,46 @@ VMware 워크로드에는 다음과 같은 권한 정책이 선택 가능합니�
 == 변경 로그
 
 권한이 추가되고 제거됨에 따라 아래 섹션에 해당 권한이 표시됩니다.
+
+
+
+=== 2025년 2월 1일
+
+다음 권한이 저장소 워크로드에 추가되었습니다.
+
+* `s3:TagResource`
+* `s3:ListTagsForResource`
+* `s3:UntagResource`
+* `s3tables:CreateTableBucket`
+* `s3tables:ListTables`
+* `s3tables:GetTable`
+* `s3tables:GetTableMetadataLocation`
+* `s3tables:CreateTable`
+* `s3tables:GetNamespace`
+* `s3tables:PutTableData`
+* `s3tables:CreateNamespace`
+* `s3tables:GetTableData`
+* `s3tables:ListNamespaces`
+* `s3tables:ListTableBuckets`
+* `s3tables:GetTableBucket`
+* `s3tables:UpdateTableMetadataLocation`
+* `s3tables:ListTagsForResource`
+* `s3tables:TagResource`
+* `s3:GetObjectTagging`
+* `s3:ListBucket`
+
+
+
+
+=== 2025년 12월 4일
+
+다음 권한이 저장소 워크로드에 추가되었습니다.
+
+* `fsx:CreateAndAttachS3AccessPoint`
+* `fsx:DetachAndDeleteS3AccessPoint`
+* `s3:CreateAccessPoint`
+* `s3:DeleteAccessPoint`
+
 
 
 

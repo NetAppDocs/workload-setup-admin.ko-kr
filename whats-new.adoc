@@ -15,6 +15,51 @@ Workload Factory 관리 기능의 새로운 기능에 대해 알아보세요: �
 
 
 
+== 2026년 2월 1일
+
+
+
+=== Well-Architected 업데이트
+
+NetApp Workload Factory에는 Elastic VMware Service(EVS) 워크로드에 대한 아키텍처 평가 기능이 포함되어 있으며 스토리지 및 데이터베이스 워크로드에 대한 새로운 구성이 추가되었습니다.
+
+* *VMware 워크로드* NetApp Workload Factory는 잘 설계된 Amazon Elastic VMware Service(EVS) 워크로드 운영을 위한 모범 사례 및 권장 사항을 제공합니다.
++
+link:https://docs.netapp.com/us-en/workload-vmware/view-evs-well-architected.html["잘 설계된 EVS 구성 구현"^]
+
+* *스토리지 워크로드* 스토리지 성능 및 비용에 대한 더 많은 통찰력을 얻을 수 있도록 스토리지 워크로드의 잘 설계된 기능에 여러 가지 새로운 구성이 추가되었습니다.
++
+** 스토리지 VM 논리적 보고
+** 캐시 볼륨 크기 최적화
+** 고아 블록 디바이스
++
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["스토리지 워크로드에 적합한 아키텍처의 파일 시스템 구성 구현"^]
+
+
+
+* *데이터베이스 워크로드* Workload Factory for Databases에는 Direct NFS(dNFS)를 활성화 및 설정하여 I/O 성능을 향상시키고 호스트 및 스토리지 시스템의 부하를 줄이기 위한 Oracle용 새로운 스토리지 구성이 포함되어 있습니다.
++
+** dNFS 활성화
+** dNFS 일관된 IP 확인
+** dNFS 구성 파일
+** dNFS `nosharecache`
++
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["잘 설계된 데이터베이스 워크로드를 구현하세요"^]
+
+
+
+
+
+
+
+=== 스토리지에 대한 새로운 권한
+
+S3 액세스 포인트 관리 기능 향상을 위해 Storage 워크로드에 새로운 권한이 추가되었습니다.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["권한 참조 변경 로그"]
+
+
+
 == 2026년 1월 4일
 
 

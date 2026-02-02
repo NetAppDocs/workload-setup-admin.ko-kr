@@ -423,12 +423,10 @@
   <block id="304857d599b6ba4c4feb7be94e6b4be1" category="list-text">비용 절감 살펴보기</block>
   <block id="bb2a9796836e44fafa9324209d9b7feb" category="cell">FSX:백업 설명</block>
   <block id="ed8ac7020751c46d1e6875d079c18a1e" category="cell">FSX:DescripbeStorageVirtualMachines를 참조하십시오</block>
-  <block id="41b4e5d916e26c9e0d32ceff6fd589ed" category="list-text">운영 관리</block>
   <block id="0054238c3be20aab765346f029c558a4" category="cell">FSx:파일 시스템 설명</block>
   <block id="5c2e89cc7d199bd993940299714f0d2a" category="cell">servicequotas:ListServiceQuotas 입니다</block>
   <block id="033e3df65a67c88a8d0c83e2ae6f082e" category="cell">SSM 기반 쿼리를 사용하여 ONTAP용 FSx 지원 지역의 업데이트된 목록을 확인하십시오</block>
   <block id="055e84613d0abc8db259dc0d1c353d05" category="cell">SSM:GetParametersByPath 입니다</block>
-  <block id="7f42f2c05a807e6dc1d65c9a2dba48b7" category="cell">구축 후 작업 관리 명령을 전송한 후 SSM 응답을 폴링합니다</block>
   <block id="6b443d4e29789a97b7bf9117ac2091df" category="cell">SSM: GetCommandInvocation 을 참조하십시오</block>
   <block id="15970c4fdbca1fc48c5b412d94e798c0" category="list-text">최적화</block>
   <block id="b187f8fa28bd381ca60b99c28941d5b5" category="cell">SSM: SendCommand 를 참조하십시오</block>
@@ -1269,25 +1267,18 @@
   <block id="32b4eab38fa52d3797017237d916e169" category="doc">잘 설계된 워크로드를 구축하고 운영합니다.</block>
   <block id="9f90d642d2308ca0bef76516f43da4bf" category="paragraph">Workload Factory는 Amazon FSx for NetApp ONTAP NetApp 관리 제품군으로, AWS Well-Architected Framework에 부합하는 안정적이고 안전하며 효율적이고 비용 효율적인 스토리지 및 데이터베이스 구성을 유지 관리하고 운영할 수 있도록 지원합니다. Workload Factory는 스토리지 및 데이터베이스 워크로드에 대한 일일 분석, 권장 사항 및 자동 수정 기능을 제공하여 워크로드의 정상적인 운영을 지원합니다. Workload Factory는 이 프로세스를 자동화함으로써 인적 오류를 최소화하고 작업량 관리의 일관성을 보장합니다.</block>
   <block id="9ffdb95250e26c7a6b468126ac7c75b0" category="section-title">작동 원리</block>
-  <block id="60eb4467b2b42285650cbb902455822e" category="paragraph">Workload Factory는 Amazon FSx for NetApp ONTAP 매일 분석합니다. 일일 분석은 잘 설계된 아키텍처의 상태와 통찰력 및 권장 사항을 제공하며, 구성 문제를 자동으로 수정하는 옵션을 통해 배포가 모범 사례를 준수하고 효율적으로 작동하도록 지원합니다.</block>
   <block id="678b83ba882b41e4bae10f8e48f4a766" category="paragraph">일일 분석이 완료되면 배포에 대한 구성이 Well-architectured 대시보드에 "최적화됨" 또는 "최적화되지 않음"으로 표시됩니다. 여기에서 전체 최적화 점수, 범주별 구성 문제, 구성 문제 목록 및 권장 사항을 확인할 수 있습니다. 구성 문제에 대한 권장 사항을 검토할 수 있습니다. Workload Factory에서 일부 문제는 자동으로 해결할 수 있지만, 다른 문제는 수동 개입이 필요합니다. 이 경우 Workload Factory는 권장 변경 사항을 구현하는 데 도움이 되는 자세한 지침을 제공합니다.</block>
-  <block id="c41905bc26fe3f0d3782c7fadfcf4fc7" category="paragraph">스토리지 및 데이터베이스 워크로드에 대한 요구 사항은 다양하므로 사용자 환경에 적용되지 않는 특정 구성에 대한 분석은 제외할 수 있습니다. 이렇게 하면 불필요한 알림과 부정확한 최적화 결과를 방지할 수 있습니다. 특정 구성 분석이 기각되면 해당 구성은 전체 최적화 점수에 포함되지 않습니다.</block>
   <block id="ee25e0b6cd574166f206b4c5b7f02df3" category="section-title">왜 중요한가</block>
-  <block id="152bff6d061f84223d0046a15effa86b" category="paragraph">Workload Factory는 대규모 스토리지 또는 데이터베이스 환경에 모범 사례를 수동으로 적용하는 어려운 작업을 간소화합니다. Workload Factory 콘솔에서 최적화되지 않은 구성을 분석하고 수정하는 기능을 결합하여 이 프로세스를 효율화합니다. Workload Factory 콘솔에서 적용된 수정 사항은 인적 오류의 위험을 제거하고 스토리지 및 데이터베이스 관리의 일관성을 보장합니다. 자동화를 활용하면 구성이 매번 정확하게 적용되고 시간이 지나도 그대로 유지되도록 보장할 수 있으므로 전체 스토리지 인프라에서 높은 성능 및 안정성 표준을 유지할 수 있습니다.</block>
   <block id="a3bc2a6a859d792c531df9c9c525bcdb" category="section-title">Workload Factory를 사용하여 잘못된 구성을 감지하고 수정해 보세요.</block>
-  <block id="3b3d9b16b20a1d2dfd8b90ec4a5c674f" category="paragraph">Workload Factory를 시작하려면 가입 및 계정 생성, 자격 증명 추가, 연결 설정 등을 통해 Workload Factory가 AWS 리소스를 직접 관리할 수 있도록 설정한 다음 Amazon FSx for NetApp ONTAP 사용하여 워크로드를 최적화하십시오.</block>
   <block id="529694d7ce17e2ca817cab9ae2f1451e" category="paragraph"><block ref="529694d7ce17e2ca817cab9ae2f1451e" category="inline-link-macro-rx"></block></block>
   <block id="c6ee17dfa8bb85cfb470ccbc889f031c" category="section-title">스토리지 워크로드에 대한 모범 사례 및 권장 사항</block>
-  <block id="9dc9d1de2ed3e815404014374c515208" category="paragraph">Workload Factory는 스토리지 관리를 위한 ONTAP 구성 모범 사례에 대한 심층적인 정보를 제공합니다. 구체적으로, Workload Factory 내의 Storage 워크로드는 AWS Well-Architected Framework의 핵심 원칙을 준수하는지 스토리지 구성을 분석하고, 최적화되지 않은 구성에 대한 권장 사항 및 개선 방안을 제공합니다. 스토리지의 잘 설계된 상태 대시보드에서 최적의 성능과 안정성을 제공하는 FSx for ONTAP 파일 시스템을 구현하는 데 도움이 되는 유용한 정보를 확인할 수 있습니다.</block>
   <block id="ffd9fc00ab43b8283346c6266e00d684" category="paragraph">잘 설계된 분석은 프레임워크의 다음 핵심 요소인 신뢰성, 보안, 운영 우수성, 비용 최적화 및 성능 효율성으로 구성을 분류합니다.</block>
   <block id="820b8f74ad843d1574106ec4cadfc07e" category="section-title">신뢰할 수 있음</block>
   <block id="32293fdcb7dff0798e6d06da4b108ce6" category="paragraph">신뢰성은 장애가 발생하더라도 워크로드가 의도된 기능을 정확하고 일관되게 수행하도록 보장합니다.</block>
   <block id="554b13f76fb8ac95ab406262d15a2fa1" category="list-text">* ONTAP 백업을 위해 FSx를 예약하세요*</block>
-  <block id="af34c811ecdb16220adf8c0a67e5adbe" category="paragraph">FSx for ONTAP: 볼륨 백업은 데이터 보존 및 규정 준수 요구 사항을 지원하는 데 도움이 됩니다. FSx for ONTAP 백업을 사용하여 데이터에 대한 중앙 집중식 자동 백업 및 보존 전략을 구현하십시오.</block>
   <block id="277088f7a0bc1d2b0023dc08b1d30e37" category="list-text">*로컬 스냅샷 예약*</block>
   <block id="ce36269ae95cd0ab7422d78bb843b720" category="paragraph">효율적인 백업과 빠른 복원을 위해 로컬 스냅샷을 예약하세요. 스냅샷은 볼륨의 특정 시점의 모습을 즉시 보여주는 이미지입니다.</block>
   <block id="b34347ddf6e48f7eb5aee09d6f7b92a6" category="list-text">*지역 간 복제*</block>
-  <block id="651789a3dcb2609efc180fcbd22d738b" category="paragraph">리전 간 복제를 통해 데이터가 다른 AWS 리전으로 복제되므로 데이터의 내구성과 가용성이 향상됩니다. Workload Factory는 재해 복구 및 규정 준수 요구 사항을 위해 지역 간 복제 구성을 권장합니다.</block>
   <block id="1efec9308ce64129e1db77dd8baa679c" category="list-text">*데이터 복제 설정*</block>
   <block id="793435fc062d4d74518687597c405959" category="paragraph">데이터 신뢰성을 높이기 위해 데이터를 동일 지역 또는 다른 지역의 FSx for ONTAP 파일 시스템으로 복제할 수 있습니다. 파일 시스템 간 마이그레이션, 재해 복구 및 장기 보존을 지원하기 위해 데이터 복제를 설정하십시오.</block>
   <block id="4776b32ae8a508cea6dc14786e7b1d3f" category="list-text">*SSD 용량 임계값 높이기*</block>
@@ -1298,7 +1289,6 @@
   <block id="0d73092e450f3018847f6e8ff85e28c0" category="paragraph">볼륨 용량 제한에 도달하는 것을 방지하기 위해 파일 용량 임계값을 높여야 합니다. 파일 용량(inode) 부족으로 인해 볼륨에 추가 데이터를 쓸 수 없습니다. Workload Factory는 사용 가능한 파일 용량의 활용률을 지속적으로 80% 미만으로 유지할 것을 권장합니다. 볼륨에 새 파일을 생성하려면 사용 가능한 파일 용량이 필요합니다.</block>
   <block id="7d7265a6929882bb433fc74e8bee871a" category="paragraph">보안은 위험 평가 및 완화 전략을 통해 데이터, 시스템 및 자산을 보호하는 데 중점을 둡니다.</block>
   <block id="6b164cf17f1cd008f12b094341cb3264" category="list-text">*ARP/AI 활성화*</block>
-  <block id="25f8ff1f36f295f75abe4713d79799cf" category="paragraph">NetApp AI 기반 자율형 랜섬웨어 보호(ARP/AI)는 사이버 복원력을 강화하고 진화하는 랜섬웨어 위협으로부터 볼륨을 능동적으로 보호합니다. Workload Factory는 모든 볼륨에 대해 ARP/AI를 활성화하는 것을 권장합니다.</block>
   <block id="1218a704bef91508c259c867ba832d76" category="list-text">*볼륨에 대한 무단 접근*</block>
   <block id="0f47a13bb4c0929efc89421b05c0e209" category="paragraph">iSCSI를 사용하여 애플리케이션 데이터를 제공하는 볼륨은 NAS에 병렬로 액세스하는 것을 허용해서는 안 됩니다. Workload Factory는 iSCSI 프로토콜을 통해 액세스하는 볼륨에 대해서는 추가 프로토콜 사용을 제한할 것을 권장합니다.</block>
   <block id="17d2a91a4f3c01de4c2f05b2242e49d3" category="section-title">운영 우수성</block>
@@ -1312,7 +1302,6 @@
   <block id="dea8be5f351d7ba412ea10951c1fe16c" category="list-text">*캐시 관계 쓰기 모드*</block>
   <block id="a58ce95d0ee8f9d592643a6f31d60878" category="paragraph">최적의 성능을 위해 Workload Factory는 워크로드에 가장 적합한 캐시 관계 쓰기 모드를 권장합니다. 쓰기 우회 모드는 작은 파일에 대한 읽기 중심 워크로드에서 더 나은 성능을 제공하는 반면, 쓰기 백 모드는 큰 파일에 대한 쓰기 중심 워크로드에서 더 나은 성능을 제공합니다.</block>
   <block id="a39ae09f8be4327fc176cfeb76a0e366" category="section-title">비용 최적화</block>
-  <block id="99cf25f36b236182c66bfca4aa2c66cc" category="paragraph">비용 최적화는 비용을 최소화하면서 비즈니스 가치를 창출하는 것을 목표로 합니다.</block>
   <block id="ff879d0ae47ba423426718c1437f43bc" category="list-text">*콜드 데이터를 계층화하여 총소유비용(TCO)을 최적화하세요*</block>
   <block id="3fa1db8a8be8ef91cca2bf931c2698f3" category="paragraph">SSD 스토리지 계층 사용률을 줄이기 위해 콜드 데이터 계층화를 활성화해야 합니다. 각 볼륨에 계층화 정책을 적용하는 것이 좋습니다. FSx for ONTAP 데이터를 지속적으로 스캔하여 콜드 데이터를 감지하고 중단 없이 용량 스토리지 풀 계층으로 이동합니다.</block>
   <block id="7cee9f2699d966625a5743c41334d168" category="list-text">*저장 효율성을 향상시키세요*</block>
@@ -1323,9 +1312,7 @@
   <block id="1ed3d8c93156794cc432b123457d635f" category="paragraph">Workload Factory는 잘 설계된 데이터베이스 워크로드를 운영하기 위한 모범 사례 및 권장 사항을 제공합니다. 잘 설계된 아키텍처 분석은 스토리지 크기, 스토리지 레이아웃, 스토리지 구성, 컴퓨팅, 애플리케이션(SQL Server) 및 복원력과 관련된 Microsoft SQL Server 및 Oracle 데이터베이스 구성 및 설정을 평가합니다.</block>
   <block id="894445e8ea6df545bfbc4247797a2162" category="section-title">저장 크기</block>
   <block id="5418270ffed466b82b925869518520c0" category="list-text">*저장 계층*</block>
-  <block id="980f2b5cfc57d5b828fdc03fb48b0f83" category="paragraph">최적의 스토리지 성능을 위해 기본 SSD 계층에 ONTAP 볼륨용 FSx를 프로비저닝하십시오. 용량 풀 계층을 사용하면 성능이 저하되고 지연 시간이 길어질 수 있습니다.</block>
   <block id="50a35154861297e0463ad6610197fd71" category="list-text">*파일 시스템 여유 공간*</block>
-  <block id="a10a412f9caed4ecf076cca6f86cb10d" category="paragraph">스토리지 성능을 최적화하려면 파일 시스템 용량을 프로비저닝 볼륨 전체 크기의 1.35배로 설정하십시오.</block>
   <block id="8c8e78556bb98abf38a24ed03f6dea07" category="paragraph">파일 시스템 여유 공간 비율은 다음과 같습니다.</block>
   <block id="d131cee6e951b8ef8aae640422adc7b4" category="list-text">공급 부족: 35% 미만</block>
   <block id="a4f98ed8f549899ff7bdae93a70c058f" category="list-text">최적화 범위: 35-100%</block>
@@ -1344,7 +1331,6 @@
   <block id="e4bceb5f8d98ed0feed104f2d1f99eeb" category="list-text">과잉 공급: &gt; 20%</block>
   <block id="196cc0216fd769aaf46f47da965f30f0" category="section-title">수납 공간 배치</block>
   <block id="d8c5a700d63af4f6cb137eb741f48898" category="list-text">*데이터 파일(.mdf) 배치*</block>
-  <block id="407d6614acc148e0eecf7146b435fad9" category="paragraph">데이터 파일과 로그 파일을 서로 다른 드라이브에 분리하면 동시 I/O 작업, 독립적인 백업 일정 설정, 향상된 복원 기능 등을 통해 성능이 향상됩니다. 소규모 데이터베이스의 경우 데이터 및 로그 LUN 경로를 서로 다른 볼륨으로 분리하는 것이 좋습니다. 이러한 분리는 대용량 데이터베이스(&gt; 500GiB)가 두 개 이상 있는 경우에 필요합니다.</block>
   <block id="22129f60f15a319851eb066d5b9e73d1" category="list-text">*로그 파일(.ldf) 위치*</block>
   <block id="5b9b356226fe0fdbf3042c364d45373b" category="list-text">*TempDB 배치*</block>
   <block id="c5d0775e1399ac44434cf0776c11771a" category="paragraph">TempDB를 전용 드라이브에 배치하여 TempDB I/O를 격리하고 다른 데이터베이스와의 I/O 경합을 방지하십시오. 이 최적화는 SQL Server의 전반적인 성능과 안정성을 향상시킵니다. 이를 준수하지 않을 경우 심각한 I/O 병목 현상, 쿼리 성능 저하 및 시스템 불안정성이 발생할 수 있습니다.</block>
@@ -1366,7 +1352,6 @@
   <block id="71a7128c715acf96d61f1cd8d786c74f" category="paragraph">최적의 데이터베이스 성능과 비용 효율성을 위해 Workload Factory는 스냅샷만 용량 계층으로 이동할 것을 권장합니다. 이 전략은 비용을 절감하면서 높은 성능을 보장합니다. 특히 7일 이상 된 스냅샷은 티어링하는 것이 좋습니다.</block>
   <block id="b26e74ed6e2892c7e2bb95e414d460c6" category="paragraph">LUN</block>
   <block id="c1959a3aec57d9698b009c3acc71116e" category="paragraph">OS 유형 = 윈도우 2008</block>
-  <block id="ae770170ef6591797acad356c43a8d7a" category="paragraph">ONTAP LUN의 OS 유형 값은 I/O 정렬을 위해 운영 체제 파티셔닝 체계와 일치해야 합니다. 설정이 잘못되면 성능이 저하될 수 있습니다.</block>
   <block id="fb7c414053dcc0cf0e717ee2669fcb4b" category="paragraph">공간 예약 가능</block>
   <block id="e250dd22789da7ca04b77518717fb26b" category="paragraph">공간 예약이 활성화되면 ONTAP 디스크 공간 부족으로 인해 해당 LUN에 대한 쓰기 작업이 실패하지 않도록 볼륨에 충분한 공간을 예약합니다.</block>
   <block id="ae4901100928c44257237cecf03a10d9" category="paragraph">공간 할당 활성화됨</block>
@@ -1379,12 +1364,10 @@
   <block id="accfcb146473c3c5fad0b38c182542f0" category="paragraph">FSx for ONTAP 에 프로비저닝된 LUN을 사용하는 EC2의 Microsoft SQL Server 데이터베이스에 대해 최적의 가동 시간과 데이터 액세스 일관성을 보장하기 위해 Workload Factory는 멀티패스 I/O(MPIO)를 활성화하고 구성하는 것을 권장합니다. MPIO는 ONTAP 용 FSx에 대한 여러 경로를 제공하여 복원력과 성능을 모두 향상시킵니다. 이 모범 사례는 구성 요소에 오류가 발생하더라도 데이터 액세스를 유지함으로써 잠재적인 데이터 손실이나 시스템 중단을 방지합니다.</block>
   <block id="2cea162b682d428af2966968c1544afe" category="paragraph">할당 단위 크기</block>
   <block id="4bef14121507c122cc877c2bf3cf9c8d" category="paragraph">NTFS 할당 단위 크기 = 64K</block>
-  <block id="7721cd44234239c5d1f89da7f5ba702e" category="paragraph">NTFS 할당 단위 크기를 64K로 설정하면 디스크 공간 활용도를 높이고, 조각화를 줄이며, 파일 읽기/쓰기 성능을 향상시킬 수 있습니다. 이 설정을 제대로 구성하지 않으면 디스크 사용 효율이 떨어지고 성능이 저하될 수 있습니다.</block>
   <block id="a623a8d0366bf079411aa30be45b2d10" category="section-title">계산하다</block>
   <block id="552508d9abd0206f8a2258a4e950c0ce" category="list-text">*컴퓨팅 적정화*</block>
   <block id="5eb4e9d6e596897720c239e0a1cfe755" category="paragraph">SQL Server EC2 인스턴스의 최적 성능과 비용 효율성을 보장하기 위해 워크로드 요구 사항에 따라 인스턴스 크기를 적절하게 조정하는 것이 좋습니다. 현재 인스턴스의 리소스가 부족한 경우 업그레이드를 통해 CPU, 메모리 및 I/O 용량을 향상시킬 수 있습니다. 만약 용량이 과도하게 확보된 경우, 용량을 줄이면 성능을 유지하면서 비용을 절감할 수 있습니다.</block>
   <block id="f4aa5339a6267f9aa498876d3f99817d" category="list-text">*운영체제 패치*</block>
-  <block id="257fc28b5d669adaeb61d34339d8ad8a" category="paragraph">가능한 한 최신 패치를 적용하여 보안과 안정성을 확보하십시오. 최신 패치를 적용하면 SQL Server 데이터베이스를 취약점으로부터 보호하고 시스템 안정성을 크게 향상시킬 수 있습니다.</block>
   <block id="f7ea56e7a1a3d21f93afb8868a46597f" category="list-text">*네트워크 어댑터 설정*</block>
   <block id="873cf5ed756029d2b03d4f8f5a63f42d" category="paragraph">Microsoft SQL Server 인스턴스에서 최적의 네트워크 성능을 위해서는 수신 측 스케일링(RSS)을 정확하게 구성하는 것이 필수적입니다. RSS는 네트워크 처리를 여러 프로세서에 분산시켜 병목 현상을 방지하고 시스템 성능을 향상시킵니다. Workload Factory는 다음과 같은 RSS 설정을 권장합니다.</block>
   <block id="230d0de8eb9cc0af29b6f65dbec3f416" category="list-text">TCP 오프로딩 기능 비활성화: 모든 TCP 오프로딩 기능이 비활성화되어 있는지 확인하십시오.</block>
@@ -1400,7 +1383,6 @@
   <block id="a8642bb1e88dfe2e58d1d4d34aed2d28" category="list-text">*Microsoft SQL Server 패치*</block>
   <block id="4eddb0eeecb1e4ae314e258e08e465e3" category="list-text">*맥스돕*</block>
   <block id="6be0a3266d69978e2350a5623a35e617" category="paragraph">쿼리 성능을 최적화하려면 최대 병렬 처리 수준(MAXDOP)을 설정하여 병렬 처리의 균형을 맞추십시오. 정확한 MAXDOP 설정은 성능과 효율성을 향상시킵니다. MAXDOP 값을 4, 8 또는 16으로 설정하면 대부분의 사용 사례에서 최상의 결과를 얻을 수 있습니다. 워크로드를 테스트하고 CXPACKET과 같은 병렬 처리 관련 대기 유형을 모니터링하는 것이 좋습니다.</block>
-  <block id="66c44ae5bb6095407eca5355b0b9e5f9" category="paragraph">Microsoft SQL Server 볼륨을 백업하는 것은 데이터 보존 및 규정 준수 요구 사항을 충족하는 데 매우 중요합니다. FSx for ONTAP 백업을 사용하여 SQL Server 데이터에 대한 중앙 집중식 자동 백업 및 보존 전략을 구현하십시오.</block>
   <block id="8fed534b92837766d0beda280a6179f0" category="inline-link-macro">ONTAP 파일 시스템을 위한 잘 설계된 FSx를 구현합니다.</block>
   <block id="b90e7338ef0cc6f12d0e55b76172a446" category="list-text"><block ref="b90e7338ef0cc6f12d0e55b76172a446" category="inline-link-macro-rx"></block></block>
   <block id="4da0b519f402cca2d38847e59fb3b885" category="inline-link-macro">잘 설계된 데이터베이스 워크로드를 구현하세요</block>
@@ -1416,4 +1398,124 @@
   <block id="f6943387bdd47daa5821d74a29309dfb" category="sidebar">작업 부하를 분석합니다</block>
   <block id="12157536dba66bdf2384f415d35853f6" category="sidebar">데이터베이스 워크로드의 오류 로그를 분석합니다.</block>
   <block id="d7d8ecd04b2f9d5a4c90cc532c81ad55" category="sidebar">스토리지 워크로드에 대한 EMS 이벤트를 보고 분석합니다.</block>
+  <block id="61e49369a35b0f8a0d95ef11e249239f" category="doc">Well-Architected 업데이트</block>
+  <block id="2c8617d4094e3a2f6f2b8588039ad2ed" category="paragraph">NetApp Workload Factory에는 Elastic VMware Service(EVS) 워크로드에 대한 아키텍처 평가 기능이 포함되어 있으며 스토리지 및 데이터베이스 워크로드에 대한 새로운 구성이 추가되었습니다.</block>
+  <block id="af89cdfb55120aeef29143bab52cb6de" category="list-text">*VMware 워크로드* NetApp Workload Factory는 잘 설계된 Amazon Elastic VMware Service(EVS) 워크로드 운영을 위한 모범 사례 및 권장 사항을 제공합니다.</block>
+  <block id="74163cd660daafe169a986c2d540a418" category="inline-link-macro">잘 설계된 EVS 구성 구현</block>
+  <block id="5d6110d1881f093c497cdaeeb5611ea0" category="paragraph"><block ref="5d6110d1881f093c497cdaeeb5611ea0" category="inline-link-macro-rx"></block></block>
+  <block id="764d59d30018a72d1f4f007b467fe5ea" category="list-text">*스토리지 워크로드* 스토리지 성능 및 비용에 대한 더 많은 통찰력을 얻을 수 있도록 스토리지 워크로드의 잘 설계된 기능에 여러 가지 새로운 구성이 추가되었습니다.</block>
+  <block id="20c3b23e12b3cf115bfb4bd82bd3368f" category="list-text">스토리지 VM 논리적 보고</block>
+  <block id="a9ac5841a812cdf71b3574e2998bafd4" category="list-text">캐시 볼륨 크기 최적화</block>
+  <block id="2dac5abecf96a197d16faee0444100fe" category="list-text">고아 블록 디바이스</block>
+  <block id="a9866f264fab2ea83525e7cc57292cbe" category="inline-link-macro">스토리지 워크로드에 적합한 아키텍처의 파일 시스템 구성 구현</block>
+  <block id="99187ba72b66267d55626eb367382424" category="paragraph"><block ref="99187ba72b66267d55626eb367382424" category="inline-link-macro-rx"></block></block>
+  <block id="622975b7c88c6bc06b872c6006068776" category="list-text">*데이터베이스 워크로드* Workload Factory for Databases에는 Direct NFS(dNFS)를 활성화 및 설정하여 I/O 성능을 향상시키고 호스트 및 스토리지 시스템의 부하를 줄이기 위한 Oracle용 새로운 스토리지 구성이 포함되어 있습니다.</block>
+  <block id="5017259dadba571295ba93287ef883f9" category="list-text">dNFS 활성화</block>
+  <block id="3968d7d3f8cb0f09289a934bc1584128" category="list-text">dNFS 일관된 IP 확인</block>
+  <block id="a727ea61b65e8aff8729b4fc3c629094" category="list-text">dNFS 구성 파일</block>
+  <block id="3e4e5c9aa6d22a70ee2aadf98db8552a" category="list-text">dNFS<block ref="4740c034d97ca90a96b8050082816605" prefix=" " category="inline-code"></block></block>
+  <block id="ae1c2cb14154da0c884354777730e920" category="section-title">스토리지에 대한 새로운 권한</block>
+  <block id="41489d6d5bf1d06c4d37f0baff512bcd" category="paragraph">S3 액세스 포인트 관리 기능 향상을 위해 Storage 워크로드에 새로운 권한이 추가되었습니다.</block>
+  <block id="5c2a892b8b429b2dd3a4f9a1159a5afd" category="cell">S3 액세스 포인트를 생성하고 이를 FSx for ONTAP 파일 시스템에 연결합니다.</block>
+  <block id="2ec85818492463b87315f2345fa9a501" category="cell">fsx:CreateAndAttachS3AccessPoint</block>
+  <block id="00fe88012820322c6123fb98d71f0c49" category="cell">S3 액세스 포인트 관리</block>
+  <block id="620147e0d46b0adc4b7efd80021b5ba0" category="cell">FSx for ONTAP 파일 시스템에서 S3 액세스 포인트를 분리하고 삭제합니다</block>
+  <block id="60bf6eb7c11585a14c81cd64167a3e2f" category="cell">fsx:DetachAndDeleteS3AccessPoint</block>
+  <block id="a01b704ab9f2e750cd0f3a4493d2f485" category="cell">간소화된 버킷 액세스 관리를 위한 S3 액세스 포인트 생성</block>
+  <block id="c7ae295cae45381a4835902254c83dd7" category="cell">s3:CreateAccessPoint</block>
+  <block id="f3239f1763d700e181eea6df69241279" category="cell">S3 액세스 포인트를 삭제합니다</block>
+  <block id="fa85c54aec6192ae2f2d35640fa9550d" category="cell">s3:DeleteAccessPoint</block>
+  <block id="d68d0cafc2e50f1e44a92834e3bdce68" category="cell">S3 액세스 포인트에 태그 추가</block>
+  <block id="d81c49c87412fe1f1d147e41131aa2cb" category="cell">s3:TagResource</block>
+  <block id="523496a99ee73c6bf9c092b4bf023127" category="cell">S3 액세스 포인트의 태그 나열 및 보기</block>
+  <block id="6f8a7e0660360ab185e167728ff9ccf9" category="cell">s3:ListTagsForResource</block>
+  <block id="cda3e32bd1f470b432ece89af36df0ef" category="cell">S3 액세스 포인트에서 태그 제거</block>
+  <block id="6d8c94a1375cc8f3b58cdf474a984f7c" category="cell">s3:UntagResource</block>
+  <block id="fe55590dcc49af6c2c7638188546a817" category="cell">S3 액세스 포인트 버킷에서 객체 검색</block>
+  <block id="05cce54a3c6e4b27fe1202c73065ac29" category="cell">s3:ListBucket</block>
+  <block id="69372076a06dd4caa14ee3ea2d52297d" category="cell">S3 버킷 작업</block>
+  <block id="fbad53ecfddb41444f79756ebabd8bf1" category="cell">S3 테이블 버킷 나열, 생성 및 설명</block>
+  <block id="7cdde8c30ce55d0f4da19028c9e15766" category="cell">s3tables:ListTableBuckets s3tables:CreateTableBucket s3tables:GetTableBucket</block>
+  <block id="7ab172c59cac289f5031ef3a3e223240" category="cell">S3 table bucket 관리</block>
+  <block id="cd95cb9c12fddd8994b1dab2d1d237b0" category="cell">S3 테이블 나열, 생성 및 검색</block>
+  <block id="069b3bd03d85f811a3d2e4e211be3fb6" category="cell">s3tables:ListTables s3tables:CreateTable s3tables:GetTable</block>
+  <block id="53784a41ff894f88688ccde7a1ccfd1c" category="cell">S3 테이블 작업</block>
+  <block id="3dea887797f6816e6129df7001ba8ae5" category="cell">테이블 메타데이터 위치 읽기</block>
+  <block id="da90a221c111a8041bc29ab36ad3b193" category="cell">s3tables:GetTableMetadataLocation</block>
+  <block id="a5b1791026ecc602e84581788d924453" category="cell">S3 테이블 메타데이터 작업</block>
+  <block id="badaa8d03c419fd8530caa81a2d5456c" category="cell">테이블 metadata 위치 업데이트</block>
+  <block id="6d26f1178004f3d5f498df3b339b5491" category="cell">s3tables:UpdateTableMetadataLocation</block>
+  <block id="2028b2169aa9eb96da95d13b7b7d2eb1" category="cell">테이블 네임스페이스를 나열, 생성 및 조회합니다</block>
+  <block id="370ecfb3d18d55a7dadad05641ddd424" category="cell">s3tables:ListNamespaces s3tables:CreateNamespace s3tables:GetNamespace</block>
+  <block id="367d5893fc6420bc3ca08d229c48efb2" category="cell">S3 네임스페이스 작업</block>
+  <block id="1067c5fe36bc13695e504bd0e736880c" category="cell">테이블 데이터 읽기(select, scan)</block>
+  <block id="dfbf6986c1d0261f4307fd424f5e3059" category="cell">s3tables:GetTableData</block>
+  <block id="2f2441bbae6c0dfff6ca28d60f62019d" category="cell">S3 테이블 데이터 작업</block>
+  <block id="e812a265eb163dfeef4889101921b1f5" category="cell">테이블 데이터 쓰기(삽입)</block>
+  <block id="6f57098c3cb17bed1566011c0f42733a" category="cell">s3tables:PutTableData</block>
+  <block id="e04cc95daa3b8cf09cfc1d04dbe7fd42" category="cell">인벤토리 테이블의 태그 나열(FSx for ONTAP, 스토리지 VM, 볼륨 ID 가져오기)</block>
+  <block id="6f77d0a51036ea46a4d8b7498075b46f" category="cell">s3tables:ListTagsForResource</block>
+  <block id="01fc7a6896e99b7291b668087ed3d54b" category="cell">S3 테이블 태그 작업</block>
+  <block id="2c827746fdbcbf400543f6c82b0d015b" category="cell">Workload Factory 조회를 위한 인벤토리 테이블에 태그를 지정합니다</block>
+  <block id="031dc966530121b1967ee4acee66b4b9" category="cell">s3tables:TagResource</block>
+  <block id="481602979ed33babf34eca029fcf25c9" category="cell">액세스 포인트를 통해 객체 태깅 검색</block>
+  <block id="1f18fa681e41f8b76a72d4b098de5308" category="cell">s3:GetObjectTagging</block>
+  <block id="7cd474f81e9c1a8f00f7e5af55ca1dc0" category="cell">S3 객체 작업</block>
+  <block id="b93db191aeb439297068620f4914a578" category="cell">배포 후 관리 작업을 위한 명령을 전송한 후 SSM 응답을 폴링합니다</block>
+  <block id="ba2f960dbe0772dcbb8f1559a58c524d" category="section-title">2025년 2월 1일</block>
+  <block id="8f06e8bb1d64b1e812d0a8d36efb9401" category="list-text"><block ref="d81c49c87412fe1f1d147e41131aa2cb" prefix="" category="inline-code"></block></block>
+  <block id="5d1379e3b582db227dcb8b26b7f46355" category="list-text"><block ref="6f8a7e0660360ab185e167728ff9ccf9" prefix="" category="inline-code"></block></block>
+  <block id="3d1b457d01b348360ee5f21188c591fb" category="list-text"><block ref="6d8c94a1375cc8f3b58cdf474a984f7c" prefix="" category="inline-code"></block></block>
+  <block id="4132b16806867eac836434e2722effc8" category="list-text"><block ref="00246fed3ef66165d3ba3d6bfdd371cc" prefix="" category="inline-code"></block></block>
+  <block id="cccd732ee7488dc8b4ab3c18f9890935" category="list-text"><block ref="fc6b4f320d4c6c07b798e4e9e438ad6d" prefix="" category="inline-code"></block></block>
+  <block id="02fc1e4b0e8736e01968508e241b1e93" category="list-text"><block ref="287bbd8cb66be8585cf48ba8d905ed56" prefix="" category="inline-code"></block></block>
+  <block id="3b76ee3cd4299386cbc688594f803bad" category="list-text"><block ref="da90a221c111a8041bc29ab36ad3b193" prefix="" category="inline-code"></block></block>
+  <block id="a2464c399648e3634edb3a027fdfd280" category="list-text"><block ref="1315dae1c0ed6bddba837c4de1619346" prefix="" category="inline-code"></block></block>
+  <block id="22da21ff576b4587b1e6b992a0076b71" category="list-text"><block ref="4b6926df21c95859ea330288189b3401" prefix="" category="inline-code"></block></block>
+  <block id="3fca13d5218079229ad22def74f1b549" category="list-text"><block ref="6f57098c3cb17bed1566011c0f42733a" prefix="" category="inline-code"></block></block>
+  <block id="833a45b07a0e262ca899e8b265913900" category="list-text"><block ref="1f57201c8e698ab0eef20822c3661f17" prefix="" category="inline-code"></block></block>
+  <block id="0af9f36bd22780a072017a3a0718a6d8" category="list-text"><block ref="dfbf6986c1d0261f4307fd424f5e3059" prefix="" category="inline-code"></block></block>
+  <block id="cba1b2006f2a26525607bc2e1fec5c24" category="list-text"><block ref="8450af99024178daece357fe3f58e958" prefix="" category="inline-code"></block></block>
+  <block id="236908b32a5bbfa523c16bdaaef768ce" category="list-text"><block ref="a003f3bc0984bd5dff82de8fdd42baf1" prefix="" category="inline-code"></block></block>
+  <block id="cd3fda6b8ab2f3295e059891b8161b1d" category="list-text"><block ref="ff51e90e25085472de3ff1c190ea2b84" prefix="" category="inline-code"></block></block>
+  <block id="11b80e7c9ff793ad01d353dd4b6abf96" category="list-text"><block ref="6d26f1178004f3d5f498df3b339b5491" prefix="" category="inline-code"></block></block>
+  <block id="140fa2b7898e0d4c81b160f3624243b3" category="list-text"><block ref="6f77d0a51036ea46a4d8b7498075b46f" prefix="" category="inline-code"></block></block>
+  <block id="24a584fedec0854c9e1deaac0ed59b9a" category="list-text"><block ref="031dc966530121b1967ee4acee66b4b9" prefix="" category="inline-code"></block></block>
+  <block id="e3681fb6dcc8b89a4d5caa00097e7549" category="list-text"><block ref="1f18fa681e41f8b76a72d4b098de5308" prefix="" category="inline-code"></block></block>
+  <block id="c51afd34d09e8287bb3c293b4c19f57a" category="list-text"><block ref="05cce54a3c6e4b27fe1202c73065ac29" prefix="" category="inline-code"></block></block>
+  <block id="ef6c8d59ba70b1efd5437dd31e63efcb" category="section-title">2025년 12월 4일</block>
+  <block id="ee09fe4fa9a5dd88b96f09bc9e5982f2" category="list-text"><block ref="2ec85818492463b87315f2345fa9a501" prefix="" category="inline-code"></block></block>
+  <block id="639aaa7220975711eaf4f7238888ede3" category="list-text"><block ref="60bf6eb7c11585a14c81cd64167a3e2f" prefix="" category="inline-code"></block></block>
+  <block id="6f4666c06bc4797e8ebfec4281169e8e" category="list-text"><block ref="c7ae295cae45381a4835902254c83dd7" prefix="" category="inline-code"></block></block>
+  <block id="5aa9637b0dbaf8812fe7c460bc3ac1a2" category="list-text"><block ref="fa85c54aec6192ae2f2d35640fa9550d" prefix="" category="inline-code"></block></block>
+  <block id="604d49f51f5ac627669e0a7f9b9d7460" category="paragraph">Workload Factory는 Amazon FSx for NetApp ONTAP 파일 시스템, Microsoft SQL Server 및 Oracle 데이터베이스 배포를 매일 분석합니다. 이 분석은 잘 설계된 상태, 인사이트 및 권장 사항을 제공합니다. 구성 문제를 자동으로 수정하여 모범 사례를 충족하고 효율적으로 운영할 수 있습니다.</block>
+  <block id="1fab3ff575faec37f5f5855ba6c44e9b" category="paragraph">사용 환경에 적용되지 않는 구성에 대한 분석은 제외할 수 있습니다. 이렇게 하면 불필요한 경고와 부정확한 최적화 결과를 방지할 수 있습니다. 특정 구성 분석을 제외하면 Workload Factory는 해당 구성을 전체 최적화 점수 계산에 포함하지 않습니다.</block>
+  <block id="64800583aac955cb4eb9344560209698" category="paragraph">Workload Factory는 지속적인 평가와 권장 사항 인사이트 및 문제 해결을 결합하여 대규모 스토리지 또는 데이터베이스 환경에 모범 사례를 적용합니다. 자동화된 수정 기능은 인적 오류를 줄이고 일관된 관리를 보장하며 성능과 안정성을 유지합니다. Workload Factory 콘솔에서 적용되는 수정 사항은 인적 오류를 줄이고 일관된 관리를 보장합니다. 자동화를 통해 구성이 정확하게 적용되고 유지 관리되므로 워크로드 인프라 전반에서 성능과 안정성을 유지할 수 있습니다.</block>
+  <block id="0769f6a1306d51409d74d415b516e381" category="paragraph">Workload Factory를 시작하려면 가입하고 자격 증명을 추가한 다음 연결을 설정하여 AWS 리소스를 관리하고 Amazon FSx for NetApp ONTAP를 사용하여 워크로드를 최적화하십시오.</block>
+  <block id="9302fb8b1312c354620e74d118c4a66d" category="paragraph">Workload Factory는 스토리지 구성을 평가하여 ONTAP 구성 모범 사례에 대한 심층적인 분석과 AWS Well-Architected Framework 준수 여부를 제공합니다. 또한, 개선 사항 및 수정 사항에 대한 권장 사항도 제시합니다.</block>
+  <block id="2001da69bc2d31d8dffa7523febc14ae" category="paragraph">FSx for ONTAP: 볼륨을 백업하면 데이터 보존 및 규정 준수 요구 사항을 지원하는 데 도움이 됩니다. FSx for ONTAP 백업을 사용하여 데이터에 대한 자동 백업 및 보존을 설정하십시오.</block>
+  <block id="152d89843ca63a94df485f882e2be60d" category="paragraph">리전 간 복제는 데이터를 다른 AWS 리전으로 복제하여 데이터의 내구성과 가용성을 향상시킵니다. NetApp Workload Factory는 재해 복구 및 규정 준수를 위해 리전 간 복제 설정을 권장합니다.</block>
+  <block id="3c93b584a7552b941c7752fec865d7f1" category="paragraph">NetApp AI 기반 자율형 랜섬웨어 보호(ARP/AI)는 랜섬웨어 위협으로부터 볼륨을 보호하는 데 도움을 줍니다. Workload Factory는 모든 볼륨에 대해 ARP/AI를 활성화할 것을 권장합니다.</block>
+  <block id="3a3b30a3337caa5b953626eb873e3e6b" category="list-text">*캐시 볼륨 크기 최적화*</block>
+  <block id="3f8b3943fba700ffad94c47ef4638509" category="paragraph">Workload Factory는 최적의 크기를 유지하고 캐시가 자주 사용되는 데이터에 집중하여 효율성을 극대화할 수 있도록 캐시 볼륨에서 볼륨 자동 크기 조정 및 스크러빙을 활성화하는 것을 권장합니다.</block>
+  <block id="a49bf929860657a29ec7b321ff7a63ba" category="list-text">*스토리지 VM 논리적 보고*</block>
+  <block id="7edda8ec9be79d47927f4aa7e27bd776" category="paragraph">Workload Factory에서는 볼륨 수준에서 스토리지 사용량을 더 잘 파악할 수 있도록 스토리지 VM의 기본 보고 설정을 논리적으로 설정하는 것을 권장합니다.</block>
+  <block id="394c926099d3d2cf7e0d7477f17faf38" category="paragraph">비용 최적화는 비용을 낮게 유지하면서 비즈니스에 가장 큰 가치를 얻을 수 있도록 도와줍니다.</block>
+  <block id="6d281baa5967f3e1be000f071dda6d92" category="list-text">*분리된 블록 디바이스*</block>
+  <block id="934ae55c0ac8033312b0dd4fc00ad677" category="paragraph">블록 디바이스를 7일 동안 사용하지 않으면 Workload Factory에서는 비용 절감을 위해 블록 디바이스 데이터를 아카이빙하거나 사용하지 않는 블록 디바이스를 삭제할 것을 권장합니다.</block>
+  <block id="08e31d66d631ac235f15db15294a1bed" category="paragraph">최적의 스토리지 성능을 위해 기본 SSD 계층에 FSx for ONTAP 볼륨을 생성하십시오. 용량 풀 계층을 사용하면 성능이 저하되고 지연 시간이 증가할 수 있습니다.</block>
+  <block id="c882de88255b448709010276c1779e90" category="paragraph">스토리지 성능을 최적화하려면 파일 시스템 용량을 볼륨 전체 크기의 1.35배로 설정하십시오.</block>
+  <block id="dc405c500e4632201e66066d80fb289a" category="paragraph">성능 향상, 독립적인 백업 일정 설정 및 복원 기능 개선을 위해 데이터 파일과 로그 파일을 서로 다른 드라이브에 분리하십시오. 소규모 데이터베이스의 경우 데이터 및 로그 LUN 경로를 서로 다른 볼륨으로 분리하십시오. 이러한 분리는 500GiB 이상의 대규모 데이터베이스가 두 개 이상인 경우에 필수적입니다.</block>
+  <block id="329bd18674ca49f05124ce4984a08623" category="paragraph">ONTAP LUN의 OS 유형 값은 I/O 정렬을 위해 운영 체제 파티셔닝 체계와 일치해야 합니다. 잘못된 구성은 최적이 아닌 성능을 초래할 수 있습니다.</block>
+  <block id="b1a404d71461e2ebf50001d8ef1e02f6" category="paragraph">NTFS 할당 단위 크기를 64K로 설정하여 디스크 공간을 더 효율적으로 사용하고, 단편화를 줄이며, 파일 읽기/쓰기 성능을 향상시킵니다. 이를 올바르게 구성하지 않으면 비효율적인 디스크 사용 및 성능 저하가 발생할 수 있습니다.</block>
+  <block id="e3bb732b94d16a656a2687162eb500a3" category="paragraph">Workload Factory는 보안을 강화하고 SQL Server 데이터베이스를 취약점으로부터 보호하며 시스템 안정성을 향상시키기 위해 최신 패치를 적용할 것을 권장합니다.</block>
+  <block id="a33fad18845a3187a002feda4ff03d7d" category="paragraph">Microsoft SQL Server 볼륨 백업은 데이터 보존 및 규정 준수 요구 사항을 충족하는 데 매우 중요합니다. FSx for ONTAP 백업을 사용하여 SQL Server 데이터에 대한 자동 백업 및 보존을 설정하십시오.</block>
+  <block id="c6a26e796e7c4b35dd55f1fdf4b780ad" category="section-title">EVS 워크로드에 대한 모범 사례 및 권장 사항</block>
+  <block id="dba86fe56ac5fd6ee1fc03a1c7c3d8f5" category="paragraph">Workload Factory는 잘 설계된 Amazon Elastic VMware Service(EVS) 워크로드 운영을 위한 모범 사례 및 권장 사항을 제공합니다. 잘 설계된 분석은 EVS 구성을 평가하여 VMware 환경이 안정성, 보안, 운영 우수성, 비용 최적화 및 성능 효율성 측면에서 최적화되도록 지원합니다. VMware의 잘 설계된 상태 탭에서 EVS 환경에 대한 잘 설계된 모범 사례를 구현하는 데 도움이 되는 인사이트와 권장 사항을 확인할 수 있습니다.</block>
+  <block id="4dddd21092aa16dc9dfae3d527b65882" category="paragraph">잘 설계된 분석은 프레임워크의 다음 핵심 요소인 _신뢰성_ 및 _보안_을 기준으로 구성을 분류합니다.</block>
+  <block id="64ccb44013ef32cd6747200b28ee1c1b" category="list-text">*EVS 환경 복원력*</block>
+  <block id="0ad9b54164298e25de96745a39c4ef18" category="paragraph">EVS 클러스터 노드가 파티션 배치 그룹에 올바르게 분산되어 있는지 확인하십시오. 모든 노드는 4개 이상의 파티션으로 구성된 단일 파티션 배치 그룹의 구성원이어야 합니다. 올바른 파티션 배치는 AWS 가용 영역 내의 여러 장애 격리 하드웨어 파티션에 EVS 클러스터 노드가 분산되도록 보장합니다. 잘못 배치되면 파티션 장애 발생 시 처리 능력 손실이나 다운타임이 크게 발생할 수 있습니다.</block>
+  <block id="9bcd13fbdffcddd84a7b637f7ec4e9b8" category="list-text">*클러스터 노드 관리*</block>
+  <block id="240380a5970626d74754b96038898f5e" category="paragraph">EVS 클러스터 노드에 적절한 EC2 중지 및 종료 보호 기능이 구성되어 있는지 확인하십시오. EVS ESXi 노드는 vCenter 또는 기타 VMware 수준의 관리 도구를 사용하여 관리해야 합니다. 적절한 EC2 수준 보호 기능이 없으면 EC2 콘솔에서 노드가 실수로 중지되거나 종료될 수 있으며, 이로 인해 가상 머신 데이터의 사용 불가 또는 데이터 손실이 발생할 수 있습니다.</block>
+  <block id="d1fabbd85b7cc34641739e525d26f652" category="section-title">2026년 2월 1일</block>
 </blocks>
