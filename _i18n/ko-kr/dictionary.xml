@@ -1501,7 +1501,6 @@
   <block id="a49bf929860657a29ec7b321ff7a63ba" category="list-text">*스토리지 VM 논리적 보고*</block>
   <block id="7edda8ec9be79d47927f4aa7e27bd776" category="paragraph">Workload Factory에서는 볼륨 수준에서 스토리지 사용량을 더 잘 파악할 수 있도록 스토리지 VM의 기본 보고 설정을 논리적으로 설정하는 것을 권장합니다.</block>
   <block id="394c926099d3d2cf7e0d7477f17faf38" category="paragraph">비용 최적화는 비용을 낮게 유지하면서 비즈니스에 가장 큰 가치를 얻을 수 있도록 도와줍니다.</block>
-  <block id="6d281baa5967f3e1be000f071dda6d92" category="list-text">*분리된 블록 디바이스*</block>
   <block id="934ae55c0ac8033312b0dd4fc00ad677" category="paragraph">블록 디바이스를 7일 동안 사용하지 않으면 Workload Factory에서는 비용 절감을 위해 블록 디바이스 데이터를 아카이빙하거나 사용하지 않는 블록 디바이스를 삭제할 것을 권장합니다.</block>
   <block id="08e31d66d631ac235f15db15294a1bed" category="paragraph">최적의 스토리지 성능을 위해 기본 SSD 계층에 FSx for ONTAP 볼륨을 생성하십시오. 용량 풀 계층을 사용하면 성능이 저하되고 지연 시간이 증가할 수 있습니다.</block>
   <block id="c882de88255b448709010276c1779e90" category="paragraph">스토리지 성능을 최적화하려면 파일 시스템 용량을 볼륨 전체 크기의 1.35배로 설정하십시오.</block>
@@ -1518,4 +1517,5 @@
   <block id="9bcd13fbdffcddd84a7b637f7ec4e9b8" category="list-text">*클러스터 노드 관리*</block>
   <block id="240380a5970626d74754b96038898f5e" category="paragraph">EVS 클러스터 노드에 적절한 EC2 중지 및 종료 보호 기능이 구성되어 있는지 확인하십시오. EVS ESXi 노드는 vCenter 또는 기타 VMware 수준의 관리 도구를 사용하여 관리해야 합니다. 적절한 EC2 수준 보호 기능이 없으면 EC2 콘솔에서 노드가 실수로 중지되거나 종료될 수 있으며, 이로 인해 가상 머신 데이터의 사용 불가 또는 데이터 손실이 발생할 수 있습니다.</block>
   <block id="d1fabbd85b7cc34641739e525d26f652" category="section-title">2026년 2월 1일</block>
+  <block id="c359614024935abd3712075452782fa3" category="list-text">*비활성 블록 디바이스*</block>
 </blocks>
