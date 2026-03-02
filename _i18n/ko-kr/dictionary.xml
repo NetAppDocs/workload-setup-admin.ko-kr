@@ -995,7 +995,6 @@
   <block id="29ff7127ee20a064050f18e60ebefb52" category="inline-image-macro">NetApp Workload Factory 사용자 인터페이스 계정 메뉴 옵션을 보여주는 스크린샷입니다.  옵션 중 하나는 서비스 계정입니다.</block>
   <block id="a9e0a4cc2ab34b88741d440069a23306" category="paragraph"><block ref="a9e0a4cc2ab34b88741d440069a23306" category="inline-image-macro-rx" type="image"></block></block>
   <block id="49f5ed0a90981c28c41567afa9022439" category="paragraph">클라이언트 비밀번호는 한 번만 표시되며 Workload Factory의 어디에도 저장되지 않습니다.  비밀을 복사하거나 다운로드하여 안전하게 보관하세요.</block>
-  <block id="cde2339a39bfe4d657d43be10594e1d0" category="list-text">선택적으로 클라이언트 자격 증명 교환을 실행하여 Auth0 관리 API에 대한 액세스 토큰을 얻을 수 있습니다.  curl 예제는 클라이언트 ID와 비밀번호를 가져와 API를 사용하여 시간 제한이 있는 액세스 토큰을 생성하는 방법을 보여줍니다.  토큰은 NetApp Workload Factory API에 몇 시간 동안 액세스할 수 있는 권한을 제공합니다.</block>
   <block id="6088e1e1d002a4c07aec5cec2ca41900" category="list-text">*서비스 계정* 페이지에서 작업 메뉴를 선택한 다음 *삭제*를 선택합니다.</block>
   <block id="9e4d021b600a18ca2bdc19e316e61a90" category="paragraph">첫 번째 Workload Factory 기능(또는 기능들)을 사용할 때 해당 워크로드 기능에 필요한 권한을 사용하여 자격 증명을 만들어야 합니다.  Workload Factory에 자격 증명을 추가하지만 IAM 역할과 정책을 생성하려면 AWS Management Console에 액세스해야 합니다.  이러한 자격 증명은 Workload Factory의 모든 기능을 사용할 때 계정 내에서 사용할 수 있습니다.</block>
   <block id="b6cd757220290782ab371e620582ddcd" category="paragraph">Workload Factory에 AWS 자격 증명 세트를 두 개 이상 추가하면 FSx for ONTAP 파일 시스템, FSx for ONTAP 에 데이터베이스 배포, VMware 워크로드 마이그레이션 등의 추가 기능을 사용하는 데 필요한 추가 권한이 제공됩니다.</block>
@@ -1518,4 +1517,8 @@
   <block id="240380a5970626d74754b96038898f5e" category="paragraph">EVS 클러스터 노드에 적절한 EC2 중지 및 종료 보호 기능이 구성되어 있는지 확인하십시오. EVS ESXi 노드는 vCenter 또는 기타 VMware 수준의 관리 도구를 사용하여 관리해야 합니다. 적절한 EC2 수준 보호 기능이 없으면 EC2 콘솔에서 노드가 실수로 중지되거나 종료될 수 있으며, 이로 인해 가상 머신 데이터의 사용 불가 또는 데이터 손실이 발생할 수 있습니다.</block>
   <block id="d1fabbd85b7cc34641739e525d26f652" category="section-title">2026년 2월 1일</block>
   <block id="c359614024935abd3712075452782fa3" category="list-text">*비활성 블록 디바이스*</block>
+  <block id="7be2086f13a4f10a02431f16800fa81d" category="inline-link-macro">NetApp Console API 설명서</block>
+  <block id="a245d89706ebe16fde36591a5e609a33" category="list-text">선택적으로 클라이언트 자격 증명 교환을 실행하여 Auth0 관리 API용 액세스 토큰을 얻을 수 있습니다. 새로 고침 토큰 생성에 대한 자세한 내용은 <block ref="3b56da8d0a374b6655d8f6eed0786ff9" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="c24f8da0f82882bea0b6a996bf370a07" category="paragraph">이 curl 예제는 클라이언트 ID와 시크릿 키를 사용하여 API를 통해 시간 제한이 있는 액세스 토큰을 생성하는 방법을 보여줍니다. 이 토큰은 NetApp Workload Factory API에 몇 시간 동안 액세스할 수 있는 권한을 제공합니다.</block>
+  <block id="63c9444676abbb5883eb0d8ae98bc87a" category="paragraph">출력 결과를 https://netapp-cloud-account.auth0.com/oauth/token에 게시하여 액세스 토큰을 받으세요.</block>
 </blocks>
