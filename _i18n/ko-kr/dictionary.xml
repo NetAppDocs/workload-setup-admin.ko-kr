@@ -1521,4 +1521,10 @@
   <block id="a245d89706ebe16fde36591a5e609a33" category="list-text">선택적으로 클라이언트 자격 증명 교환을 실행하여 Auth0 관리 API용 액세스 토큰을 얻을 수 있습니다. 새로 고침 토큰 생성에 대한 자세한 내용은 <block ref="3b56da8d0a374b6655d8f6eed0786ff9" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="c24f8da0f82882bea0b6a996bf370a07" category="paragraph">이 curl 예제는 클라이언트 ID와 시크릿 키를 사용하여 API를 통해 시간 제한이 있는 액세스 토큰을 생성하는 방법을 보여줍니다. 이 토큰은 NetApp Workload Factory API에 몇 시간 동안 액세스할 수 있는 권한을 제공합니다.</block>
   <block id="63c9444676abbb5883eb0d8ae98bc87a" category="paragraph">출력 결과를 https://netapp-cloud-account.auth0.com/oauth/token에 게시하여 액세스 토큰을 받으세요.</block>
+  <block id="129560e32411be4dc94c9cfeada8ea67" category="doc">Workload Factory에서 사용할 수 있는 새로운 Ask Me 북마크</block>
+  <block id="4ea89e975474ebd5bba8d32ced2e95cc" category="paragraph">Workload Factory 콘솔의 모든 화면에 새로운 Ask Me 북마크를 추가했습니다. 이 개선 사항을 통해 필요할 때 언제든지 Ask Me에 더 쉽고 빠르게 액세스할 수 있습니다. Ask Me는 사용자의 워크로드 환경에 대한 질문을 하고, 환경에서 직접 맞춤형 인사이트를 얻고, 이전 대화를 참조할 수 있도록 지원하는 AI 비서입니다.</block>
+  <block id="38dc719ee518af5f799c19331bfd5f19" category="paragraph">새로운 북마크를 클릭하면 어느 페이지에서든 Ask Me를 열 수 있습니다. 현재 작업을 방해하지 않고 사이드 패널에서 Ask me가 실행되어 현재 수행 중인 작업과 관련된 빠른 설명과 권장 사항을 제공합니다.</block>
+  <block id="80dcbdee31e7f18a301f863f8b73dc64" category="inline-link-macro">Ask Me에 대해 자세히 알아보기</block>
+  <block id="ca844fa02d938fb3d0329bf797d0a633" category="paragraph"><block ref="ca844fa02d938fb3d0329bf797d0a633" category="inline-link-macro-rx"></block></block>
+  <block id="4aa1f4ce7ff97e69b143fbe399631234" category="section-title">2026년 3월 1일</block>
 </blocks>
