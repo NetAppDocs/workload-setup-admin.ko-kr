@@ -1391,4 +1391,5 @@
   <block id="23b296afc9efdc38bb284c5491538e2f" category="doc">NetApp Workload Factory를 사용하여 아키텍처가 잘 설계된 워크로드를 구축하고 운영하세요</block>
   <block id="c3a8b5ec0adade5d633e6e6466b483a6" category="paragraph">Workload Factory는 Amazon FSx for NetApp ONTAP용 NetApp 관리 제품군으로, AWS Well-Architected Framework에 부합하는 안정적이고 안전하며 효율적이고 비용 효율적인 워크로드 구성을 유지 및 운영할 수 있도록 지원합니다. Workload Factory는 워크로드에 대한 일일 분석, 권장 사항 및 자동 수정 기능을 제공하여 정상적인 워크로드 운영을 촉진합니다. 이러한 프로세스를 자동화함으로써 Workload Factory는 인적 오류를 최소화하고 워크로드 관리의 일관성을 보장합니다.</block>
   <block id="421a8570ce985526e7d5c4e54d3094e2" category="section-title">Workload Factory를 사용하여 워크로드 구성 오류를 감지하고 수정해 보세요</block>
+  <block id="7274d50d53fc920babacadb1439892ff" category="sidebar">잘 설계된 Elastic VMware Service 구성을 구현하십시오</block>
 </blocks>

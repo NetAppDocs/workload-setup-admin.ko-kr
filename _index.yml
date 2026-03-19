@@ -32,12 +32,12 @@ indexpage:
       url: "/use-codebox.html"
   - title: 잘 설계된 워크로드
     links:
-    - title: 잘 설계된 워크로드를 구축하고 운영합니다.
-      url: "/well-architected-workloads.html"
     - title: ONTAP 파일 시스템을 위한 잘 설계된 FSx를 구현합니다.
       url: https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html
     - title: 잘 설계된 데이터베이스 워크로드를 구현하세요
       url: https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html
+    - title: 잘 설계된 Elastic VMware Service 구성을 구현하십시오
+      url: https://docs.netapp.com/us-en/workload-vmware/view-evs-well-architected.html
   - title: 작업 부하를 분석합니다
     links:
     - title: 데이터베이스 워크로드의 오류 로그를 분석합니다.
