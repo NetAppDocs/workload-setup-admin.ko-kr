@@ -1,0 +1,21 @@
+= Workload Factory의 이메일 알림
+:allow-uri-read: 
+
+
+
+
+=== Workload Factory의 이메일 알림
+
+이제 Amazon SNS 토픽을 구성하지 않고도 이메일을 통해 Workload Factory 알림을 받을 수 있습니다. 계정에 연결된 모든 이메일 주소로 알림을 보내려면 이메일 알림을 활성화하세요.
+
+Workload Factory 콘솔 또는 NetApp Console에서 이메일 알림을 구성할 수 있습니다. NetApp Console에서는 종 모양 아이콘 아래에 표시되는 NetApp Console 알림을 구성하는 옵션도 제공합니다.
+
+NetApp Console에서 알림을 구성하면 NetApp Console이 알림 전달을 담당하게 됩니다. 중복 알림을 방지하기 위해 Workload Factory 콘솔의 알림 설정은 읽기 전용으로 변경됩니다.
+
+
+
+=== EDA 지연 시간에 대한 새 알림
+
+NetApp Workload Factory 알림 서비스에는 EDA 작업의 지연 시간이 특정 임계값을 초과할 때 알려주는 EDA 지연 시간 알림 기능이 포함되어 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Workload Factory 알림 구성"]
