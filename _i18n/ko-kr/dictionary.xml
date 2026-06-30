@@ -1436,4 +1436,13 @@
   <block id="d097d681103ac768d9ca87aa43096db9" category="list-text">선택적으로 계정을 AWS GovCloud(미국) 계정으로 설정할 수 있습니다. 이 계정 유형은 설정 및 운영에 AWS GovCloud(미국) 엔드포인트와 리전만 사용합니다. 자격 증명과 비밀 키는 GovCloud에 유지됩니다. 이 선택은 영구적입니다.</block>
   <block id="5aa69fed46341f59b5dc6e550c082135" category="list-text">선택적으로 해당 계정에 대한 설명을 제공할 수 있습니다.</block>
   <block id="92ee6e4d72d15689a675017ce0db2fa1" category="section-title">2026년 5월 31일</block>
+  <block id="b8646f09ea34b75c077cfea12f75617b" category="inline-link-macro">권한 참조</block>
+  <block id="cd96cf7ebfb9b4a10268be38c383fa2e" category="paragraph">각 워크로드 기능에 필요한 권한에 대한 자세한 내용은 <block ref="a5f4ae61e232cd6bd835f3c22c2ae14c" category="inline-link-macro-rx"></block>에서 확인하세요.</block>
+  <block id="d19d35e43d16db0ea1d21d81cb1ac01d" category="admonition">GovCloud 계정이 있는 경우, 비용 탐색기 권한<block ref="bba6542a0e46014b21a818003b1e41d2" prefix=" " category="inline-code"></block> 또는<block ref="f74e5982a82afd7d2755b24355dd08c6" prefix=" " category="inline-code"></block> 스토리지에 대한 **보기, 계획 및 분석** 정책은 필요하지 않습니다. 코드 상자에서 스크립트를 복사한 후, 이러한 권한을 제거하고 이전 줄의 마지막 쉼표를 삭제하세요.</block>
+  <block id="cd9aa9a92963bccf53a18059deb4f182" category="admonition">AWS GovCloud는 AWS Cost Explorer를 지원하지 않으므로 다음 권한은 필요하지 않습니다.<block ref="bba6542a0e46014b21a818003b1e41d2" prefix=" " category="inline-code"></block> 및<block ref="f74e5982a82afd7d2755b24355dd08c6" prefix=" " category="inline-code"></block>. 해당 권한을 포함하더라도 정책은 정상적으로 작동합니다.</block>
+  <block id="044dbc650d6316ed90f739b69dfff7ee" category="section-title">지역 지원</block>
+  <block id="468469fded9ecf5cf0e132a6daa62d32" category="paragraph">다음 AWS 리전은 지원되지 않습니다.</block>
+  <block id="cc6dcf46ebcb08f1caa420526cc0ab18" category="list-text">중국 지역</block>
+  <block id="ecd96786b112acf6970d6aaf3be575ca" category="list-text">Secret Cloud</block>
+  <block id="151ef168e17772f7a361db78a0c86552" category="list-text">최고 기밀 클라우드</block>
 </blocks>
