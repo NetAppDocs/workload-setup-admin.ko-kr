@@ -1450,4 +1450,152 @@
   <block id="dec4de109ea4eb3e3c42771a86f5377a" category="cell">S3 액세스 포인트 저널 작업</block>
   <block id="dc0903fb248bd39e420d250bdf42edee" category="cell">FSx for ONTAP S3 액세스 포인트와 CloudTrail 트레일 간의 연결을 활성화 또는 비활성화하여 AWS CloudTrail 이벤트 선택기를 구성하거나 업데이트합니다</block>
   <block id="89aa68fffda7d587077f8069ae60e59f" category="cell">cloudtrail:PutEventSelectors</block>
+  <block id="992672ecff7fe59cf2782ddb79f58e1d" category="doc">맞춤형 대시보드</block>
+  <block id="2865e3ecb86dc9391d13f92e53f2a2ac" category="paragraph">업무량과 우선순위에 맞춰 AI 기반 대시보드를 구축하여 운영 성과를 손쉽게 파악하세요. 고정된 보기 방식에 의존하는 대신, 맞춤형 대시보드를 통해 가장 중요한 정보에 집중할 수 있습니다.</block>
+  <block id="4ebed31793305164cd5e1b71336c2244" category="paragraph">추적하고 싶은 내용을 일반 언어로 설명하기만 하면 AI가 요청에 따라 대시보드를 생성해 줍니다. 예를 들어 재해 복구 상태, 지역별 용량 및 비용, 스토리지 보호 규정 준수, 기타 운영 지표 등을 추적할 수 있습니다.</block>
+  <block id="f2c8c03b6d33f0a06783ce6241b381a6" category="paragraph">사용자 지정 대시보드는 읽기 전용이므로 스토리지 또는 워크로드 설정을 변경할 수 없습니다. Workload Factory 계정에 등록된 모든 사용자는 이러한 대시보드를 보고 관리할 수 있으므로 팀 간에 인사이트를 공유하고 협업을 유지하는 데 도움이 됩니다.</block>
+  <block id="7f7fdf6329959f984b3ff303ae5ac37f" category="inline-link-macro">맞춤형 대시보드에 대해 자세히 알아보기</block>
+  <block id="b95d6b8ad9f73321f9cc2385811deedb" category="paragraph"><block ref="b95d6b8ad9f73321f9cc2385811deedb" category="inline-link-macro-rx"></block></block>
+  <block id="b8aad264abc6ada71a68a9b5a701a58b" category="summary">AI 기반 프롬프트를 활용하여 맞춤형 대시보드를 생성하고, 워크로드와 운영 우선순위에 가장 중요한 요소를 모니터링하세요.</block>
+  <block id="dfc2a77d9b383cd28cba1a1e99f9a378" category="doc">사용자 지정 대시보드 만들기</block>
+  <block id="43d2bb31c641fd8b871b835572bc7441" category="paragraph">모니터링하고 싶은 항목을 쉬운 언어로 설명하여 맞춤형 대시보드를 생성하세요. AI가 설정 과정을 안내하여 사용자의 업무량과 우선순위에 맞는 대시보드를 만들 수 있도록 도와드립니다.</block>
+  <block id="463a1f1058198f82800c115a2a913de5" category="paragraph">맞춤형 대시보드는 AI 기반 대화 상자를 사용하여 사용자가 시각화하고자 하는 내용을 파악합니다. 사용자는 자연어로 모니터링 요구 사항을 설명하고, 시스템은 대시보드가 요구 사항을 충족하는지 확인하기 위해 추가 질문을 합니다.</block>
+  <block id="5af1607522ddad534f7fc3e5976684e5" category="paragraph">생성 후에는 대시보드를 새로 고침하여 업데이트된 데이터를 확인할 수 있습니다.</block>
+  <block id="a8f8e9b8eb3f376a4b560c169094087e" category="paragraph">사용자 지정 대시보드는 기본적으로 읽기 전용으로 설계되었으며 스토리지 또는 워크로드 구성을 변경할 수 없다는 점을 기억하십시오.</block>
+  <block id="7f2caa1403d5a00e4abbc779c525c170" category="list-text">대시보드에서 모니터링하려는 리소스에 액세스하려면 권한이 필요합니다.</block>
+  <block id="aae9aa18bcac1ee780a470bdbbc81875" category="list-text">워크로드를 모니터링하기 위한 대시보드를 만들기 전에 Workload Factory에서 워크로드를 설정하십시오.</block>
+  <block id="1490f3908001d2cdf7587ba480973340" category="section-title">대시보드 생성</block>
+  <block id="342a19841e494c61bf9c06a5879eaffa" category="inline-image-macro">햄버거 메뉴 아이콘은 스토리지, EDA, AI, 데이터베이스, VMware 및 관리와 같은 워크로드를 탐색하는 데 사용됩니다.</block>
+  <block id="2e73b76e7b232c5b1f77e0a5880d5ad5" category="list-text">메뉴 <block ref="d1917ed039a7bd34b3d1373e5ffc5ece" category="inline-image-macro-rx" type="image"></block>를 선택한 다음 *워크로드 개요* &gt; *사용자 지정 대시보드*를 선택합니다.</block>
+  <block id="f1dcf9e30698fcfe356b412b3f1f523c" category="paragraph">이 대시보드가 처음이라면 시작하는 데 도움이 되는 샘플 프롬프트가 있는 빈 화면이 표시됩니다. *프롬프트 복사*를 선택하여 샘플 프롬프트를 AI 대화 상자의 텍스트 상자에 복사할 수 있습니다.</block>
+  <block id="2e752336fdbff2abb5e9bf262bd0dbdd" category="list-text">*새 대시보드 만들기*를 선택합니다.</block>
+  <block id="28d14a36109f19e020789b18ad010e52" category="list-text">AI 대화 상자에서 모니터링하려는 대상을 설명하십시오.</block>
+  <block id="f81e522e43740650ace37b219a052164" category="paragraph">이해하기 쉬운 말로 설명해 주세요. AI가 사용자의 요구 사항을 더 잘 이해하기 위해 몇 가지 질문을 할 것입니다.</block>
+  <block id="61c97c990827d64adae42781eef7977a" category="inline-image-macro">메뉴 아이콘은 대시보드 생성을 시작하는 데 사용됩니다., width=18</block>
+  <block id="9f955fab4eac0e2ec9405b5db65b1bbb" category="list-text"><block ref="1b0d31425e9262bd5e8bd047f083a392" category="inline-image-macro-rx" type="image"></block>를 선택합니다.</block>
+  <block id="32e95e9677f9ef2f50e204cf4b6401d7" category="list-text">AI의 명확화 질문에 답변하세요.</block>
+  <block id="7d84a0d9d14a5f050503a7b9b00b3435" category="paragraph">AI는 사용자의 요구 사항을 더 잘 이해하기 위해 여러 옵션 중에서 선택하도록 요청할 수 있습니다. 각 질문에 답변하고 *계속*을 선택하거나, 선택 사항인 질문을 건너뛰려면 *건너뛰기*를 선택하세요.</block>
+  <block id="90173ffd48ab0b65df8cc1496c811a5d" category="list-text">모든 질문에 답변한 후 *계속*을 선택하여 대시보드를 생성합니다.</block>
+  <block id="9d1ec15b76f21503c345737dd1e6038c" category="paragraph">이제 사용자 지정 대시보드가 대시보드 카탈로그에 있습니다. Workload Factory 계정의 모든 사용자가 해당 대시보드에 액세스하여 볼 수 있습니다.</block>
+  <block id="01e12de62fa77fda2815719aed8ff892" category="paragraph-title">다음 단계</block>
+  <block id="fb3b6f147b0a44a08f4c961dc053571e" category="paragraph">생성 후에는 다음을 수행할 수 있습니다.</block>
+  <block id="a5c04615d2baa4c3104d2afbb5b85c59" category="list-text">대시보드 데이터를 새로 고침하여 최신 정보를 확인하세요.</block>
+  <block id="caace49efbd64662add845d2ed5e7042" category="list-text">대시보드를 편집하여 표시되는 내용을 변경합니다.</block>
+  <block id="7bff2130a08698224667671d85a34ed4" category="list-text">더 이상 필요하지 않은 대시보드를 삭제합니다.</block>
+  <block id="ed5184af3d39b3e314759db5b95ba675" category="list-text">대시보드 생성자 및 마지막 업데이트 시점 등 대시보드 세부 정보를 확인합니다.</block>
+  <block id="d10995cac5dfc264a5da7f4abec9025d" category="inline-link-macro">사용자 지정 대시보드 관리</block>
+  <block id="1c028f2c092927e5beff0c52bcc2456a" category="list-text"><block ref="1c028f2c092927e5beff0c52bcc2456a" category="inline-link-macro-rx"></block></block>
+  <block id="1703fc0755f2533bd9d727fa0298c500" category="inline-link-macro">사용자 지정 대시보드 문제 해결</block>
+  <block id="1cd847d256198f4e37b4ae35e7859286" category="list-text"><block ref="1cd847d256198f4e37b4ae35e7859286" category="inline-link-macro-rx"></block></block>
+  <block id="b765164d0d63341925efe41eda98a9b0" category="summary">미리 정의된 보기 방식에 얽매이지 않고, 워크로드와 우선순위에 맞춰 개인화된 AI 기반 대시보드를 생성하여 운영 가시성을 향상시키세요.</block>
+  <block id="adf3d3abc197eec345a7ab721730806c" category="doc">맞춤형 대시보드에 대해 알아보기</block>
+  <block id="7eb72e0c632d43245022c759c6dabf4f" category="paragraph">클라우드 및 스토리지 관리자에게 맞춤형 대시보드는 관리하는 시스템과 워크로드를 명확하게 파악할 수 있도록 해줍니다. 미리 설정된 레이아웃에 제한되지 않고, 업무, 우선순위, 비즈니스 목표에 맞춰 보기 방식을 구축하고 개인화할 수 있습니다.</block>
+  <block id="959c71c7e92856ead7b3a708f6c721c2" category="paragraph">맞춤형 대시보드는 AI를 활용하여 워크로드 팩토리 환경에 대한 개인화된 보기를 제공합니다. 모니터링하고자 하는 항목을 간단한 언어로 설명하기만 하면 시스템이 사용자의 요구 사항에 맞춰 시각적 차트를 자동으로 생성합니다.</block>
+  <block id="f1e11e6b7c8b037c77a4a7c91acba439" category="paragraph">Workload Factory 계정에 등록된 모든 사용자는 모든 사용자 지정 대시보드를 볼 수 있습니다. 이러한 공유 설정을 통해 팀은 협업하고 조직 전체에서 동일한 운영 정보를 확인할 수 있습니다.</block>
+  <block id="0cc3ed3838a7ccb5f5454f9a9e965833" category="section-title">맞춤형 대시보드를 사용하는 이유</block>
+  <block id="a8c7717916af9efd32ed1f2556005cce" category="paragraph">Workload Factory 사용자는 다양한 워크로드, 환경 및 우선순위를 관리하지만, 표준 대시보드는 미리 설정된 보기만 제공합니다. 사용자 지정 대시보드는 다음과 같은 여러 운영 문제를 해결하는 데 도움이 됩니다.</block>
+  <block id="135a1cf67f3c35c0d0e10abc8470699e" category="list-text">*핵심 질문에 빠르게 답하세요*: 일반적인 시스템 통계보다는 가장 중요한 질문이나 이해가 부족한 부분에 집중하세요.</block>
+  <block id="0d21e6f539758fefdbea39962fd5b026" category="list-text">*지금 중요한 것을 모니터링하세요*: 고정된 상태 지표 세트가 아닌 현재 우선순위에 맞는 지표를 추적하세요.</block>
+  <block id="3f731afb8a0dffc068abffe76f1a5ca1" category="list-text">*기술 데이터를 비즈니스 성과와 연결하세요*: 시스템 성능이 운영 및 비즈니스 목표에 미치는 영향을 보여주세요.</block>
+  <block id="093ecfd7b1330a7a804792cf2ad47249" category="list-text">*도구 전환을 피하세요*: 모든 관련 정보를 한 곳에서 확인하세요. 도구, 페이지 또는 내보내기 간에 전환할 필요가 없습니다.</block>
+  <block id="5473f92e1e9974588f523da6ec42d779" category="section-title">맞춤형 대시보드로 할 수 있는 일</block>
+  <block id="348467ce5b84d7d219767eb177529dcb" category="paragraph">설정 과정에서 AI 기반 대화 상자가 다음 사항을 정의하는 데 도움을 줍니다.</block>
+  <block id="2c55ae63711161cbdec9fc0567dfa81d" category="list-text">모니터링할 워크로드 및 리소스</block>
+  <block id="a37eb4863cbc8ee3ac75cb1498fc8895" category="list-text">업무에 중요한 핵심 지표</block>
+  <block id="cdfa093abec6d3b3ed91c073ffda143a" category="list-text">비교할 시간 범위 및 기간</block>
+  <block id="efdf5eaa29e3c2930edbf6dc622b3b95" category="list-text">지역별, 워크로드별 또는 기타 범주별 보기</block>
+  <block id="0382db2b201586b16e5ed4d61af700ac" category="list-text">추적하고 표시해야 하는 규칙 또는 요구 사항</block>
+  <block id="18b34a0dd090bb7f1f01f6f3d0d42c52" category="section-title">고려사항 및 제한사항</block>
+  <block id="6344c74fd8e5c3678a14327105887b61" category="paragraph">사용자 지정 대시보드를 생성하거나 보려면 모니터링하려는 리소스에 대한 올바른 AWS IAM 권한이 필요합니다. Workload Factory 계정에 대시보드에서 사용하는 데이터 소스에 대한 읽기 권한이 있는지 확인하십시오.</block>
+  <block id="b895786e376487f78816aa96581917ec" category="inline-link-macro">AWS 자격 증명을 추가하고 IAM 권한을 설정하는 방법을 알아보십시오.</block>
+  <block id="c61bed5a551c50bee3f870cc793e144b" category="paragraph"><block ref="10ed2be00615eb2c2386c703d91716ef" category="inline-link-macro-rx"></block>.</block>
+  <block id="edc83c82b6a6439e121df7b8dfc618e7" category="section-title">읽기 전용 디자인</block>
+  <block id="9596530d51115869eabe2f1148109fcb" category="paragraph">사용자 지정 대시보드는 읽기 전용입니다. 스토리지 또는 워크로드 설정을 변경할 수 없습니다. 따라서 실수로 설정을 변경하지 않고 시스템을 모니터링할 수 있습니다.</block>
+  <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">제한 사항</block>
+  <block id="9b7e15be2b250373f1f4204c0d8a313a" category="paragraph">현재 사용자 지정 대시보드에는 다음과 같은 제한 사항이 적용됩니다.</block>
+  <block id="af58cbb6f48e75ca1858deb5b23d424e" category="list-text">Workload Factory 계정 외부에서는 대시보드를 공유할 수 없습니다.</block>
+  <block id="8842d5599593f1c220f6f9c200222fdc" category="list-text">대시보드는 한 번에 한 명의 사용자만 편집할 수 있습니다.</block>
+  <block id="8031af406fb376c22555c37f323588ea" category="list-text">동시 편집은 지원되지 않습니다.</block>
+  <block id="8fbadf27f5b9fe2779015430fdb5baac" category="section-title">데모 환경</block>
+  <block id="372d2f979722e867e21cf5dc86365106" category="paragraph">Workload Factory 데모 계정을 사용 중인 경우, 몇 가지 사전 구축된 대시보드를 이용할 수 있습니다. 이러한 대시보드를 통해 사용자 지정 대시보드의 기능을 확인할 수 있습니다. 각 대시보드는 재해 복구 상태, 지역별 용량 및 비용, 스토리지 보호 규칙 준수 여부 등 일반적인 모니터링 요구 사항을 보여줍니다.</block>
+  <block id="79092ffcd78270a38b45ed11da4ef893" category="section-title">샘플 프롬프트</block>
+  <block id="95ef60d56b458eae2c194d7ac8234f5c" category="paragraph">다음 예시는 모니터링 요구 사항을 쉬운 언어로 설명하는 방법을 보여줍니다.</block>
+  <block id="bb4298b33c9efb59f5b7c959ca88fe4b" category="list-text">*재해 복구 모니터링*: "온프레미스 시스템을 위해 AWS에 재해 복구 솔루션을 구축하고 있습니다. 온프레미스 리소스의 전체 목록과 각 리소스의 상태(구성 여부, 활성 상태, 정상 상태 포함)를 미국 동부 지역의 재해 복구 사이트에서 확인하고 싶습니다."</block>
+  <block id="f3f66b82398c698a8891bc39cc80d3ec" category="list-text">*다중 지역 용량 및 비용*: "저는 여러 클라우드 지역과 애플리케이션에 걸쳐 스토리지를 관리합니다. 할당된 스토리지 용량, 사용량, 비용을 각 지역 및 애플리케이션별로 자세히 파악하고 싶습니다."</block>
+  <block id="86660547d3b01955cbe8ca32c03764d0" category="list-text">*스토리지 보호 규정 준수*: "조직의 기준에 따라 새로운 스토리지 보호 전략을 수립하고 있습니다. 모든 파일 시스템과 해당 시스템이 이러한 요구 사항을 충족하는지 여부를 보여주세요.</block>
+  <block id="da8c35a377d4789965b326d520c28223" category="list-text">데이터베이스 워크로드: 볼륨당 매일 12개의 스냅샷과 주당 2개의 변조 방지 스냅샷.</block>
+  <block id="c01a6403a6cfebc4ade27b2461b77ea8" category="list-text">NFS 및 SMB 공유: 볼륨당 일별 스냅샷 7개, 주별 변조 방지 스냅샷 1개.</block>
+  <block id="489342efbcb2cab8832e0e763b340653" category="list-text">ARP는 모든 볼륨에서 활성화되어야 합니다."</block>
+  <block id="cce78dc6ebbec7385a01f2146d6d01c8" category="section-title">다음 단계</block>
+  <block id="817e038e8ee419f03c8a12275438f8d7" category="list-text"><block ref="817e038e8ee419f03c8a12275438f8d7" category="inline-link-macro-rx"></block></block>
+  <block id="62403e3fa28afe128e2c0e15bf0333f7" category="inline-link-macro">사용자 지정 대시보드 관리</block>
+  <block id="09327b0cff12718fff46be13c240b39f" category="list-text"><block ref="09327b0cff12718fff46be13c240b39f" category="inline-link-macro-rx"></block></block>
+  <block id="c9d9548c92d24e0dc83c6a1818848b58" category="summary">Workload Factory에서 사용자 지정 대시보드를 보고, 편집하고, 새로 고치고, 삭제하려면 대시보드 카탈로그에 액세스하십시오.</block>
+  <block id="48f5d174a835c1fb6c38af1c4800bcdb" category="paragraph">대시보드 카탈로그에서 사용자 지정 대시보드를 관리합니다. 여기에서 세부 정보를 확인하고, 데이터를 새로 고치고, 대시보드 설정을 편집하거나 더 이상 필요하지 않은 대시보드를 삭제할 수 있습니다.</block>
+  <block id="426dd2be6d0917b0febd591b1f25bc0a" category="paragraph">Workload Factory 계정의 모든 사용자는 모든 사용자 지정 대시보드에 액세스할 수 있습니다. 각 대시보드에는 생성자 이름, 생성 날짜, 현재 편집 중인 사용자 여부와 같은 기본 정보가 표시됩니다.</block>
+  <block id="8a57aae4a94bc002578416ca2a1f301a" category="paragraph">사용자 지정 대시보드는 읽기 전용입니다. 스토리지 또는 워크로드 설정을 변경할 수 없습니다. 대시보드 자체는 편집할 수 있지만, 대시보드가 모니터링하는 리소스는 편집할 수 없습니다.</block>
+  <block id="76fc0fde7a5041f5e2df3b114841202c" category="paragraph">Workload Factory 계정에 최소 하나 이상의 사용자 지정 대시보드가 있어야 합니다.</block>
+  <block id="19f40b5f5943ee4953075403d9783061" category="section-title">대시보드 카탈로그에 액세스합니다</block>
+  <block id="94ab7238c8d6eb39314e6dc172cba073" category="list-text">메뉴에서 *Workloads Overview*를 선택한 다음 *Custom dashboards*를 선택합니다.</block>
+  <block id="04b69ec1d9e5301be209cb2b652a1602" category="paragraph">대시보드 카탈로그에는 Workload Factory 계정의 모든 사용자 지정 대시보드가 표시됩니다.</block>
+  <block id="dffad8b6380340c5079727deb13bb3f2" category="list-text">대시보드 목록을 검토하세요.</block>
+  <block id="9e3f16aef1d22400bdae48c5cb77b00f" category="section-title">대시보드 데이터 새로 고침</block>
+  <block id="4e424a1ad37782627141d4d50f79b586" category="paragraph">대시보드를 열면 대시보드 데이터가 로드됩니다. 최신 정보를 보려면 새로고침하세요.</block>
+  <block id="6835e72df37e141c78401ea8d4bfcf90" category="paragraph">대시보드가 워크로드에서 데이터를 다시 로드합니다. 마지막 업데이트 시간이 변경되어 데이터가 새로 고쳐진 시간을 표시합니다.</block>
+  <block id="ad322a64b7af5e88132bf6cb538fccd0" category="section-title">대시보드 편집</block>
+  <block id="ce7194dc740d6f8db1edf5435d1a57b4" category="paragraph">대시보드에 표시되는 내용(지표 및 차트 포함)을 변경할 수 있습니다.</block>
+  <block id="b13bad0dcb6df4e403e8e2af9058dfe5" category="list-text">*사용자 지정 대시보드* 페이지에서 편집하려는 대시보드를 찾으세요.</block>
+  <block id="d431f68c965a7131bbc2f48128983c25" category="list-text">해당 대시보드의 *작업* 메뉴에서 *대시보드 편집*을 선택합니다.</block>
+  <block id="212f24e309c20769800e812e5d15c2e3" category="paragraph">다른 사용자가 대시보드를 편집 중인 경우 "[사용자 이름]님이 현재 편집 중입니다."와 같은 메시지가 표시됩니다. 해당 사용자가 편집을 완료할 때까지 기다리거나 해당 사용자와 협의하세요.</block>
+  <block id="63f40ecf20824ff6d561a306d3a25fd1" category="list-text">AI 대화창에서 원하는 변경 사항을 설명하십시오.</block>
+  <block id="3184c7e78934ef4b37ea845f1d56789a" category="paragraph">이 과정은 새 대시보드를 만드는 것과 유사합니다. 대시보드에서 추적하는 워크로드, 메트릭 또는 시간 범위를 변경할 수 있습니다.</block>
+  <block id="f66306510aaf399aef8bdf649739a15e" category="list-text">변경 사항을 검토하고 **저장**을 선택합니다.</block>
+  <block id="89806ea6a9ed9b0bb6cb322f912aff65" category="paragraph">대시보드에 변경 사항이 반영되어 업데이트됩니다. 최종 수정 날짜도 함께 업데이트됩니다.</block>
+  <block id="74ee9feffcb1603b7eeb47c099c0e5a5" category="section-title">대시보드 삭제</block>
+  <block id="e54360b7371199d6607f76cd1ae6ad17" category="paragraph">더 이상 필요하지 않은 대시보드를 삭제하세요. 이 작업은 영구적이며 되돌릴 수 없습니다.</block>
+  <block id="3325f3a5c13a73bb87ed2dabebb0b6a3" category="list-text">*사용자 지정 대시보드* 페이지에서 제거하려는 대시보드를 찾으세요.</block>
+  <block id="0ce6306187e44bdf505a14f5d0676bb6" category="list-text">해당 대시보드의 *작업* 드롭다운 메뉴에서 *삭제*를 선택합니다.</block>
+  <block id="b26a5fa549c938ffb56d20623c3f69c0" category="list-text">삭제를 확인하세요.</block>
+  <block id="22e8351c82677bcc78bd23d6fb170bc8" category="paragraph">대시보드가 Workload Factory 계정에서 영구적으로 제거되며, 모든 사용자는 더 이상 대시보드에 접근할 수 없습니다.</block>
+  <block id="9537d9160ef701530bdd875698475957" category="inline-link-macro">추가 사용자 지정 대시보드 생성</block>
+  <block id="1258b44f1520a3cf10d648fb08dbf72e" category="list-text"><block ref="1258b44f1520a3cf10d648fb08dbf72e" category="inline-link-macro-rx"></block></block>
+  <block id="87377124bfbafaf3a36cd9e53255e829" category="summary">사용자 지정 대시보드 생성 실패, 데이터 로딩 문제, 접근 권한 문제 등 일반적인 문제를 해결합니다.</block>
+  <block id="0c5896a9e6c8d2cff1b4d007852b1732" category="paragraph">이 정보를 활용하여 사용자 지정 대시보드를 만들거나 사용할 때 발생할 수 있는 일반적인 문제를 해결하십시오.</block>
+  <block id="2e00365fe32c89b1fd1ad214f291ca85" category="section-title">대시보드 생성 실패</block>
+  <block id="09a8c59ab236b488dde6ce993a012c63" category="paragraph">**문제:** 대시보드를 생성할 때 "Failed to understand request and generate code" 오류 메시지가 표시됩니다.</block>
+  <block id="0687519296941b7aa068cbc5e70a1c22" category="paragraph">**원인:** 시스템이 사용자의 요청을 이해하지 못했거나 사용자의 프롬프트에서 시각화를 생성할 수 없었습니다.</block>
+  <block id="83b9aaf1b6b5ef7884e24699dc7f7511" category="paragraph">**해결 방법:** 다음을 시도해 보세요.</block>
+  <block id="894b21673f7a949e53a381985a55de87" category="list-text">모니터링하고 싶은 대상을 더 명확하게 명시하여 요청을 다시 작성해 주세요.</block>
+  <block id="7bb45728b45872d1735d2db6f80d1aa8" category="list-text"><block ref="817e038e8ee419f03c8a12275438f8d7" category="inline-link-macro-rx"></block>에 있는 샘플 프롬프트 중 하나로 시작하세요.</block>
+  <block id="6e8565abed03ed302a07467257865757" category="list-text">복잡한 모니터링 요구 사항을 여러 개의 간단한 대시보드로 분할하세요.</block>
+  <block id="28ceb1134c8420a708d78605ab459972" category="list-text">추적할 워크로드, 메트릭, 시간 범위 또는 차원을 지정하십시오.</block>
+  <block id="7b0923a8ddaa6864688d6afeed5bde9f" category="section-title">대시보드에서 데이터를 불러오는 데 실패했습니다.</block>
+  <block id="6cf9da3bc18ab877793e971ea5fdf80d" category="paragraph">**문제:** 대시보드가 생성되었지만, 데이터를 불러오는 동안 오류가 발생합니다.</block>
+  <block id="423c766e8a7076c3dd890fe7460b5785" category="paragraph">**원인:** 이는 일반적으로 권한 문제 또는 사용 불가능한 데이터 소스 때문에 발생합니다.</block>
+  <block id="6342c16a39a9eb2f31fa733eb76963b7" category="paragraph">**해결 방법:**</block>
+  <block id="fb7bac53b48882cef2221ea2bff55443" category="list-text">**권한 확인:** Workload Factory 계정에 대시보드에서 사용하는 워크로드 및 리소스에 대한 읽기 액세스 권한이 있는지 확인하십시오. 권한 요구 사항은 <block ref="79e11e6e61bebfcf73bb53d91696114e" category="inline-link-macro-rx"></block>에서 검토하십시오.</block>
+  <block id="a92d27a2e307df461574cc29f2358257" category="list-text">**자격 증명 확인:** AWS 자격 증명이 유효하고 만료되지 않았는지 확인하십시오. 자세한 내용은 <block ref="b2fa8f8bcb70f53fbee747df0674d6ae" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="fee56bf45b6270228ee20fa9d1d5d88a" category="list-text">**워크로드 구성 확인:** 모니터링하려는 워크로드가 Workload Factory에 올바르게 구성되어 있고 현재 실행 중인지 확인하십시오.</block>
+  <block id="a82708a710bdc7f66cc4d1b5721a359c" category="section-title">대시보드가 로드되지 않거나 로드 속도가 느립니다.</block>
+  <block id="7b8a6ade8ac0e93d1993c6d3ee222a27" category="paragraph">**문제:** 대시보드 로딩 속도가 느리거나 일부 위젯이 표시되지 않습니다.</block>
+  <block id="c66f626cb62bfd00b1514c2f1a4ec699" category="paragraph">**원인:** 로딩 속도가 느린 이유는 네트워크 문제, 대용량 데이터 또는 일시적인 서비스 지연 때문일 수 있습니다.</block>
+  <block id="d418125e12395b77bec7ee8f19845a54" category="list-text">**인터넷 연결 상태를 확인하세요:** 인터넷 연결이 안정적인지 확인하십시오.</block>
+  <block id="e39625dee78ba95654668e1fce54e45f" category="list-text">**브라우저를 새로고침하세요:** 페이지를 새로고침하여 대시보드가 제대로 로드되는지 확인해 보세요.</block>
+  <block id="f86d0248af765f101ea3563fcc677a18" category="list-text">**브라우저 캐시와 쿠키를 삭제하세요.** 이렇게 하면 오래되었거나 손상된 데이터로 인해 발생하는 로딩 문제를 해결하는 데 도움이 될 수 있습니다.</block>
+  <block id="e7347594ee6cffce40f1598054f4f163" category="list-text">**잠시 기다렸다가 다시 시도하세요:** 문제가 계속되면 몇 분 정도 기다렸다가 다시 시도해 보세요.</block>
+  <block id="7a2ffa8b9064d2842f2e8203776a80e0" category="section-title">대시보드를 편집할 수 없습니다</block>
+  <block id="83e74e6ee1cf72780d556b5b56524b07" category="paragraph">**문제:** 대시보드를 편집하려고 하면 "[사용자 이름]님이 현재 편집 중입니다."라는 메시지가 표시됩니다.</block>
+  <block id="89bb98bf1c9d56355ec74ce488a3f9f8" category="paragraph">**원인:** Workload Factory 계정의 다른 사용자가 대시보드를 편집하고 있습니다. 한 번에 한 사용자만 대시보드를 편집할 수 있습니다.</block>
+  <block id="21aa7960bf24b27392547adc57724345" category="list-text">다른 사용자가 작업을 완료하고 변경 사항을 저장할 때까지 기다리십시오.</block>
+  <block id="3e99de69e606821e37746a29904f9fc6" category="list-text">메시지에 나와 있는 담당자에게 연락하여 편집 내용을 조율하십시오.</block>
+  <block id="0fced5615d0fc04d9397c731329e549e" category="list-text">사용자가 더 이상 편집 중이 아닌데도 잠금이 유지되는 경우, 편집 창을 닫아 잠금을 해제하도록 요청하십시오.</block>
+  <block id="318369ae5a2f25e9c7cb0b7b846d1775" category="section-title">누락된 대시보드</block>
+  <block id="732976f9f9cc4b9938c0a1a9c2569828" category="paragraph">**문제:** 사용자가 생성한 대시보드가 대시보드 카탈로그에 더 이상 표시되지 않습니다.</block>
+  <block id="d0a35413e8843c3f263cb1fad4f4cb3e" category="paragraph">**원인:** Workload Factory 계정의 다른 사용자가 해당 파일을 삭제했을 수 있습니다.</block>
+  <block id="4d6f4bd604a33b7ae11eceb4c29146f9" category="list-text">올바른 Workload Factory 계정으로 로그인했는지 확인하십시오.</block>
+  <block id="86d37fb397f8d1a33dc0e6cb1de913ae" category="list-text">계정에 있는 다른 사용자에게 누군가 대시보드를 삭제했는지 물어보세요.</block>
+  <block id="62ad02c42e5e548dcaf80a64c2d0eefd" category="list-text">필요한 경우, 원래 요구 사항을 사용하여 대시보드를 다시 생성하십시오.</block>
+  <block id="1e2b52bc0d9b39d605af8ef1990be5ab" category="paragraph">Workload Factory 계정의 모든 사용자는 사용자 지정 대시보드를 보고 삭제할 수 있습니다. 공유 대시보드를 관리할 때는 팀원들과 협업하십시오.</block>
+  <block id="e2a43aebbf3f114c3e1dfc54b469c13e" category="section-title">추가 도움말</block>
+  <block id="a56bacdffec3c1404856b40a1b27f955" category="paragraph">사용자 지정 대시보드 관련 문제가 계속 발생하는 경우 <block ref="c470f3409940cee13ddda9c09bf54b60" category="inline-link-macro-rx"></block> NetApp 지원팀에 문의하는 방법에 대한 정보를 참조하십시오.</block>
 </blocks>

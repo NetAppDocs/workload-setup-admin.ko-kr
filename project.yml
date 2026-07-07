@@ -46,6 +46,16 @@ sidebar:
       url: "/well-architected-workloads.html"
     - title: 알림을 구성합니다
       url: "/configure-notifications.html"
+    - title: 맞춤형 대시보드
+      entries:
+      - title: 맞춤형 대시보드에 대해 알아보기
+        url: "/learn-custom-dashboards.html"
+      - title: 사용자 지정 대시보드 만들기
+        url: "/create-custom-dashboard.html"
+      - title: 사용자 지정 대시보드 관리
+        url: "/manage-custom-dashboards.html"
+      - title: 사용자 지정 대시보드 문제 해결
+        url: "/troubleshoot-custom-dashboards.html"
     - title: 코드박스를 사용하여 작업을 자동화합니다
       entries:
       - title: Codebox에 대해 알아봅니다
