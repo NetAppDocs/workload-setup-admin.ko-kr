@@ -26,7 +26,7 @@ Workload Factory 계정에 최소 하나 이상의 사용자 지정 대시보드
 == 대시보드 카탈로그에 액세스합니다
 
 .단계
-. 중 하나를 사용하여 link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 환경"^]로그인합니다.
+. 다음 중 하나를 사용하여 로그인하세요link:console-experiences.html["콘솔 환경"^].
 . 메뉴에서 *Workloads Overview*를 선택한 다음 *Custom dashboards*를 선택합니다.
 +
 대시보드 카탈로그에는 Workload Factory 계정의 모든 사용자 지정 대시보드가 표시됩니다.
