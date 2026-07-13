@@ -4,6 +4,7 @@
 
 
 
+[[new-notification-for-storage]]
 === 저장소에 대한 새로운 알림
 
 NetApp Workload Factory 알림 서비스에는 스토리지에 대한 잘 설계된 문제에 대한 알림이 포함되어 있습니다.

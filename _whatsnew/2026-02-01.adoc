@@ -4,6 +4,7 @@
 
 
 
+[[well-architected-updates]]
 === Well-Architected 업데이트
 
 NetApp Workload Factory에는 Elastic VMware Service(EVS) 워크로드에 대한 아키텍처 평가 기능이 포함되어 있으며 스토리지 및 데이터베이스 워크로드에 대한 새로운 구성이 추가되었습니다.
@@ -37,6 +38,7 @@ link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.ht
 
 
 
+[[new-permissions-for-storage]]
 === 스토리지에 대한 새로운 권한
 
 S3 액세스 포인트 관리 기능 향상을 위해 Storage 워크로드에 새로운 권한이 추가되었습니다.

@@ -4,6 +4,7 @@
 
 
 
+[[support-for-service-accounts-in-bluexp-workload-factory]]
 === BlueXP  워크로드 팩토리에서 서비스 계정 지원
 
 이제 서비스 계정이 BlueXP  워크로드 팩토리에서 지원됩니다. 서비스 계정을 생성하여 인프라 운영을 자동화할 수 있습니다.
