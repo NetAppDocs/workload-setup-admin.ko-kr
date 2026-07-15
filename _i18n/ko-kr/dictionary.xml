@@ -1582,4 +1582,6 @@
   <block id="21984c4de187dab774a2262572d5c108" category="paragraph">Workload Factory 계정의 모든 사용자는 모든 사용자 지정 대시보드에 액세스할 수 있습니다. 각 대시보드에는 생성자 이름 및 생성 날짜와 같은 기본 정보가 표시됩니다.</block>
   <block id="a83695a886882e5b4baf753ee607f66f" category="paragraph">사용자 지정 대시보드는 읽기 전용입니다. 스토리지 또는 워크로드 설정을 변경할 수 없습니다.</block>
   <block id="dc3bd384dcb2bc2324eb0b2de08dda55" category="list-text">**권한 확인:** Workload Factory 계정에 대시보드에서 사용하는 워크로드 및 리소스에 대한 읽기 액세스 권한이 있는지 확인하십시오. 권한 요구 사항은 <block ref="7630a8b182c80d5ddb5d9ce1be672fef" category="inline-link-macro-rx"></block>에서 검토하십시오.</block>
+  <block id="cc661418365d138458bf55f936b73a47" category="section-title">Workload Factory에서 GenAI 워크로드 제거</block>
+  <block id="ef18329e66f7a0f5b022b9a400dd74ed" category="paragraph">GenAI 워크로드가 Workload Factory 콘솔에서 제거되었습니다.</block>
 </blocks>

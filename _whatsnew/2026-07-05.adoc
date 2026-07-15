@@ -14,3 +14,10 @@
 사용자 지정 대시보드는 읽기 전용이므로 스토리지 또는 워크로드 설정을 변경할 수 없습니다. Workload Factory 계정에 등록된 모든 사용자는 이러한 대시보드를 보고 관리할 수 있으므로 팀 간에 인사이트를 공유하고 협업을 유지하는 데 도움이 됩니다.
 
 link:learn-custom-dashboards.html["맞춤형 대시보드에 대해 자세히 알아보기"]
+
+
+
+[[genai-workload-removal-from-workload-factory]]
+=== Workload Factory에서 GenAI 워크로드 제거
+
+GenAI 워크로드가 Workload Factory 콘솔에서 제거되었습니다.
