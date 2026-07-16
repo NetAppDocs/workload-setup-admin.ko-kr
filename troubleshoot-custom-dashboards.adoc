@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: troubleshoot-custom-dashboards.html 
 keywords: troubleshooting, dashboard errors, dashboard issues, failed creation, failed to load, dashboard not loading 
-summary: 사용자 지정 대시보드 생성 실패, 데이터 로딩 문제, 접근 권한 문제 등 일반적인 문제를 해결합니다. 
+summary: '사용자 지정 대시보드에서 발생하는 일반적인 문제(설정 실패, 데이터 로딩 문제, 접근 문제 등)를 해결합니다.' 
 ---
 = 사용자 지정 대시보드 문제 해결
 :allow-uri-read: 

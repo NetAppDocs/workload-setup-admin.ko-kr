@@ -1467,7 +1467,6 @@
   <block id="22e8351c82677bcc78bd23d6fb170bc8" category="paragraph">대시보드가 Workload Factory 계정에서 영구적으로 제거되며, 모든 사용자는 더 이상 대시보드에 접근할 수 없습니다.</block>
   <block id="9537d9160ef701530bdd875698475957" category="inline-link-macro">추가 사용자 지정 대시보드 생성</block>
   <block id="1258b44f1520a3cf10d648fb08dbf72e" category="list-text"><block ref="1258b44f1520a3cf10d648fb08dbf72e" category="inline-link-macro-rx"></block></block>
-  <block id="87377124bfbafaf3a36cd9e53255e829" category="summary">사용자 지정 대시보드 생성 실패, 데이터 로딩 문제, 접근 권한 문제 등 일반적인 문제를 해결합니다.</block>
   <block id="0c5896a9e6c8d2cff1b4d007852b1732" category="paragraph">이 정보를 활용하여 사용자 지정 대시보드를 만들거나 사용할 때 발생할 수 있는 일반적인 문제를 해결하십시오.</block>
   <block id="2e00365fe32c89b1fd1ad214f291ca85" category="section-title">대시보드 생성 실패</block>
   <block id="09a8c59ab236b488dde6ce993a012c63" category="paragraph">**문제:** 대시보드를 생성할 때 "Failed to understand request and generate code" 오류 메시지가 표시됩니다.</block>
@@ -1491,7 +1490,6 @@
   <block id="e7347594ee6cffce40f1598054f4f163" category="list-text">**잠시 기다렸다가 다시 시도하세요:** 문제가 계속되면 몇 분 정도 기다렸다가 다시 시도해 보세요.</block>
   <block id="318369ae5a2f25e9c7cb0b7b846d1775" category="section-title">누락된 대시보드</block>
   <block id="732976f9f9cc4b9938c0a1a9c2569828" category="paragraph">**문제:** 사용자가 생성한 대시보드가 대시보드 카탈로그에 더 이상 표시되지 않습니다.</block>
-  <block id="d0a35413e8843c3f263cb1fad4f4cb3e" category="paragraph">**원인:** Workload Factory 계정의 다른 사용자가 해당 파일을 삭제했을 수 있습니다.</block>
   <block id="4d6f4bd604a33b7ae11eceb4c29146f9" category="list-text">올바른 Workload Factory 계정으로 로그인했는지 확인하십시오.</block>
   <block id="86d37fb397f8d1a33dc0e6cb1de913ae" category="list-text">계정에 있는 다른 사용자에게 누군가 대시보드를 삭제했는지 물어보세요.</block>
   <block id="62ad02c42e5e548dcaf80a64c2d0eefd" category="list-text">필요한 경우, 원래 요구 사항을 사용하여 대시보드를 다시 생성하십시오.</block>
@@ -1513,4 +1511,7 @@
   <block id="ef18329e66f7a0f5b022b9a400dd74ed" category="paragraph">GenAI 워크로드가 Workload Factory 콘솔에서 제거되었습니다.</block>
   <block id="7548d07d123f53ef8a847c6be983f3e5" category="paragraph">권한을 부여하면 Workload Factory는 해당 AWS 계정 내의 리소스 및 프로세스를 관리할 수 있는 권한이 포함된 정책을 인스턴스에 연결합니다. 이를 통해 Workload Factory는 스토리지 환경 검색부터 스토리지 관리에서 파일 시스템과 같은 AWS 리소스 배포에 이르기까지 다양한 작업을 수행할 수 있습니다.</block>
   <block id="b0e0fd1b2977dcfd6e5719ca7a3a6e37" category="paragraph">이 단계는 선택 사항입니다. AWS 계정 자격 증명을 추가하지 않고도 Workload Factory를 사용할 수 있습니다. Workload Factory에 AWS 자격 증명을 추가하면 Workload Factory 계정에 FSx for ONTAP 파일 시스템을 생성 및 관리하고 데이터베이스와 같은 특정 워크로드를 배포 및 관리하는 데 필요한 권한이 부여됩니다.</block>
+  <block id="00436cf3153058a6cc1bda7834e2df46" category="paragraph">Workload Factory는 대시보드를 구축하기 위해 읽기 전용 AWS 자격 증명을 사용합니다. 이러한 자격 증명을 사용하면 EC2, FSx, CloudWatch, Resource Groups Tagging API, Backup, CloudWatch Logs, KMS 및 EFS와 같은 서비스에 대해 <block ref="24ca8966cf3ca7c9dc7c9de631b31ff0" prefix=" " category="inline-code"></block> 및 <block ref="0054238c3be20aab765346f029c558a4" prefix=" " category="inline-code"></block>와 같은 읽기 작업만 수행할 수 있습니다.</block>
+  <block id="660503a3fa3804fff2a7f84301e40d4a" category="summary">사용자 지정 대시보드에서 발생하는 일반적인 문제(설정 실패, 데이터 로딩 문제, 접근 문제 등)를 해결합니다.</block>
+  <block id="e3c8b96b5757e581b1d0e7900d690797" category="paragraph">**원인:** Workload Factory 계정의 다른 사용자가 해당 파일을 삭제했을 수 있습니다.</block>
 </blocks>

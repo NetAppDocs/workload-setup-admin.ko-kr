@@ -56,6 +56,8 @@ Workload Factory 사용자는 다양한 워크로드, 환경 및 우선순위를
 
 사용자 지정 대시보드를 생성하거나 보려면 모니터링하려는 리소스에 대한 올바른 AWS IAM 권한이 필요합니다. Workload Factory 계정에 대시보드에서 사용하는 데이터 소스에 대한 읽기 권한이 있는지 확인하십시오.
 
+Workload Factory는 대시보드를 구축하기 위해 읽기 전용 AWS 자격 증명을 사용합니다. 이러한 자격 증명을 사용하면 EC2, FSx, CloudWatch, Resource Groups Tagging API, Backup, CloudWatch Logs, KMS 및 EFS와 같은 서비스에 대해  `fsx:DescribeVolumes` 및  `fsx:DescribeFileSystems`와 같은 읽기 작업만 수행할 수 있습니다.
+
 link:add-credentials.html["AWS 자격 증명을 추가하고 IAM 권한을 설정하는 방법을 알아보십시오."^].
 
 
