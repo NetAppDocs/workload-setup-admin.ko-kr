@@ -254,8 +254,6 @@
   <block id="41d28e7b29f45d4f63653993af041bc7" category="paragraph">조직에서 추가 계정 또는 사용자 관리가 필요한 경우 제품 내 채팅을 사용하여 문의하십시오.</block>
   <block id="e73298b79ea9408111cb3612bf336a0e" category="section-title">연결 링크</block>
   <block id="e20e09752eeb59f7fee2ca964db1c848" category="paragraph">현재 링크에서는 AWS Lambda를 활용하고 있습니다.</block>
-  <block id="e3bdd5798efebca8061760f610d98bcc" category="inline-link">링크에 대해 자세히 알아보십시오</block>
-  <block id="cee76762b1db025f50dc7b50c80548de" category="paragraph"><block ref="cee76762b1db025f50dc7b50c80548de" category="inline-link-rx"></block></block>
   <block id="bd282943a337f4287ca0d70f9a836261" category="section-title">코드박스 자동화</block>
   <block id="7c408fda146892c9e1c039f91fee3cd3" category="paragraph">코드박스 창에는 특정 작업 흐름 작업에 의해 생성되고 그래픽 마법사 또는 대화 채팅 인터페이스에 의해 일치하는 IAC가 표시됩니다. Codebox는 손쉬운 탐색 및 분석을 위한 색상 코딩 및 검색을 지원하지만 편집은 허용되지 않습니다. 자동화 카탈로그에는 복사하거나 저장할 수만 있습니다.</block>
   <block id="ec6b8f7cd0c5cd9853d947bc13f72f4b" category="inline-link-macro">Codebox에 대해 자세히 알아보십시오</block>
@@ -1499,7 +1497,6 @@
   <block id="708d52dc7d2f1cb4787bfd74e41bfab5" category="list-text">다음 중 하나를 사용하여 로그인하세요<block ref="730226d90433792895dc2ec640283d2d" category="inline-link-macro-rx"></block>.</block>
   <block id="97911b3c54a4e826b34c1f79026316c5" category="section-title">AWS 자격 증명 및 권한</block>
   <block id="d65de0ffa05b31f0beebf22d3e28dbde" category="section-title">FSx for ONTAP에 연결</block>
-  <block id="575660b25d9cb74a47a89172d359da91" category="paragraph">Workload Factory는 FSx for ONTAP 파일 시스템에 연결하기 위해 링크가 필요합니다.  링크는 Workload Factory와 하나 이상의 FSx for ONTAP 파일 시스템 간의 신뢰 관계 및 연결을 생성합니다.  이를 통해 Amazon FSx for ONTAP API를 통해 사용할 수 없는 특정 파일 시스템 기능을 ONTAP REST API 호출을 통해 직접 모니터링하고 관리할 수 있습니다.</block>
   <block id="68cd2ca9724f378c0a2815415eeecfbd" category="inline-link">링크를 만드는 방법을 알아보세요</block>
   <block id="11a7b8f6e5b40124f50c5d30e3fedda3" category="paragraph"><block ref="35d312ad6c576252ccfa87842dc6e767" category="inline-link-rx"></block>.</block>
   <block id="90b29202abc7a1c38c887ae166296c46" category="summary">Workload Factory에서 사용자 지정 대시보드를 보고, 새로 고치고, 삭제하려면 대시보드 카탈로그에 액세스하세요.</block>
@@ -1514,4 +1511,7 @@
   <block id="00436cf3153058a6cc1bda7834e2df46" category="paragraph">Workload Factory는 대시보드를 구축하기 위해 읽기 전용 AWS 자격 증명을 사용합니다. 이러한 자격 증명을 사용하면 EC2, FSx, CloudWatch, Resource Groups Tagging API, Backup, CloudWatch Logs, KMS 및 EFS와 같은 서비스에 대해 <block ref="24ca8966cf3ca7c9dc7c9de631b31ff0" prefix=" " category="inline-code"></block> 및 <block ref="0054238c3be20aab765346f029c558a4" prefix=" " category="inline-code"></block>와 같은 읽기 작업만 수행할 수 있습니다.</block>
   <block id="660503a3fa3804fff2a7f84301e40d4a" category="summary">사용자 지정 대시보드에서 발생하는 일반적인 문제(설정 실패, 데이터 로딩 문제, 접근 문제 등)를 해결합니다.</block>
   <block id="e3c8b96b5757e581b1d0e7900d690797" category="paragraph">**원인:** Workload Factory 계정의 다른 사용자가 해당 파일을 삭제했을 수 있습니다.</block>
+  <block id="ee01e7a77a5b8f6475723b4e66eca889" category="paragraph">Workload Factory는 FSx for ONTAP 파일 시스템에 연결하기 위한 링크가 필요합니다. 링크는 Workload Factory와 하나 이상의 FSx for ONTAP 파일 시스템 간의 신뢰 관계 및 연결을 생성합니다. 이를 통해 Amazon FSx for ONTAP API를 통해 사용할 수 없는 특정 파일 시스템 기능을 ONTAP REST API 호출을 통해 직접 모니터링하고 관리할 수 있습니다.</block>
+  <block id="6015cd2e9e5bc5b037ad456163cc26cb" category="inline-link">링크에 대해 자세히 알아보기</block>
+  <block id="cea96a6659ee3b63722518018a5e6659" category="paragraph"><block ref="cea96a6659ee3b63722518018a5e6659" category="inline-link-rx"></block></block>
 </blocks>
