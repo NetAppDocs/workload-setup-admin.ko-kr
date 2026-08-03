@@ -18,6 +18,8 @@ indexpage:
       url: "/workload-factory-overview.html"
     - title: 등록
       url: sign-up-saas.html
+    - title: AI 기능 관리
+      url: "/manage-genai-features.html"
   - title: 자격 증명 및 권한
     links:
     - title: AWS 자격 증명을 추가합니다

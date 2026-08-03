@@ -1098,8 +1098,6 @@
   <block id="b1c94ca2fbc3e78fc30069c8d0f01680" category="cell">모두</block>
   <block id="51a013adbef58901545868ef26f09d7a" category="paragraph">데이터베이스 워크로드에 사용할 수 있는 IAM 정책은 Workload Factory가 퍼블릭 클라우드 환경 내의 리소스와 프로세스를 관리하는 데 필요한 권한을 제공합니다.</block>
   <block id="2d91eea349dd2934a023a9c89a25a4ae" category="paragraph">데이터베이스에는 다음과 같은 권한 정책이 선택 가능합니다.</block>
-  <block id="abd0fc334cbbe6ce3b144ecdf917849b" category="list-text">*보기, 계획 및 분석*: 데이터베이스 리소스 인벤토리를 보고, 리소스 상태를 파악하고, 데이터베이스 구성에 맞게 잘 설계된 분석을 검토하고, 절감 효과를 알아보고, 오류 로그 분석을 받고, 절감 효과를 살펴봅니다.</block>
-  <block id="516f58485558bb7df0c42bfdf10a650f" category="list-text">*운영 및 수정*: 데이터베이스 리소스에 대한 운영 작업을 수행하고 데이터베이스 구성과 기본 FSx for ONTAP 파일 시스템 스토리지에 대한 문제를 해결합니다.</block>
   <block id="6ba3b68b57fd6ae3c84b2202720ff1c9" category="list-text">*데이터베이스 호스트 생성*: 모범 사례에 따라 데이터베이스 호스트와 기본 FSx for ONTAP 파일 시스템 스토리지를 배포합니다.</block>
   <block id="2df5c87e4b8d61414a47560bc03e428a" category="open-title">데이터베이스 호스트 생성</block>
   <block id="041381a9f940255508c93bc6e7320eb0" category="cell">CloudFormation 및 VPC에 대한 서비스 할당량 한도 가져오기 / SQL, 도메인 및 FSx for ONTAP 에 제공된 자격 증명에 대한 사용자 계정에서 비밀 만들기</block>
@@ -1278,7 +1276,6 @@
   <block id="639aaa7220975711eaf4f7238888ede3" category="list-text"><block ref="60bf6eb7c11585a14c81cd64167a3e2f" prefix="" category="inline-code"></block></block>
   <block id="6f4666c06bc4797e8ebfec4281169e8e" category="list-text"><block ref="c7ae295cae45381a4835902254c83dd7" prefix="" category="inline-code"></block></block>
   <block id="5aa9637b0dbaf8812fe7c460bc3ac1a2" category="list-text"><block ref="fa85c54aec6192ae2f2d35640fa9550d" prefix="" category="inline-code"></block></block>
-  <block id="1fab3ff575faec37f5f5855ba6c44e9b" category="paragraph">사용 환경에 적용되지 않는 구성에 대한 분석은 제외할 수 있습니다. 이렇게 하면 불필요한 경고와 부정확한 최적화 결과를 방지할 수 있습니다. 특정 구성 분석을 제외하면 Workload Factory는 해당 구성을 전체 최적화 점수 계산에 포함하지 않습니다.</block>
   <block id="0769f6a1306d51409d74d415b516e381" category="paragraph">Workload Factory를 시작하려면 가입하고 자격 증명을 추가한 다음 연결을 설정하여 AWS 리소스를 관리하고 Amazon FSx for NetApp ONTAP를 사용하여 워크로드를 최적화하십시오.</block>
   <block id="d1fabbd85b7cc34641739e525d26f652" category="section-title">2026년 2월 1일</block>
   <block id="7be2086f13a4f10a02431f16800fa81d" category="inline-link-macro">NetApp Console API 설명서</block>
@@ -1398,7 +1395,6 @@
   <block id="32e95e9677f9ef2f50e204cf4b6401d7" category="list-text">AI의 명확화 질문에 답변하세요.</block>
   <block id="7d84a0d9d14a5f050503a7b9b00b3435" category="paragraph">AI는 사용자의 요구 사항을 더 잘 이해하기 위해 여러 옵션 중에서 선택하도록 요청할 수 있습니다. 각 질문에 답변하고 *계속*을 선택하거나, 선택 사항인 질문을 건너뛰려면 *건너뛰기*를 선택하세요.</block>
   <block id="90173ffd48ab0b65df8cc1496c811a5d" category="list-text">모든 질문에 답변한 후 *계속*을 선택하여 대시보드를 생성합니다.</block>
-  <block id="9d1ec15b76f21503c345737dd1e6038c" category="paragraph">이제 사용자 지정 대시보드가 대시보드 카탈로그에 있습니다. Workload Factory 계정의 모든 사용자가 해당 대시보드에 액세스하여 볼 수 있습니다.</block>
   <block id="01e12de62fa77fda2815719aed8ff892" category="paragraph-title">다음 단계</block>
   <block id="fb3b6f147b0a44a08f4c961dc053571e" category="paragraph">생성 후에는 다음을 수행할 수 있습니다.</block>
   <block id="a5c04615d2baa4c3104d2afbb5b85c59" category="list-text">대시보드 데이터를 새로 고침하여 최신 정보를 확인하세요.</block>
@@ -1434,7 +1430,6 @@
   <block id="9596530d51115869eabe2f1148109fcb" category="paragraph">사용자 지정 대시보드는 읽기 전용입니다. 스토리지 또는 워크로드 설정을 변경할 수 없습니다. 따라서 실수로 설정을 변경하지 않고 시스템을 모니터링할 수 있습니다.</block>
   <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">제한 사항</block>
   <block id="9b7e15be2b250373f1f4204c0d8a313a" category="paragraph">현재 사용자 지정 대시보드에는 다음과 같은 제한 사항이 적용됩니다.</block>
-  <block id="af58cbb6f48e75ca1858deb5b23d424e" category="list-text">Workload Factory 계정 외부에서는 대시보드를 공유할 수 없습니다.</block>
   <block id="8fbadf27f5b9fe2779015430fdb5baac" category="section-title">데모 환경</block>
   <block id="372d2f979722e867e21cf5dc86365106" category="paragraph">Workload Factory 데모 계정을 사용 중인 경우, 몇 가지 사전 구축된 대시보드를 이용할 수 있습니다. 이러한 대시보드를 통해 사용자 지정 대시보드의 기능을 확인할 수 있습니다. 각 대시보드는 재해 복구 상태, 지역별 용량 및 비용, 스토리지 보호 규칙 준수 여부 등 일반적인 모니터링 요구 사항을 보여줍니다.</block>
   <block id="79092ffcd78270a38b45ed11da4ef893" category="section-title">샘플 프롬프트</block>
@@ -1500,8 +1495,6 @@
   <block id="68cd2ca9724f378c0a2815415eeecfbd" category="inline-link">링크를 만드는 방법을 알아보세요</block>
   <block id="11a7b8f6e5b40124f50c5d30e3fedda3" category="paragraph"><block ref="35d312ad6c576252ccfa87842dc6e767" category="inline-link-rx"></block>.</block>
   <block id="90b29202abc7a1c38c887ae166296c46" category="summary">Workload Factory에서 사용자 지정 대시보드를 보고, 새로 고치고, 삭제하려면 대시보드 카탈로그에 액세스하세요.</block>
-  <block id="b0929267f27be355fe20aa6662a8ff91" category="paragraph">대시보드 카탈로그에서 사용자 지정 대시보드를 관리하세요. 여기에서 세부 정보를 확인하고, 데이터를 새로 고치거나, 더 이상 필요하지 않은 대시보드를 삭제할 수 있습니다.</block>
-  <block id="21984c4de187dab774a2262572d5c108" category="paragraph">Workload Factory 계정의 모든 사용자는 모든 사용자 지정 대시보드에 액세스할 수 있습니다. 각 대시보드에는 생성자 이름 및 생성 날짜와 같은 기본 정보가 표시됩니다.</block>
   <block id="a83695a886882e5b4baf753ee607f66f" category="paragraph">사용자 지정 대시보드는 읽기 전용입니다. 스토리지 또는 워크로드 설정을 변경할 수 없습니다.</block>
   <block id="dc3bd384dcb2bc2324eb0b2de08dda55" category="list-text">**권한 확인:** Workload Factory 계정에 대시보드에서 사용하는 워크로드 및 리소스에 대한 읽기 액세스 권한이 있는지 확인하십시오. 권한 요구 사항은 <block ref="7630a8b182c80d5ddb5d9ce1be672fef" category="inline-link-macro-rx"></block>에서 검토하십시오.</block>
   <block id="cc661418365d138458bf55f936b73a47" category="section-title">Workload Factory에서 GenAI 워크로드 제거</block>
@@ -1513,5 +1506,139 @@
   <block id="e3c8b96b5757e581b1d0e7900d690797" category="paragraph">**원인:** Workload Factory 계정의 다른 사용자가 해당 파일을 삭제했을 수 있습니다.</block>
   <block id="ee01e7a77a5b8f6475723b4e66eca889" category="paragraph">Workload Factory는 FSx for ONTAP 파일 시스템에 연결하기 위한 링크가 필요합니다. 링크는 Workload Factory와 하나 이상의 FSx for ONTAP 파일 시스템 간의 신뢰 관계 및 연결을 생성합니다. 이를 통해 Amazon FSx for ONTAP API를 통해 사용할 수 없는 특정 파일 시스템 기능을 ONTAP REST API 호출을 통해 직접 모니터링하고 관리할 수 있습니다.</block>
   <block id="6015cd2e9e5bc5b037ad456163cc26cb" category="inline-link">링크에 대해 자세히 알아보기</block>
-  <block id="cea96a6659ee3b63722518018a5e6659" category="paragraph"><block ref="cea96a6659ee3b63722518018a5e6659" category="inline-link-rx"></block></block>
+  <block id="8215457eb88ef1fb110b79579b908e3d" category="paragraph">사용자 환경에 적용되지 않는 구성에 대한 분석은 제외할 수 있습니다. 이렇게 하면 불필요한 알림과 부정확한 최적화 결과를 방지할 수 있습니다.</block>
+  <block id="8817b0c6f0795c52cab62044416eee8a" category="inline-link-macro">사용자 지정 규칙에 대해 자세히 알아보기</block>
+  <block id="821af7226458ea25572e88e8ab2026e4" category="paragraph">또한 일반 언어로 사용자 지정 규칙을 만들어 조직 표준 및 NetApp 모범 사례에 따라 환경의 유효성을 검사할 수 있습니다. 모의 실행을 통해 규칙을 테스트한 다음, 모든 환경에서 실행되도록 예약할 수 있습니다. <block ref="ce039b478eb432b675a03c04866f31ab" category="inline-link-macro-rx"></block>.</block>
+  <block id="8be08850265c9930c26a8e5b28183a2e" category="paragraph">또한 일반 언어로 사용자 지정 규칙을 만들어 조직 표준 및 NetApp 모범 사례에 따라 환경의 유효성을 검사할 수 있습니다. 모의 실행을 통해 규칙을 테스트한 다음, 모든 환경에서 실행되도록 예약할 수 있습니다.</block>
+  <block id="7c24f3892a999a3e8d688cabe068b17a" category="paragraph"><block ref="ce039b478eb432b675a03c04866f31ab" category="inline-link-macro-rx"></block>.</block>
+  <block id="da0c92072a1db7fee3208bcad3ad822b" category="doc">데이터베이스에 대한 IAM 권한 정책 업데이트</block>
+  <block id="e9e3af45119a834b75ee5ce8ad5fc96d" category="paragraph">데이터베이스 권한이 업데이트되어 기능 액세스가 향상되었고, 불필요한 경우 SSM 액세스가 제한되었습니다.</block>
+  <block id="6f70bfe68d48e1ab770cfb69bea59dfd" category="paragraph">보기, 계획 및 분석 권한은 AWS SSM 문서로 제한됩니다. 이러한 권한을 사용하면 호스트, 인스턴스 및 데이터베이스를 볼 수 있습니다. 또한 필요에 따라 리소스에 대한 기본 아키텍처 분석을 실행할 수 있습니다.</block>
+  <block id="e9ad7ba5991717b52c215bd25e788b28" category="paragraph">운영 및 복구 권한을 통해 리소스를 변경하고, 오류 로그를 분석하고, 리소스에 대한 포괄적이고 체계적인 분석을 수행하고, 구성 문제를 수정할 수 있습니다.</block>
+  <block id="0c92fa03ad5e533f4ef42de9a2ae598f" category="paragraph"><block ref="167e20b67f84068555b3081057c696b8" category="inline-link-macro-rx"></block> === 사용자 지정 대시보드</block>
+  <block id="d5eb0f9120b28b557f3e367589adf4bb" category="section-title">사용자 지정 대시보드에 대한 알림</block>
+  <block id="fb5e135dfdab99cdebbb946a22093655" category="paragraph">Workload Factory는 이제 사용자 지정 대시보드가 준비되었거나 생성에 실패했을 때 알림을 보냅니다.</block>
+  <block id="7a99102fbba6a5729480bc61967c8423" category="paragraph">사용자 지정 대시보드를 생성하면 바로 볼 수 있는 링크가 포함된 알림을 받게 됩니다. 생성에 실패하면 사용자 지정 대시보드 인벤토리로 이동하여 다시 시도할 수 있는 링크가 포함된 알림을 받게 됩니다.</block>
+  <block id="a9402b6e97b8b59ffa86012d5cfb7f9a" category="paragraph">이 기능을 통해 대시보드가 준비되었는지 확인할 수 있으며, 대시보드를 쉽게 검토하거나 다시 만들 수 있습니다.</block>
+  <block id="359ab637c5369e269d0e004308b6c089" category="inline-link-macro">맞춤형 대시보드를 만드는 방법을 알아보십시오.</block>
+  <block id="2b4fe8741ca59e9e85fecaff24736613" category="paragraph"><block ref="2b4fe8741ca59e9e85fecaff24736613" category="inline-link-macro-rx"></block></block>
+  <block id="863d814c29385fa8ebfd13bc1c1c7e96" category="inline-link-macro">알림 구성에 대해 알아보기</block>
+  <block id="19fa6c73a4251f43a74dc700e68a79f1" category="paragraph"><block ref="19fa6c73a4251f43a74dc700e68a79f1" category="inline-link-macro-rx"></block></block>
+  <block id="27a522e1e6e4d9921e08ab5e7ad99158" category="section-title">개인 및 공용 맞춤형 대시보드</block>
+  <block id="add4e669fb22c004f4eef61607cc5df8" category="paragraph">이제 사용자 지정 대시보드에 공유 설정이 포함됩니다. 대시보드를 비공개로 유지하거나 팀과 공유할 수 있습니다.</block>
+  <block id="1bdd40db25752f704baa9b254470fb9a" category="paragraph">새 대시보드는 기본적으로 비공개이며 본인만 볼 수 있습니다. Workload Factory 계정에 있는 모든 사람과 공유하려면 언제든지 대시보드를 공개로 전환할 수 있습니다.</block>
+  <block id="26e05170ba3616166d4659e72d415450" category="paragraph">각 대시보드 카드에는 Private 또는 Public 레이블이 표시되어 있어 어떤 대시보드가 공유되는지 빠르게 확인할 수 있습니다.</block>
+  <block id="29f897a53b188561913c2393050ce43a" category="inline-link-macro">대시보드 표시 및 공유에 대해 알아보기</block>
+  <block id="c5d5a7386c6c7c68f8d62de175cd235f" category="paragraph"><block ref="c5d5a7386c6c7c68f8d62de175cd235f" category="inline-link-macro-rx"></block></block>
+  <block id="c0bb5d7518380c44f5710f0803f9b3f4" category="inline-link-macro">대시보드를 공유하는 방법을 알아보십시오</block>
+  <block id="15bb464c4011a82a1976bc518af9f860" category="paragraph"><block ref="15bb464c4011a82a1976bc518af9f860" category="inline-link-macro-rx"></block></block>
+  <block id="b6ea1239e82705b159df88578e6fb6f0" category="section-title">AI 기능 관리</block>
+  <block id="1c7ba82e26fc30a97a625aaad623e4f4" category="paragraph">Workload Factory 관리의 다음 설정을 사용하여 조직 전체의 AI 기능에 대한 액세스를 제어할 수 있습니다.</block>
+  <block id="e585625dd2a0a8e71ca8d8a269834ba9" category="list-text">NetApp이 관리하는 Bedrock 사용(권장되며 기본적으로 활성화되어 있고 월별 크레딧 한도가 적용됩니다)</block>
+  <block id="7f72da8c356eeacf603a52c235e09676" category="list-text">모든 AI 기능 끄기</block>
+  <block id="aa55b63e5a41704f1621780515cd8a24" category="paragraph">새로운 관리 페이지를 통해 이러한 설정을 한 곳에서 관리할 수 있습니다.</block>
+  <block id="cd89624525aeeba4f9fce9dcfb6d9a91" category="paragraph">AI 기능에는 Ask Me, 맞춤형 대시보드, 규칙 생성기, EMS, 데이터베이스 로그 및 볼륨 지연 시간 분석기가 포함됩니다.</block>
+  <block id="dc363e90d503e57b6cddc555e2f96d5f" category="paragraph">AI 기능이 꺼져 있으면 AI를 사용할 수 없다는 메시지가 사용자에게 표시됩니다.</block>
+  <block id="48dc51848c127d267cdd7ab1bcd0fe5e" category="inline-link-macro">AI 기능 관리에 대해 알아보기</block>
+  <block id="56d2e09cbb0a828478db20ff2d11774d" category="paragraph"><block ref="56d2e09cbb0a828478db20ff2d11774d" category="inline-link-macro-rx"></block></block>
+  <block id="30c96c6f4cd1002d6f485ca940c9a6e7" category="cell">사용자 지정 대시보드 생성이 완료되었습니다.</block>
+  <block id="0791611e19f18138ef88e9ec3b961a87" category="cell">사용자 지정 대시보드가 성공적으로 생성되었으며, 이제 확인하실 수 있습니다.</block>
+  <block id="8fef7542994100e60e95202e22600bf2" category="cell">맞춤형 대시보드</block>
+  <block id="c76cdbadf0535a7304cb2044c4133a18" category="cell">워크로드 팩토리 계정</block>
+  <block id="b6330ae88e7fb12d91890500943ac6ca" category="cell">사용자 지정 대시보드 생성 실패</block>
+  <block id="9f6b01ed8eaa27184b62fa8349a3da2f" category="cell">Workload Factory에서 사용자 지정 대시보드를 생성할 수 없습니다. 대시보드를 다시 생성해 보세요.</block>
+  <block id="21b694dc2503eab08ab245a8bcfe9f1c" category="inline-link-macro">AI 관리에 대해 알아보기</block>
+  <block id="1981f9412416cf6cd4df691ce6b82265" category="admonition">계정 관리자가 AI 기능을 비활성화한 경우 메시지가 표시되고 대시보드를 생성할 수 없습니다. 관리자에게 문의하거나 <block ref="51cc9b1bceb3cdf8e5a226d8fb6d37eb" category="inline-link-macro-rx"></block>.</block>
+  <block id="871affa3441567ce8c578a244f4fa377" category="paragraph">대시보드를 생성하는 중입니다. 잠시 시간이 걸릴 수 있습니다.</block>
+  <block id="fa2935cab9052ead8bda54e043c876e7" category="inline-link-macro">대시보드 표시 여부를 변경하는 방법을 알아보세요.</block>
+  <block id="aab6babf7e647142284d77b6d7bc1e3f" category="paragraph">사용자 지정 대시보드가 생성되어 대시보드 카탈로그에 추가됩니다. 기본적으로 대시보드는 비공개이며 본인만 볼 수 있습니다. Workload Factory 계정의 다른 사용자와 공유하려면 공개로 변경할 수 있습니다. <block ref="fe356bc0877a3688c38625a5a5fa7c4e" category="inline-link-macro-rx"></block>.</block>
+  <block id="c9db1966c96002c79c43ee5507b95b7c" category="paragraph">대시보드가 준비되면 알림을 받게 됩니다. 생성할 수 없는 경우, 다시 시도할 수 있는 링크가 포함된 알림을 받게 됩니다. <block ref="19fa6c73a4251f43a74dc700e68a79f1" category="inline-link-macro-rx"></block>.</block>
+  <block id="86d47ec5cc124c99638dc3c2f21c96e0" category="list-text">팀과 공유할 수 있도록 대시보드 공개 범위를 변경합니다.</block>
+  <block id="e51744ffc297cdf8c6870d1628183484" category="section-title">대시보드 보기 및 공유</block>
+  <block id="5710b2075647e6888eb75d89c421fa55" category="paragraph">새 대시보드는 기본적으로 비공개로 설정되어 있어 본인만 볼 수 있습니다. 언제든지 대시보드를 공개로 전환하여 팀과 공유할 수 있습니다.</block>
+  <block id="7341b20ff1ddefe079f968d8d4436714" category="list-text">*비공개 대시보드*: 이 대시보드는 본인만 볼 수 있습니다. 개인적인 모니터링, 테스트 또는 작업 진행 상황에 활용하세요.</block>
+  <block id="71c6aa9812ec2db21553218b51c3d261" category="list-text">*공개 대시보드*: Workload Factory 계정에 등록된 모든 사용자는 이 대시보드를 볼 수 있습니다. 이 대시보드를 활용하여 모니터링 화면을 공유하고, 팀원들과 업무량, 우선순위, 비즈니스 목표에 대한 의견을 조율하세요.</block>
+  <block id="0f72bd1a783a9d1e54bd0e1af11e9b72" category="paragraph">각 대시보드 카드에는 대시보드가 비공개인지 공개인지 표시되므로 어떤 대시보드가 공유되는지 빠르게 확인할 수 있습니다.</block>
+  <block id="93abc3800cadb3c84e6ebb4f337cb663" category="paragraph"><block ref="fe356bc0877a3688c38625a5a5fa7c4e" category="inline-link-macro-rx"></block>.</block>
+  <block id="c7084515fd41cf4b219b3c9bc1bf874a" category="list-text">Workload Factory 계정 외부에서는 대시보드를 공유할 수 없습니다. 모든 대시보드 공유는 동일한 Workload Factory 계정 내의 사용자로 제한됩니다.</block>
+  <block id="3ba405e1d72777e360f3b281ce3ba5b9" category="paragraph">대시보드 카탈로그에서 사용자 지정 대시보드를 관리합니다. 여기에서 세부 정보를 확인하고, 대시보드를 공유하고, 데이터를 새로 고치거나, 더 이상 필요하지 않은 대시보드를 삭제할 수 있습니다.</block>
+  <block id="6ef261950960e68b5c274dbb2ad858c2" category="paragraph">대시보드 카탈로그에서 사용자 지정 대시보드를 보고 관리할 수 있습니다. 비공개 대시보드는 본인만 볼 수 있으며, 공개 대시보드는 Workload Factory 계정의 모든 사용자가 볼 수 있습니다. 각 대시보드에는 생성자 이름, 생성 날짜, 공개 여부(비공개 또는 공개) 등 기본 정보가 표시됩니다.</block>
+  <block id="8471f69a4146258ee48a6b85bff6fa31" category="section-title">대시보드 표시 여부 변경</block>
+  <block id="434e902a308729311c26bf05cd3a3e42" category="paragraph">대시보드 공개로 설정하면 팀과 공유할 수 있습니다. 비공개로 설정하면 공유를 중지할 수 있습니다.</block>
+  <block id="bccfa88da47be219216832061b161e9d" category="list-text">*사용자 지정 대시보드* 페이지에서 업데이트하려는 대시보드를 찾습니다.</block>
+  <block id="67555ed7bd410ec9e055cfc0df3421a7" category="inline-image-macro">작업 메뉴를 여는 세 점 아이콘</block>
+  <block id="bef527319e2ed6381bad6ee8055687a2" category="list-text">해당 대시보드의 *Actions* 드롭다운 메뉴 <block ref="958bffae98208bc799f63dfd3f08c003" category="inline-image-macro-rx" type="image"></block>에서 다음 중 하나를 선택합니다.</block>
+  <block id="d87198500f0d81b0ca147bc5b2a09622" category="list-text">*대시보드 공유* - Workload Factory 계정의 모든 사용자가 대시보드를 볼 수 있도록 합니다.</block>
+  <block id="939742a8d44add9f4ad62a0fc3824a6e" category="list-text">*개인 대시보드로 변경* - 대시보드를 본인만 볼 수 있도록 설정합니다.</block>
+  <block id="7e3cce2609a225eafd019dfc30a9437a" category="paragraph">대시보드가 즉시 업데이트됩니다. 대시보드 카드에 표시된 가시성 레이블에는 현재 상태가 표시됩니다.</block>
+  <block id="f7b22a19823cae9bc6664fece0b96115" category="summary">Workload Factory에서 Bedrock 기반 AI 기능에 대한 액세스를 제어합니다. AI 기능을 비활성화하거나 NetApp이 관리하는 AWS Bedrock을 사용할 수 있습니다.</block>
+  <block id="ebd4b28f0632a0dc47fff6d0e28857b1" category="doc">AI 기능 관리</block>
+  <block id="13bb649429b18adc1dadc0ed391c5bc2" category="paragraph">Workload Factory에서 AI 기능에 대한 액세스를 제어합니다. AI 기능을 끄거나 NetApp에서 관리하는 AWS Bedrock을 사용할 수 있습니다.</block>
+  <block id="00e95115c994386ef85f1864db952bca" category="section-title">AI 기능 정보</block>
+  <block id="5a41793d075495dfb423bb395a189adf" category="paragraph">Workload Factory에는 Ask Me, 맞춤형 대시보드, EMS, 데이터베이스 로그 및 지연 시간 분석기 등 사용자 경험을 향상시키는 여러 AI 기반 기능이 포함되어 있습니다.</block>
+  <block id="46918c8c585299e7a785eed266de3f97" category="paragraph">Workload Factory 관리자는 AI 설정 페이지에서 이러한 기능이 AI를 사용하는 방식을 제어할 수 있습니다.</block>
+  <block id="50f33d14f129e4548c1c270fd6725a78" category="section-title">구성 옵션</block>
+  <block id="5787d906b76d8323ff398ce17924ceda" category="paragraph">다음 설정 옵션 중에서 선택하십시오.</block>
+  <block id="c9c6c9ef9f18086ff7b6da1890b95abd" category="list-text">NetApp 관리형 Bedrock(권장)</block>
+  <block id="8e8bf160c6d6262df67ff522fa89feb6" category="list-text">NetApp이 관리하는 AWS Bedrock 서비스를 사용하십시오. 이 옵션은 대부분의 사용자에게 권장됩니다.</block>
+  <block id="5438652af11e98ac4fc1b99f559b68a2" category="list-text">귀하의 데이터는 모델 학습에 사용되지 않습니다.</block>
+  <block id="9a0258efc499c889c5f1af73bbaf4364" category="list-text">월별 사용 크레딧은 조직 전체에서 공유됩니다.</block>
+  <block id="2c8b8060f9331f918beb8261403785ec" category="list-text">별도의 AWS 설정은 필요하지 않습니다.</block>
+  <block id="1ee78c04d8b078adcb0fca6be60af5a2" category="list-text">GenAI 기능 비활성화</block>
+  <block id="8828805c938d7fc1a48fbf3585c37b14" category="list-text">모든 AI 기능을 비활성화합니다. 사용자는 더 이상 질문하기, 분석기, 사용자 지정 대시보드, 규칙 생성기 또는 기타 AI 기반 툴을 사용할 수 없습니다.</block>
+  <block id="396640080b08108896efb48796063406" category="list-text">계정 관리자가 AI 기능을 설정하는 것을 권장합니다.</block>
+  <block id="6b7af6c72f84f0f7380106617c11be78" category="section-title">AI 기능 구성</block>
+  <block id="3f0879fc8845a02f07ea71a0a584847e" category="list-text">메뉴에서 *관리*를 선택한 다음 *AI 설정*을 선택합니다.</block>
+  <block id="ef1f959eefc1f11cf2aec294261e066f" category="list-text">*AI 설정* 페이지에서 원하는 구성을 선택합니다.</block>
+  <block id="7530dc640ec2dd92a9e70b8484867369" category="list-text">*NetApp-관리형 Bedrock(권장)*: NetApp-관리형 AWS Bedrock을 사용하십시오.</block>
+  <block id="053d266af64b45b2a2fbc0eeccc99297" category="list-text">*Gen AI 기능 끄기*: 모든 AI 기능을 끕니다.</block>
+  <block id="cbab3ffec133396f2f907f9faa5a4337" category="list-text">*환경설정 저장*을 선택합니다.</block>
+  <block id="1f19237677d2459e3c32c18ad28d89c4" category="paragraph">설정은 저장되어 Workload Factory의 모든 AI 기능에 즉시 적용됩니다. Tracker에서 누가 언제 설정을 마지막으로 업데이트했는지 확인할 수 있습니다.</block>
+  <block id="e8d0b42b043c438b67550c55202181fe" category="paragraph">AI 기능이 꺼져 있는 경우, 사용자가 AI 기반 기능을 사용하려고 하면 메시지가 표시됩니다. 인터페이스는 계속 표시되며 해당 기능을 사용할 수 없음을 명확하게 보여줍니다.</block>
+  <block id="c5a072ef0376df4bfe60ecf20f43c427" category="section-title">예산 통제 및 신용 한도</block>
+  <block id="e622f31b01cf42245970bf4f82c9e127" category="paragraph">NetApp은 기본 NetApp 관리 구성을 사용할 때 AI 기능에 대한 예산 제어를 관리합니다.</block>
+  <block id="583513a0baae6b087a0f3c846b3f742a" category="section-title">월별 크레딧 한도</block>
+  <block id="c9f9c41c2d00489aef5b70d1c80be3d1" category="paragraph">NetApp이 관리하는 Bedrock을 사용할 경우 각 계정에는 각 AI 기능별로 월별 지출 한도가 있습니다.</block>
+  <block id="dfc84788c4742cd3e802820d33f9aeca" category="section-title">예산이 충족되면</block>
+  <block id="17f62ca6f7678c35076b21c5b69b13a5" category="paragraph">계정의 월별 예산 한도에 도달하면 Workload Factory는 다음과 같이 처리합니다.</block>
+  <block id="33384fc97290993b7b5c957cd0b1121d" category="list-text">AI 기능을 끄고 인터페이스의 관련 부분을 회색으로 표시합니다.</block>
+  <block id="e1f97f2fd8d3abfc5a1fb2fd4651c8ec" category="list-text">툴팁으로 다음 메시지를 표시합니다. "월간 AI 크레딧 사용량에 도달했습니다. NetApp 지원팀에 문의하십시오."</block>
+  <block id="2e1edf16d2dadaf3ef563f2a299fdea2" category="list-text">추적 목적으로 사용량을 기록합니다.</block>
+  <block id="3bcf8e0e9bb5a31e55a273a2c9c5cee3" category="section-title">추가 크레딧 요청</block>
+  <block id="7dd15a9100090790ffaa73276589e132" category="paragraph">AI 크레딧이 더 필요하시면 NetApp 담당자에게 문의하십시오. 담당자가 필요에 따라 크레딧 한도를 조정해 드립니다.</block>
+  <block id="bb35ce7c19cf0fb7d68be0949c25bf5b" category="paragraph">NetApp 담당자에게 신용 한도에 대해 문의하려면 제품 내 채팅 기능을 사용하거나 <block ref="c470f3409940cee13ddda9c09bf54b60" category="inline-link-macro-rx"></block> 페이지를 방문하십시오.</block>
+  <block id="4a942eb7aff0ba24c1ac3ea3a80cb564" category="section-title">GovCloud 고려 사항</block>
+  <block id="76bfd37862ec9a1b64c91e20f6eb2319" category="paragraph">AWS GovCloud(미국)에서 Workload Factory 계정을 생성하는 경우, AI 기능은 기본적으로 퍼블릭 AWS 리전의 AWS Bedrock 서비스를 사용한다는 점에 유의하십시오.</block>
+  <block id="f99bff6cf3004eef97fbe2d45d88bbb6" category="paragraph">보안 요구 사항으로 인해 공용 AWS 리전 서비스에 연결할 수 없는 경우 AI 기능을 비활성화할 수 있습니다.</block>
+  <block id="dd6e90f5bd491e697312863dba7649a7" category="inline-link-macro">GovCloud 계정 생성에 대해 알아보십시오.</block>
+  <block id="5736b79683356fbe1ea6dc44e0674a70" category="paragraph"><block ref="8cd60bd48ebd271dc9881481f9c03b99" category="inline-link-macro-rx"></block>.</block>
+  <block id="dbfcf3c73705d2a8ff505896a6114b1d" category="section-title">기존 세션에 미치는 영향</block>
+  <block id="7e560ca46866fbb4e5f011669044f51a" category="paragraph">AI 설정을 변경하면 활성화된 AI 세션이 일시적으로 종료됩니다. 현재 진행 중인 워크플로는 완료될 수 있지만, 새로운 요청은 업데이트된 설정을 사용합니다.</block>
+  <block id="f020db608d739c7eeff9c8874e43b282" category="paragraph">종료 동작은 기능에 따라 다를 수 있습니다. 자세한 내용은 기능별 설명서를 참조하십시오.</block>
+  <block id="686efa14a6d0381010005caff3820d5a" category="inline-link-macro">Workload Factory 기능에 대해 알아보기</block>
+  <block id="1b3122dbd76b9f6ecc47ea28eda13846" category="list-text"><block ref="1b3122dbd76b9f6ecc47ea28eda13846" category="inline-link-macro-rx"></block></block>
+  <block id="1d37f129240a0035a4c1f8d424382c89" category="inline-link-macro">맞춤형 대시보드에 대해 알아보기</block>
+  <block id="6394188e7fed8a951fc63352c894a5c2" category="list-text"><block ref="6394188e7fed8a951fc63352c894a5c2" category="inline-link-macro-rx"></block></block>
+  <block id="b2fa8f8bcb70f53fbee747df0674d6ae" category="list-text"><block ref="b2fa8f8bcb70f53fbee747df0674d6ae" category="inline-link-macro-rx"></block></block>
+  <block id="a5f4ae61e232cd6bd835f3c22c2ae14c" category="list-text"><block ref="a5f4ae61e232cd6bd835f3c22c2ae14c" category="inline-link-macro-rx"></block></block>
+  <block id="f62343d698b77f27e36d648aa9329d02" category="list-text">*보기, 계획 및 분석*: 데이터베이스 리소스 목록을 확인하고, 리소스 상태를 파악하며, 데이터베이스 구성에 대한 잘 설계된 아키텍처 분석 결과를 검토합니다.</block>
+  <block id="0cbb3b595963e7bba1934e4634676fd3" category="list-text">*운영 및 문제 해결*: 데이터베이스 리소스에 대한 운영 작업을 수행하고, 오류 로그를 분석하고, 비용 절감 효과를 확인하고, 데이터베이스 구성 및 기본 FSx for ONTAP 파일 시스템 스토리지 관련 문제를 해결합니다.</block>
+  <block id="7c2bb28f2e8fdd155edd0cd247844516" category="cell">관찰, 계획 및 분석; 운영 및 문제 해결</block>
+  <block id="94333def81dc3274a6c2d43284414047" category="cell">평가 및 복구 워크플로를 위해 Windows EC2 인스턴스의 패치 인벤토리 세부 정보를 가져옵니다.</block>
+  <block id="7ae4e865615ebe5713830d4167af894d" category="cell">ssm:DescribeInstancePatches</block>
+  <block id="af6e0bbae1688b5bce02d25956446241" category="cell">운영 체제 패치 평가에 사용 가능한 패치 목록 가져오기</block>
+  <block id="f2698a29e8a8773ce8685f5539c1e140" category="cell">ssm:DescribeAvailablePatches</block>
+  <block id="7511687a15aa4b86adfa56397c1cdd8e" category="cell">관리형 SQL 노드에서 수집된 인벤토리 메타데이터를 검색합니다.</block>
+  <block id="baba7a5c9dbcd8f6ee64d9d75ccaa4aa" category="cell">ssm:GetInventory</block>
+  <block id="f471f61f91c494484a3ce296d4dff4d0" category="cell">관리형 SQL 노드에서 수집된 인벤토리 항목 목록</block>
+  <block id="666a36983125fa26c0cbb0ea9cee9636" category="cell">ssm:ListInventoryEntries</block>
+  <block id="951a51b60db3d63eb71726cd5fe6fbad" category="section-title">2026년 8월 3일</block>
+  <block id="8a5ccf9a134719594312d39bcf9c8eb0" category="paragraph">보기, 계획 및 분석 권한은 AWS SSM 문서로 제한됩니다. 이러한 권한을 사용하면 호스트, 인스턴스 및 데이터베이스를 볼 수 있습니다. 또한 필요에 따라 리소스에 대한 기본 온디맨드 아키텍처 분석을 실행할 수 있습니다.</block>
+  <block id="8ef5f747b1fcf7a7b889d5faefa4711e" category="paragraph">운영 및 복구 권한을 통해 포괄적인 아키텍처 평가를 수행하고, 아키텍처 분석을 기반으로 권장 조치를 적용하고, 리소스를 변경하고, 오류 로그를 분석할 수 있습니다.</block>
+  <block id="14f96fa9e126b729be2224f781495287" category="admonition">Workload Factory의 AI 기능은 AWS 퍼블릭 리전에 호스팅된 AWS Bedrock 서비스를 사용합니다. 보안 정책에서 퍼블릭 리전 서비스에 대한 연결을 허용하지 않는 경우 관리 설정에서 AI 기능을 비활성화할 수 있습니다. <block ref="56d2e09cbb0a828478db20ff2d11774d" category="inline-link-macro-rx"></block>.</block>
+  <block id="255efce8fcb0ce70d6ca799d3f7fcce4" category="admonition">계정 관리자가 AI 기능을 비활성화한 경우 AI가 생성한 오류 응답을 사용할 수 없습니다. <block ref="56d2e09cbb0a828478db20ff2d11774d" category="inline-link-macro-rx"></block>.</block>
+  <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">2026년 8월 3일</block>
+  <block id="1cdbc8bcb26cc8d5e894a97b9e7f269f" category="section-title">2026년 7월 5일</block>
+  <block id="8fb2a31345fc5c5e72c947d436b5077b" category="admonition">계정 관리자는 AI 기능을 켜거나 끌 수 있습니다. 관리자가 AI 기능을 끄면 Ask Me AI 비서를 사용할 수 없습니다. <block ref="56d2e09cbb0a828478db20ff2d11774d" category="inline-link-macro-rx"></block>.</block>
+  <block id="959c1faca1dbb57f8dac1b5058bf9c58" category="paragraph"><block ref="959c1faca1dbb57f8dac1b5058bf9c58" category="inline-link-macro-rx"></block></block>
 </blocks>

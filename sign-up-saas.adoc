@@ -53,6 +53,10 @@ image:screenshot-account-selection-govcloud.png["새 계정으로 로그인할 �
 +
 .. 계정 이름을 입력하세요.
 .. 선택적으로 계정을 AWS GovCloud(미국) 계정으로 설정할 수 있습니다. 이 계정 유형은 설정 및 운영에 AWS GovCloud(미국) 엔드포인트와 리전만 사용합니다. 자격 증명과 비밀 키는 GovCloud에 유지됩니다. 이 선택은 영구적입니다.
++
+
+NOTE: Workload Factory의 AI 기능은 AWS 퍼블릭 리전에 호스팅된 AWS Bedrock 서비스를 사용합니다. 보안 정책에서 퍼블릭 리전 서비스에 대한 연결을 허용하지 않는 경우 관리 설정에서 AI 기능을 비활성화할 수 있습니다. link:manage-genai-features.html["AI 기능 관리에 대해 알아보기"].
+
 .. 선택적으로 해당 계정에 대한 설명을 제공할 수 있습니다.
 
 

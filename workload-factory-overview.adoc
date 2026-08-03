@@ -34,6 +34,9 @@ Ask Me AI 비서:: AI 비서에게 FSx for ONTAP 파일 시스템을 관리하�
 
 
 
+NOTE: 계정 관리자는 AI 기능을 켜거나 끌 수 있습니다. 관리자가 AI 기능을 끄면 Ask Me AI 비서를 사용할 수 없습니다. link:manage-genai-features.html["AI 기능 관리에 대해 알아보기"].
+
+
 
 [[supported-cloud-providers]]
 == 지원되는 클라우드 공급자
@@ -116,7 +119,7 @@ Workload Factory를 시작하는 데는 링크가 필요하지 않지만, 어떤
 
 현재 링크에서는 AWS Lambda를 활용하고 있습니다.
 
-https://docs.netapp.com/us-en/workload-fsx-ontap/links-overview.html["링크에 대해 자세히 알아보기"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/links-overview.html["링크에 대해 자세히 알아보기"^]
 
 
 
