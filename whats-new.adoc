@@ -46,9 +46,9 @@ Workload Factory는 이제 사용자 지정 대시보드가 준비되었거나 �
 
 이 기능을 통해 대시보드가 준비되었는지 확인할 수 있으며, 대시보드를 쉽게 검토하거나 다시 만들 수 있습니다.
 
-link:create-custom-dashboard.html["맞춤형 대시보드를 만드는 방법을 알아보십시오."]
+link:https://docs.netapp.com/us-en/workload-setup-admin/create-custom-dashboard.html["맞춤형 대시보드를 만드는 방법을 알아보십시오."]
 
-link:configure-notifications.html["알림 구성에 대해 알아보기"]
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["알림 구성에 대해 알아보기"]
 
 
 
@@ -60,9 +60,9 @@ link:configure-notifications.html["알림 구성에 대해 알아보기"]
 
 각 대시보드 카드에는 Private 또는 Public 레이블이 표시되어 있어 어떤 대시보드가 공유되는지 빠르게 확인할 수 있습니다.
 
-link:learn-custom-dashboards.html#dashboard-visibility-and-sharing["대시보드 표시 및 공유에 대해 알아보기"]
+link:https://docs.netapp.com/us-en/workload-setup-admin/learn-custom-dashboards.html#view-and-share-dashboards["대시보드 표시 및 공유에 대해 알아보기"]
 
-link:manage-custom-dashboards.html#change-dashboard-visibility["대시보드를 공유하는 방법을 알아보십시오"]
+link:https://docs.netapp.com/us-en/workload-setup-admin/manage-custom-dashboards.html#change-dashboard-visibility["대시보드를 공유하는 방법을 알아보십시오"]
 
 
 
@@ -81,7 +81,7 @@ AI 기능에는 Ask Me, 맞춤형 대시보드, 규칙 생성기, EMS, 데이터
 
 AI 기능이 꺼져 있으면 AI를 사용할 수 없다는 메시지가 사용자에게 표시됩니다.
 
-link:manage-genai-features.html["AI 기능 관리에 대해 알아보기"]
+link:https://docs.netapp.com/us-en/workload-setup-admin/manage-genai-features.html["AI 기능 관리에 대해 알아보기"]
 
 
 

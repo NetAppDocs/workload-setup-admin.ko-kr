@@ -1520,17 +1520,13 @@
   <block id="7a99102fbba6a5729480bc61967c8423" category="paragraph">사용자 지정 대시보드를 생성하면 바로 볼 수 있는 링크가 포함된 알림을 받게 됩니다. 생성에 실패하면 사용자 지정 대시보드 인벤토리로 이동하여 다시 시도할 수 있는 링크가 포함된 알림을 받게 됩니다.</block>
   <block id="a9402b6e97b8b59ffa86012d5cfb7f9a" category="paragraph">이 기능을 통해 대시보드가 준비되었는지 확인할 수 있으며, 대시보드를 쉽게 검토하거나 다시 만들 수 있습니다.</block>
   <block id="359ab637c5369e269d0e004308b6c089" category="inline-link-macro">맞춤형 대시보드를 만드는 방법을 알아보십시오.</block>
-  <block id="2b4fe8741ca59e9e85fecaff24736613" category="paragraph"><block ref="2b4fe8741ca59e9e85fecaff24736613" category="inline-link-macro-rx"></block></block>
   <block id="863d814c29385fa8ebfd13bc1c1c7e96" category="inline-link-macro">알림 구성에 대해 알아보기</block>
-  <block id="19fa6c73a4251f43a74dc700e68a79f1" category="paragraph"><block ref="19fa6c73a4251f43a74dc700e68a79f1" category="inline-link-macro-rx"></block></block>
   <block id="27a522e1e6e4d9921e08ab5e7ad99158" category="section-title">개인 및 공용 맞춤형 대시보드</block>
   <block id="add4e669fb22c004f4eef61607cc5df8" category="paragraph">이제 사용자 지정 대시보드에 공유 설정이 포함됩니다. 대시보드를 비공개로 유지하거나 팀과 공유할 수 있습니다.</block>
   <block id="1bdd40db25752f704baa9b254470fb9a" category="paragraph">새 대시보드는 기본적으로 비공개이며 본인만 볼 수 있습니다. Workload Factory 계정에 있는 모든 사람과 공유하려면 언제든지 대시보드를 공개로 전환할 수 있습니다.</block>
   <block id="26e05170ba3616166d4659e72d415450" category="paragraph">각 대시보드 카드에는 Private 또는 Public 레이블이 표시되어 있어 어떤 대시보드가 공유되는지 빠르게 확인할 수 있습니다.</block>
   <block id="29f897a53b188561913c2393050ce43a" category="inline-link-macro">대시보드 표시 및 공유에 대해 알아보기</block>
-  <block id="c5d5a7386c6c7c68f8d62de175cd235f" category="paragraph"><block ref="c5d5a7386c6c7c68f8d62de175cd235f" category="inline-link-macro-rx"></block></block>
   <block id="c0bb5d7518380c44f5710f0803f9b3f4" category="inline-link-macro">대시보드를 공유하는 방법을 알아보십시오</block>
-  <block id="15bb464c4011a82a1976bc518af9f860" category="paragraph"><block ref="15bb464c4011a82a1976bc518af9f860" category="inline-link-macro-rx"></block></block>
   <block id="b6ea1239e82705b159df88578e6fb6f0" category="section-title">AI 기능 관리</block>
   <block id="1c7ba82e26fc30a97a625aaad623e4f4" category="paragraph">Workload Factory 관리의 다음 설정을 사용하여 조직 전체의 AI 기능에 대한 액세스를 제어할 수 있습니다.</block>
   <block id="e585625dd2a0a8e71ca8d8a269834ba9" category="list-text">NetApp이 관리하는 Bedrock 사용(권장되며 기본적으로 활성화되어 있고 월별 크레딧 한도가 적용됩니다)</block>
@@ -1539,7 +1535,6 @@
   <block id="cd89624525aeeba4f9fce9dcfb6d9a91" category="paragraph">AI 기능에는 Ask Me, 맞춤형 대시보드, 규칙 생성기, EMS, 데이터베이스 로그 및 볼륨 지연 시간 분석기가 포함됩니다.</block>
   <block id="dc363e90d503e57b6cddc555e2f96d5f" category="paragraph">AI 기능이 꺼져 있으면 AI를 사용할 수 없다는 메시지가 사용자에게 표시됩니다.</block>
   <block id="48dc51848c127d267cdd7ab1bcd0fe5e" category="inline-link-macro">AI 기능 관리에 대해 알아보기</block>
-  <block id="56d2e09cbb0a828478db20ff2d11774d" category="paragraph"><block ref="56d2e09cbb0a828478db20ff2d11774d" category="inline-link-macro-rx"></block></block>
   <block id="30c96c6f4cd1002d6f485ca940c9a6e7" category="cell">사용자 지정 대시보드 생성이 완료되었습니다.</block>
   <block id="0791611e19f18138ef88e9ec3b961a87" category="cell">사용자 지정 대시보드가 성공적으로 생성되었으며, 이제 확인하실 수 있습니다.</block>
   <block id="8fef7542994100e60e95202e22600bf2" category="cell">맞춤형 대시보드</block>
@@ -1641,4 +1636,9 @@
   <block id="8fb2a31345fc5c5e72c947d436b5077b" category="admonition">계정 관리자는 AI 기능을 켜거나 끌 수 있습니다. 관리자가 AI 기능을 끄면 Ask Me AI 비서를 사용할 수 없습니다. <block ref="56d2e09cbb0a828478db20ff2d11774d" category="inline-link-macro-rx"></block>.</block>
   <block id="959c1faca1dbb57f8dac1b5058bf9c58" category="paragraph"><block ref="959c1faca1dbb57f8dac1b5058bf9c58" category="inline-link-macro-rx"></block></block>
   <block id="167e20b67f84068555b3081057c696b8" category="paragraph"><block ref="167e20b67f84068555b3081057c696b8" category="inline-link-macro-rx"></block></block>
+  <block id="0e23d2a91e2fd1a7eb141ceb8cd9ddcf" category="paragraph"><block ref="0e23d2a91e2fd1a7eb141ceb8cd9ddcf" category="inline-link-macro-rx"></block></block>
+  <block id="d972d2e4f90697cd9aea0ea06c6d65ea" category="paragraph"><block ref="d972d2e4f90697cd9aea0ea06c6d65ea" category="inline-link-macro-rx"></block></block>
+  <block id="5243974c66976ebd592df24b62b1b9bf" category="paragraph"><block ref="5243974c66976ebd592df24b62b1b9bf" category="inline-link-macro-rx"></block></block>
+  <block id="a8d7b4c293e04e8a879f9be70ed380ba" category="paragraph"><block ref="a8d7b4c293e04e8a879f9be70ed380ba" category="inline-link-macro-rx"></block></block>
+  <block id="8d20116cd01bc3ce31dae628497af0dc" category="paragraph"><block ref="8d20116cd01bc3ce31dae628497af0dc" category="inline-link-macro-rx"></block></block>
 </blocks>
