@@ -13,7 +13,12 @@
 
 운영 및 복구 권한을 통해 리소스를 변경하고, 오류 로그를 분석하고, 리소스에 대한 포괄적이고 체계적인 분석을 수행하고, 구성 문제를 수정할 수 있습니다.
 
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["권한 참조"] === 사용자 지정 대시보드
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["권한 참조"]
+
+
+
+[[custom-dashboards]]
+=== 맞춤형 대시보드
 
 
 
