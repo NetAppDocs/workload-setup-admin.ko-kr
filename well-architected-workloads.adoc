@@ -26,10 +26,6 @@ Workload Factory는 Amazon FSx for NetApp ONTAP 파일 시스템 배포 환경�
 
 또한 일반 언어로 사용자 지정 규칙을 만들어 조직 표준 및 NetApp 모범 사례에 따라 환경의 유효성을 검사할 수 있습니다. 모의 실행을 통해 규칙을 테스트한 다음, 모든 환경에서 실행되도록 예약할 수 있습니다. link:https://docs.netapp.com/us-en/console-well-architected/learn-custom-rules.html["사용자 지정 규칙에 대해 자세히 알아보기"^].
 
-또한 일반 언어로 사용자 지정 규칙을 만들어 조직 표준 및 NetApp 모범 사례에 따라 환경의 유효성을 검사할 수 있습니다. 모의 실행을 통해 규칙을 테스트한 다음, 모든 환경에서 실행되도록 예약할 수 있습니다.
-
-link:https://docs.netapp.com/us-en/console-well-architected/learn-custom-rules.html["사용자 지정 규칙에 대해 자세히 알아보기"^].
-
 
 
 [[why-it-matters]]

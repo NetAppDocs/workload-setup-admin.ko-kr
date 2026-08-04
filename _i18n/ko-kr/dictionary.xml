@@ -24,7 +24,6 @@
   <block id="05e2d97b3b23a80afeb67390bad5f97c" category="inline-image-macro">새 역할에 포함될 사용 권한을 보여 주는 스크린샷</block>
   <block id="bfc77a43a5b610654d7d0e7bbb9162a7" category="paragraph"><block ref="bfc77a43a5b610654d7d0e7bbb9162a7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c0a8070d8176ef21fdf6bc0d6b6833c9" category="list-text">AWS Management Console에서 * 역할 &gt; 역할 생성 * 을 선택합니다.</block>
-  <block id="e506de832b98c2693eb3f400ef0722c0" category="list-text">신뢰할 수 있는 엔터티 유형 * 에서 * AWS 계정 * 을 선택합니다.</block>
   <block id="e6cd86d61f4639c8a27006c6c29b3e9f" category="list-text">다음 * 을 선택합니다.</block>
   <block id="552a0f683211339f8f7517a1d4fc804d" category="list-text">권한 정책 섹션에서 이전에 정의한 모든 정책을 선택하고 * 다음 * 을 선택합니다.</block>
   <block id="eb940e2ee0ec63786b166a518db881df" category="list-text">역할의 이름을 입력하고 * 역할 생성 * 을 선택합니다.</block>
@@ -633,7 +632,6 @@
   <block id="986aee2caba870111e5ce3c5571c82de" category="section-title">2025년 2월 2일</block>
   <block id="bd901b05034bb9be1d918012998e8f7b" category="section-title">2025년 1월 5일</block>
   <block id="5ff4c3f483396c894c51f91d47106ecf" category="list-text">자격 증명 페이지에서 * 자격 증명 추가 * 를 선택합니다.</block>
-  <block id="558847a01e0a9378a8c7b99a0e6af643" category="list-text">자격 증명 추가 페이지에서 * 수동으로 추가 * 를 선택한 후 다음 단계에 따라 _Permissions configuration_ 아래의 각 섹션을 완료합니다.</block>
   <block id="4b44bad00f91b8450a836bfa54b0306e" category="list-text">CloudShell 창에서 CloudShell 세션의 자격 증명과 지역을 선택한 다음 화살표를 선택하여 계속합니다.</block>
   <block id="a5fab0062142f5ef0615c361259b0b89" category="cell">허가된 역할은 FSx for ONTAP과 다른 AWS 서비스 간에 통신을 제공합니다</block>
   <block id="8832fb7d0699d4878c8449616cd47613" category="cell">IAM: CreateServiceLinkedRole</block>
@@ -823,9 +821,6 @@
   <block id="6c8ca72a28d9651706405d888093910e" category="list-text">에 로그인하세요<block ref="04c72ef1cb137ba02eafcfdeb6fc7765" category="inline-link-rx"></block> .</block>
   <block id="6191b3848b93c4178f95391680ab2108" category="list-text">메뉴에서 *관리*를 선택한 다음 *자격 증명*을 선택합니다.</block>
   <block id="30551002ceb8abd5af0ee8907423b553" category="paragraph">이 섹션에서는 Workload Factory가 방금 만든 권한과 정책을 포함하는 IAM 역할을 설정합니다.</block>
-  <block id="f0497660975536e414a629b7d4f9f276" category="list-text">*다른 AWS 계정*을 선택하고 Workload Factory UI에서 FSx for ONTAP 워크로드 관리에 대한 계정 ID를 복사하여 붙여넣습니다.</block>
-  <block id="f97e7ca54bb60a402c14107162345b08" category="list-text">*필수 외부 ID*를 선택하고 Workload Factory UI에서 외부 ID를 복사하여 붙여넣습니다.</block>
-  <block id="fcf4437915eed569a9fd7691faf38a66" category="list-text">Workload Factory의 자격 증명 추가 페이지로 돌아가서, *권한 구성* 아래의 *역할 만들기* 섹션을 확장하고, _역할 ARN_ 필드에 ARN을 붙여넣습니다.</block>
   <block id="a9c4ed0c041add98b3c1c27e6191e29e" category="paragraph">마지막 단계는 Workload Factory에서 자격 증명의 이름을 입력하는 것입니다.</block>
   <block id="5976d02d7cdfb004e841934d0a6bf1b5" category="list-text">Workload Factory의 자격 증명 추가 페이지에서 *권한 구성* 아래의 *자격 증명 이름*을 확장합니다.</block>
   <block id="21f73823dc240b09e9b0a0896496f95d" category="paragraph">AWS CloudFormation 스택을 사용하여 Workload Factory에 AWS 자격 증명을 추가할 수 있습니다. 사용하려는 Workload Factory 기능을 선택한 다음 AWS 계정에서 AWS CloudFormation 스택을 시작합니다.  CloudFormation은 선택한 워크로드 기능에 따라 IAM 정책과 IAM 역할을 생성합니다.</block>
@@ -1509,8 +1504,6 @@
   <block id="8215457eb88ef1fb110b79579b908e3d" category="paragraph">사용자 환경에 적용되지 않는 구성에 대한 분석은 제외할 수 있습니다. 이렇게 하면 불필요한 알림과 부정확한 최적화 결과를 방지할 수 있습니다.</block>
   <block id="8817b0c6f0795c52cab62044416eee8a" category="inline-link-macro">사용자 지정 규칙에 대해 자세히 알아보기</block>
   <block id="821af7226458ea25572e88e8ab2026e4" category="paragraph">또한 일반 언어로 사용자 지정 규칙을 만들어 조직 표준 및 NetApp 모범 사례에 따라 환경의 유효성을 검사할 수 있습니다. 모의 실행을 통해 규칙을 테스트한 다음, 모든 환경에서 실행되도록 예약할 수 있습니다. <block ref="ce039b478eb432b675a03c04866f31ab" category="inline-link-macro-rx"></block>.</block>
-  <block id="8be08850265c9930c26a8e5b28183a2e" category="paragraph">또한 일반 언어로 사용자 지정 규칙을 만들어 조직 표준 및 NetApp 모범 사례에 따라 환경의 유효성을 검사할 수 있습니다. 모의 실행을 통해 규칙을 테스트한 다음, 모든 환경에서 실행되도록 예약할 수 있습니다.</block>
-  <block id="7c24f3892a999a3e8d688cabe068b17a" category="paragraph"><block ref="ce039b478eb432b675a03c04866f31ab" category="inline-link-macro-rx"></block>.</block>
   <block id="da0c92072a1db7fee3208bcad3ad822b" category="doc">데이터베이스에 대한 IAM 권한 정책 업데이트</block>
   <block id="e9e3af45119a834b75ee5ce8ad5fc96d" category="paragraph">데이터베이스 권한이 업데이트되어 기능 액세스가 향상되었고, 불필요한 경우 SSM 액세스가 제한되었습니다.</block>
   <block id="6f70bfe68d48e1ab770cfb69bea59dfd" category="paragraph">보기, 계획 및 분석 권한은 AWS SSM 문서로 제한됩니다. 이러한 권한을 사용하면 호스트, 인스턴스 및 데이터베이스를 볼 수 있습니다. 또한 필요에 따라 리소스에 대한 기본 아키텍처 분석을 실행할 수 있습니다.</block>
@@ -1641,4 +1634,10 @@
   <block id="5243974c66976ebd592df24b62b1b9bf" category="paragraph"><block ref="5243974c66976ebd592df24b62b1b9bf" category="inline-link-macro-rx"></block></block>
   <block id="a8d7b4c293e04e8a879f9be70ed380ba" category="paragraph"><block ref="a8d7b4c293e04e8a879f9be70ed380ba" category="inline-link-macro-rx"></block></block>
   <block id="8d20116cd01bc3ce31dae628497af0dc" category="paragraph"><block ref="8d20116cd01bc3ce31dae628497af0dc" category="inline-link-macro-rx"></block></block>
+  <block id="e0d1a02b10ec781984ac246a7d6226fd" category="list-text">자격 증명 추가 페이지에서 *수동으로 추가*를 선택한 다음 다음 단계를 따라 _권한 구성_ 아래의 각 섹션을 완료하십시오.</block>
+  <block id="4cba6cec5bdba739fed7cc1ed3ac5396" category="list-text">Workload Factory의 자격 증명 추가 페이지에서 *권한 구성* 아래의 *역할 생성* 을 확장합니다.</block>
+  <block id="288d704e69ec643a96254456480c3998" category="list-text">정책을 복사하려면 *JSON 코드*를 선택하세요.</block>
+  <block id="e7a1d840ae4199cc1f76836535606345" category="list-text">*신뢰할 수 있는 엔티티 유형*에서 *사용자 지정 신뢰 정책*을 선택합니다.</block>
+  <block id="a2908f77e830d0a907f60038a03cc446" category="list-text">텍스트 상자의 현재 내용을 2단계에서 복사한 JSON 코드로 바꾸십시오.</block>
+  <block id="0afa7405bb80320955bff5c5dafcba00" category="list-text">Workload Factory의 자격 증명 추가 페이지로 돌아가서 역할 ARN을 _Role ARN_ 필드에 붙여넣습니다.</block>
 </blocks>
