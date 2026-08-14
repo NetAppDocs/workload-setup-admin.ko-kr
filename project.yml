@@ -46,6 +46,8 @@ sidebar:
       url: "/well-architected-workloads.html"
     - title: 알림을 구성합니다
       url: "/configure-notifications.html"
+    - title: 작업 모니터링
+      url: "/monitor-operations.html"
     - title: AI 기능 관리
       url: "/manage-genai-features.html"
     - title: 맞춤형 대시보드
