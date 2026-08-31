@@ -1677,4 +1677,7 @@
   <block id="ddfa0843a8d65e78d4c6e602bca78098" category="summary">Storage용 NetApp Workload Factory의 Tracker를 사용하여 FSx for ONTAP, 자격 증명 및 링크 작업을 추적하고 작업 진행 상황을 모니터링합니다.</block>
   <block id="367e536ee2f4e237a6e344129f6d1033" category="doc">NetApp Workload Factory에서 Tracker를 사용하여 작업을 모니터링합니다.</block>
   <block id="00ae0cd12340f0b4bbba6b466e757a65" category="sidebar">작업 모니터링</block>
+  <block id="8d8c52a0c2cdf249c1bf6acdbd825469" category="doc">자격 증명 및 링크에 대한 새로운 온보딩 환경</block>
+  <block id="4f9abf683fceb68d04e55eccea1aef30" category="paragraph">Workload Factory는 자격 증명 및 링크에 대한 온보딩 환경을 개선하여 더욱 쉽게 시작할 수 있도록 합니다. 계정을 생성하고 로그인한 후, *Storage* 등 워크로드 타일에서 *Get started*를 선택하면 다음 페이지에서 단계별 설정 과정을 안내합니다.</block>
+  <block id="1641126472d40ab162e3acf05ac611ba" category="section-title">2026년 8월 30일</block>
 </blocks>

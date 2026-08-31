@@ -1,0 +1,10 @@
+= 자격 증명 및 링크에 대한 새로운 온보딩 환경
+:allow-uri-read: 
+
+
+
+
+[[new-onboarding-experience-for-credentials-and-links]]
+=== 자격 증명 및 링크에 대한 새로운 온보딩 환경
+
+Workload Factory는 자격 증명 및 링크에 대한 온보딩 환경을 개선하여 더욱 쉽게 시작할 수 있도록 합니다. 계정을 생성하고 로그인한 후, *Storage* 등 워크로드 타일에서 *Get started*를 선택하면 다음 페이지에서 단계별 설정 과정을 안내합니다.
