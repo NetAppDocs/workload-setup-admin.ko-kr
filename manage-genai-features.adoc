@@ -4,7 +4,7 @@ permalink: manage-genai-features.html
 keywords: gen ai, generative ai, bedrock, ask me, custom dashboards, rules builder, cloudshell ai, ems analyzer, db log analyzer, latency analyzer, byom, bring your own model, administration 
 summary: Workload Factory에서 Bedrock 기반 AI 기능에 대한 액세스를 제어합니다. AI 기능을 비활성화하거나 NetApp이 관리하는 AWS Bedrock을 사용할 수 있습니다. 
 ---
-= AI 기능 관리
+= NetApp Workload Factory에서 AI 기능 관리
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

@@ -4,7 +4,7 @@ permalink: codebox-automation.html
 keywords: codebox, automation 
 summary: 'Codebox는 개발자와 DevOps가 NetApp Workload Factory에서 지원하는 모든 작업을 실행하는 데 필요한 코드를 생성하는 데 도움이 되는 Infrastructure as Code(IaC) 공동 파일럿입니다.' 
 ---
-= 코드박스 자동화에 대해 알아보십시오
+= NetApp Workload Factory에서 Codebox 자동화에 대해 알아보세요.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/

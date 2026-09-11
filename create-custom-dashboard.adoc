@@ -4,7 +4,7 @@ permalink: create-custom-dashboard.html
 keywords: create dashboard, custom dashboard, AI dashboard, dashboard creation, personalized dashboard 
 summary: AI 기반 프롬프트를 활용하여 맞춤형 대시보드를 생성하고, 워크로드와 운영 우선순위에 가장 중요한 요소를 모니터링하세요. 
 ---
-= 사용자 지정 대시보드 만들기
+= NetApp Workload Factory에서 사용자 정의 대시보드 만들기
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/

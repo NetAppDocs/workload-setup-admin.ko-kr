@@ -4,7 +4,7 @@ permalink: manage-custom-dashboards.html
 keywords: manage dashboards, delete dashboard, refresh dashboard, dashboard catalog 
 summary: Workload Factory에서 사용자 지정 대시보드를 보고, 새로 고치고, 삭제하려면 대시보드 카탈로그에 액세스하세요. 
 ---
-= 사용자 지정 대시보드 관리
+= NetApp Workload Factory에서 사용자 지정 대시보드 관리
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/

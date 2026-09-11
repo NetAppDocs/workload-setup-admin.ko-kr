@@ -47,7 +47,6 @@
   <block id="3364e8fe52c54126e3d0ebbdc3ebe636" category="list-text">CloudFormation으로 이동 페이지에서 * 계속 * 을 선택합니다.</block>
   <block id="ab44f988398acb833af7b9b2bc6c26b9" category="list-text">빠른 스택 만들기 페이지의 기능 에서 * AWS CloudFormation이 IAM 리소스를 생성할 수 있음을 확인합니다 * 를 선택합니다.</block>
   <block id="69831ef6721ecf7f184cdd4b29af8f45" category="list-text">Create stack * 을 선택합니다.</block>
-  <block id="b9d92ff083cdd90473a495ae946507fa" category="doc">코드박스 자동화에 대해 알아보십시오</block>
   <block id="c20a9fb18c5ad24194fdd7ccde0a108d" category="section-title">코드박스 기능</block>
   <block id="a60481064d733c1b8603777a0fed54b0" category="paragraph">Codebox는 두 가지 주요 IAC 기능을 제공합니다.</block>
   <block id="7b03b939d7a7886fee314498791450ce" category="list-text">_Codebox 뷰어 _ 는 그래픽 마법사 또는 대화 채팅 인터페이스에서 항목과 선택을 일치시켜 특정 작업 흐름 작업에 의해 생성되는 IAC를 표시합니다. Codebox 뷰어는 간편한 탐색 및 분석을 위해 색상 코딩을 지원하지만, 자동화 카탈로그에 코드를 복사하거나 저장하는 것은 허용되지 않습니다.</block>
@@ -243,8 +242,6 @@
   <block id="922bba58b532e71878d3d5858f7e8194" category="list-text">클라우드에서 Amazon FSx for NetApp ONTAP 파일 시스템을 검색, 배포 및 관리합니다. FSx for ONTAP은 일관된 하이브리드 클라우드 경험을 제공하는 네이티브 AWS 관리형 서비스에 ONTAP의 모든 기능을 제공합니다.</block>
   <block id="6d46b033eabdea8f60b174a46dfcfb14" category="list-text">온프레미스 vSphere 환경을 AWS의 VMware Cloud로 마이그레이션합니다</block>
   <block id="f760ee48ca0d5104a3c884c851536392" category="list-text">VMware Cloud on AWS 마이그레이션 어드바이저를 사용하면 온프레미스 vSphere 환경에서 현재 가상 머신 구성을 분석하고 권장 VM 레이아웃을 AWS 기반 VMware Cloud에 배포하고 맞춤형 Amazon FSx for NetApp ONTAP 파일 시스템을 외부 데이터 저장소로 사용할 수 있습니다.</block>
-  <block id="c8556381857e2b130302cd1951b0b62c" category="list-text">AI 챗봇 개발</block>
-  <block id="b74c52466a8f67e18b547bf25d14844f" category="list-text">FSx for ONTAP 파일 시스템을 활용하여 조직의 챗봇 소스 및 AI Engine 데이터베이스를 저장합니다. 이를 통해 조직의 비정형 데이터를 엔터프라이즈 챗봇 애플리케이션에 포함할 수 있습니다.</block>
   <block id="1a78f887c27cbb9e00745a4c2bb056a1" category="list-text">Amazon EBS(Elastic Block Store) 또는 EFS(Elastic File System) 스토리지 또는 Amazon FSx for Windows File Server를 사용하는 현재 배포를 분석하여 Amazon FSx for NetApp ONTAP으로 전환할 경우 절감할 수 있는 비용을 확인하십시오. 또한 계산기를 사용하여 계획 중인 향후 배포를 위한 "가상" 시나리오를 수행할 수도 있습니다.</block>
   <block id="902e65d33784bd8924eb05e622aa2dda" category="section-title">지원되는 클라우드 공급자</block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">비용</block>
@@ -934,7 +931,6 @@
   <block id="81fe43671919388bf418561882652f2a" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block>Workload Factory에 AWS 자격 증명 추가</block>
   <block id="cfce110bce240e5d147991ff7290a456" category="paragraph">가입하고, 계정을 만들고, 선택적으로 AWS 자격 증명을 추가한 후 FSx for ONTAP 사용하여 워크로드를 최적화하기 위해 Workload Factory를 사용할 수 있습니다.</block>
   <block id="023c464fc92ec044e83176c4e57027c4" category="summary">Workload Factory는 웹 기반 콘솔에서 접속할 수 있습니다.  Workload Factory를 시작하려면 먼저 기존 NetApp 지원 사이트 자격 증명을 사용하거나 NetApp 클라우드 로그인을 만들어 가입해야 합니다.</block>
-  <block id="68502871f1dfe8846e132f5a8eb8bf26" category="doc">NetApp Workload Factory에 가입하세요</block>
   <block id="060bb32e7b5d621e11afd0c831a87d3e" category="paragraph">NetApp Workload Factory는 웹 기반 콘솔에서 접근할 수 있습니다.  Workload Factory를 시작하려면 먼저 기존 NetApp 지원 사이트 자격 증명을 사용하거나 NetApp 클라우드 로그인을 만들어 가입해야 합니다.</block>
   <block id="9e9a0202d2a4a6551faca1e042e523e5" category="paragraph">다음 옵션 중 하나를 사용하여 Workload Factory에 가입할 수 있습니다.</block>
   <block id="dd8dfb2c954c59328d486f61112b7dc6" category="list-text">웹 브라우저를 열고 이동하세요<block ref="d98336faa10e493cfae83d68fb7054ec" category="inline-link-rx"></block></block>
@@ -993,7 +989,6 @@
   <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">2025년 10월 6일</block>
   <block id="7fe837fc0a93acdad81da1d440ee3fd2" category="section-title">2025년 10월 5일</block>
   <block id="516a4939962d11e39f0fbf438b454931" category="summary">NetApp Workload Factory에 로그인하고 설정하면 FSx for ONTAP 파일 시스템을 만들고 관리하고, 다른 Workload Factory 기능을 사용할 수 있습니다.</block>
-  <block id="f00613c02d17c0a20b6a513d63b31e84" category="doc">NetApp Workload Factory로 워크로드 최적화</block>
   <block id="889f832ffc4f3999f71856d95725363c" category="paragraph">로그인하고 NetApp Workload Factory를 설정한 후에는 Amazon FSx for ONTAP 파일 시스템 생성, FSx for ONTAP 파일 시스템에 데이터베이스 배포, FSx for ONTAP 파일 시스템을 외부 데이터 저장소로 사용하여 가상 머신 구성을 AWS의 VMware Cloud로 마이그레이션하는 등 여러 가지 ONTAP Factory 기능을 사용할 수 있습니다.</block>
   <block id="db7932d3f55d0312c05f023910160589" category="summary">NetApp Workload Factory는 Amazon FSx for NetApp ONTAP 파일 시스템을 사용하여 워크로드를 최적화하는 데 도움이 되도록 설계된 강력한 수명 주기 관리 플랫폼입니다.</block>
   <block id="9a01a95fb1dafcab4b74af822b939ea9" category="doc">NetApp Workload Factory에 대해 알아보세요</block>
@@ -1040,7 +1035,6 @@
   <block id="86dd1f2c1da07102d586b3d680ed37a3" category="sidebar">Workload Factory에 가입하세요</block>
   <block id="a77641000b55773f3d4f4abfc8eaa6ac" category="sidebar">Workload Factory로 워크로드 최적화</block>
   <block id="bec1e3daee54f5a9410751eb03bd867e" category="sidebar">워크로드 팩토리 관리</block>
-  <block id="7ffef60a0bb1e63a8505f9e4285dab5f" category="sidebar">Workload Factory에 로그인하세요</block>
   <block id="8880bf2394c75ebe6ed859ae103855bd" category="cell">자동 SSD 용량 또는 inode로 성공률 증가</block>
   <block id="0f4ae4b5b0836264a3d9e9d0e29731c8" category="cell">최근 자동 용량 관리 업데이트 중에 FSx for ONTAP 파일 시스템은 SSD 용량이나 볼륨 inode를 성공적으로 늘렸습니다. 자세한 내용은 Tracker를 참조하세요.</block>
   <block id="1d19e21de0f93b11f5ceb8b535a3afc2" category="cell">용량 관리</block>
@@ -1285,7 +1279,6 @@
   <block id="4aa1f4ce7ff97e69b143fbe399631234" category="section-title">2026년 3월 1일</block>
   <block id="2888fa977354ad1bf513fa2f17fdd7df" category="paragraph">Workload Factory는 Amazon FSx for NetApp ONTAP 파일 시스템 배포 환경에서 실행되는 워크로드를 매일 분석합니다. 이 분석을 통해 아키텍처 상태, 인사이트 및 권장 사항을 확인할 수 있습니다.</block>
   <block id="1ae45cc8915c23757127ca10c1cc4000" category="paragraph">Workload Factory는 지속적인 평가와 권장 사항 인사이트 및 문제 해결을 결합하여 대규모 스토리지, 데이터베이스 및 VMware 환경에 모범 사례를 적용합니다. Workload Factory 콘솔에서 적용되는 자동화된 수정 사항은 인적 오류를 줄이고 일관된 관리를 보장하며 워크로드 인프라 전반의 성능과 안정성을 유지합니다.</block>
-  <block id="23b296afc9efdc38bb284c5491538e2f" category="doc">NetApp Workload Factory를 사용하여 아키텍처가 잘 설계된 워크로드를 구축하고 운영하세요</block>
   <block id="c3a8b5ec0adade5d633e6e6466b483a6" category="paragraph">Workload Factory는 Amazon FSx for NetApp ONTAP용 NetApp 관리 제품군으로, AWS Well-Architected Framework에 부합하는 안정적이고 안전하며 효율적이고 비용 효율적인 워크로드 구성을 유지 및 운영할 수 있도록 지원합니다. Workload Factory는 워크로드에 대한 일일 분석, 권장 사항 및 자동 수정 기능을 제공하여 정상적인 워크로드 운영을 촉진합니다. 이러한 프로세스를 자동화함으로써 Workload Factory는 인적 오류를 최소화하고 워크로드 관리의 일관성을 보장합니다.</block>
   <block id="421a8570ce985526e7d5c4e54d3094e2" category="section-title">Workload Factory를 사용하여 워크로드 구성 오류를 감지하고 수정해 보세요</block>
   <block id="7274d50d53fc920babacadb1439892ff" category="sidebar">잘 설계된 Elastic VMware Service 구성을 구현하십시오</block>
@@ -1680,4 +1673,184 @@
   <block id="8d8c52a0c2cdf249c1bf6acdbd825469" category="doc">자격 증명 및 링크에 대한 새로운 온보딩 환경</block>
   <block id="4f9abf683fceb68d04e55eccea1aef30" category="paragraph">Workload Factory는 자격 증명 및 링크에 대한 온보딩 환경을 개선하여 더욱 쉽게 시작할 수 있도록 합니다. 계정을 생성하고 로그인한 후, *Storage* 등 워크로드 타일에서 *Get started*를 선택하면 다음 페이지에서 단계별 설정 과정을 안내합니다.</block>
   <block id="1641126472d40ab162e3acf05ac611ba" category="section-title">2026년 8월 30일</block>
+  <block id="86030a79fe9a63670fc44ac2aa712502" category="doc">NetApp Workload Factory에서 Codebox 자동화에 대해 알아보세요.</block>
+  <block id="e730dacf98fdefc31c79fa8f3de18e2b" category="doc">NetApp Workload Factory 용 콘솔 환경</block>
+  <block id="78a68b00b0b76cc261abe8e56546683d" category="doc">NetApp Workload Factory에서 사용자 정의 대시보드 만들기</block>
+  <block id="d1b55cbdf6e8ca176a53229f6dc39afc" category="summary">NetApp Workload Factory 계정과 하나 이상의 FSx for ONTAP 파일 시스템 간에 신뢰 관계 및 연결을 제공하는 링크를 생성하고 관리할 수 있습니다.</block>
+  <block id="37b002845528ac0296b86d28bb71e5a5" category="doc">Lambda 링크를 사용하여 FSx for ONTAP 파일 시스템에 연결합니다.</block>
+  <block id="5ba5b0aebf03129e0be728e866a2b27b" category="paragraph">고급 ONTAP 관리 작업을 수행하려면 Workload Factory 계정과 하나 이상의 FSx for ONTAP 파일 시스템 간의 연결을 설정해야 합니다.  이 과정에는 새 Lambda 링크와 기존 링크를 연결하고 링크를 인증하는 작업이 포함됩니다.  링크 연결을 통해 Amazon FSx for ONTAP API를 통해 사용할 수 없는 특정 기능을 FSx for ONTAP 파일 시스템에서 직접 모니터링하고 관리할 수 있습니다.</block>
+  <block id="95254aef509d2d84e8ee7dd3052d1b61" category="paragraph"><block ref="97608ab403cabf20e3bcac439aacde61" category="inline-link-macro-rx"></block>.</block>
+  <block id="eb72702456cb13d975ccfacb15b610d0" category="paragraph">링크는 AWS Lambda를 사용하여 이벤트에 대한 응답으로 코드를 실행하고 해당 코드에 필요한 컴퓨팅 리소스를 자동으로 관리합니다. 사용자가 생성하는 링크는 NetApp 계정의 일부이며 AWS 계정과 연결됩니다.</block>
+  <block id="de753f9064c7210624293a7c1d1e13f9" category="paragraph">FSx for ONTAP 파일 시스템을 정의할 때 계정에 링크를 생성할 수 있습니다. 이 링크는 해당 파일 시스템에 사용되며, 다른 FSx for ONTAP 파일 시스템에서도 사용할 수 있습니다. 또한 나중에 파일 시스템에 링크를 연결할 수도 있습니다.</block>
+  <block id="8525c310ff1b921b05db83eb21ea6be7" category="paragraph">링크에는 인증이 필요합니다. Workload Factory 자격 증명 서비스에 저장된 자격 증명 또는 AWS Secrets Manager에 저장된 자격 증명을 사용하여 링크를 인증할 수 있습니다. 링크당 하나의 인증 방법만 지원됩니다. 예를 들어 AWS Secrets Manager를 사용한 링크 인증을 선택한 경우 나중에 인증 방법을 변경할 수 없습니다.</block>
+  <block id="6b7123710c1d7db8c41a9ececb7ce5dd" category="admonition">콘솔 에이전트를 사용할 때는 AWS Secrets Manager가 지원되지 않습니다.</block>
+  <block id="2c1b9e7969c6e96f38bd871fc9f26ae1" category="section-title">새 링크 연결</block>
+  <block id="05a2e668e80fd3ace12e9585ebc06578" category="paragraph">새 링크를 연결하는 작업에는 링크 생성 및 연결이 포함됩니다.</block>
+  <block id="0d9cf45fb23b4088730f72dd43be4a9b" category="paragraph">이 워크플로에서 링크를 생성하는 방법은 자동 또는 수동 두 가지가 있습니다. AWS GovCloud 계정이 있는 경우 새 링크는 수동으로 생성해야 합니다.</block>
+  <block id="fa1694d04e308a581d5d23c44b278491" category="list-text">자동으로: Workload Factory를 통해 자동 등록되는 링크를 생성합니다. 자동으로 생성된 링크에는 Workload Factory 자동화를 위한 토큰이 필요하며, CloudFormation 코드는 수명이 짧습니다. 최대 6시간 동안만 사용할 수 있습니다.</block>
+  <block id="952da3361b1e3ca5daa8c23a39780e18" category="list-text">수동: Codebox의 CloudFormation 또는 Terraform을 사용하여 수동 등록 방식으로 링크를 생성합니다. 생성된 코드는 영구 저장되므로 작업을 완료하는 데 더 많은 시간을 확보할 수 있습니다. 이는 링크 생성에 필요한 권한을 먼저 부여해야 하는 보안팀과 DevOps 등 다양한 팀과 협업할 때 유용합니다.</block>
+  <block id="758ce486f132a2978be7ecfbcd518afa" category="list-text">어떤 링크 생성 옵션을 사용할지 고려해야 합니다.</block>
+  <block id="d6305b17d1542122d978c37db15fd5d3" category="inline-link-macro">Workload Factory에 자격 증명 추가</block>
+  <block id="4c4658c6e6bcc607d3d1e8c00d38f9b6" category="list-text">Workload Factory에서 FSx for ONTAP 파일 시스템이 최소 하나 이상 있어야 합니다. FSx for ONTAP 파일 시스템을 검색하려면 FSx for ONTAP 인스턴스에 대한 권한과 스토리지 관리에 대한 _보기, 계획 및 분석_ 권한이 있는 <block ref="a253a365fdf90416889360c06d5b56a2" category="inline-link-macro-rx"></block> AWS 계정이 있어야 합니다.</block>
+  <block id="d7a33a9350fbc2bb6f775eabf85866de" category="list-text">링크 연결을 위해 FSx for ONTAP 파일 시스템과 연결된 보안 그룹에서 다음 포트가 열려 있어야 합니다.</block>
+  <block id="3b6158401b21fd0fabd6f75b8d9c8c23" category="list-text">Workload Factory 콘솔의 경우: 포트 443(HTTPS)</block>
+  <block id="64153de607e9925466a905a664c31502" category="list-text">CloudShell 및 FSx for ONTAP 긴급 관리 시스템(EMS) 이벤트 분석의 경우: 포트 22(SSH)</block>
+  <block id="aca2e051b8b58a53ee4cf20a78bdde8a" category="list-text">해당 링크는 다음 엔드포인트에 연결할 수 있어야 합니다: https://api.workloads.netapp.com. 웹 기반 콘솔은 이 엔드포인트에 연결하여 Workload Factory API와 상호 작용하고 FSx for ONTAP 워크로드를 관리 및 운영합니다.</block>
+  <block id="22cc060f8b88cfca4c298ec0a9aae3fa" category="list-text">CloudFormation 스택을 사용하여 링크를 추가할 때 AWS 계정에 다음 권한이 있어야 합니다.</block>
+  <block id="6903e2b3a86228f4d258e423fb6b913a" category="open-title">자동으로 생성</block>
+  <block id="e07190df7367fb116bdd913bfce43fbe" category="paragraph">CloudFormation을 사용하여 Workload Factory 내에 링크를 자동으로 생성하고 등록합니다.</block>
+  <block id="e97bbb69ec6bcd2c1b3d761224ed4559" category="admonition">AWS GovCloud 계정의 경우 자동 링크 생성이 지원되지 않습니다.</block>
+  <block id="36c518eb88267ad8a7105893fd209a46" category="list-text">관리 메뉴에서 *링크*를 선택합니다.</block>
+  <block id="892be23a9211e0d2e6a0d60b06507944" category="list-text">링크 페이지에서 *생성 및 연결*을 선택합니다.</block>
+  <block id="cb045f0740ec2fb29d2864d6c52abff5" category="list-text">연결 링크 대화 상자에서 링크와 연결할 파일 시스템을 선택하고 *계속*을 선택합니다.</block>
+  <block id="a9dc1217e276dbbc98e08e5bf8b4e0bd" category="list-text">*새 링크 만들기*를 선택한 다음 *계속*을 선택합니다.</block>
+  <block id="eaa9de7b48a473b999b69f05d59df6c2" category="list-text">링크 생성 페이지에서 *자동으로 생성*을 선택한 다음 다음 정보를 입력합니다.</block>
+  <block id="89a62ddcc9759060d903ef8b7aee42c3" category="list-text">*링크 이름*: 이 링크에 사용할 이름을 입력합니다. 이름은 계정 내에서 고유해야 합니다.</block>
+  <block id="939a8d22db4ccfbdde48d35119ad37a3" category="list-text">*AWS Secrets Manager*: 선택 사항입니다. Workload Factory가 AWS Secrets Manager에서 FSx for ONTAP 액세스 자격 증명을 가져올 수 있도록 합니다.</block>
+  <block id="049f730a98eb69627912748561a543b8" category="paragraph">링크 배포 스택은 Lambda 권한 정책에 다음 기본 시크릿 관리자 ARN 정규식을 자동으로 추가합니다:<block ref="218d5bbe44642244cc57db37477be310" prefix=" " category="inline-code"></block>.</block>
+  <block id="de786693aed7955f1cb538f51e25f7d6" category="paragraph">기본 권한에 맞춰 비밀 키를 생성하거나 링크 정책에 사용자 지정 권한을 할당할 수 있습니다.</block>
+  <block id="49af4dcead2678507453b9bff6c332f1" category="paragraph">*VPC 프라이빗 엔드포인트를 AWS Secrets Manager에 구성* 옵션은 기본적으로 비활성화되어 있습니다. 이 옵션을 선택하면 시크릿을 로컬에 저장하는 대신 VPC 프라이빗 엔드포인트를 사용하여 저장합니다.</block>
+  <block id="2f33e5a4fe58163ac0df8f3b097df4db" category="list-text">*링크 권한*: 링크 권한에 대해 다음 옵션 중 하나를 선택하십시오.</block>
+  <block id="80b014e5654af87ea5edcdf6ec223a6d" category="list-text">*자동*: 이 옵션을 선택하면 AWS CloudFormation 코드가 Lambda 권한 정책 및 실행 역할을 자동으로 생성합니다.</block>
+  <block id="0a447482fbe2f57253df6484a37127e2" category="list-text">*사용자 제공 실행 역할*: 이 옵션을 선택하면 지정된 Lambda 실행 역할과 연결된 정책을 Lambda 링크에 할당할 수 있습니다. Lambda 권한 정책에는 다음 권한이 필요합니다. 이<block ref="e6b67e3118c0caaf2206ab3d3fba8d67" prefix=" " category="inline-code"></block> 권한은 AWS Secrets Manager를 활성화한 경우에만 필요합니다.</block>
+  <block id="5f3b3b380e02766e8ad7eca5c6b37840" category="paragraph">텍스트 상자에 Lambda 실행 역할 ARN을 입력하십시오.</block>
+  <block id="68d5729d2a63e62a04de68bac212b9ab" category="list-text">*태그*: 선택적으로, 이 링크와 연결할 태그를 추가하여 리소스를 더 쉽게 분류할 수 있습니다. 예를 들어, 이 링크가 FSx for ONTAP 파일 시스템에 사용된다는 것을 나타내는 태그를 추가할 수 있습니다.</block>
+  <block id="dc0b44a6b07f576dd5f2f755574335ed" category="paragraph">Workload Factory는 FSx for ONTAP 파일 시스템을 기반으로 AWS 계정, 위치 및 보안 그룹을 자동으로 가져옵니다.</block>
+  <block id="bf18811faac9b8e4fcaebab51afd1113" category="list-text">*생성*을 선택합니다.</block>
+  <block id="bab25954c067653929b889d687bcb718" category="paragraph">Redirect to CloudFormation 대화 상자가 나타나고 AWS CloudFormation 서비스에서 링크를 생성하는 방법을 설명합니다.</block>
+  <block id="c602cdf8533ce956e9f326890f6d8723" category="list-text">AWS 관리 콘솔을 열려면 *계속*을 선택한 다음 이 FSx for ONTAP 파일 시스템의 AWS 계정에 로그인하십시오.</block>
+  <block id="4e4d4587b3d4f525dd0bfabd81edb7d7" category="paragraph">CloudFormation 템플릿은 Lambda를 시작할 때 세 가지 권한을 부여합니다. Workload Factory는 링크를 사용할 때 이러한 권한을 활용합니다.</block>
+  <block id="4d4e41a17abafe417449016add2ee0bd" category="list-text">*스택 생성*을 선택한 다음 *계속*을 선택합니다.</block>
+  <block id="6f0344b8291b1471c971ba88374dce8a" category="paragraph">이벤트 페이지에서 링크 생성 상태를 확인할 수 있습니다. 이 과정은 5분 이내로 완료됩니다.</block>
+  <block id="7580bfe7832e708a7a254e231956ba42" category="list-text">Workload Factory 인터페이스로 돌아가면 링크가 FSx for ONTAP 파일 시스템과 연결되어 있는 것을 확인할 수 있습니다.</block>
+  <block id="a85b3f8e5456d47e8056e0372aeccb2a" category="open-title">수동으로 생성</block>
+  <block id="325013ba9d083d4d579a01c87b58a749" category="paragraph">Codebox에서 제공하는 두 가지 IaC(Infrastructure-as-Code) 툴인 CloudFormation 또는 Terraform을 사용하여 링크를 생성할 수 있습니다. 이 옵션을 사용하면 AWS CloudFormation에서 링크의 ARN을 추출하여 여기에 보고합니다. Workload Factory가 수동으로 링크를 등록합니다.</block>
+  <block id="7b8171c19525234afed5066a22d0bdbe" category="list-text">링크 생성 페이지에서 *수동으로 생성*을 선택한 다음 Codebox에서 CloudFormation 또는 Terraform을 선택합니다.</block>
+  <block id="bf419e3bcb855d67fd85a99f9a55eb97" category="list-text">세부 정보 및 자격 증명란에 다음 정보를 입력하십시오.</block>
+  <block id="d37d952a78337c053485a61317b953df" category="list-text">*AWS Secrets Manager*: GovCloud 계정의 경우 항상 활성화되어 있습니다. 다른 계정의 경우 선택 사항입니다. Workload Factory가 AWS Secrets Manager에서 FSx for ONTAP 액세스 자격 증명을 가져올 수 있도록 합니다.</block>
+  <block id="f3a06ea1d47de2a4216fe3fd53364d24" category="list-text">*사용자 제공*: 이 옵션을 선택하면 지정된 Lambda 실행 역할과 연결된 정책을 Lambda 링크에 할당할 수 있습니다. Lambda 권한 정책에는 다음 권한이 필요합니다. 이<block ref="e6b67e3118c0caaf2206ab3d3fba8d67" prefix=" " category="inline-code"></block> 권한은 AWS Secrets Manager를 사용하는 경우에만 필요합니다.</block>
+  <block id="1ca9512c09f6b26312a475fda293b54a" category="list-text">*링크 등록*: 링크 등록 방법에 대한 지침은 CloudFormation 또는 Terraform 중에서 선택하고, 안내에 따라 진행하십시오.</block>
+  <block id="1425c9b22ae63851bbaa938ebc0a967d" category="list-text">스택 생성이 완료되면 Workload Factory 콘솔의 텍스트 상자에 Lambda ARN을 붙여넣으십시오. Workload Factory는 FSx for ONTAP 파일 시스템을 기반으로 AWS 계정, 위치 및 보안 그룹을 자동으로 가져옵니다.</block>
+  <block id="47dfa5e12270c73140e2f3dc8b32a020" category="paragraph">Workload Factory는 링크를 FSx for ONTAP 파일 시스템과 연결합니다. 고급 ONTAP 작업을 수행할 수 있습니다.</block>
+  <block id="48457d7f94975228307244f863f96fee" category="section-title">기존 링크를 FSx for ONTAP 파일 시스템과 연결합니다.</block>
+  <block id="0b1685216b81bbd8b7a0d6bb09435f98" category="paragraph">링크를 생성한 후에는 하나 이상의 FSx for ONTAP 파일 시스템과 연결하십시오.</block>
+  <block id="757a7ffb20a279d7239febb013141ad5" category="list-text">메뉴 <block ref="d1917ed039a7bd34b3d1373e5ffc5ece" category="inline-image-macro-rx" type="image"></block>를 선택한 다음 *Storage*를 선택합니다.</block>
+  <block id="c9183e42d9edf5bc557a95d0fcd830f8" category="list-text">Storage 메뉴에서 *FSx for ONTAP*를 선택합니다.</block>
+  <block id="40be05127ecd2439f7ee7256f055873a" category="list-text">*FSx for ONTAP*에서 링크를 연결할 파일 시스템의 작업 메뉴를 선택한 다음 *링크 연결*을 선택합니다.</block>
+  <block id="447f36846a239be6be0faf7dc1fa0364" category="list-text">연결 링크 페이지에서 *기존 링크 연결*을 선택하고 링크를 선택한 다음 *계속*을 선택합니다.</block>
+  <block id="5b5b11575f2a0c06c832b5cbd1c6dcfe" category="list-text">인증 모드를 선택하십시오.</block>
+  <block id="219e99148dae7112d47eedc1f49517ae" category="list-text">Workload Factory: 비밀번호를 두 번 입력합니다.</block>
+  <block id="b9000423f3d632810a4d8c3550eb4119" category="list-text">AWS Secrets Manager: 비밀 ARN을 입력하십시오.</block>
+  <block id="64c7a4783273d9e14ea971d0631f7ac8" category="paragraph">비밀 ARN에 다음 키-값 쌍이 포함되어 있는지 확인하십시오. 단, _filesystemID_는 선택 사항입니다.</block>
+  <block id="1023373ba9dff02b999882804d6dc2ef" category="list-text">filesystemID = FSx_filesystem_id (선택 사항)</block>
+  <block id="508e0beab9fc0c907eb4adcaa7a736f7" category="list-text">user = FSx_user</block>
+  <block id="db1e2f706f83d7a3a9a03793db05422a" category="list-text">password = user_password</block>
+  <block id="0dcf8b4e3476c0545950d4d61acb625c" category="admonition">AWS Secrets Manager를 사용한 인증에는 사용자가 필요합니다. 사용자가 지정한 _FSx_user_이거나 FSx for ONTAP 파일 시스템에 생성된 다른 사용자일 수 있습니다. 사용자를 지정하지 않으면 기본 사용자는<block ref="679500f227997b45be97e3ca8115c678" prefix=" " category="inline-code"></block>입니다.</block>
+  <block id="3179fc8078925ef0503270fd907af44c" category="paragraph">이 링크는 FSx for ONTAP 파일 시스템과 연결되어 있습니다. 고급 ONTAP 작업을 수행할 수 있습니다.</block>
+  <block id="eb3eec333eedf15738e12e55e183cdb7" category="paragraph"><block ref="c7c8a4154bf78f63993b7572e6143221" category="inline-link-macro-rx"></block>.</block>
+  <block id="db9a0ca8d6bb6376ddaad7f254b049aa" category="section-title">AWS Secrets Manager 링크 인증 관련 문제 해결</block>
+  <block id="642facf67e0ad311eee88b3ab8381590" category="list-text">문제</block>
+  <block id="c8a40767f19af94e9fbb95ab3a4c55c3" category="list-text">해당 링크는 비밀 키를 가져올 권한이 없습니다.</block>
+  <block id="4d918e036d58715d6e2919d728c5bea9" category="paragraph">*Resolution*: 링크가 활성화된 후 권한을 추가합니다. AWS 콘솔에 로그인하여 Lambda 링크를 찾고 연결된 권한 정책을 편집합니다.</block>
+  <block id="61eb4620c8bf60aa233a601b6f63ae77" category="list-text">시크릿을 찾을 수 없습니다.</block>
+  <block id="ee67bf640d0b52ba5e821e265b1eacf5" category="paragraph">*해결 방법*: 올바른 비밀 ARN을 제공하십시오.</block>
+  <block id="0733070c151f197e780e335f701571f1" category="list-text">비밀 정보의 형식이 올바르지 않습니다.</block>
+  <block id="6ef3be28f69c1735acc5b68f50b352ab" category="paragraph">*Resolution*: AWS Secrets Manager로 이동하여 형식을 수정하십시오.</block>
+  <block id="669b6152234fe8c12012646b005a7d2f" category="paragraph">비밀 키는 다음과 같은 키-값 쌍을 포함해야 합니다.</block>
+  <block id="91a73bc4f293d9fc4712c2770316ae08" category="list-text">filesystemID = FSx_filesystem_id</block>
+  <block id="316509fcb5a8d1b5e1280f3f64c594f2" category="list-text">username = FSx_user</block>
+  <block id="ecc4c534126952c05eb3829106343643" category="list-text">해당 비밀 키에는 파일 시스템 인증에 필요한 유효한 ONTAP 자격 증명이 포함되어 있지 않습니다.</block>
+  <block id="b94462bb135856834e40d9c982dbbc8b" category="paragraph">*해결 방법*: AWS Secrets Manager에서 FSx for ONTAP 파일 시스템을 인증할 수 있는 자격 증명을 제공하십시오.</block>
+  <block id="a1a55503b2e2620707db2868ccc2fe24" category="doc">NetApp Workload Factory 관련 도움말 보기</block>
+  <block id="1d85daa8d058598d6553a1e930e88b37" category="doc">NetApp Workload Factory의 사용자 지정 대시보드에 대해 알아보십시오.</block>
+  <block id="4d29eb8c304c032e0b8ec00fb7e0ae46" category="summary">Workload Factory 링크는 Workload Factory 계정과 하나 이상의 FSx for ONTAP 파일 시스템 간의 신뢰 관계 및 연결을 생성합니다.</block>
+  <block id="19ecacf22bc9ac252b9476a0a17ca657" category="doc">NetApp Workload Factory 링크에 대해 알아보기</block>
+  <block id="87251eaee5bfd306ceab7bcacfbf47f6" category="paragraph">NetApp Workload Factory 링크는 Workload Factory 계정과 하나 이상의 FSx for ONTAP 파일 시스템 간의 신뢰 관계 및 연결을 생성합니다. 이를 통해 Amazon FSx for ONTAP API를 통해 사용할 수 없는 특정 파일 시스템 기능을 ONTAP REST API 호출을 통해 직접 모니터링하고 관리할 수 있습니다.</block>
+  <block id="65050310e57f3790fef3c72eb48d33fe" category="section-title">링크가 유익한 이유</block>
+  <block id="8db5475a47ce008ca4a3d502a243007d" category="paragraph">링크는 Workload Factory가 Amazon FSx for ONTAP API를 통해 기본적으로 제공되지 않는 작업을 수행할 수 있도록 해주기 때문에 유용합니다. 링크를 통해 고급 ONTAP 기능과 자동화를 활용하여 FSx for ONTAP 파일 시스템 관리를 향상시킬 수 있습니다.</block>
+  <block id="abca8c391b472ef4e80c6577b5d5eb2a" category="paragraph">링크 사용의 이점은 다음과 같습니다.</block>
+  <block id="bf5b08a19bccddd5697b54218eb442dd" category="list-text">이 링크를 통해 NetApp Console은 ONTAP 명령을 FSx for ONTAP 파일 시스템으로 직접 전송할 수 있으므로 AWS에서 기본적으로 제공하는 기능 이상의 고급 ONTAP 기능을 활용할 수 있습니다.</block>
+  <block id="92d3d2d26bd62a6b2959d23585ef12a2" category="list-text">Links는 AWS Lambda를 활용하여 이벤트에 대한 응답으로 코드를 실행합니다. 이러한 서버리스 접근 방식을 통해 VPC 내에서 실행되는 인스턴스에 대한 의존성을 제거할 수 있습니다.</block>
+  <block id="87684df341e5a7d9f280a7bdf2048a6e" category="section-title">링크 작동 방식</block>
+  <block id="5abd3a6ae198e27e4c8402463411560f" category="paragraph">링크는 AWS Lambda를 활용합니다. Lambda는 이벤트에 응답하여 코드를 실행하고 해당 코드에 필요한 컴퓨팅 리소스를 자동으로 관리합니다. 사용자가 생성하는 링크는 NetApp 계정의 일부이며 AWS 계정과 연결됩니다.</block>
+  <block id="e721a1904dd1a2a54d259deb8d176230" category="paragraph">링크를 생성한 후에는 하나 또는 여러 개의 FSx for ONTAP 파일 시스템과 연결할 수 있습니다. 각 파일 시스템은 동일한 NetApp 계정 내에서 하나의 링크에만 연결할 수 있습니다. NetApp 계정이 여러 개인 경우, 하나의 파일 시스템을 다른 NetApp 계정의 추가 링크와 연결할 수 있습니다.</block>
+  <block id="0d369015d5a60606bb8b6330f6c1030f" category="paragraph">Workload Factory의 스토리지 워크로드에서 링크를 생성하고 연결합니다.</block>
+  <block id="7869cf138befae7f7af03581af782724" category="paragraph">Workload Factory 자격 증명 서비스에 저장된 자격 증명 또는 AWS Secrets Manager에 저장된 자격 증명을 사용하여 링크를 인증할 수 있습니다. Workload Factory는 인증 모드 변경을 지원하지 않습니다.</block>
+  <block id="81fccfd8b7cc4d87c0978527048afe60" category="paragraph">GovCloud 계정에 대한 링크 연결이 지원됩니다. Workload Factory는 GovCloud 인증 키를 사용하여 GovCloud 승인 메커니즘을 통해 FSx for ONTAP 작업에 안전하고 에이전트 없이 액세스할 수 있도록 합니다.</block>
+  <block id="66096c22a6220952b7aef731ef78c167" category="section-title">비용</block>
+  <block id="2ec62661c871c6dda5bcd49be8cea521" category="paragraph">Lambda가 수행하는 모든 트랜잭션에는 요금이 부과됩니다. Lambda는 두 시스템 간의 프록시 역할을 하므로, Lambda가 파일 시스템의 ONTAP REST API에 요청을 보낼 때와 Workload Factory에 응답을 보낼 때 요금이 발생합니다.</block>
+  <block id="0ab8cd7f04804af6d53be93ef7bd5345" category="inline-link-macro">AWS Lambda 사용과 관련된 비용에 대해 자세히 알아보십시오.</block>
+  <block id="70f0040e444997fbb4beeeae8bd03d34" category="paragraph"><block ref="70f0040e444997fbb4beeeae8bd03d34" category="inline-link-macro-rx"></block></block>
+  <block id="8cd69d367e2dbdfca9ec0b55ba13baec" category="section-title">링크가 필요한 경우</block>
+  <block id="875551355a7b095c8343c772ab9a39cd" category="paragraph">Workload Factory는 일부 정보를 표시하고 일부 작업을 수행하기 위해 링크가 필요합니다. 링크가 필요한 작업을 수행하려고 하는데 FSx for ONTAP 파일 시스템과 링크를 연결하지 않은 경우 Workload Factory는 해당 작업에 링크가 필요하다는 알림을 표시합니다.</block>
+  <block id="c0653b3ad30a51a0fe3228ad2877ac9d" category="paragraph">링크가 필요한 기능은 다음과 같습니다.</block>
+  <block id="d078fe237d087bff0fe3c19efd14fa54" category="list-text">사전 예방적 유지 관리, 안정성 및 비용 대비 성능 최적화를 위한 FSx for ONTAP 파일 시스템 구성의 우수한 아키텍처 상태</block>
+  <block id="f1a54b856438e25c87919e1789ae841c" category="list-text">ONTAP EMS 이벤트 모니터링 및 알림</block>
+  <block id="c6501747b7c38b1e25460b13a727ec7c" category="list-text">NetApp 자율형 랜섬웨어 보호(ARP/AI)</block>
+  <block id="489e0dc0c162e1aff5f0f664bf2ea756" category="list-text">FSx for ONTAP 파일 시스템 전반에 걸쳐 향상된 통합 용량 가시성</block>
+  <block id="b97b322b8cb0f9b187eb7b966c9ff886" category="list-text">볼륨 및 스토리지 VM 데이터 복제, 관리 및 모니터링</block>
+  <block id="147d85abf5db68a53249c95e1a68cedb" category="list-text">SMB/CIFS 공유 및 NFS 엑스포트 정책 프로비저닝 및 관리</block>
+  <block id="70b71b7616d1607e66f58defc9384bf3" category="list-text">FSx for ONTAP 파일 시스템에서 iSCSI 볼륨 관리</block>
+  <block id="0ff428418a3d64cc69a6ee68906a8959" category="list-text">사용자 지정 보호 SLA를 위한 스냅샷 정책 생성 및 관리</block>
+  <block id="c92f4938531f7fd55dc831a93892d29a" category="list-text">자동 용량 관리를 위한 Inode 관리 기능 향상</block>
+  <block id="3b5c7e283e0b752d51311178d3fa06f1" category="list-text">탄력적 확장을 위한 볼륨 자동 증가</block>
+  <block id="6cdde78d80d6fbbd8f3706a9bcac599e" category="list-text">즉각적인 인플레이스 데이터 클로닝을 위한 클론 생성 및 관리</block>
+  <block id="7cacd07dfdd5c4feadcbf23d19f9972d" category="list-text">ONTAP 버전 등 ONTAP에서 직접 추가 메트릭 표시</block>
+  <block id="f22e542eda471e2702ed07136761fd6c" category="list-text">스토리지 VM 및 클러스터 LIF의 역할, 엔드포인트, 노드, IP 주소 및 상태를 포함한 세부 정보 표시</block>
+  <block id="30f1ae8a88bc842cdf5e493350ae7eb1" category="inline-link-macro">FSx for ONTAP 파일 시스템에 링크 연결</block>
+  <block id="f86bb6aab3a49998f4db8fa07a49d81a" category="paragraph"><block ref="e658cbfbd30fb261626bc7c82308a713" category="inline-link-macro-rx"></block> 방법을 알아보십시오.</block>
+  <block id="526aa50fb911c91291e959f7543639b0" category="doc">NetApp Workload Factory에서 사용자 지정 대시보드 관리</block>
+  <block id="dbc831d32bec483a9698bd8ffbae773b" category="doc">NetApp Workload Factory에서 AI 기능 관리</block>
+  <block id="a1212a4e5f083322acc45c56b9938112" category="summary">NetApp Workload Factory에서 계정과 연결된 링크를 확인하고, 링크 인증에 사용되는 암호를 업데이트하고, 링크를 제거할 수 있습니다.</block>
+  <block id="a4d45bf93deed5e773f1c470ea181049" category="doc">NetApp Workload Factory 링크 관리</block>
+  <block id="83dfd07dca3a04ca19cdc3262cb17df4" category="paragraph">Workload Factory 계정에 연결된 링크를 관리할 수 있습니다. FSx for ONTAP 파일 시스템과 연결된 링크를 확인하고, 링크 인증에 사용되는 암호를 제공하고, Workload Factory 콘솔에서 링크를 제거할 수 있습니다.</block>
+  <block id="2c793b5b15ea565983390f5625f7b85b" category="inline-link-macro">링크를 생성하고 연결합니다</block>
+  <block id="d2daf1f2c560c48cb1e86e38214b4f9f" category="paragraph"><block ref="97608ab403cabf20e3bcac439aacde61" category="inline-link-macro-rx"></block> 또는 <block ref="cd9ae14bef62d063a73930ad8837c0cf" category="inline-link-macro-rx"></block>.</block>
+  <block id="e32918056c538c64f6e229f2ca257e25" category="section-title">계정과 연결된 링크를 확인합니다</block>
+  <block id="a8fa4cf9dc4a62f0a1665e1500bbff0a" category="paragraph">현재 계정에 연결된 링크를 확인할 수 있습니다.</block>
+  <block id="2042c96024e7e8a46d1497c843c76da6" category="list-text">저장소 메뉴에서 *관리*를 선택한 다음 *링크*를 선택합니다.</block>
+  <block id="50e87fbed332b782c23eefcd063c29f3" category="paragraph">기존 링크는 링크 페이지에 표시됩니다.</block>
+  <block id="c1197fb19ed4c969880f963d9b6df11f" category="list-text">링크와 연결된 FSx for ONTAP 파일 시스템을 보려면 연결된 리소스 섹션에서 *보기* 버튼을 선택하십시오.</block>
+  <block id="d527a24e3cd3e2df59c9ec57fb8383de" category="inline-image-macro">특정 링크를 사용하는 FSx for ONTAP 파일 시스템을 보여주는 스크린샷.</block>
+  <block id="8153258b50418b6ebcd06d64da06a5bc" category="paragraph"><block ref="8153258b50418b6ebcd06d64da06a5bc" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="65ded7963c0209145c9b1f65dff784c8" category="list-text">링크에 사용할 Amazon Resource Name(ARN)이 필요한 경우 ARN 필드 옆에 있는 _복사_ 아이콘을 선택하면 됩니다.</block>
+  <block id="93ebb8d72a0e7c1dd1418d053f7a19cd" category="section-title">링크 수정</block>
+  <block id="c4aa49062b446a9d4f1b821ea4acbe46" category="paragraph">Workload Factory 인터페이스에서는 링크를 편집할 수 없습니다. 링크를 변경해야 하는 경우 새 링크를 생성한 다음 해당 링크를 파일 시스템에 연결해야 합니다.</block>
+  <block id="191297866068665b2c5ad24b9642279b" category="admonition">AWS 콘솔을 사용하여 Lambda 네트워크 구성(예: VPC, 서브넷 및 보안 그룹)을 편집할 수 있으며 변경 사항은 링크 관리 UI에 반영됩니다. 그러나 이러한 변경은 Lambda와 ONTAP 간의 연결 문제를 일으킬 수 있으므로 권장하지 않습니다.</block>
+  <block id="eee5751928fa32e80cacc3177eabff02" category="section-title">링크 인증</block>
+  <block id="6ac964feef269db1d25abb9f4ecad2aa" category="paragraph">FSx for ONTAP 파일 시스템에 링크를 연결하려면 Workload Factory 자격 증명에 대한 관리자 사용자 암호 또는 AWS Secrets Manager 비밀 ARN을 제공하십시오.</block>
+  <block id="696ea928d9d3c6e9a7783d23ab82a78a" category="admonition">링크당 하나의 인증 방법만 지원됩니다. 예를 들어 AWS Secrets Manager를 사용한 링크 인증을 선택한 경우 나중에 인증 방법을 변경할 수 없습니다.</block>
+  <block id="034e373fa9e2dc0b4cbe364fc260fa60" category="list-text">*FSx for ONTAP*에서 링크를 연결할 파일 시스템의 작업 메뉴를 선택한 다음 *관리*를 선택합니다.</block>
+  <block id="baab97c3c06c21b10c5fbf084fed88fe" category="list-text">파일 시스템 개요에서 *링크 인증*을 선택합니다.</block>
+  <block id="6a77bcb0db7f616ab9e6d4b9682fd2e8" category="list-text">인증 링크 페이지에서 인증 모드를 선택합니다.</block>
+  <block id="9bb198b717235f0a6c47edbb623da61b" category="paragraph">링크가 인증되었으므로 고급 ONTAP 작업을 수행할 수 있습니다.</block>
+  <block id="5939baecae7dc8288ebfc473986ecb42" category="section-title">링크 인증 비밀번호 업데이트</block>
+  <block id="3dbdaf9d78c6e1835c0a6d5d7aaaf3f4" category="paragraph">관리자 암호가 유효하지 않은 경우, 암호를 업데이트하여 FSx for ONTAP 파일 시스템에 대한 링크를 연결하십시오.</block>
+  <block id="99210d4bfc7a4ca55c8efe57bb8b88d1" category="list-text">파일 시스템 개요에서 *암호 업데이트*를 선택합니다.</block>
+  <block id="f98b1cc9dd042df9aefdcb9f72b86aeb" category="list-text">인증 링크 페이지에서 새 비밀번호를 두 번 입력합니다.</block>
+  <block id="3b9daf2248cf3d9617b236df5c887b99" category="paragraph">암호가 업데이트되었으며, 이제 링크가 FSx for ONTAP 파일 시스템에 연결되었습니다.</block>
+  <block id="d1a880704664676bffdaf8c74ccfdbbc" category="section-title">링크 제거</block>
+  <block id="e39c068b963de97aa76b144b426e273e" category="paragraph">환경에서 더 이상 사용하지 않는 링크를 제거할 수 있습니다. 링크를 제거하면 해당 링크를 사용하던 FSx for ONTAP 파일 시스템 또는 기타 리소스에서 특정 기능을 사용할 수 없게 됩니다.</block>
+  <block id="03fc743c74b7e7511aa1eeb9bf490f14" category="paragraph">링크는 Workload Factory에서만 삭제되며 AWS 환경에서는 삭제되지 않습니다. Workload Factory에서 링크를 제거한 후에는 AWS 계정에서 Lambda 함수를 삭제해야 합니다.</block>
+  <block id="758ba3729afd23bc4e9b98c419e8ea87" category="list-text">링크 페이지에서 삭제할 링크의 작업 메뉴를 선택한 다음 *Remove*를 선택합니다.</block>
+  <block id="f1ce091ae1a5a535ceceb1b8895c7620" category="inline-image-macro">Workload Factory에서 링크를 제거하는 방법을 보여주는 스크린샷입니다.</block>
+  <block id="8d0a9b10b0feb1fbeb54874e4db30c45" category="paragraph"><block ref="8d0a9b10b0feb1fbeb54874e4db30c45" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="39d7d9e85c32f2e7a66207533ef4a3a9" category="list-text">확실하다면 *제거*를 다시 선택하십시오.</block>
+  <block id="0978bfc9ea0b38f88360973d41319547" category="inline-link-macro">Lambda 함수를 삭제합니다</block>
+  <block id="0cfc72f205d571b960431be39a5d413e" category="paragraph">자세한 내용은 AWS 설명서를 참조하십시오<block ref="00813965c876b66bf6a0f1cc3b46a3b0" category="inline-link-macro-rx"></block>.</block>
+  <block id="c60ba736e69705bedfc77153b72b405e" category="doc">NetApp Workload Factory에서 서비스 계정 관리</block>
+  <block id="3c126dd82372972cc1e5a7175c65d925" category="doc">NetApp Workload Factory에 가입하고 로그인합니다.</block>
+  <block id="b9be88fc11ad6670dab2c9b28bfeed84" category="doc">NetApp 지원을 위해 Workload Factory 계정을 등록하십시오</block>
+  <block id="960a198913ac6de1cc9fe9e4aa9a0e5c" category="doc">NetApp Workload Factory에서 사용자 지정 대시보드 문제 해결</block>
+  <block id="3d60bbe8009e2129f1c2ae00abebc9d9" category="doc">NetApp Workload Factory가 잘 설계된 워크로드를 지원하는 방법</block>
+  <block id="1b49013170bacd3ac0ed92bfb5d6284d" category="doc">NetApp Workload Factory의 워크로드 기능</block>
+  <block id="b238ca7ca122a1ce24711d99c0c8e351" category="list-text">Lambda 링크 연결</block>
+  <block id="7a94444038f48da1a655e7bae5941515" category="list-text">Lambda 링크 연결을 사용하여 Workload Factory 계정과 하나 이상의 FSx for ONTAP 파일 시스템 간의 신뢰 관계 및 연결을 설정할 수 있습니다. 링크를 통해 Amazon FSx for ONTAP API를 통해 사용할 수 없는 특정 파일 시스템 기능을 ONTAP REST API 호출에서 직접 모니터링하고 관리할 수 있습니다.</block>
+  <block id="0c494b9de42ea8fa58a84818a7841933" category="list-text">EDA 스토리지 작업</block>
+  <block id="05559796bcff4a2c9baaa60824e2a922" category="list-text">NetApp Workload Factory를 사용하여 성능을 최적화하고, IaC와 통합하여 스토리지 매개변수를 자동화하고, 운영 상태를 보장함으로써 전자 설계 자동화(EDA) 스토리지 운영을 간소화하십시오.</block>
+  <block id="d73e9a49c2210d74fef5ec0e42ad4292" category="sidebar">Workload Factory에 가입하고 로그인합니다.</block>
+  <block id="bd908db5ccb07777ced8023dffc802f4" category="sidebar">링크</block>
+  <block id="78f8c00f462b0fbe742eab283e3fdf7a" category="sidebar">링크에 대해 알아보기</block>
+  <block id="c108a5680d95b024bcb3f456683c719c" category="sidebar">링크를 사용하여 파일 시스템에 연결</block>
+  <block id="fa1a08e2a749c9f330c9a8e60cac9cc3" category="sidebar">링크 관리</block>
 </blocks>
