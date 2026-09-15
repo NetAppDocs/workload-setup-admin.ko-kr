@@ -1797,8 +1797,6 @@
   <block id="6cdde78d80d6fbbd8f3706a9bcac599e" category="list-text">즉각적인 인플레이스 데이터 클로닝을 위한 클론 생성 및 관리</block>
   <block id="7cacd07dfdd5c4feadcbf23d19f9972d" category="list-text">ONTAP 버전 등 ONTAP에서 직접 추가 메트릭 표시</block>
   <block id="f22e542eda471e2702ed07136761fd6c" category="list-text">스토리지 VM 및 클러스터 LIF의 역할, 엔드포인트, 노드, IP 주소 및 상태를 포함한 세부 정보 표시</block>
-  <block id="30f1ae8a88bc842cdf5e493350ae7eb1" category="inline-link-macro">FSx for ONTAP 파일 시스템에 링크 연결</block>
-  <block id="f86bb6aab3a49998f4db8fa07a49d81a" category="paragraph"><block ref="e658cbfbd30fb261626bc7c82308a713" category="inline-link-macro-rx"></block> 방법을 알아보십시오.</block>
   <block id="526aa50fb911c91291e959f7543639b0" category="doc">NetApp Workload Factory에서 사용자 지정 대시보드 관리</block>
   <block id="dbc831d32bec483a9698bd8ffbae773b" category="doc">NetApp Workload Factory에서 AI 기능 관리</block>
   <block id="a1212a4e5f083322acc45c56b9938112" category="summary">NetApp Workload Factory에서 계정과 연결된 링크를 확인하고, 링크 인증에 사용되는 암호를 업데이트하고, 링크를 제거할 수 있습니다.</block>
@@ -1853,4 +1851,7 @@
   <block id="78f8c00f462b0fbe742eab283e3fdf7a" category="sidebar">링크에 대해 알아보기</block>
   <block id="c108a5680d95b024bcb3f456683c719c" category="sidebar">링크를 사용하여 파일 시스템에 연결</block>
   <block id="fa1a08e2a749c9f330c9a8e60cac9cc3" category="sidebar">링크 관리</block>
+  <block id="bf7102668593cd82fd27a66594640387" category="inline-link-macro">FSx for ONTAP 파일 시스템에 링크 연결</block>
+  <block id="f54caf9bcfff2cb7aa30ba073518e7db" category="list-text"><block ref="f54caf9bcfff2cb7aa30ba073518e7db" category="inline-link-macro-rx"></block></block>
+  <block id="364f26fd39f55f2137b4749b01da3565" category="list-text"><block ref="364f26fd39f55f2137b4749b01da3565" category="inline-link-macro-rx"></block></block>
 </blocks>

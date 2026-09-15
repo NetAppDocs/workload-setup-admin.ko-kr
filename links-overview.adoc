@@ -76,4 +76,11 @@ Workload Factory는 일부 정보를 표시하고 일부 작업을 수행하기 
 * 스토리지 VM 및 클러스터 LIF의 역할, 엔드포인트, 노드, IP 주소 및 상태를 포함한 세부 정보 표시
 
 
-link:create-link.html["FSx for ONTAP 파일 시스템에 링크 연결"] 방법을 알아보십시오.
+
+
+[[related-information]]
+== 관련 정보
+
+* link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["FSx for ONTAP 파일 시스템에 링크 연결"]
+* link:https://docs.netapp.com/us-en/workload-setup-admin/manage-links.html["링크 관리"]
+
