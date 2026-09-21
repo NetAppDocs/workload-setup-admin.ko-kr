@@ -169,7 +169,7 @@ link:well-architected-workloads.html["잘 설계된 워크로드에 대해 자�
 * *CloudShell CLI*: Workload Factory에는 단일 브라우저 기반 CLI를 통해 여러 계정의 AWS 및 NetApp 환경을 관리하고 운영할 수 있는 CloudShell CLI가 포함되어 있습니다. Workload Factory 콘솔의 상단 표시줄에서 CloudShell에 액세스합니다.
 * *REST API*: Workload Factory REST API를 사용하여 FSx for ONTAP 파일 시스템 및 기타 AWS 리소스를 배포하고 관리합니다.
 * *CloudFormation*: AWS CloudFormation 코드를 사용하여 Workload Factory 콘솔에서 정의한 작업을 수행하여 AWS 계정의 CloudFormation 스택에서 AWS 및 타사 리소스를 모델링, 프로비저닝 및 관리합니다.
-* *Terraform NetApp Workload Factory 공급자*: Terraform을 사용하여 Workload Factory 콘솔에서 생성된 인프라 워크플로를 구축하고 관리합니다.
+* *NetApp Terraform 공급자*: Workload Factory 콘솔에서 생성된 인프라 워크플로를 구축하고 관리하기 위해 Terraform을 사용합니다.
 
 
 

@@ -1022,7 +1022,6 @@
   <block id="65c95ed5c9f895be6dfa81e8583c86af" category="list-text">*CloudShell CLI*: Workload Factory에는 단일 브라우저 기반 CLI를 통해 여러 계정의 AWS 및 NetApp 환경을 관리하고 운영할 수 있는 CloudShell CLI가 포함되어 있습니다. Workload Factory 콘솔의 상단 표시줄에서 CloudShell에 액세스합니다.</block>
   <block id="34904d30d825a389b588efb76a1ceb16" category="list-text">*REST API*: Workload Factory REST API를 사용하여 FSx for ONTAP 파일 시스템 및 기타 AWS 리소스를 배포하고 관리합니다.</block>
   <block id="3995165ba76339d9d4d08edf5a17c07c" category="list-text">*CloudFormation*: AWS CloudFormation 코드를 사용하여 Workload Factory 콘솔에서 정의한 작업을 수행하여 AWS 계정의 CloudFormation 스택에서 AWS 및 타사 리소스를 모델링, 프로비저닝 및 관리합니다.</block>
-  <block id="a1b1209dad1b58c4e66fd68ee5bc0148" category="list-text">*Terraform NetApp Workload Factory 공급자*: Terraform을 사용하여 Workload Factory 콘솔에서 생성된 인프라 워크플로를 구축하고 관리합니다.</block>
   <block id="cfcd02bc3ad349605f667b1db0164fe0" category="paragraph">Workload Factory를 사용하면 특정 워크로드에 맞게 FSx for ONTAP 파일 시스템을 최적화, 자동화하고 운영할 수 있습니다.  각 워크로드는 연관된 REST API를 노출합니다.  이러한 워크로드와 API를 합치면 FSx for ONTAP 파일 시스템을 관리하는 데 사용할 수 있는 유연하고 확장 가능한 개발 플랫폼이 형성됩니다.</block>
   <block id="49dac47ef61c863ab22404394b6c84e7" category="paragraph">Workload Factory REST API를 사용하면 다음과 같은 여러 가지 이점이 있습니다.</block>
   <block id="b5b61948785c8f81b44871382cf798d9" category="list-text">Workload Factory 인증은 OAuth2 표준을 기반으로 합니다.  NetApp Auth0 서비스 구현에 의존합니다.</block>
@@ -1364,7 +1363,6 @@
   <block id="4ebed31793305164cd5e1b71336c2244" category="paragraph">추적하고 싶은 내용을 일반 언어로 설명하기만 하면 AI가 요청에 따라 대시보드를 생성해 줍니다. 예를 들어 재해 복구 상태, 지역별 용량 및 비용, 스토리지 보호 규정 준수, 기타 운영 지표 등을 추적할 수 있습니다.</block>
   <block id="f2c8c03b6d33f0a06783ce6241b381a6" category="paragraph">사용자 지정 대시보드는 읽기 전용이므로 스토리지 또는 워크로드 설정을 변경할 수 없습니다. Workload Factory 계정에 등록된 모든 사용자는 이러한 대시보드를 보고 관리할 수 있으므로 팀 간에 인사이트를 공유하고 협업을 유지하는 데 도움이 됩니다.</block>
   <block id="7f7fdf6329959f984b3ff303ae5ac37f" category="inline-link-macro">맞춤형 대시보드에 대해 자세히 알아보기</block>
-  <block id="b95d6b8ad9f73321f9cc2385811deedb" category="paragraph"><block ref="b95d6b8ad9f73321f9cc2385811deedb" category="inline-link-macro-rx"></block></block>
   <block id="b8aad264abc6ada71a68a9b5a701a58b" category="summary">AI 기반 프롬프트를 활용하여 맞춤형 대시보드를 생성하고, 워크로드와 운영 우선순위에 가장 중요한 요소를 모니터링하세요.</block>
   <block id="dfc2a77d9b383cd28cba1a1e99f9a378" category="doc">사용자 지정 대시보드 만들기</block>
   <block id="43d2bb31c641fd8b871b835572bc7441" category="paragraph">모니터링하고 싶은 항목을 쉬운 언어로 설명하여 맞춤형 대시보드를 생성하세요. AI가 설정 과정을 안내하여 사용자의 업무량과 우선순위에 맞는 대시보드를 만들 수 있도록 도와드립니다.</block>
@@ -1854,4 +1852,6 @@
   <block id="bf7102668593cd82fd27a66594640387" category="inline-link-macro">FSx for ONTAP 파일 시스템에 링크 연결</block>
   <block id="f54caf9bcfff2cb7aa30ba073518e7db" category="list-text"><block ref="f54caf9bcfff2cb7aa30ba073518e7db" category="inline-link-macro-rx"></block></block>
   <block id="364f26fd39f55f2137b4749b01da3565" category="list-text"><block ref="364f26fd39f55f2137b4749b01da3565" category="inline-link-macro-rx"></block></block>
+  <block id="dd6c12ecaee3143ccc7a7d85e16032ff" category="paragraph"><block ref="dd6c12ecaee3143ccc7a7d85e16032ff" category="inline-link-macro-rx"></block></block>
+  <block id="06e2f75907573850abfa673fd6e8572a" category="list-text">*NetApp Terraform 공급자*: Workload Factory 콘솔에서 생성된 인프라 워크플로를 구축하고 관리하기 위해 Terraform을 사용합니다.</block>
 </blocks>
