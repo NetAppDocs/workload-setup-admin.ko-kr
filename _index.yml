@@ -46,6 +46,12 @@ indexpage:
       url: https://docs.netapp.com/us-en/workload-databases/analyze-error-logs.html
     - title: 스토리지 워크로드에 대한 EMS 이벤트를 보고 분석합니다.
       url: https://docs.netapp.com/us-en/workload-fsx-ontap/analyze-events.html
+  - title: AI 에이전트
+    links:
+    - title: AI 에이전트에 대해 알아보기
+      url: "/learn-agent.html"
+    - title: AI 에이전트 설정 관리
+      url: "/manage-agent-settings.html"
   - title: 맞춤형 대시보드
     links:
     - title: 맞춤형 대시보드에 대해 알아보기

@@ -997,7 +997,6 @@
   <block id="a0f53b5544ae2841af96b6a2c93a0849" category="paragraph">Workload Factory 플랫폼은 다음과 같은 주요 기능을 제공합니다.</block>
   <block id="5999715bf3ed9ba4ec9a80b7687fe818" category="list-text">서비스 계정을 사용하여 NetApp Workload Factory 작업을 안전하고 안정적으로 자동화하세요.  서비스 계정은 사용자 관리 제한 없이 안정적이고 오래 지속되는 자동화를 제공하며 API 액세스만 제공하므로 보안이 더욱 강화되었습니다.</block>
   <block id="e89477f461ecef2d895595553cc0cfbf" category="list-text">Ask Me AI 비서</block>
-  <block id="c0eadc4e4502d909eddd3b5b2d48b232" category="list-text">AI 비서에게 FSx for ONTAP 파일 시스템을 관리하고 운영하는 방법에 대해 질문해 보세요.  Ask Me는 MCP(Model Context Protocol)를 사용하여 외부 환경과 안전하게 인터페이스하고 API 도구를 쿼리하여 특정 스토리지 환경에 맞춤형 응답을 제공합니다.</block>
   <block id="f23d73684a524dc65f1c2ab55054ed6c" category="paragraph">Workload Factory를 사용하면 Amazon Web Services에서 클라우드 스토리지를 관리하고 워크로드 기능을 사용할 수 있습니다.</block>
   <block id="cc3487971ff751f7d4df80cbca84205b" category="paragraph">NetApp Workload Factory Amazon FSx for NetApp ONTAP 는<block ref="eada645bedd6ca3d760173ba22baf6b0" category="inline-link-macro-rx"></block> 잘 설계된 모범 사례를 염두에 두고 만들어졌습니다.</block>
   <block id="6396fbe69c05e9a323cf53a0fbf0983d" category="paragraph">Workload Factory는 무료로 사용할 수 있습니다.  Amazon Web Services(AWS)에 지불하는 비용은 배포하려는 스토리지 및 워크로드 서비스에 따라 달라집니다.  여기에는 Amazon FSx for NetApp ONTAP , AWS 인프라의 VMware Cloud, AWS 서비스 등의 비용이 포함됩니다.</block>
@@ -1304,7 +1303,6 @@
   <block id="cce7bd3a3721067273866ec7f3ec7b7c" category="list-text">*알림*: NetApp Console의 종 모양 아이콘 아래에 알림이 표시되도록 Workload Factory를 구성하십시오.</block>
   <block id="a58c54927d168d58046b4ad29f5254fa" category="list-text">*이메일*: NetApp Console에서 이메일 알림을 활성화하여 Amazon SNS 구성 없이 계정과 연결된 모든 이메일 주소로 알림을 받을 수 있습니다.</block>
   <block id="d7b2e59eb21ae19aa7b493f93fbcb35f" category="list-text">*Amazon SNS*: Workload Factory가 Amazon SNS 주제로 알림을 보내도록 구성합니다.</block>
-  <block id="e174fa0e05fb5c229301ef978773782d" category="list-text">*이메일*: Workload Factory 콘솔에서 이메일 알림을 활성화하여 Amazon SNS 구성 없이 계정과 연결된 모든 이메일 주소로 알림을 받을 수 있습니다.</block>
   <block id="7184b61f2058f394c7d6b104dc166242" category="list-text">*Amazon SNS*: Workload Factory 콘솔을 사용하여 Amazon SNS 토픽으로 알림을 보내도록 Workload Factory를 구성합니다.</block>
   <block id="150b7425bee731f53d950cb07997d3a9" category="admonition">NetApp Console에서 알림을 구성하면, 알림 전달에 대한 소유권이 NetApp Console로 이전되며, Workload Factory 콘솔의 알림 옵션은 비활성화되어 읽기 전용 모드로 표시됩니다. 툴팁에는 알림이 NetApp Console에서 관리된다고 안내되어 있습니다. 이후에는 NetApp Console에서만 알림을 관리할 수 있습니다.</block>
   <block id="719c05c1c99e00fa5e0edb33bb8190f6" category="paragraph">다음 필수 조건은 Amazon SNS 알림을 구성할 때만 적용됩니다.</block>
@@ -1312,8 +1310,6 @@
   <block id="3cffbdfd446e6b3ca39fc52d1b2a87ab" category="list-text">*NetApp Console 알림*: Workload Factory가 NetApp Console에 알림을 보내도록 구성하려면 *NetApp Console 알림 활성화*를 선택하십시오.</block>
   <block id="4941b94ab67ffcf8b95fddca7b5ce770" category="list-text">*이메일 알림*: 계정에 연결된 모든 이메일 주소로 Workload Factory에서 알림을 보내도록 구성하려면 *이메일 알림 활성화*를 선택하십시오.</block>
   <block id="0d7adbc19c316fab18fa015b723496bd" category="list-text">*Amazon SNS 알림*: *SNS 알림 활성화*를 선택한 다음 Amazon SNS 콘솔에서 Amazon SNS를 구성하는 지침을 따르세요.</block>
-  <block id="458f208085c8b6ec69e163ddf2378427" category="list-text">다음 알림 유형 중 하나 이상을 활성화합니다.</block>
-  <block id="622901cf56fa55473d2f9550e6422faf" category="list-text">*이메일 알림*: *이메일 알림 활성화*를 선택합니다. 계정과 연결된 모든 이메일 주소가 읽기 전용 모드로 표시됩니다.</block>
   <block id="3bf17ee9de6360f01456d2fe35c8ff4c" category="paragraph">알림에 필터를 적용하면 불필요한 알림 트래픽을 줄이고 특정 사용자에게 특정 유형의 알림만 보낼 수 있습니다. 이 기능은 SNS 알림의 경우 Amazon SNS 정책을 사용하고, NetApp Console의 알림 설정을 통해 구현할 수 있습니다.</block>
   <block id="8749fce6a42b5cc208c97e090bbdf52e" category="section-title">NetApp Console에서 알림 필터링</block>
   <block id="067205dc8475e129dc9d47a407ae631d" category="paragraph">NetApp Console 알림 설정을 사용하여 콘솔에서 수신하는 알림을 심각도 수준(예: 중요, 정보 또는 경고)별로 필터링할 수 있습니다.</block>
@@ -1553,7 +1549,6 @@
   <block id="ebd4b28f0632a0dc47fff6d0e28857b1" category="doc">AI 기능 관리</block>
   <block id="13bb649429b18adc1dadc0ed391c5bc2" category="paragraph">Workload Factory에서 AI 기능에 대한 액세스를 제어합니다. AI 기능을 끄거나 NetApp에서 관리하는 AWS Bedrock을 사용할 수 있습니다.</block>
   <block id="00e95115c994386ef85f1864db952bca" category="section-title">AI 기능 정보</block>
-  <block id="5a41793d075495dfb423bb395a189adf" category="paragraph">Workload Factory에는 Ask Me, 맞춤형 대시보드, EMS, 데이터베이스 로그 및 지연 시간 분석기 등 사용자 경험을 향상시키는 여러 AI 기반 기능이 포함되어 있습니다.</block>
   <block id="46918c8c585299e7a785eed266de3f97" category="paragraph">Workload Factory 관리자는 AI 설정 페이지에서 이러한 기능이 AI를 사용하는 방식을 제어할 수 있습니다.</block>
   <block id="50f33d14f129e4548c1c270fd6725a78" category="section-title">구성 옵션</block>
   <block id="5787d906b76d8323ff398ce17924ceda" category="paragraph">다음 설정 옵션 중에서 선택하십시오.</block>
@@ -1563,7 +1558,6 @@
   <block id="9a0258efc499c889c5f1af73bbaf4364" category="list-text">월별 사용 크레딧은 조직 전체에서 공유됩니다.</block>
   <block id="2c8b8060f9331f918beb8261403785ec" category="list-text">별도의 AWS 설정은 필요하지 않습니다.</block>
   <block id="1ee78c04d8b078adcb0fca6be60af5a2" category="list-text">GenAI 기능 비활성화</block>
-  <block id="8828805c938d7fc1a48fbf3585c37b14" category="list-text">모든 AI 기능을 비활성화합니다. 사용자는 더 이상 질문하기, 분석기, 사용자 지정 대시보드, 규칙 생성기 또는 기타 AI 기반 툴을 사용할 수 없습니다.</block>
   <block id="396640080b08108896efb48796063406" category="list-text">계정 관리자가 AI 기능을 설정하는 것을 권장합니다.</block>
   <block id="6b7af6c72f84f0f7380106617c11be78" category="section-title">AI 기능 구성</block>
   <block id="3f0879fc8845a02f07ea71a0a584847e" category="list-text">메뉴에서 *관리*를 선택한 다음 *AI 설정*을 선택합니다.</block>
@@ -1617,7 +1611,6 @@
   <block id="255efce8fcb0ce70d6ca799d3f7fcce4" category="admonition">계정 관리자가 AI 기능을 비활성화한 경우 AI가 생성한 오류 응답을 사용할 수 없습니다. <block ref="56d2e09cbb0a828478db20ff2d11774d" category="inline-link-macro-rx"></block>.</block>
   <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">2026년 8월 3일</block>
   <block id="1cdbc8bcb26cc8d5e894a97b9e7f269f" category="section-title">2026년 7월 5일</block>
-  <block id="8fb2a31345fc5c5e72c947d436b5077b" category="admonition">계정 관리자는 AI 기능을 켜거나 끌 수 있습니다. 관리자가 AI 기능을 끄면 Ask Me AI 비서를 사용할 수 없습니다. <block ref="56d2e09cbb0a828478db20ff2d11774d" category="inline-link-macro-rx"></block>.</block>
   <block id="959c1faca1dbb57f8dac1b5058bf9c58" category="paragraph"><block ref="959c1faca1dbb57f8dac1b5058bf9c58" category="inline-link-macro-rx"></block></block>
   <block id="167e20b67f84068555b3081057c696b8" category="paragraph"><block ref="167e20b67f84068555b3081057c696b8" category="inline-link-macro-rx"></block></block>
   <block id="0e23d2a91e2fd1a7eb141ceb8cd9ddcf" category="paragraph"><block ref="0e23d2a91e2fd1a7eb141ceb8cd9ddcf" category="inline-link-macro-rx"></block></block>
@@ -1854,4 +1847,135 @@
   <block id="364f26fd39f55f2137b4749b01da3565" category="list-text"><block ref="364f26fd39f55f2137b4749b01da3565" category="inline-link-macro-rx"></block></block>
   <block id="dd6c12ecaee3143ccc7a7d85e16032ff" category="paragraph"><block ref="dd6c12ecaee3143ccc7a7d85e16032ff" category="inline-link-macro-rx"></block></block>
   <block id="06e2f75907573850abfa673fd6e8572a" category="list-text">*NetApp Terraform 공급자*: Workload Factory 콘솔에서 생성된 인프라 워크플로를 구축하고 관리하기 위해 Terraform을 사용합니다.</block>
+  <block id="f1b1a4bfd4b138d7b7f910daf038bf87" category="doc">Workload Factory용 AI 에이전트</block>
+  <block id="4f92226af9b21739ad4453bb92ea1a12" category="paragraph">Workload Factory AIOps는 AI를 사용하여 환경을 분석하고 개선 사항을 권장합니다. 사용자가 승인하면 설정한 자격 증명과 권한을 사용하여 작업을 수행할 수도 있습니다. AI 에이전트는 환경을 분석하여 위험 요소를 찾아내고, 워크로드를 개선하고, Workload Factory 및 Slack에서 발생하는 문제를 해결하도록 지원합니다.</block>
+  <block id="d2887c33a251e8530157941bab73941d" category="paragraph">Ask Me의 새로운 *에이전트 살펴보기* 섹션에서 AI 에이전트를 이용해 보세요. 에이전트는 기본적으로 읽기 전용 모드로 실행되며 추천 및 분석 정보를 제공합니다.</block>
+  <block id="13b9f07ec133fa8d4a2ca6cc3fdd50fd" category="paragraph">*Agents settings*를 사용하여 에이전트의 작동 방식을 제어할 수 있습니다. 다음을 수행할 수 있습니다.</block>
+  <block id="51ac931b574bb48f344c39da84a32911" category="list-text">읽기 전용 모드 또는 읽기/쓰기 모드를 선택합니다.</block>
+  <block id="2eef1803f198e56db81b4062ea8cddf4" category="list-text">에이전트가 사용할 수 있는 자격 증명을 선택하십시오.</block>
+  <block id="46a4cbdaf48bb2fb183d7572e3a8f6b7" category="list-text">사용자 지정 지침 추가</block>
+  <block id="cbf940f0da0f9c2f02c84f568e2df3e3" category="list-text">답변의 상세 수준을 조정합니다</block>
+  <block id="72c9ca3fa9790aabd5a7a741dfe036e9" category="paragraph">이러한 추가 제어 기능을 통해 가시성과 감독 기능을 강화할 수 있습니다. 읽기/쓰기 모드에서 에이전트는 AWS, ONTAP 또는 지원되는 API를 변경하기 전에 사용자의 승인을 받아야 합니다. 또한 에이전트의 추론 과정 및 Slack에서 표시되는 툴 활동을 포함하여 응답에 표시할 세부 정보의 수준을 선택할 수 있습니다.</block>
+  <block id="8b4711746b3adfa755ed575da3759c69" category="paragraph">에이전트는 다중 계정 환경을 지원하며 설정도 간편합니다. 단일 에이전트가 여러 자격 증명을 사용하여 여러 AWS 계정에서 안전하게 작동할 수 있습니다.</block>
+  <block id="ff2cb9e669640d8f287be7fc339c4d78" category="inline-link-macro">AI 에이전트에 대해 알아보기</block>
+  <block id="fd0b6331664a65cf7a31ea72bbff0ad8" category="paragraph"><block ref="fd0b6331664a65cf7a31ea72bbff0ad8" category="inline-link-macro-rx"></block></block>
+  <block id="718a428bd3b2faadb3c143efe186c19c" category="inline-link-macro">에이전트 설정 관리</block>
+  <block id="f96519dcd31d8fc6ae26fb065d41298c" category="paragraph"><block ref="f96519dcd31d8fc6ae26fb065d41298c" category="inline-link-macro-rx"></block></block>
+  <block id="3cfde347b20875f3299e4bc85cde4012" category="section-title">Ask Me의 예약 작업</block>
+  <block id="ed6bda88b37dd9ee0232de291a362174" category="paragraph">이제 Ask Me 채팅에서 원하는 메시지를 설정하여 예약 작업을 생성할 수 있습니다. 예약 작업을 사용하여 Ask Me에게 정기적인 점검을 실행하고, 설정한 일정에 따라 채팅으로 업데이트를 전송하도록 요청할 수 있습니다.</block>
+  <block id="ff51f1512e81cb44e19946405c4c3751" category="paragraph">예시 프롬프트:</block>
+  <block id="9c51276de03bc7f0cc89565810a9583c" category="list-text">문제를 조기에 발견하기 위해 모든 FSx for NetApp ONTAP 파일 시스템의 상태 및 수명 주기 상태를 매시간 확인합니다.</block>
+  <block id="7c232a692347d9efae9eafb444b454ef" category="list-text">액세스 가능한 모든 AWS FSx 파일 시스템을 매시간 나열하여 최신 인벤토리를 유지합니다.</block>
+  <block id="21acc05c94ffdfe8d543fc22e8162a92" category="paragraph"><block ref="21acc05c94ffdfe8d543fc22e8162a92" category="inline-link-macro-rx"></block></block>
+  <block id="fcc3c37c09c2649e94509997e3e32ace" category="section-title">Ask Me의 ONTAP 지원</block>
+  <block id="5887518ab4bafe0e2cd30ee6d85ca830" category="paragraph">Ask Me는 이제 FSx for ONTAP 및 온프레미스 ONTAP 시스템을 지원합니다. 동일한 채팅 환경을 사용하여 전체 ONTAP 인프라에 대한 답변과 인사이트를 얻을 수 있습니다.</block>
+  <block id="61ac51994f4e558eb3be753f892d08aa" category="section-title">알림 업데이트</block>
+  <block id="02796e8ea898eccf4fc1ec43b8c9a990" category="paragraph">NetApp Console 알림이 이제 기본적으로 활성화됩니다. NetApp Console 사용자는 추가 구성 없이 Workload Factory 알림을 자동으로 받게 됩니다.</block>
+  <block id="21342e11f90d32dc68b1110fcbb8adc2" category="inline-link-macro">Workload Factory 알림</block>
+  <block id="a70bc5a52e36d1d7057060329e076649" category="paragraph"><block ref="a70bc5a52e36d1d7057060329e076649" category="inline-link-macro-rx"></block></block>
+  <block id="5c944601b7f8744b2a84a9a8ea43d363" category="section-title">링크 생성 알림 이메일</block>
+  <block id="19206cde68f30f89cddf386749d22382" category="paragraph">Workload Factory는 이제 자격 증명을 성공적으로 추가한 후 링크 연결을 완료하도록 알림을 보냅니다. 자격 증명을 통해 리소스를 검색할 수 있지만, 고급 ONTAP 기능을 사용하려면 검색된 파일 시스템과의 링크 연결이 필요합니다. 이메일 알림은 매주 월요일에 발송됩니다. 링크 연결이 완료되면 알림은 더 이상 발송되지 않습니다.</block>
+  <block id="9ea7b6eb4bee9afd3cbcdda4cee6e9ca" category="section-title">Lambda 링크 버전 알림 및 업그레이드 안내</block>
+  <block id="44268d176d67be14130038589d76e779" category="paragraph">Workload Factory는 이제 Lambda 링크가 최신 이미지를 사용하지 않을 경우 알림을 표시합니다. 링크에 자동 업그레이드가 지원되지 않는 경우, 새 버전이 출시되면 알림이 표시됩니다.</block>
+  <block id="36be3d9219f21557e17dda1fb159e09d" category="paragraph">링크 페이지에서 업그레이드 지침을 확인할 수 있습니다. 이 지침에는 Lambda 링크 이미지를 수동으로 업데이트하는 방법과 자동 업그레이드가 가능한 경우 이를 활성화하는 방법이 설명되어 있습니다. 링크를 최신 상태로 유지하면 최신 기능을 이용하고, 알려진 문제를 해결하며, 최근 보안 업데이트를 적용할 수 있습니다.</block>
+  <block id="14bda382780d759b676db8bd277841a9" category="paragraph">자동 업그레이드를 지원하지 않는 링크에 대해 최신 링크 버전을 사용할 수 있는 경우 FSx for ONTAP 대시보드에서도 알림을 받을 수 있습니다.</block>
+  <block id="0354b0d97d0b0a9757874cd60afce03c" category="list-text">*이메일 알림*: 이메일 알림을 받으려면 <block ref="ee6417f6e84445088f5a293850cbcb2f" category="inline-link-macro-rx"></block> 알림 설정에서 알림 수신자와 심각도 기본 설정을 구성하십시오.</block>
+  <block id="2c8d2ace24ab724b2b9846dfbd1113fb" category="summary">Workload Factory용 AI 에이전트가 어떻게 환경을 분석하고, 위험 요소를 파악하며, 성능 개선 방안을 제시하고, 사용자의 승인을 받아 필요한 조치를 취하는지 알아보세요.</block>
+  <block id="a4988f1624f7fc0b4eaabf35a45c6593" category="doc">NetApp Workload Factory의 AI 에이전트에 대해 알아보세요.</block>
+  <block id="44930f32325dbab8392ff7743e877c7e" category="paragraph">Workload Factory AIOps는 AI를 사용하여 환경을 분석하고 개선 사항을 권장합니다. 사용자가 승인하면 설정한 자격 증명과 권한을 사용하여 필요한 조치를 취할 수도 있습니다.</block>
+  <block id="9b96c88a6583aa0e9a0e03809f482d9e" category="admonition">계정 관리자가 AI 기능을 비활성화한 경우 메시지가 표시되고 상담원을 사용할 수 없습니다. 관리자에게 문의하거나 <block ref="51cc9b1bceb3cdf8e5a226d8fb6d37eb" category="inline-link-macro-rx"></block>.</block>
+  <block id="29e96b144158fa2cf3ed37b1696584a9" category="paragraph">Workload Factory 계정에 AWS 자격 증명과 에이전트가 액세스하는 리소스에 필요한 IAM 권한이 있는지 확인하십시오. 읽기/쓰기 모드를 활성화하는 경우 해당 권한에는 지원되는 변경 사항도 허용되어야 합니다.</block>
+  <block id="3b8e3eff2b9d5a25eecc8e879fab9225" category="section-title">데이터 사용 및 개인정보 보호</block>
+  <block id="823764ac349552585c033c832c9a9119" category="paragraph">사용자 데이터는 AI 모델 학습에 사용되지 않습니다. 에이전트는 사용자 자격 증명을 사용하여 표준 AWS API를 통해 AWS 리소스에 안전하게 액세스하고 실제 환경에 따라 응답합니다. 모든 에이전트 활동은 NetApp 개인정보 보호 정책 및 AWS 보안 제어를 준수합니다.</block>
+  <block id="a9ad35f78cf699132ce97296208021d6" category="section-title">AI 에이전트를 사용하는 이유</block>
+  <block id="0dcc2bd50249549545f604062e32c8d1" category="paragraph">AI 에이전트는 Workload Factory에서 더욱 효율적으로 작업할 수 있도록 도와줍니다.</block>
+  <block id="08b88087b00df48c7dcec290d2085d9d" category="list-text">사용자의 환경에 맞는 답변과 권장 사항을 받아보세요.</block>
+  <block id="f41dc5b513f7a5678f949fafbb672e71" category="list-text">위험 요소와 최적화 기회를 파악합니다.</block>
+  <block id="45747fdf81b9f650b9ab26706866db24" category="list-text">문제를 해결하고 승인된 조치를 하나의 워크플로에서 수행합니다.</block>
+  <block id="6fd44b1c4edd80ad7b595f1fcb4c7483" category="list-text">예약된 점검을 실행하고 채팅 기록에서 업데이트를 받으세요.</block>
+  <block id="e974804a88a47e4bcdb4ff1c718951bc" category="list-text">FSx 기반 ONTAP 및 온프레미스 ONTAP 환경 전반에 걸쳐 작업합니다.</block>
+  <block id="4eeb2bca1dddd7a796d908c266d60075" category="section-title">AI 에이전트에 액세스합니다</block>
+  <block id="e6478bab5c49062e219e1290c4442eed" category="list-text">Ask Me 홈 페이지에서</block>
+  <block id="b3c72178808d9fa6e9c876b76d5d1928" category="list-text">Ask Me 랜딩 페이지에서 *에이전트 살펴보기*를 선택합니다. AI 에이전트 사이드 패널이 열리고 에이전트의 기능을 소개하는 환영 메시지가 표시됩니다.</block>
+  <block id="99b503a5e4373b0bc3054a025797d268" category="list-text">에이전트 리디렉션 링크에서</block>
+  <block id="54fd5f6787cd568e4b9880863150bb93" category="list-text">**Ask Me** 또는 다른 기능을 사용할 때, 더 자세한 도움을 받기 위해 상담원에게 연결되는 링크가 표시될 수 있습니다.</block>
+  <block id="98ff5af4adf0662fa0278d6e7332c116" category="section-title">AI 에이전트의 작동 방식</block>
+  <block id="31fe269c620fcf2562efe2871e4398f8" category="section-title">에이전트가 환경에 액세스하는 방법</block>
+  <block id="d6356702d2caa14ca196fe664fc1853e" category="inline-link-macro">에이전트 설정</block>
+  <block id="dfee9e31025ca5f152cf22d64bfe765f" category="paragraph">에이전트는 현재 Workload Factory 범위에 포함되어 있고 <block ref="503a0786471e5d22d87709a40b737283" category="inline-link-macro-rx"></block>에서 선택된 자격 증명으로 지원되는 리소스에만 액세스할 수 있습니다. 에이전트는 두 가지 제어 조건이 모두 적용되는 경우에만 작동할 수 있습니다. 에이전트가 액세스할 수 있는 리소스는 AWS 자격 증명에 할당된 권한에 따라 달라집니다. 기본적으로 모든 자격 증명이 선택되어 있지만, 구성된 자격 증명의 하위 집합으로 줄일 수 있습니다.</block>
+  <block id="f19cfe1072c3d3c974b0cdafbcdde1ef" category="paragraph">현재 담당 업무 범위는 다음과 같습니다.</block>
+  <block id="676cd33769e7c44db0294ca1bdc4a818" category="list-text">*AWS 계정*: 에이전트가 액세스할 수 있는 AWS 계정입니다.</block>
+  <block id="8f7fd41f1486852019ec1e81297e4749" category="list-text">*자격 증명*: 에이전트가 사용할 수 있는 자격 증명입니다.</block>
+  <block id="db9be091d62e76416638fd7987fac0d3" category="list-text">*리전*: 에이전트가 액세스할 수 있는 AWS 리전입니다.</block>
+  <block id="9ea7586a1a950d81f272e8403a8f6cbe" category="paragraph">Workload Factory의 필터는 현재 보고 있는 AWS 계정 및 리전 등 현재 페이지의 범위를 설정합니다. 에이전트 설정은 해당 범위 내에서 에이전트가 사용할 수 있는 자격 증명을 제어합니다. 리소스에 대한 액세스는 해당 자격 증명에 할당된 IAM 권한에도 따라 달라집니다.</block>
+  <block id="28dec2f4988032196e5673d255d3c391" category="admonition">*Agents settings* 에서 자격 증명을 선택한다고 해서 AWS 권한이 추가로 부여되는 것은 아닙니다. 에이전트가 분석 또는 관리하려는 리소스에 액세스하려면 자격 증명에 필요한 IAM 권한이 있는지 확인하십시오.</block>
+  <block id="54a2d462b3304eb93c5cfe391a9e67bf" category="section-title">읽기 전용 모드(기본값)</block>
+  <block id="dd8585af3d55da47f5760a15f3d8be48" category="paragraph">기본적으로 에이전트는 읽기 전용 모드로 작동합니다. 이 모드에서 에이전트는 다음과 같은 작업을 수행할 수 있습니다.</block>
+  <block id="1b539d90e247bf7cc195a2d8096208d6" category="list-text">환경에 대한 질문에 답하십시오.</block>
+  <block id="0f896edbba7d346551c186acd1309a44" category="list-text">FSx for ONTAP 파일 시스템, 데이터베이스 및 워크로드를 분석하십시오.</block>
+  <block id="6705aab6526bc219af2bdc50b636aa94" category="list-text">위험 요소, 잘못된 구성 및 최적화 기회를 파악합니다.</block>
+  <block id="e863933d9a2c33d982a9403853ef5c8f" category="list-text">성능, 가용성, 보호 및 비용 효율성을 개선하기 위한 권장 사항을 제공합니다.</block>
+  <block id="0da32bbd416014e9a050dd9753a5f97c" category="list-text">문제점을 파악하고 해결 방안을 제시합니다.</block>
+  <block id="5c5d131e2fde1dde32d484bb16b397d5" category="paragraph">읽기 전용 모드에서는 리소스를 변경할 수 없습니다. 쓰기 권한이 필요한 작업을 요청하면 에이전트가 제한 사항을 설명하고 에이전트 설정 링크를 제공합니다.</block>
+  <block id="c43e0775dbe854488f7416962d78486c" category="section-title">읽기/쓰기 모드(옵트인)</block>
+  <block id="8403b77cf5ff251eac80eb3fa63780ad" category="paragraph">읽기/쓰기 기능을 <block ref="503a0786471e5d22d87709a40b737283" category="inline-link-macro-rx"></block>에서 활성화할 수 있습니다. 이 모드에서는 에이전트가 지원되는 각 작업에 대해 설명하고 변경 사항을 적용하기 전에 사용자의 승인을 요청합니다.</block>
+  <block id="601c01875f07f976aec59310ce582da5" category="paragraph">이 승인 절차는 Slack 통합 및 NetApp Console을 포함한 모든 에이전트 환경에 적용됩니다.</block>
+  <block id="dbe095e1cf28fb37bfc9bc65e6db07ec" category="section-title">AI 에이전트에 데이터나 활동이 없을 때 사용자가 보는 화면</block>
+  <block id="02a1c40d157b16f6b4bb75e05fed5d20" category="paragraph">자격 증명이 없는 에이전트라도 일반적인 안내는 제공할 수 있습니다. 하지만 사용자의 리소스를 검토하거나 특정 환경에 맞는 맞춤형 분석 정보를 제공할 수는 없습니다.</block>
+  <block id="40b5b336cde586af18464c8514adcf84" category="summary">작동 모드, 액세스 권한, 사용자 지정 지침, 응답 세부 정보 수준 등 AI 에이전트 설정을 구성하여 Workload Factory 환경에서 AI 에이전트의 작동 방식을 제어하십시오.</block>
+  <block id="c97e3b8fd990844d5f1d9fbc0c4a1a58" category="doc">NetApp Workload Factory에서 AI 에이전트 설정 관리</block>
+  <block id="027abdce98c3533464664728631b1841" category="paragraph">Workload Factory 환경에서 AI 에이전트의 작동 방식을 설정합니다. 에이전트 작동 방식을 선택하고, 사용할 자격 증명을 결정하고, 사용자 지정 프롬프트를 추가하고, 응답 상세 수준을 조정할 수 있습니다.</block>
+  <block id="9de8087bd8bdadfe4e3bb629bc47ce3b" category="list-text">계정 관리자가 에이전트 설정을 구성하는 것을 권장합니다.</block>
+  <block id="127bc47c2c22a1c1b4353c48f309430d" category="list-text">읽기/쓰기 모드를 활성화하기 전에 에이전트가 사용자를 대신하여 작업을 수행하도록 허용할 경우 발생할 수 있는 보안 위험을 충분히 이해해야 합니다.</block>
+  <block id="caa093b0b5c5edc3c1513d77992a765a" category="admonition">계정 관리자가 AI 기능을 비활성화한 경우 AI 에이전트를 사용할 수 없습니다. <block ref="56d2e09cbb0a828478db20ff2d11774d" category="inline-link-macro-rx"></block>.</block>
+  <block id="a7f61a64f2ed965b18a4239b5377a37f" category="section-title">액세스 에이전트 설정</block>
+  <block id="aa9106dd7dbce448bc6eb071ef2c9112" category="list-text">다음 방법 중 하나를 사용하여 에이전트 설정에 액세스합니다.</block>
+  <block id="d92f9415529b85cb7482af295b940c55" category="list-text">메뉴에서 *Administration*, *Settings*, *Agents*를 차례로 선택하십시오.</block>
+  <block id="4eff4baef0601b15c7b18727d2be80c1" category="list-text">상담원 채팅 화면에서 *상담원 설정* 링크를 선택합니다.</block>
+  <block id="cc565804a9c219fe2f3854136c730f29" category="section-title">에이전트 작동 모드 설정</block>
+  <block id="44d28331c753ec749031ccccf1d70880" category="paragraph">에이전트가 읽기 전용 모드로 작동할지 또는 읽기/쓰기 모드로 작동할지 선택하십시오.</block>
+  <block id="c1754028c55cdf3e2e13a700bdd9f2ab" category="paragraph">에이전트의 작동 모드는 에이전트가 수행할 수 있는 작업을 결정합니다.</block>
+  <block id="a84826751ef0f28a9bca5de4cfd244cb" category="list-text">상담원은 사용자의 데이터를 보고 분석할 수 있지만 리소스를 변경할 수는 없습니다. 상담원은 질문에 답변하고, 위험 요소를 파악하고, 권장 사항을 제시하고, 문제 해결을 지원할 수 있습니다.</block>
+  <block id="7e6277284f05e2d4cf99020f4156281c" category="list-text">읽기/쓰기 모드</block>
+  <block id="08805adb79ed6abfef5a9b183fdd826a" category="list-text">상담원은 사용자가 선택한 자격 증명을 사용하여 사용자를 대신하여 작업을 수행할 수 있습니다. 어떤 작업을 수행하기 전에 상담원은 사용자에게 요약 정보를 보여주고 사용자의 승인을 기다립니다. 사용자의 승인 없이는 어떠한 작업도 수행하지 않습니다.</block>
+  <block id="6092eef047a776cf1ae032fce2fe1ff0" category="list-text">*에이전트 설정* 페이지에서 *에이전트 모드* 섹션으로 이동합니다.</block>
+  <block id="ae1c7cee2bb050e0f57e3431296b4490" category="list-text">작동 모드를 선택하십시오.</block>
+  <block id="9be8b23c1b30a5412be369acebac3129" category="section-title">에이전트 액세스에 사용할 자격 증명을 선택하십시오.</block>
+  <block id="bed4ed0551e8d0bd53e2940df4d0dd60" category="paragraph">에이전트가 클라우드 환경에 액세스하는 데 사용할 수 있는 AWS 자격 증명을 선택합니다. 기본적으로 모든 자격 증명이 선택되어 있지만, 구성된 자격 증명 중 일부만 선택하도록 제한할 수 있습니다.</block>
+  <block id="ad7a6d84190cb018bcb20040ba7aa840" category="paragraph">구성된 자격 증명 중에서 하나도 선택하지 않거나, 하나, 일부 또는 전부를 선택할 수 있습니다. 자격 증명을 선택하지 않으면 상담원은 일반적인 질문에는 답변할 수 있지만 환경 내 리소스를 분석할 수는 없습니다.</block>
+  <block id="04320da953584028ea1a9fef64f0a0ac" category="list-text">*에이전트 설정* 페이지에서 *자격 증명* 섹션으로 이동합니다.</block>
+  <block id="a685a78df1473e416ec4f5dd1d5e55ca" category="list-text">*자격 증명 이름* 드롭다운 메뉴에서 에이전트가 사용할 수 있는 자격 증명을 선택합니다.</block>
+  <block id="4df13cb466a3becbc8b94f5c683e4d88" category="paragraph">자격 증명이 구성되어 있지 않으면 Workload Factory 계정에 대한 자격 증명을 추가하는 옵션이 표시됩니다.</block>
+  <block id="f2ab6dda5dcaf24c6ffbc9828ce53e7e" category="section-title">Slack 연동</block>
+  <block id="a83e309e3bc8e3235a652fcff10e1a49" category="paragraph">에이전트를 Slack에 연결하고 Slack 워크스페이스에서 직접 상호 작용할 수 있습니다.</block>
+  <block id="47d254476d408dfbd41fb01b874a3e59" category="paragraph">Slack 통합 설정에 대한 자세한 내용은 Slack 통합 설명서를 참조하거나 에이전트에 대해 NetApp 담당자에게 문의하십시오.</block>
+  <block id="66e18fcdb18961698dac90fe1128ccaf" category="section-title">사용자 지정 프롬프트 추가</block>
+  <block id="944ca360f82b24c3e6cdba37ae9655ff" category="paragraph">상담원이 요청에 응답할 때 따라야 할 사용자 지정 지침, 기본 설정 또는 규칙을 추가합니다.</block>
+  <block id="2499325dea2f4195ca3a4812ba2de0a4" category="paragraph">사용자 지정 프롬프트는 상담원이 조직의 정책, 용어 및 워크플로를 준수하도록 응답 방식을 안내하는 데 도움이 됩니다. 이는 모든 상담원 상호 작용에 적용됩니다.</block>
+  <block id="1d0aa8e6f1b6bf319e12bda616651aff" category="paragraph">사용자 지정 프롬프트 필드는 기본적으로 비어 있습니다. 사용자 지정 프롬프트는 언제든지 추가, 수정 또는 삭제할 수 있습니다.</block>
+  <block id="e72865f9318e142476270f1893312be0" category="list-text">*Agents settings* 페이지에서 *Custom prompt* 섹션으로 이동합니다.</block>
+  <block id="7e9ec3a59392a9dc66594a6c8668926e" category="list-text">텍스트 필드에 에이전트에 대한 사용자 지정 지침을 입력합니다.</block>
+  <block id="f1caaeb9dcd13d22145262ee4d9928c4" category="paragraph">예를 들어, 명명 규칙, 선호하는 응답 형식 또는 에이전트가 따라야 할 회사 정책을 정의할 수 있습니다.</block>
+  <block id="f28546d1f8eb515bb452998faef01dd0" category="paragraph">상담원은 사용자의 요청에 응답할 때 사용자 지정 프롬프트와 자체 내장 기능을 함께 사용합니다.</block>
+  <block id="2f618527204802cdc7e0635d88da47f9" category="paragraph">사용자 지정 메시지를 변경하거나 제거하려면 이 페이지로 돌아와 텍스트 상자를 편집하고 *적용*을 선택하십시오.</block>
+  <block id="87856c473606410336b82bb7e93ec084" category="section-title">상세 출력 옵션 구성</block>
+  <block id="52b5a4685cfb3e3d513b7d409b3f610c" category="paragraph">에이전트가 추론 과정과 툴 사용에 대해 얼마나 자세하게 공유할지 선택하십시오.</block>
+  <block id="fc1633b3da679875551048103029e4c3" category="paragraph">상세도 옵션을 사용하면 에이전트가 응답에 도달하는 과정과 정보 수집에 사용하는 툴에 대한 자세한 정보를 확인할 수 있습니다.</block>
+  <block id="f1a4ff7ec8fc7f3d10af7f489e6dcfbd" category="list-text">상세한 추론</block>
+  <block id="23d5becf46b121e67317963fda10fb1d" category="list-text">이 기능을 활성화하면 에이전트가 답변에 도달하고 결정을 내리는 과정을 설명합니다. 이를 통해 에이전트가 특정 조치를 권장하거나 특정 결론에 도달한 이유를 이해할 수 있습니다.</block>
+  <block id="c4b6900e9ca5e303fc19fb9394ea3c86" category="list-text">자세한 툴 설명</block>
+  <block id="806c4a6030ee5638bad868ac296edc46" category="list-text">이 기능을 활성화하면 에이전트가 데이터를 수집하고 분석을 수행하는 데 사용하는 툴과 API를 표시합니다. 이를 통해 에이전트가 사용자 환경과 어떻게 상호 작용하는지 이해할 수 있습니다.</block>
+  <block id="ba309604a791da2fbf6b620fc085c387" category="paragraph">두 옵션 모두 답변을 간결하게 유지하기 위해 기본적으로 비활성화되어 있습니다. 더 자세한 정보가 필요하거나 에이전트 동작 문제를 해결할 때 활성화하세요.</block>
+  <block id="cd9b6d5e3d6f46f09890d134dcd76b6f" category="list-text">*에이전트 설정* 페이지에서 *상세 수준* 섹션으로 이동합니다.</block>
+  <block id="5af9190832e86a39b32955d77e972b2e" category="list-text">활성화할 상세 표시 옵션을 선택합니다.</block>
+  <block id="17f306dd010c4f9182635b5f5e336fa1" category="paragraph">Workload Factory에는 Ask Me, AI 에이전트, 맞춤형 대시보드, 규칙 빌더, EMS, 데이터베이스 로그 및 지연 시간 분석기 등 사용자 경험을 향상시키는 여러 AI 기반 기능이 포함되어 있습니다.</block>
+  <block id="cbdbc1bacc2d0ff55d93219e225f857a" category="list-text">모든 AI 기능을 비활성화합니다. 사용자는 더 이상 Ask Me, AI 에이전트, 분석기, 사용자 지정 대시보드, 규칙 빌더 또는 기타 AI 기반 툴을 사용할 수 없습니다.</block>
+  <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026년 9월 27일</block>
+  <block id="346e26a9cf03697a4cc5fa74d552d528" category="list-text">FSx for ONTAP 및 온프레미스 ONTAP 파일 시스템 관리 및 실행에 대한 질문을 AI 어시스턴트에게 하십시오. Ask Me는 사용자의 환경에 안전하게 연결하고 API를 사용하여 스토리지 설정에 기반한 답변을 제공합니다.</block>
+  <block id="c04236280596e42d063458cddb934506" category="list-text">AI 에이전트</block>
+  <block id="3189c2a21a0d40fdf4391d22fec8b33c" category="inline-link-macro">AI 에이전트에 대해 알아보기</block>
+  <block id="b91ab34707ef60b3cb9e7b43383594ea" category="list-text">Workload Factory AIOps는 AI를 사용하여 환경을 분석하고 개선 사항을 권장합니다.  승인하면 설정한 자격 증명과 권한을 사용하여 작업을 수행할 수도 있습니다.  AI 에이전트는 연결된 계정을 활용하여 Ask Me에서 인사이트를 제공하도록 지원합니다.  Ask Me의 "에이전트 살펴보기" 섹션을 열어 빠른 답변을 얻고, 위험 및 기회를 파악하고, 문제를 해결하고, 권장 사항을 받아보세요.  기본적으로 에이전트는 정보 보기만 가능합니다.  읽기/쓰기 모드에서는 사용자의 승인을 받은 후에만 AWS, ONTAP 및 지원되는 API 전반에 걸쳐 작업을 수행할 수 있습니다.  또한 여러 AWS 계정의 자격 증명을 사용하고, 사용자 지정 프롬프트를 추가하고, Slack에서의 추론 및 툴 활동을 포함하여 응답에 포함할 세부 정보의 수준을 선택할 수 있습니다. <block ref="4688d09efacd50ccc7831795bcbb59e1" category="inline-link-macro-rx"></block>.</block>
+  <block id="4b448c1a229bebc97e97cee06ea0fced" category="admonition">계정 관리자는 AI 기능을 켜거나 끌 수 있습니다. 관리자가 AI 기능을 끄면 Ask Me AI 어시스턴트와 AI 에이전트를 사용할 수 없게 됩니다. <block ref="56d2e09cbb0a828478db20ff2d11774d" category="inline-link-macro-rx"></block>.</block>
+  <block id="64f2f595f7dd037774e1dbd99cb2ab7b" category="sidebar">AI 에이전트 설정 관리</block>
+  <block id="737f86fc6a3bb3563670dac4c0b49585" category="sidebar">Workload Factory AIOps</block>
 </blocks>

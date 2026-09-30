@@ -1,0 +1,79 @@
+= Workload Factory용 AI 에이전트
+:allow-uri-read: 
+
+
+
+
+[[ai-agents-for-workload-factory]]
+=== Workload Factory용 AI 에이전트
+
+Workload Factory AIOps는 AI를 사용하여 환경을 분석하고 개선 사항을 권장합니다. 사용자가 승인하면 설정한 자격 증명과 권한을 사용하여 작업을 수행할 수도 있습니다. AI 에이전트는 환경을 분석하여 위험 요소를 찾아내고, 워크로드를 개선하고, Workload Factory 및 Slack에서 발생하는 문제를 해결하도록 지원합니다.
+
+Ask Me의 새로운 *에이전트 살펴보기* 섹션에서 AI 에이전트를 이용해 보세요. 에이전트는 기본적으로 읽기 전용 모드로 실행되며 추천 및 분석 정보를 제공합니다.
+
+*Agents settings*를 사용하여 에이전트의 작동 방식을 제어할 수 있습니다. 다음을 수행할 수 있습니다.
+
+* 읽기 전용 모드 또는 읽기/쓰기 모드를 선택합니다.
+* 에이전트가 사용할 수 있는 자격 증명을 선택하십시오.
+* 사용자 지정 지침 추가
+* 답변의 상세 수준을 조정합니다
+
+
+이러한 추가 제어 기능을 통해 가시성과 감독 기능을 강화할 수 있습니다. 읽기/쓰기 모드에서 에이전트는 AWS, ONTAP 또는 지원되는 API를 변경하기 전에 사용자의 승인을 받아야 합니다. 또한 에이전트의 추론 과정 및 Slack에서 표시되는 툴 활동을 포함하여 응답에 표시할 세부 정보의 수준을 선택할 수 있습니다.
+
+에이전트는 다중 계정 환경을 지원하며 설정도 간편합니다. 단일 에이전트가 여러 자격 증명을 사용하여 여러 AWS 계정에서 안전하게 작동할 수 있습니다.
+
+link:learn-agent.html["AI 에이전트에 대해 알아보기"]
+
+link:manage-agent-settings.html["에이전트 설정 관리"]
+
+
+
+[[scheduled-tasks-in-ask-me]]
+=== Ask Me의 예약 작업
+
+이제 Ask Me 채팅에서 원하는 메시지를 설정하여 예약 작업을 생성할 수 있습니다. 예약 작업을 사용하여 Ask Me에게 정기적인 점검을 실행하고, 설정한 일정에 따라 채팅으로 업데이트를 전송하도록 요청할 수 있습니다.
+
+예시 프롬프트:
+
+* 문제를 조기에 발견하기 위해 모든 FSx for NetApp ONTAP 파일 시스템의 상태 및 수명 주기 상태를 매시간 확인합니다.
+* 액세스 가능한 모든 AWS FSx 파일 시스템을 매시간 나열하여 최신 인벤토리를 유지합니다.
+
+
+link:workload-factory-overview.html#features["Ask Me에 대해 자세히 알아보기"]
+
+
+
+[[ontap-support-in-ask-me]]
+=== Ask Me의 ONTAP 지원
+
+Ask Me는 이제 FSx for ONTAP 및 온프레미스 ONTAP 시스템을 지원합니다. 동일한 채팅 환경을 사용하여 전체 ONTAP 인프라에 대한 답변과 인사이트를 얻을 수 있습니다.
+
+link:workload-factory-overview.html#features["Ask Me에 대해 자세히 알아보기"]
+
+
+
+[[notifications-update]]
+=== 알림 업데이트
+
+NetApp Console 알림이 이제 기본적으로 활성화됩니다. NetApp Console 사용자는 추가 구성 없이 Workload Factory 알림을 자동으로 받게 됩니다.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Workload Factory 알림"]
+
+
+
+[[link-creation-notification-email]]
+=== 링크 생성 알림 이메일
+
+Workload Factory는 이제 자격 증명을 성공적으로 추가한 후 링크 연결을 완료하도록 알림을 보냅니다. 자격 증명을 통해 리소스를 검색할 수 있지만, 고급 ONTAP 기능을 사용하려면 검색된 파일 시스템과의 링크 연결이 필요합니다. 이메일 알림은 매주 월요일에 발송됩니다. 링크 연결이 완료되면 알림은 더 이상 발송되지 않습니다.
+
+
+
+[[lambda-link-version-notifications-and-upgrade-guidance]]
+=== Lambda 링크 버전 알림 및 업그레이드 안내
+
+Workload Factory는 이제 Lambda 링크가 최신 이미지를 사용하지 않을 경우 알림을 표시합니다. 링크에 자동 업그레이드가 지원되지 않는 경우, 새 버전이 출시되면 알림이 표시됩니다.
+
+링크 페이지에서 업그레이드 지침을 확인할 수 있습니다. 이 지침에는 Lambda 링크 이미지를 수동으로 업데이트하는 방법과 자동 업그레이드가 가능한 경우 이를 활성화하는 방법이 설명되어 있습니다. 링크를 최신 상태로 유지하면 최신 기능을 이용하고, 알려진 문제를 해결하며, 최근 보안 업데이트를 적용할 수 있습니다.
+
+자동 업그레이드를 지원하지 않는 링크에 대해 최신 링크 버전을 사용할 수 있는 경우 FSx for ONTAP 대시보드에서도 알림을 받을 수 있습니다.

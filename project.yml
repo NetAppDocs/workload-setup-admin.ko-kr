@@ -56,6 +56,12 @@ sidebar:
       url: "/monitor-operations.html"
     - title: AI 기능 관리
       url: "/manage-genai-features.html"
+    - title: Workload Factory AIOps
+      entries:
+      - title: AI 에이전트에 대해 알아보기
+        url: "/learn-agent.html"
+      - title: AI 에이전트 설정 관리
+        url: "/manage-agent-settings.html"
     - title: 맞춤형 대시보드
       entries:
       - title: 맞춤형 대시보드에 대해 알아보기

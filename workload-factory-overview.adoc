@@ -31,11 +31,21 @@ Lambda 링크 연결:: Lambda 링크 연결을 사용하여 Workload Factory 계
 EDA 스토리지 작업:: NetApp Workload Factory를 사용하여 성능을 최적화하고, IaC와 통합하여 스토리지 매개변수를 자동화하고, 운영 상태를 보장함으로써 전자 설계 자동화(EDA) 스토리지 운영을 간소화하십시오.
 비용 절감을 위한 절약 계산기:: Amazon EBS(Elastic Block Store) 또는 EFS(Elastic File System) 스토리지 또는 Amazon FSx for Windows File Server를 사용하는 현재 배포를 분석하여 Amazon FSx for NetApp ONTAP으로 전환할 경우 절감할 수 있는 비용을 확인하십시오. 또한 계산기를 사용하여 계획 중인 향후 배포를 위한 "가상" 시나리오를 수행할 수도 있습니다.
 자동화를 촉진하기 위한 서비스 계정:: 서비스 계정을 사용하여 NetApp Workload Factory 작업을 안전하고 안정적으로 자동화하세요.  서비스 계정은 사용자 관리 제한 없이 안정적이고 오래 지속되는 자동화를 제공하며 API 액세스만 제공하므로 보안이 더욱 강화되었습니다.
-Ask Me AI 비서:: AI 비서에게 FSx for ONTAP 파일 시스템을 관리하고 운영하는 방법에 대해 질문해 보세요.  Ask Me는 MCP(Model Context Protocol)를 사용하여 외부 환경과 안전하게 인터페이스하고 API 도구를 쿼리하여 특정 스토리지 환경에 맞춤형 응답을 제공합니다.
+Ask Me AI 비서:: FSx for ONTAP 및 온프레미스 ONTAP 파일 시스템 관리 및 실행에 대한 질문을 AI 어시스턴트에게 하십시오. Ask Me는 사용자의 환경에 안전하게 연결하고 API를 사용하여 스토리지 설정에 기반한 답변을 제공합니다.
++
+--
+예시 프롬프트:
+
+* 문제를 조기에 발견하기 위해 모든 FSx for NetApp ONTAP 파일 시스템의 상태 및 수명 주기 상태를 매시간 확인합니다.
+* 액세스 가능한 모든 AWS FSx 파일 시스템을 매시간 나열하여 최신 인벤토리를 유지합니다.
+
+
+--
+AI 에이전트:: Workload Factory AIOps는 AI를 사용하여 환경을 분석하고 개선 사항을 권장합니다.  승인하면 설정한 자격 증명과 권한을 사용하여 작업을 수행할 수도 있습니다.  AI 에이전트는 연결된 계정을 활용하여 Ask Me에서 인사이트를 제공하도록 지원합니다.  Ask Me의 "에이전트 살펴보기" 섹션을 열어 빠른 답변을 얻고, 위험 및 기회를 파악하고, 문제를 해결하고, 권장 사항을 받아보세요.  기본적으로 에이전트는 정보 보기만 가능합니다.  읽기/쓰기 모드에서는 사용자의 승인을 받은 후에만 AWS, ONTAP 및 지원되는 API 전반에 걸쳐 작업을 수행할 수 있습니다.  또한 여러 AWS 계정의 자격 증명을 사용하고, 사용자 지정 프롬프트를 추가하고, Slack에서의 추론 및 툴 활동을 포함하여 응답에 포함할 세부 정보의 수준을 선택할 수 있습니다. link:learn-agent.html["AI 에이전트에 대해 알아보기"].
 
 
 
-NOTE: 계정 관리자는 AI 기능을 켜거나 끌 수 있습니다. 관리자가 AI 기능을 끄면 Ask Me AI 비서를 사용할 수 없습니다. link:manage-genai-features.html["AI 기능 관리에 대해 알아보기"].
+NOTE: 계정 관리자는 AI 기능을 켜거나 끌 수 있습니다. 관리자가 AI 기능을 끄면 Ask Me AI 어시스턴트와 AI 에이전트를 사용할 수 없게 됩니다. link:manage-genai-features.html["AI 기능 관리에 대해 알아보기"].
 
 
 

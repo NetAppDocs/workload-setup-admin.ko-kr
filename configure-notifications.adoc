@@ -20,6 +20,9 @@ NetApp Workload Factory 알림 서비스를 구성하여 NetApp Console의 경�
 
 NetApp Console 또는 Workload Factory 콘솔을 사용하여 Workload Factory 알림을 구성할 수 있습니다.
 
+
+IMPORTANT: NetApp Console에서 알림을 구성하면, 알림 전달에 대한 소유권이 NetApp Console로 이전되며, Workload Factory 콘솔의 알림 옵션은 비활성화되어 읽기 전용 모드로 표시됩니다. 툴팁에는 알림이 NetApp Console에서 관리된다고 안내되어 있습니다. 이후에는 NetApp Console에서만 알림을 관리할 수 있습니다.
+
 알림 수신 옵션은 다음과 같습니다.
 
 
@@ -37,12 +40,7 @@ NetApp Console 또는 Workload Factory 콘솔을 사용하여 Workload Factory �
 [[workload-factory-console]]
 === 워크로드 팩토리 콘솔
 
-* *이메일*: Workload Factory 콘솔에서 이메일 알림을 활성화하여 Amazon SNS 구성 없이 계정과 연결된 모든 이메일 주소로 알림을 받을 수 있습니다.
-* *Amazon SNS*: Workload Factory 콘솔을 사용하여 Amazon SNS 토픽으로 알림을 보내도록 Workload Factory를 구성합니다.
-
-
-
-IMPORTANT: NetApp Console에서 알림을 구성하면, 알림 전달에 대한 소유권이 NetApp Console로 이전되며, Workload Factory 콘솔의 알림 옵션은 비활성화되어 읽기 전용 모드로 표시됩니다. 툴팁에는 알림이 NetApp Console에서 관리된다고 안내되어 있습니다. 이후에는 NetApp Console에서만 알림을 관리할 수 있습니다.
+*Amazon SNS*: Workload Factory 콘솔을 사용하여 Amazon SNS 토픽으로 알림을 보내도록 Workload Factory를 구성합니다.
 
 .시작하기 전에
 다음 필수 조건은 Amazon SNS 알림을 구성할 때만 적용됩니다.
@@ -78,9 +76,8 @@ IMPORTANT: NetApp Console에서 알림을 구성하면, 알림 전달에 대한 
 .단계
 . 에 로그인하세요link:https://console.workloads.netapp.com["워크로드 팩토리 콘솔"^] .
 . Workload Factory 콘솔 메뉴에서 *워크로드*, *관리*, *알림 설정*을 차례로 선택합니다.
-. 다음 알림 유형 중 하나 이상을 활성화합니다.
 +
-** *이메일 알림*: *이메일 알림 활성화*를 선택합니다. 계정과 연결된 모든 이메일 주소가 읽기 전용 모드로 표시됩니다.
+** *이메일 알림*: 이메일 알림을 받으려면 link:link:https://console.netapp.com["NetApp 콘솔"^] 알림 설정에서 알림 수신자와 심각도 기본 설정을 구성하십시오.
 ** *Amazon SNS 알림*: *SNS 알림 활성화*를 선택한 다음 Amazon SNS 콘솔에서 Amazon SNS를 구성하는 지침을 따르세요.
 +
 테스트 알림을 보내 구성을 확인한 후 *적용*을 선택합니다.
