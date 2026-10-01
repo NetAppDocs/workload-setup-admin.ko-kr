@@ -1970,7 +1970,6 @@
   <block id="5af9190832e86a39b32955d77e972b2e" category="list-text">활성화할 상세 표시 옵션을 선택합니다.</block>
   <block id="17f306dd010c4f9182635b5f5e336fa1" category="paragraph">Workload Factory에는 Ask Me, AI 에이전트, 맞춤형 대시보드, 규칙 빌더, EMS, 데이터베이스 로그 및 지연 시간 분석기 등 사용자 경험을 향상시키는 여러 AI 기반 기능이 포함되어 있습니다.</block>
   <block id="cbdbc1bacc2d0ff55d93219e225f857a" category="list-text">모든 AI 기능을 비활성화합니다. 사용자는 더 이상 Ask Me, AI 에이전트, 분석기, 사용자 지정 대시보드, 규칙 빌더 또는 기타 AI 기반 툴을 사용할 수 없습니다.</block>
-  <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026년 9월 27일</block>
   <block id="346e26a9cf03697a4cc5fa74d552d528" category="list-text">FSx for ONTAP 및 온프레미스 ONTAP 파일 시스템 관리 및 실행에 대한 질문을 AI 어시스턴트에게 하십시오. Ask Me는 사용자의 환경에 안전하게 연결하고 API를 사용하여 스토리지 설정에 기반한 답변을 제공합니다.</block>
   <block id="c04236280596e42d063458cddb934506" category="list-text">AI 에이전트</block>
   <block id="3189c2a21a0d40fdf4391d22fec8b33c" category="inline-link-macro">AI 에이전트에 대해 알아보기</block>
@@ -1978,4 +1977,5 @@
   <block id="4b448c1a229bebc97e97cee06ea0fced" category="admonition">계정 관리자는 AI 기능을 켜거나 끌 수 있습니다. 관리자가 AI 기능을 끄면 Ask Me AI 어시스턴트와 AI 에이전트를 사용할 수 없게 됩니다. <block ref="56d2e09cbb0a828478db20ff2d11774d" category="inline-link-macro-rx"></block>.</block>
   <block id="64f2f595f7dd037774e1dbd99cb2ab7b" category="sidebar">AI 에이전트 설정 관리</block>
   <block id="737f86fc6a3bb3563670dac4c0b49585" category="sidebar">Workload Factory AIOps</block>
+  <block id="74bc5d714652a3ae18c64ee93e4ba085" category="section-title">2026년 9월 30일</block>
 </blocks>

@@ -15,8 +15,8 @@ summary: 클라우드 공급자 자격 증명, Codebox 개선 사항 등 Workloa
 
 
 
-[[27-september-2026]]
-== 2026년 9월 27일
+[[30-september-2026]]
+== 2026년 9월 30일
 
 
 
