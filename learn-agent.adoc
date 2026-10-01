@@ -43,7 +43,7 @@ AI 에이전트는 Workload Factory에서 더욱 효율적으로 작업할 수 �
 * 위험 요소와 최적화 기회를 파악합니다.
 * 문제를 해결하고 승인된 조치를 하나의 워크플로에서 수행합니다.
 * 예약된 점검을 실행하고 채팅 기록에서 업데이트를 받으세요.
-* FSx 기반 ONTAP 및 온프레미스 ONTAP 환경 전반에 걸쳐 작업합니다.
+* FSx for ONTAP 및 Google Cloud NetApp Volumes 환경에서 작업합니다.
 
 
 
