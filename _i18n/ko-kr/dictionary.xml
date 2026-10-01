@@ -1858,15 +1858,12 @@
   <block id="72c9ca3fa9790aabd5a7a741dfe036e9" category="paragraph">이러한 추가 제어 기능을 통해 가시성과 감독 기능을 강화할 수 있습니다. 읽기/쓰기 모드에서 에이전트는 AWS, ONTAP 또는 지원되는 API를 변경하기 전에 사용자의 승인을 받아야 합니다. 또한 에이전트의 추론 과정 및 Slack에서 표시되는 툴 활동을 포함하여 응답에 표시할 세부 정보의 수준을 선택할 수 있습니다.</block>
   <block id="8b4711746b3adfa755ed575da3759c69" category="paragraph">에이전트는 다중 계정 환경을 지원하며 설정도 간편합니다. 단일 에이전트가 여러 자격 증명을 사용하여 여러 AWS 계정에서 안전하게 작동할 수 있습니다.</block>
   <block id="ff2cb9e669640d8f287be7fc339c4d78" category="inline-link-macro">AI 에이전트에 대해 알아보기</block>
-  <block id="fd0b6331664a65cf7a31ea72bbff0ad8" category="paragraph"><block ref="fd0b6331664a65cf7a31ea72bbff0ad8" category="inline-link-macro-rx"></block></block>
   <block id="718a428bd3b2faadb3c143efe186c19c" category="inline-link-macro">에이전트 설정 관리</block>
-  <block id="f96519dcd31d8fc6ae26fb065d41298c" category="paragraph"><block ref="f96519dcd31d8fc6ae26fb065d41298c" category="inline-link-macro-rx"></block></block>
   <block id="3cfde347b20875f3299e4bc85cde4012" category="section-title">Ask Me의 예약 작업</block>
   <block id="ed6bda88b37dd9ee0232de291a362174" category="paragraph">이제 Ask Me 채팅에서 원하는 메시지를 설정하여 예약 작업을 생성할 수 있습니다. 예약 작업을 사용하여 Ask Me에게 정기적인 점검을 실행하고, 설정한 일정에 따라 채팅으로 업데이트를 전송하도록 요청할 수 있습니다.</block>
   <block id="ff51f1512e81cb44e19946405c4c3751" category="paragraph">예시 프롬프트:</block>
   <block id="9c51276de03bc7f0cc89565810a9583c" category="list-text">문제를 조기에 발견하기 위해 모든 FSx for NetApp ONTAP 파일 시스템의 상태 및 수명 주기 상태를 매시간 확인합니다.</block>
   <block id="7c232a692347d9efae9eafb444b454ef" category="list-text">액세스 가능한 모든 AWS FSx 파일 시스템을 매시간 나열하여 최신 인벤토리를 유지합니다.</block>
-  <block id="21acc05c94ffdfe8d543fc22e8162a92" category="paragraph"><block ref="21acc05c94ffdfe8d543fc22e8162a92" category="inline-link-macro-rx"></block></block>
   <block id="fcc3c37c09c2649e94509997e3e32ace" category="section-title">Ask Me의 ONTAP 지원</block>
   <block id="5887518ab4bafe0e2cd30ee6d85ca830" category="paragraph">Ask Me는 이제 FSx for ONTAP 및 온프레미스 ONTAP 시스템을 지원합니다. 동일한 채팅 환경을 사용하여 전체 ONTAP 인프라에 대한 답변과 인사이트를 얻을 수 있습니다.</block>
   <block id="61ac51994f4e558eb3be753f892d08aa" category="section-title">알림 업데이트</block>
@@ -1879,7 +1876,6 @@
   <block id="44268d176d67be14130038589d76e779" category="paragraph">Workload Factory는 이제 Lambda 링크가 최신 이미지를 사용하지 않을 경우 알림을 표시합니다. 링크에 자동 업그레이드가 지원되지 않는 경우, 새 버전이 출시되면 알림이 표시됩니다.</block>
   <block id="36be3d9219f21557e17dda1fb159e09d" category="paragraph">링크 페이지에서 업그레이드 지침을 확인할 수 있습니다. 이 지침에는 Lambda 링크 이미지를 수동으로 업데이트하는 방법과 자동 업그레이드가 가능한 경우 이를 활성화하는 방법이 설명되어 있습니다. 링크를 최신 상태로 유지하면 최신 기능을 이용하고, 알려진 문제를 해결하며, 최근 보안 업데이트를 적용할 수 있습니다.</block>
   <block id="14bda382780d759b676db8bd277841a9" category="paragraph">자동 업그레이드를 지원하지 않는 링크에 대해 최신 링크 버전을 사용할 수 있는 경우 FSx for ONTAP 대시보드에서도 알림을 받을 수 있습니다.</block>
-  <block id="0354b0d97d0b0a9757874cd60afce03c" category="list-text">*이메일 알림*: 이메일 알림을 받으려면 <block ref="ee6417f6e84445088f5a293850cbcb2f" category="inline-link-macro-rx"></block> 알림 설정에서 알림 수신자와 심각도 기본 설정을 구성하십시오.</block>
   <block id="2c8d2ace24ab724b2b9846dfbd1113fb" category="summary">Workload Factory용 AI 에이전트가 어떻게 환경을 분석하고, 위험 요소를 파악하며, 성능 개선 방안을 제시하고, 사용자의 승인을 받아 필요한 조치를 취하는지 알아보세요.</block>
   <block id="a4988f1624f7fc0b4eaabf35a45c6593" category="doc">NetApp Workload Factory의 AI 에이전트에 대해 알아보세요.</block>
   <block id="44930f32325dbab8392ff7743e877c7e" category="paragraph">Workload Factory AIOps는 AI를 사용하여 환경을 분석하고 개선 사항을 권장합니다. 사용자가 승인하면 설정한 자격 증명과 권한을 사용하여 필요한 조치를 취할 수도 있습니다.</block>
@@ -1978,4 +1974,7 @@
   <block id="64f2f595f7dd037774e1dbd99cb2ab7b" category="sidebar">AI 에이전트 설정 관리</block>
   <block id="737f86fc6a3bb3563670dac4c0b49585" category="sidebar">Workload Factory AIOps</block>
   <block id="74bc5d714652a3ae18c64ee93e4ba085" category="section-title">2026년 9월 30일</block>
+  <block id="92ef509d26c2f4b8f1eafc483dafc514" category="paragraph"><block ref="92ef509d26c2f4b8f1eafc483dafc514" category="inline-link-macro-rx"></block></block>
+  <block id="ff60e6cb69fa35fc765fb6716dc86a1d" category="paragraph"><block ref="ff60e6cb69fa35fc765fb6716dc86a1d" category="inline-link-macro-rx"></block></block>
+  <block id="5ff6cb415ca5edb6088a3bb92aadbf41" category="list-text">*이메일 알림*: 이메일 알림을 받으려면 <block ref="7532dfde8c533672ea63a5b546224a97" category="inline-link-macro-rx"></block> 알림 설정에서 알림 수신자와 심각도 기본 설정을 구성하십시오.</block>
 </blocks>

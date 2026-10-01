@@ -23,9 +23,9 @@ Ask Me의 새로운 *에이전트 살펴보기* 섹션에서 AI 에이전트를 
 
 에이전트는 다중 계정 환경을 지원하며 설정도 간편합니다. 단일 에이전트가 여러 자격 증명을 사용하여 여러 AWS 계정에서 안전하게 작동할 수 있습니다.
 
-link:learn-agent.html["AI 에이전트에 대해 알아보기"]
+link:https://docs.netapp.com/us-en/workload-setup-admin/learn-agent.html["AI 에이전트에 대해 알아보기"]
 
-link:manage-agent-settings.html["에이전트 설정 관리"]
+link:https://docs.netapp.com/us-en/workload-setup-admin/manage-agent-settings.html["에이전트 설정 관리"]
 
 
 
@@ -40,7 +40,7 @@ link:manage-agent-settings.html["에이전트 설정 관리"]
 * 액세스 가능한 모든 AWS FSx 파일 시스템을 매시간 나열하여 최신 인벤토리를 유지합니다.
 
 
-link:workload-factory-overview.html#features["Ask Me에 대해 자세히 알아보기"]
+link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html#features["Ask Me에 대해 자세히 알아보기"]
 
 
 
@@ -49,7 +49,7 @@ link:workload-factory-overview.html#features["Ask Me에 대해 자세히 알아�
 
 Ask Me는 이제 FSx for ONTAP 및 온프레미스 ONTAP 시스템을 지원합니다. 동일한 채팅 환경을 사용하여 전체 ONTAP 인프라에 대한 답변과 인사이트를 얻을 수 있습니다.
 
-link:workload-factory-overview.html#features["Ask Me에 대해 자세히 알아보기"]
+link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html#features["Ask Me에 대해 자세히 알아보기"]
 
 
 
