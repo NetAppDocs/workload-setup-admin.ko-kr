@@ -1433,15 +1433,6 @@
   <block id="dffad8b6380340c5079727deb13bb3f2" category="list-text">대시보드 목록을 검토하세요.</block>
   <block id="9e3f16aef1d22400bdae48c5cb77b00f" category="section-title">대시보드 데이터 새로 고침</block>
   <block id="4e424a1ad37782627141d4d50f79b586" category="paragraph">대시보드를 열면 대시보드 데이터가 로드됩니다. 최신 정보를 보려면 새로고침하세요.</block>
-  <block id="6835e72df37e141c78401ea8d4bfcf90" category="paragraph">대시보드가 워크로드에서 데이터를 다시 로드합니다. 마지막 업데이트 시간이 변경되어 데이터가 새로 고쳐진 시간을 표시합니다.</block>
-  <block id="74ee9feffcb1603b7eeb47c099c0e5a5" category="section-title">대시보드 삭제</block>
-  <block id="e54360b7371199d6607f76cd1ae6ad17" category="paragraph">더 이상 필요하지 않은 대시보드를 삭제하세요. 이 작업은 영구적이며 되돌릴 수 없습니다.</block>
-  <block id="3325f3a5c13a73bb87ed2dabebb0b6a3" category="list-text">*사용자 지정 대시보드* 페이지에서 제거하려는 대시보드를 찾으세요.</block>
-  <block id="0ce6306187e44bdf505a14f5d0676bb6" category="list-text">해당 대시보드의 *작업* 드롭다운 메뉴에서 *삭제*를 선택합니다.</block>
-  <block id="b26a5fa549c938ffb56d20623c3f69c0" category="list-text">삭제를 확인하세요.</block>
-  <block id="22e8351c82677bcc78bd23d6fb170bc8" category="paragraph">대시보드가 Workload Factory 계정에서 영구적으로 제거되며, 모든 사용자는 더 이상 대시보드에 접근할 수 없습니다.</block>
-  <block id="9537d9160ef701530bdd875698475957" category="inline-link-macro">추가 사용자 지정 대시보드 생성</block>
-  <block id="1258b44f1520a3cf10d648fb08dbf72e" category="list-text"><block ref="1258b44f1520a3cf10d648fb08dbf72e" category="inline-link-macro-rx"></block></block>
   <block id="0c5896a9e6c8d2cff1b4d007852b1732" category="paragraph">이 정보를 활용하여 사용자 지정 대시보드를 만들거나 사용할 때 발생할 수 있는 일반적인 문제를 해결하십시오.</block>
   <block id="2e00365fe32c89b1fd1ad214f291ca85" category="section-title">대시보드 생성 실패</block>
   <block id="09a8c59ab236b488dde6ce993a012c63" category="paragraph">**문제:** 대시보드를 생성할 때 "Failed to understand request and generate code" 오류 메시지가 표시됩니다.</block>
@@ -1977,4 +1968,28 @@
   <block id="541644294bd888a59c4f26e19102bfb2" category="paragraph">Ask Me는 이제 FSx for ONTAP 및 Google Cloud NetApp Volumes를 지원합니다. 지원되는 스토리지 환경 전반에 걸쳐 동일한 채팅 환경을 사용하여 답변과 유용한 정보를 얻을 수 있습니다.</block>
   <block id="54ba8fb885319acf274731794ecf9b35" category="list-text">FSx for ONTAP 및 Google Cloud NetApp Volumes 환경에서 작업합니다.</block>
   <block id="3ddb8c8ba0ebed85a3c1d3ddf7cc424c" category="list-text">FSx for ONTAP 및 Google Cloud NetApp Volumes 관리 및 실행에 대한 질문을 AI 어시스턴트에게 해보세요. Ask Me는 사용자의 환경에 안전하게 연결하고 API를 사용하여 스토리지 설정에 기반한 답변을 제공합니다.</block>
+  <block id="77c39d029270c567ae2816d2c688ea3b" category="doc">사용자 지정 대시보드 업데이트</block>
+  <block id="b4a3fedd52cfe46140994157b6fa12ec" category="paragraph">맞춤형 대시보드를 통해 업무 관리가 더욱 쉬워졌습니다.</block>
+  <block id="5d95426dd9834d03b33e051ae7f9fb5c" category="paragraph">지표, 차트, 시간 범위 등을 포함하여 카탈로그에서 직접 대시보드를 편집할 수 있습니다.</block>
+  <block id="e57137dc0ab44a9b0797700e3e8c851c" category="paragraph">대시보드를 편집할 때 Workload Factory는 이전 프롬프트 및 메시지와 함께 채팅을 다시 엽니다. 그런 다음 대시보드를 업데이트하거나, 변경 사항을 저장하거나, 이전 버전을 복원할 수 있습니다.</block>
+  <block id="8f44990f66d79c05eb2b8e612e7e18b5" category="paragraph">대시보드 생성자만 대시보드를 편집할 수 있습니다. 편집하는 동안에는 저장하기 전까지 다른 사용자는 변경 내용을 볼 수 없습니다.</block>
+  <block id="14dd0ad1c8f18e92cbbc77ecf3a2645b" category="paragraph">이제 대시보드 카탈로그에는 카테고리와 상태를 기준으로 대시보드를 빠르게 찾을 수 있도록 더 많은 필터가 포함됩니다.</block>
+  <block id="fb1ecdb5253f537a735a53d5e9e2eba6" category="paragraph">관리자가 AI 기능을 비활성화하거나 월별 크레딧 한도에 도달하면 대시보드 생성 및 편집이 비활성화됩니다.</block>
+  <block id="f736e966e4394f88a05cee94fdba57ff" category="paragraph"><block ref="f736e966e4394f88a05cee94fdba57ff" category="inline-link-macro-rx"></block></block>
+  <block id="e703f5c9737234e07b6d50b473d03d31" category="paragraph"><block ref="e703f5c9737234e07b6d50b473d03d31" category="inline-link-macro-rx"></block></block>
+  <block id="a6624b6c8238a8d2fecbcab00748683a" category="paragraph"><block ref="a6624b6c8238a8d2fecbcab00748683a" category="inline-link-macro-rx"></block></block>
+  <block id="6690aacdf8125a25e4539caa3239e86f" category="paragraph"><block ref="6690aacdf8125a25e4539caa3239e86f" category="inline-link-macro-rx"></block></block>
+  <block id="b2174789d5314bb12b464a8d03a18be6" category="list-text">대시보드를 편집하여 지표, 차트, 시간 범위 등 표시되는 내용을 변경할 수 있습니다.</block>
+  <block id="0d4c6d4cadfc35e450177a6f124a12ce" category="admonition">계정 관리자가 AI 기능을 비활성화한 경우 메시지가 표시되며 대시보드를 생성하거나 편집할 수 없습니다. 관리자 또는 <block ref="51cc9b1bceb3cdf8e5a226d8fb6d37eb" category="inline-link-macro-rx"></block>에 문의하십시오.</block>
+  <block id="3dacf374ca39e9d1e2ccd73b21e8d75a" category="paragraph">카탈로그에서 대시보드를 편집하고, 수정된 버전을 저장할지 여부를 결정하기 전에 대시보드 이름, 설명, 카테고리 또는 모니터링 요청을 업데이트할 수 있습니다.</block>
+  <block id="09716803bbab78d4545cc7210ae61d90" category="paragraph">대시보드가 워크로드에서 데이터를 다시 로드합니다.</block>
+  <block id="d2258a9653c6a977efeeb955b27c66e9" category="section-title">대시보드 편집</block>
+  <block id="4e2f12e496523d85bae4a969657d45aa" category="paragraph">대시보드를 편집하여 지표, 차트, 시간 범위 등 표시되는 항목을 변경할 수 있습니다.</block>
+  <block id="b13bad0dcb6df4e403e8e2af9058dfe5" category="list-text">*사용자 지정 대시보드* 페이지에서 편집하려는 대시보드를 찾으세요.</block>
+  <block id="d431f68c965a7131bbc2f48128983c25" category="list-text">해당 대시보드의 *작업* 메뉴에서 *대시보드 편집*을 선택합니다.</block>
+  <block id="63f40ecf20824ff6d561a306d3a25fd1" category="list-text">AI 대화창에서 원하는 변경 사항을 설명하십시오.</block>
+  <block id="3184c7e78934ef4b37ea845f1d56789a" category="paragraph">이 과정은 새 대시보드를 만드는 것과 유사합니다. 대시보드에서 추적하는 워크로드, 메트릭 또는 시간 범위를 변경할 수 있습니다.</block>
+  <block id="f66306510aaf399aef8bdf649739a15e" category="list-text">변경 사항을 검토하고 **저장**을 선택합니다.</block>
+  <block id="89806ea6a9ed9b0bb6cb322f912aff65" category="paragraph">대시보드에 변경 사항이 반영되어 업데이트됩니다. 최종 수정 날짜도 함께 업데이트됩니다.</block>
+  <block id="6cd19393862a5a23e39bb63b43a86baa" category="section-title">2026년 10월 4일</block>
 </blocks>
