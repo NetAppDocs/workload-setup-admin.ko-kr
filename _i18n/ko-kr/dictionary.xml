@@ -1992,4 +1992,12 @@
   <block id="f66306510aaf399aef8bdf649739a15e" category="list-text">변경 사항을 검토하고 **저장**을 선택합니다.</block>
   <block id="89806ea6a9ed9b0bb6cb322f912aff65" category="paragraph">대시보드에 변경 사항이 반영되어 업데이트됩니다. 최종 수정 날짜도 함께 업데이트됩니다.</block>
   <block id="6cd19393862a5a23e39bb63b43a86baa" category="section-title">2026년 10월 4일</block>
+  <block id="74ee9feffcb1603b7eeb47c099c0e5a5" category="section-title">대시보드 삭제</block>
+  <block id="e54360b7371199d6607f76cd1ae6ad17" category="paragraph">더 이상 필요하지 않은 대시보드를 삭제하세요. 이 작업은 영구적이며 되돌릴 수 없습니다.</block>
+  <block id="3325f3a5c13a73bb87ed2dabebb0b6a3" category="list-text">*사용자 지정 대시보드* 페이지에서 제거하려는 대시보드를 찾으세요.</block>
+  <block id="0ce6306187e44bdf505a14f5d0676bb6" category="list-text">해당 대시보드의 *작업* 드롭다운 메뉴에서 *삭제*를 선택합니다.</block>
+  <block id="b26a5fa549c938ffb56d20623c3f69c0" category="list-text">삭제를 확인하세요.</block>
+  <block id="22e8351c82677bcc78bd23d6fb170bc8" category="paragraph">대시보드가 Workload Factory 계정에서 영구적으로 제거되며, 모든 사용자는 더 이상 대시보드에 접근할 수 없습니다.</block>
+  <block id="9537d9160ef701530bdd875698475957" category="inline-link-macro">추가 사용자 지정 대시보드 생성</block>
+  <block id="1258b44f1520a3cf10d648fb08dbf72e" category="list-text"><block ref="1258b44f1520a3cf10d648fb08dbf72e" category="inline-link-macro-rx"></block></block>
 </blocks>
