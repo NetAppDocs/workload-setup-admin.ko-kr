@@ -2000,4 +2000,5 @@
   <block id="22e8351c82677bcc78bd23d6fb170bc8" category="paragraph">대시보드가 Workload Factory 계정에서 영구적으로 제거되며, 모든 사용자는 더 이상 대시보드에 접근할 수 없습니다.</block>
   <block id="9537d9160ef701530bdd875698475957" category="inline-link-macro">추가 사용자 지정 대시보드 생성</block>
   <block id="1258b44f1520a3cf10d648fb08dbf72e" category="list-text"><block ref="1258b44f1520a3cf10d648fb08dbf72e" category="inline-link-macro-rx"></block></block>
+  <block id="9a90fd93ba397d5f48de07251acc1808" category="list-text">지연 이벤트에 대한 구성 요소 분석</block>
 </blocks>
