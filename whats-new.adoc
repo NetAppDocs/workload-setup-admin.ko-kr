@@ -15,6 +15,24 @@ summary: 클라우드 공급자 자격 증명, Codebox 개선 사항 등 Workloa
 
 
 
+[[14-october-2026]]
+== 2026년 10월 14일
+
+
+
+[[use-your-own-amazon-bedrock-instance-for-ai-tools]]
+=== AI 툴에 자체 Amazon Bedrock 인스턴스를 사용하십시오.
+
+Workload Factory는 이제 AI 설정 페이지에 고객이 자체 Amazon Bedrock 인스턴스를 사용할 수 있는 또 다른 옵션을 포함합니다.
+
+이 옵션은 AI 툴용 고객 관리형 Bedrock에서 사용할 수 있으며 모든 Workload Factory AI 서비스에서 지원됩니다.
+
+연결 후, Workload Factory는 연결 성공 여부를 알려줍니다.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/manage-genai-features.html["AI 기능 관리에 대해 알아보기"]
+
+
+
 [[04-october-2026]]
 == 2026년 10월 4일
 
