@@ -82,6 +82,8 @@ sidebar:
       url: "/use-cloudshell.html"
     - title: 자격 증명을 제거합니다
       url: "/manage-credentials.html"
+  - title: FAQ
+    url: "/faq-workload-factory.html"
   - title: 지식 및 지원
     entries:
     - title: 지원을 위해 등록하십시오
