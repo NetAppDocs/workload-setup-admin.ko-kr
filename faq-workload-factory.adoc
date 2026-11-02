@@ -228,6 +228,11 @@ AI 설정 페이지에서 관리자는 NetApp 관리형 Bedrock(권장)을 선�
 
 link:manage-genai-features.html["AI 기능 관리"].
 
+.에이전트 설정 및 작업은 감사를 위해 어디에 표시됩니까?
+Tracker는 에이전트 설정 변경 사항을 기록하며, 읽기/쓰기 모드에서는 에이전트의 질문과 사용자의 답변을 포함한 각 승인 요청을 기록합니다. Workload Factory API를 통해 이루어진 리소스 변경 사항은 해당 작업을 수행하는 Workload Factory 서비스에서 로그에 기록합니다.
+
+link:manage-agent-settings.html#audit-and-tracking-for-agent-actions["에이전트 작업에 대한 감사 및 추적에 대해 알아보십시오"].
+
 .AI 사용에 제한이 있습니까?
 예. NetApp에서 관리하는 Bedrock의 경우, 각 계정에는 각 AI 기능에 대한 월별 지출 한도가 있습니다. 이 한도에 도달하면 Workload Factory는 AI 기능을 비활성화하고 인터페이스의 관련 부분을 회색으로 표시하며 툴팁을 표시합니다. 크레딧을 더 받으려면 NetApp 담당자에게 문의하십시오.
 

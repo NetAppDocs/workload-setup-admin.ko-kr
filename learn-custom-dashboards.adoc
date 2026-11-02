@@ -69,6 +69,17 @@ link:manage-custom-dashboards.html#change-dashboard-visibility["대시보드 표
 
 
 
+[[check-if-the-data-is-up-to-date]]
+== 데이터가 최신 상태인지 확인하십시오
+
+대시보드 데이터가 마지막으로 업데이트된 시점을 확인하고 언제든지 새로 고침을 요청할 수 있습니다. 툴팁에 마지막 업데이트 날짜와 시간이 표시됩니다.
+
+새 스캔을 시작하려면 *데이터 새로 고침*을 선택하십시오. 스캔이 진행 중일 때는 이 버튼을 사용할 수 없습니다. 새 데이터가 준비되면 대시보드를 업데이트할 수 있는 옵션이 포함된 배너가 나타납니다.
+
+link:manage-custom-dashboards.html#refresh-dashboard-data["대시보드 데이터를 새로 고치는 방법을 알아보세요."].
+
+
+
 [[considerations-and-limitations]]
 == 고려사항 및 제한사항
 
