@@ -1856,9 +1856,7 @@
   <block id="14bda382780d759b676db8bd277841a9" category="paragraph">자동 업그레이드를 지원하지 않는 링크에 대해 최신 링크 버전을 사용할 수 있는 경우 FSx for ONTAP 대시보드에서도 알림을 받을 수 있습니다.</block>
   <block id="2c8d2ace24ab724b2b9846dfbd1113fb" category="summary">Workload Factory용 AI 에이전트가 어떻게 환경을 분석하고, 위험 요소를 파악하며, 성능 개선 방안을 제시하고, 사용자의 승인을 받아 필요한 조치를 취하는지 알아보세요.</block>
   <block id="a4988f1624f7fc0b4eaabf35a45c6593" category="doc">NetApp Workload Factory의 AI 에이전트에 대해 알아보세요.</block>
-  <block id="44930f32325dbab8392ff7743e877c7e" category="paragraph">Workload Factory AIOps는 AI를 사용하여 환경을 분석하고 개선 사항을 권장합니다. 사용자가 승인하면 설정한 자격 증명과 권한을 사용하여 필요한 조치를 취할 수도 있습니다.</block>
   <block id="9b96c88a6583aa0e9a0e03809f482d9e" category="admonition">계정 관리자가 AI 기능을 비활성화한 경우 메시지가 표시되고 상담원을 사용할 수 없습니다. 관리자에게 문의하거나 <block ref="51cc9b1bceb3cdf8e5a226d8fb6d37eb" category="inline-link-macro-rx"></block>.</block>
-  <block id="29e96b144158fa2cf3ed37b1696584a9" category="paragraph">Workload Factory 계정에 AWS 자격 증명과 에이전트가 액세스하는 리소스에 필요한 IAM 권한이 있는지 확인하십시오. 읽기/쓰기 모드를 활성화하는 경우 해당 권한에는 지원되는 변경 사항도 허용되어야 합니다.</block>
   <block id="3b8e3eff2b9d5a25eecc8e879fab9225" category="section-title">데이터 사용 및 개인정보 보호</block>
   <block id="823764ac349552585c033c832c9a9119" category="paragraph">사용자 데이터는 AI 모델 학습에 사용되지 않습니다. 에이전트는 사용자 자격 증명을 사용하여 표준 AWS API를 통해 AWS 리소스에 안전하게 액세스하고 실제 환경에 따라 응답합니다. 모든 에이전트 활동은 NetApp 개인정보 보호 정책 및 AWS 보안 제어를 준수합니다.</block>
   <block id="a9ad35f78cf699132ce97296208021d6" category="section-title">AI 에이전트를 사용하는 이유</block>
@@ -1869,13 +1867,10 @@
   <block id="6fd44b1c4edd80ad7b595f1fcb4c7483" category="list-text">예약된 점검을 실행하고 채팅 기록에서 업데이트를 받으세요.</block>
   <block id="4eeb2bca1dddd7a796d908c266d60075" category="section-title">AI 에이전트에 액세스합니다</block>
   <block id="e6478bab5c49062e219e1290c4442eed" category="list-text">Ask Me 홈 페이지에서</block>
-  <block id="b3c72178808d9fa6e9c876b76d5d1928" category="list-text">Ask Me 랜딩 페이지에서 *에이전트 살펴보기*를 선택합니다. AI 에이전트 사이드 패널이 열리고 에이전트의 기능을 소개하는 환영 메시지가 표시됩니다.</block>
   <block id="99b503a5e4373b0bc3054a025797d268" category="list-text">에이전트 리디렉션 링크에서</block>
-  <block id="54fd5f6787cd568e4b9880863150bb93" category="list-text">**Ask Me** 또는 다른 기능을 사용할 때, 더 자세한 도움을 받기 위해 상담원에게 연결되는 링크가 표시될 수 있습니다.</block>
   <block id="98ff5af4adf0662fa0278d6e7332c116" category="section-title">AI 에이전트의 작동 방식</block>
   <block id="31fe269c620fcf2562efe2871e4398f8" category="section-title">에이전트가 환경에 액세스하는 방법</block>
   <block id="d6356702d2caa14ca196fe664fc1853e" category="inline-link-macro">에이전트 설정</block>
-  <block id="dfee9e31025ca5f152cf22d64bfe765f" category="paragraph">에이전트는 현재 Workload Factory 범위에 포함되어 있고 <block ref="503a0786471e5d22d87709a40b737283" category="inline-link-macro-rx"></block>에서 선택된 자격 증명으로 지원되는 리소스에만 액세스할 수 있습니다. 에이전트는 두 가지 제어 조건이 모두 적용되는 경우에만 작동할 수 있습니다. 에이전트가 액세스할 수 있는 리소스는 AWS 자격 증명에 할당된 권한에 따라 달라집니다. 기본적으로 모든 자격 증명이 선택되어 있지만, 구성된 자격 증명의 하위 집합으로 줄일 수 있습니다.</block>
   <block id="f19cfe1072c3d3c974b0cdafbcdde1ef" category="paragraph">현재 담당 업무 범위는 다음과 같습니다.</block>
   <block id="676cd33769e7c44db0294ca1bdc4a818" category="list-text">*AWS 계정*: 에이전트가 액세스할 수 있는 AWS 계정입니다.</block>
   <block id="8f7fd41f1486852019ec1e81297e4749" category="list-text">*자격 증명*: 에이전트가 사용할 수 있는 자격 증명입니다.</block>
@@ -1890,8 +1885,6 @@
   <block id="e863933d9a2c33d982a9403853ef5c8f" category="list-text">성능, 가용성, 보호 및 비용 효율성을 개선하기 위한 권장 사항을 제공합니다.</block>
   <block id="0da32bbd416014e9a050dd9753a5f97c" category="list-text">문제점을 파악하고 해결 방안을 제시합니다.</block>
   <block id="5c5d131e2fde1dde32d484bb16b397d5" category="paragraph">읽기 전용 모드에서는 리소스를 변경할 수 없습니다. 쓰기 권한이 필요한 작업을 요청하면 에이전트가 제한 사항을 설명하고 에이전트 설정 링크를 제공합니다.</block>
-  <block id="c43e0775dbe854488f7416962d78486c" category="section-title">읽기/쓰기 모드(옵트인)</block>
-  <block id="8403b77cf5ff251eac80eb3fa63780ad" category="paragraph">읽기/쓰기 기능을 <block ref="503a0786471e5d22d87709a40b737283" category="inline-link-macro-rx"></block>에서 활성화할 수 있습니다. 이 모드에서는 에이전트가 지원되는 각 작업에 대해 설명하고 변경 사항을 적용하기 전에 사용자의 승인을 요청합니다.</block>
   <block id="601c01875f07f976aec59310ce582da5" category="paragraph">이 승인 절차는 Slack 통합 및 NetApp Console을 포함한 모든 에이전트 환경에 적용됩니다.</block>
   <block id="dbe095e1cf28fb37bfc9bc65e6db07ec" category="section-title">AI 에이전트에 데이터나 활동이 없을 때 사용자가 보는 화면</block>
   <block id="02a1c40d157b16f6b4bb75e05fed5d20" category="paragraph">자격 증명이 없는 에이전트라도 일반적인 안내는 제공할 수 있습니다. 하지만 사용자의 리소스를 검토하거나 특정 환경에 맞는 맞춤형 분석 정보를 제공할 수는 없습니다.</block>
@@ -2169,9 +2162,7 @@
   <block id="a0029b147e3a4c22ba57efcbb020c23e" category="list-text">*최종 업데이트* 타임스탬프를 확인하고 *데이터 새로 고침*을 선택하여 업데이트된 지표를 요청하십시오</block>
   <block id="6d852ab3090e66a5f1f1a6d5675164cb" category="paragraph-title">에이전트 설정 및 작업은 감사를 위해 어디에 표시됩니까?</block>
   <block id="0f679622d131d4b9f3abef96c35743be" category="paragraph">Tracker는 에이전트 설정 변경 사항을 기록하며, 읽기/쓰기 모드에서는 에이전트의 질문과 사용자의 답변을 포함한 각 승인 요청을 기록합니다. Workload Factory API를 통해 이루어진 리소스 변경 사항은 해당 작업을 수행하는 Workload Factory 서비스에서 로그에 기록합니다.</block>
-  <block id="4c1cd3a1bad23fecc0286da543614cd7" category="paragraph"><block ref="bc36590c397b325a073c2ae9b60e53fd" category="inline-link-macro-rx"></block>.</block>
   <block id="b70a9e9de689b4f17365d6060076d3b8" category="section-title">에이전트 작업에 대한 감사 및 추적</block>
-  <block id="774a23889a059a060f089bac423f3b00" category="paragraph">읽기/쓰기 모드에서 Tracker는 에이전트의 질문과 사용자의 답변을 포함하여 각 승인 요청을 기록합니다. Workload Factory API를 통해 이루어진 리소스 변경 사항은 해당 작업을 수행하는 Workload Factory 서비스에 기록됩니다. 예를 들어 Workload Factory를 통해 생성된 볼륨은 *Agent*가 아닌 *Storage* 서비스 태그 아래에 표시됩니다.</block>
   <block id="1c25d10ad7fe7b9def7bd90be9bb63ac" category="section-title">데이터가 최신 상태인지 확인하십시오</block>
   <block id="40d839f036c0870ce0f44a810dc01fd9" category="paragraph">대시보드 데이터가 마지막으로 업데이트된 시점을 확인하고 언제든지 새로 고침을 요청할 수 있습니다. 툴팁에 마지막 업데이트 날짜와 시간이 표시됩니다.</block>
   <block id="3943baa01d778cb77042aa99b8829491" category="paragraph">새 스캔을 시작하려면 *데이터 새로 고침*을 선택하십시오. 스캔이 진행 중일 때는 이 버튼을 사용할 수 없습니다. 새 데이터가 준비되면 대시보드를 업데이트할 수 있는 옵션이 포함된 배너가 나타납니다.</block>
@@ -2189,4 +2180,13 @@
   <block id="f5f7ef3c1692aa4447b9fb26ad98940c" category="list-text">배너에서 *Load it now*를 선택하여 사용 가능한 데이터를 대시보드에 로드하십시오. 또는 *Refresh data*를 선택하여 보기를 업데이트하십시오.</block>
   <block id="abff96b75117f320254f372b6518244b" category="paragraph">대시보드에 업데이트된 지표가 표시됩니다.</block>
   <block id="8b253c1d4259c21c8314fc85adcb31d6" category="section-title">2026년 11월 1일</block>
+  <block id="4780834933836e351b4c7c10d2b7421d" category="paragraph"><block ref="4610b98b2d531ad484f454316d243393" category="inline-link-macro-rx"></block>.</block>
+  <block id="ca57c3b08717a8e00b194598500db7a2" category="paragraph">Workload Factory AIOps는 AI 에이전트를 사용하여 환경을 분석하고 위험을 식별하며 개선 사항을 권장합니다. 사용자가 승인하면 에이전트는 사용자가 설정한 자격 증명과 권한을 사용하여 작업을 수행할 수도 있습니다.</block>
+  <block id="b78358ce9ebcde7e5d73719acc321aae" category="paragraph">Workload Factory 계정에 AWS 자격 증명과 에이전트가 액세스하는 리소스에 필요한 IAM 권한이 있는지 확인하십시오. 읽기/쓰기 모드를 활성화하는 경우 해당 권한은 지원되는 변경 사항도 허용해야 합니다.</block>
+  <block id="0ea09b17a33e26f5dee626af8a16d5e1" category="list-text">Ask Me 랜딩 페이지에서 *에이전트 살펴보기*를 선택합니다. AI 에이전트 사이드 패널이 열리고 에이전트의 기능을 소개하는 환영 메시지가 표시됩니다.</block>
+  <block id="fda5768a6f47f136c2a35db55a5ac261" category="list-text">**Ask Me** 또는 다른 기능을 사용할 때, 더 자세한 지원을 위해 상담원에게 연결되는 링크가 표시될 수 있습니다.</block>
+  <block id="6c6bddc94913852eb6a669f3be45250b" category="paragraph">에이전트는 리소스가 현재 Workload Factory 범위에 포함되어 있고 <block ref="503a0786471e5d22d87709a40b737283" category="inline-link-macro-rx"></block>에서 선택한 자격 증명에서 지원되는 경우에만 리소스에 액세스할 수 있습니다. 에이전트는 두 제어가 모두 적용되는 곳에서만 작동할 수 있습니다. 에이전트가 액세스할 수 있는 리소스는 AWS 자격 증명에 할당된 권한에 따라 달라집니다. 기본적으로 모든 자격 증명이 선택되지만, 구성된 자격 증명의 하위 집합으로 선택을 제한할 수 있습니다.</block>
+  <block id="96cfa5d0ba0465e0823c0e513cf4c99e" category="section-title">읽기/쓰기 모드(선택 사항)</block>
+  <block id="d5d99b2701dfd466ab6b6fd722283931" category="paragraph"><block ref="503a0786471e5d22d87709a40b737283" category="inline-link-macro-rx"></block>에서 읽기/쓰기 기능을 활성화할 수 있습니다. 이 모드에서는 에이전트가 지원되는 각 작업에 대해 설명하고 변경 사항을 적용하기 전에 사용자의 승인을 요구합니다.</block>
+  <block id="ab5a798de828a6dee38052f42293a03d" category="paragraph">읽기/쓰기 모드에서 Tracker는 에이전트의 질문과 사용자의 답변을 포함한 각 승인 요청을 기록합니다. 작업을 수행하는 Workload Factory 서비스는 Workload Factory API를 통해 이루어진 리소스 변경 사항을 로그에 기록합니다. 예를 들어 Workload Factory를 통해 생성된 볼륨은 *Agent*가 아닌 *Storage* 서비스 태그 아래에 표시됩니다.</block>
 </blocks>
