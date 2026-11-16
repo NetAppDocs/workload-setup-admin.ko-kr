@@ -481,6 +481,217 @@ NOTE: AWS GovCloud는 AWS Cost Explorer를 지원하지 않으므로 다음 권�
 ====
 
 
+==== 스토리지 IAM 정책에서 권한을 제거할 경우의 영향
+
+보안상의 이유로 스토리지 IAM 정책에서 일부 권한을 제거하는 것이 좋습니다. 다음 표는 각 정책에서 권한을 제거할 때의 영향을 설명합니다.
+
+.보기, 계획 및 분석 권한
+[%collapsible]
+====
+[cols="2,3,3"]
+|===
+| 권한 | 목적 | 제거 시 영향 
+
+
+| FSx:파일 시스템 설명 | 파일 시스템 구성 검색 및 표시 | 파일 시스템이 보이지 않습니다 
+
+
+| FSx:볼륨 설명 | 볼륨 및 해당 속성 나열 | 볼륨이 표시되지 않습니다 
+
+
+| FSX:DescripbeStorageVirtualMachines를 참조하십시오 | 스토리지 VM, 프로토콜, DNS 구성 나열 | SVM은 표시되지 않습니다 
+
+
+| FSX:백업 설명 | 사용 가능한 백업 목록 표시 | 백업 정보를 사용할 수 없습니다 
+
+
+| FSX:ListTagsForResource.를 참조하십시오 | 리소스 태그 표시 | 태그가 누락되었습니다 
+
+
+| fsx:DescribeSharedVpcConfigurations | 공유 VPC 배포 감지 | 공유 VPC 정보를 사용할 수 없습니다 
+
+
+| fsx:DescribeS3AccessPointAttachments | 볼륨의 S3 액세스 포인트 목록을 표시합니다 | S3 액세스 포인트 정보가 누락되었습니다 
+
+
+| s3:GetAccessPoint | S3 액세스 포인트 세부 정보 검색 | 액세스 포인트 정보를 사용할 수 없습니다 
+
+
+| CloudWatch: GetMetricData | 성능 및 용량 지표를 검색합니다 | 대시보드와 차트가 비어 있습니다 
+
+
+| CloudWatch: GetMetricStatistics | 용량 활용률 모니터링 | 용량 관리 기능이 비활성화됨 
+
+
+| EC2: DescribeInstances(지시 인스턴스) | FSx 스토리지를 사용하는 컴퓨팅 워크로드 검색 | 워크로드 토폴로지가 불완전합니다 
+
+
+| EC2: 설명 볼륨을 참조하십시오 | 스토리지 비교를 위한 EBS 볼륨 검색 | 절감 분석이 완료되지 않았습니다 
+
+
+| EC2: 설명 | 네트워크 컨텍스트에 대한 VPC 열거 | VPC 선택 불가 
+
+
+| EC2: DescribeSubnet | 배치 결정을 위한 서브넷 열거 | 서브넷 선택이 불가능합니다 
+
+
+| EC2: DescribeSecurityGroups | 보안 그룹 검색 및 유효성 검사 | 보안 그룹 정보 누락 
+
+
+| EC2: 설명표 | 네트워크 경로 매핑 | 경로 정보를 사용할 수 없습니다 
+
+
+| EC2: DescribeNetworkInterfaces를 참조하십시오 | 네트워크 인터페이스 검색 | 연결 상태 확인 기능이 저하되었습니다 
+
+
+| elasticfilesystem:DescribeFileSystems | 마이그레이션 및 비용 절감 분석을 위한 EFS 검색 | EFS는 절감액에 포함되지 않습니다 
+
+
+| ce:GetCostAndUsage | 절감액 계산을 위한 비용 데이터 | 비용 분석 불가 
+
+
+| ce:GetTags | 비용 할당 태그 쿼리 | 태그 기반 비용 보기가 실패합니다 
+|===
+리소스 범위: 모든 리소스 (`*`). 이러한 작업은 읽기 전용 Describe/Get/List 작업입니다.
+
+====
+.운영 및 복구 권한
+[%collapsible]
+====
+운영 및 복구 권한을 통해 볼륨 수명 주기, 백업 관리, S3 액세스 포인트, 메타데이터 카탈로그 및 AI 기반 이벤트 분석이 가능합니다.
+
+리소스 범위: 모든 리소스 (`*`), 단 CloudTrail 작업(태그 `netapp-fsxs3-metadata=journal`에 따라 조건부로 실행되는 경우) 제외.
+
+
+NOTE: AI 추론은 Bedrock 추론 프로필을 사용하여 AWS 계정 내에서 실행됩니다. AI 진단을 위해 계정 외부로 데이터가 전송되지 않습니다.
+
+[cols="2,3,3"]
+|===
+| 권한 | 목적 | 제거 시 영향 
+
+
+| FSX:CreateVolume 을 참조하십시오 | 새 볼륨 생성 | 볼륨 생성 불가 
+
+
+| fsx:볼륨 삭제 | 볼륨 삭제 | 볼륨 삭제 불가 
+
+
+| fsx:파일 시스템 업데이트 | 처리량 및 스토리지 용량 수정 | 파일 시스템 업데이트 및 자동 용량 관리 비활성화 
+
+
+| fsx:업데이트 스토리지 가상 머신 | SVM 설정 수정 | SVM 구성 변경이 불가능합니다 
+
+
+| FSX:UpdateVolume을 참조하십시오 | 볼륨 크기, 티어링 및 QoS 수정 | 볼륨 변경은 불가능합니다 
+
+
+| fsx:백업 생성 | 온디맨드 백업 생성 | 수동 백업 생성 불가 
+
+
+| fsx:백업에서볼륨생성 | 백업에서 볼륨 복원 | 백업에서 복원할 수 없습니다 
+
+
+| fsx:백업 삭제 | 백업 제거 | 백업 삭제 불가 
+
+
+| fsx:TagResource / fsx:UntagResource | FSx 리소스 태그 관리 | 태깅 작업 실패 
+
+
+| fsx:CreateAndAttachS3AccessPoint | 볼륨에 S3 액세스 포인트 생성 | S3 액세스 포인트 생성 불가 
+
+
+| fsx:DetachAndDeleteS3AccessPoint | 볼륨에서 S3 액세스 포인트 제거 | S3 액세스 포인트 제거 불가 
+
+
+| s3:CreateAccessPoint / s3:DeleteAccessPoint | S3 액세스 포인트 수명 주기 | S3 액세스 포인트 작업 실패 
+
+
+| s3:TagResource / s3:UntagResource / s3:ListTagsForResource | S3 리소스 태깅 | S3 태그 작업 실패 
+
+
+| s3:GetObjectTagging / s3:ListBucket | 메타데이터 카탈로그 콘텐츠 조회 | 메타데이터 카탈로그 쿼리 성능 저하 
+
+
+| bedrock:InvokeModel / bedrock:InvokeModelWithResponseStream | AI 기반 분석 및 진단 | AI 분석 기능 사용 불가 
+
+
+| bedrock:ListInferenceProfiles / bedrock:GetInferenceProfile | 사용 가능한 AI 모델을 나열하십시오 | AI 기능을 구성할 수 없습니다 
+
+
+| s3tables:CreateTableBucket / s3tables:CreateTable / s3tables:CreateNamespace | 메타데이터 카탈로그 구조 생성 | 메타데이터 카탈로그 생성 실패 
+
+
+| s3tables:GetTable / s3tables:GetTableBucket / s3tables:GetNamespace / s3tables:GetTableMetadataLocation | 메타데이터 카탈로그 구성 읽기 | 메타데이터 카탈로그 읽기 실패 
+
+
+| s3tables:PutTableData / s3tables:GetTableData | 메타데이터 카탈로그 항목을 작성하고 읽습니다 | 메타데이터 카탈로그 작업 실패 
+
+
+| s3tables:ListTables / s3tables:ListNamespaces / s3tables:ListTableBuckets | 메타데이터 카탈로그 객체를 열거합니다. | 메타데이터 카탈로그 탐색 실패 
+
+
+| s3tables:UpdateTableMetadataLocation | 카탈로그 메타데이터 포인터 업데이트 | 카탈로그 위치 업데이트 실패 
+
+
+| s3tables:ListTagsForResource / s3tables:TagResource | 메타데이터 카탈로그 태깅 | 카탈로그 태그 작업 실패 
+
+
+| cloudtrail:PutEventSelectors / cloudtrail:GetEventSelectors | 메타데이터 카탈로그 변경 저널링 | 카탈로그 저널링 불가 
+|===
+====
+.파일 시스템 생성 권한
+[%collapsible]
+====
+파일 시스템 생성 권한을 통해 FSx for ONTAP 파일 시스템 및 스토리지 VM을 프로비저닝 및 프로비저닝 해제할 수 있습니다.
+
+[cols="2,3,3"]
+|===
+| 권한 | 목적 | 제거 시 영향 
+
+
+| FSX:CreateFileSystem 을 참조하십시오 | 새로운 FSx for ONTAP 파일 시스템 프로비저닝 | 파일 시스템 생성 불가 
+
+
+| fsx:파일 시스템 삭제 | 파일 시스템 삭제 | 파일 시스템 삭제 불가 
+
+
+| FSx:CreateStorageVirtualMachine | 스토리지 VM 생성 | SVM 생성 불가 
+
+
+| fsx:저장소 가상 머신 삭제 | 스토리지 VM 삭제 | SVM 삭제 불가 
+
+
+| fsx:TagResource / fsx:UntagResource | 생성 시 리소스에 태그를 지정합니다 | 생성된 리소스에 태그가 지정되지 않음 
+
+
+| KMS: CreateGrant | FSx가 저장 데이터 암호화에 KMS 키를 사용하도록 허용하십시오. | 암호화된 파일 시스템 생성 실패 
+
+
+| kms:DescribeKey / kms:ListKeys / kms:ListAliases | 선택 가능한 KMS 키를 나열합니다 | KMS 키 선택기 비어 있음 
+
+
+| IAM: CreateServiceLinkedRole | FSx 서비스 연결 역할을 생성합니다(일회성) | 역할이 존재하지 않으면 첫 번째 파일 시스템 생성이 실패합니다 
+
+
+| ec2:CreateSecurityGroup / ec2:CreateTags | 새 파일 시스템에 대한 보안 그룹을 생성합니다 | 파일 시스템 생성 실패 
+
+
+| EC2: VolumeStatus를 설명합니다 | 기본 스토리지 상태를 확인합니다 | 상태 점검 저하 
+
+
+| ec2:AuthorizeSecurityGroupEgress / ec2:AuthorizeSecurityGroupIngress | ONTAP 액세스에 대한 보안 그룹 규칙을 구성합니다. | 네트워크 규칙이 적용되지 않았습니다 
+
+
+| ec2:RevokeSecurityGroupEgress / ec2:RevokeSecurityGroupIngress | 삭제 시 보안 그룹 규칙 정리 | 오래된 규칙이 남아 있습니다 
+
+
+| EC2: DeleteSecurityGroup | 파일 시스템 삭제 시 보안 그룹 제거 | 고아 보안 그룹 
+|===
+리소스 범위: 보안 그룹 수정 작업(권한 부여, 취소, 삭제)은 태그가 지정된 리소스로 제한됩니다 `AppCreator=NetappFSxWF`.
+
+====
+
+
 [[permissions-for-database-workloads]]
 === 데이터베이스 워크로드에 대한 권한
 

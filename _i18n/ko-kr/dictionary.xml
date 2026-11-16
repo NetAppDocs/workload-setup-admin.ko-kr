@@ -2189,4 +2189,149 @@
   <block id="96cfa5d0ba0465e0823c0e513cf4c99e" category="section-title">읽기/쓰기 모드(선택 사항)</block>
   <block id="d5d99b2701dfd466ab6b6fd722283931" category="paragraph"><block ref="503a0786471e5d22d87709a40b737283" category="inline-link-macro-rx"></block>에서 읽기/쓰기 기능을 활성화할 수 있습니다. 이 모드에서는 에이전트가 지원되는 각 작업에 대해 설명하고 변경 사항을 적용하기 전에 사용자의 승인을 요구합니다.</block>
   <block id="ab5a798de828a6dee38052f42293a03d" category="paragraph">읽기/쓰기 모드에서 Tracker는 에이전트의 질문과 사용자의 답변을 포함한 각 승인 요청을 기록합니다. 작업을 수행하는 Workload Factory 서비스는 Workload Factory API를 통해 이루어진 리소스 변경 사항을 로그에 기록합니다. 예를 들어 Workload Factory를 통해 생성된 볼륨은 *Agent*가 아닌 *Storage* 서비스 태그 아래에 표시됩니다.</block>
+  <block id="1435394aa3265f9336e4c355ba1c6f91" category="section-title">스토리지 IAM 정책에서 권한을 제거할 경우의 영향</block>
+  <block id="b8d5263f7edffcc848740c4d49dcbc85" category="paragraph">보안상의 이유로 스토리지 IAM 정책에서 일부 권한을 제거하는 것이 좋습니다. 다음 표는 각 정책에서 권한을 제거할 때의 영향을 설명합니다.</block>
+  <block id="f918d1bc2d31c17bf3c8eb9f0707340c" category="example-title">보기, 계획 및 분석 권한</block>
+  <block id="ed5dea09095f671b801bee34ea28a319" category="cell">권한</block>
+  <block id="2f78465faf6b35c158b3490812d27200" category="cell">제거 시 영향</block>
+  <block id="9349a794fa768e1599f8ace228e030c9" category="cell">파일 시스템 구성 검색 및 표시</block>
+  <block id="62d60e644ea4ce90ea930757d329034a" category="cell">파일 시스템이 보이지 않습니다</block>
+  <block id="d142f9916e862d91d5813143ad2e09da" category="cell">볼륨 및 해당 속성 나열</block>
+  <block id="0d136e1cccb806b03a884972006775bb" category="cell">볼륨이 표시되지 않습니다</block>
+  <block id="1e363fd948b82d37a2d76b18812445fa" category="cell">스토리지 VM, 프로토콜, DNS 구성 나열</block>
+  <block id="c1e73e49a746e89e78be011af6c2d6ad" category="cell">SVM은 표시되지 않습니다</block>
+  <block id="3f184c6ec7aa32fb415beea39c717036" category="cell">사용 가능한 백업 목록 표시</block>
+  <block id="21c269d94f6e77117eb73640901cb47c" category="cell">백업 정보를 사용할 수 없습니다</block>
+  <block id="b1760e333b811a87e36233dd6ec3de14" category="cell">리소스 태그 표시</block>
+  <block id="339580788d2d270f9b6b39fca6855b1d" category="cell">태그가 누락되었습니다</block>
+  <block id="9282617ce66e2af0270165613067ca35" category="cell">fsx:DescribeSharedVpcConfigurations</block>
+  <block id="c23a56854a0ef96353c03f6b810cbf81" category="cell">공유 VPC 배포 감지</block>
+  <block id="d81cf9d5bf11b70cf465c37344171386" category="cell">공유 VPC 정보를 사용할 수 없습니다</block>
+  <block id="20baf1e597a706588b91fec0ae6fd718" category="cell">fsx:DescribeS3AccessPointAttachments</block>
+  <block id="afd55b5f4b148237b2b3f0c4249d478a" category="cell">볼륨의 S3 액세스 포인트 목록을 표시합니다</block>
+  <block id="0e0c16f585ce22f9921b88e758a0499f" category="cell">S3 액세스 포인트 정보가 누락되었습니다</block>
+  <block id="c9dc5418b2ecf1f813d94b9b15e2815f" category="cell">s3:GetAccessPoint</block>
+  <block id="b015e4aade9a81e18029d66b2a0ff823" category="cell">S3 액세스 포인트 세부 정보 검색</block>
+  <block id="bf724374f02d304fb12fda34a912cfbc" category="cell">액세스 포인트 정보를 사용할 수 없습니다</block>
+  <block id="26ae99204d7fb6d48f58719cf89d3eb5" category="cell">성능 및 용량 지표를 검색합니다</block>
+  <block id="cc08be2cb8bbcbb6df598ca9c47b924d" category="cell">대시보드와 차트가 비어 있습니다</block>
+  <block id="0bd29c054d4fcf6e456a095ddc5f4f3a" category="cell">용량 활용률 모니터링</block>
+  <block id="1f6250a67769ad721a3be8f887210174" category="cell">용량 관리 기능이 비활성화됨</block>
+  <block id="05344dc15ca59599838482ee89ce1760" category="cell">FSx 스토리지를 사용하는 컴퓨팅 워크로드 검색</block>
+  <block id="58d26d190713d3dfd7f70b6c8fae9ac8" category="cell">워크로드 토폴로지가 불완전합니다</block>
+  <block id="6d43570de1d5d469e7f3bf943efaddcc" category="cell">스토리지 비교를 위한 EBS 볼륨 검색</block>
+  <block id="ed16b74121dfb17633da8d07d7660714" category="cell">절감 분석이 완료되지 않았습니다</block>
+  <block id="c6bbfdc62326381fd0ae68d555a0b224" category="cell">네트워크 컨텍스트에 대한 VPC 열거</block>
+  <block id="651c5416580716b479cd3842089d4176" category="cell">VPC 선택 불가</block>
+  <block id="8ff367027117223fa9ad68172913268c" category="cell">배치 결정을 위한 서브넷 열거</block>
+  <block id="f3cfb60403e4d46e167772a3aa9110e1" category="cell">서브넷 선택이 불가능합니다</block>
+  <block id="8b2ddc1a2c2ff92995c2a7f2e797caea" category="cell">보안 그룹 검색 및 유효성 검사</block>
+  <block id="bd2b9759638a449106f05f7b47fae387" category="cell">보안 그룹 정보 누락</block>
+  <block id="6102b066491471ae2db4893bf763962a" category="cell">네트워크 경로 매핑</block>
+  <block id="638775e83462e80726bcd4d316ebd6da" category="cell">경로 정보를 사용할 수 없습니다</block>
+  <block id="c9a7389016b9197e5d054eb3ded760f5" category="cell">네트워크 인터페이스 검색</block>
+  <block id="a5be2eab467d8c18e2a186d4650ed0a7" category="cell">연결 상태 확인 기능이 저하되었습니다</block>
+  <block id="3ad71d60b7900e9aa47b325d4a4237ed" category="cell">elasticfilesystem:DescribeFileSystems</block>
+  <block id="974323f679c4256140a19ea493a600c1" category="cell">마이그레이션 및 비용 절감 분석을 위한 EFS 검색</block>
+  <block id="ac3bde40f86a23b1d00783b02d627dae" category="cell">EFS는 절감액에 포함되지 않습니다</block>
+  <block id="f4da089e5e70bd0a3dae4fd23d2abbec" category="cell">절감액 계산을 위한 비용 데이터</block>
+  <block id="d84a36711bf3e0fe05c4ec559a0fe79a" category="cell">비용 분석 불가</block>
+  <block id="f422c6e1c29092e175923bc3ae790d62" category="cell">비용 할당 태그 쿼리</block>
+  <block id="90f16d107dd58491b34cd47f8c4327cc" category="cell">태그 기반 비용 보기가 실패합니다</block>
+  <block id="f3b855147f73c247b684a9d057868359" category="paragraph">리소스 범위: 모든 리소스 <block ref="3389dae361af79b04c9c8e7057f60cc6" prefix="(" category="inline-code"></block>). 이러한 작업은 읽기 전용 Describe/Get/List 작업입니다.</block>
+  <block id="b56355ff191ba375c264bc65836c6feb" category="example-title">운영 및 복구 권한</block>
+  <block id="6c59c2bbdb0cb159609534e2e76648ce" category="paragraph">운영 및 복구 권한을 통해 볼륨 수명 주기, 백업 관리, S3 액세스 포인트, 메타데이터 카탈로그 및 AI 기반 이벤트 분석이 가능합니다.</block>
+  <block id="887edbd46ccc8a2079ffac1d735cfd40" category="paragraph">리소스 범위: 모든 리소스 <block ref="3389dae361af79b04c9c8e7057f60cc6" prefix="(" category="inline-code"></block>), 단 CloudTrail 작업(태그<block ref="f170a53a18059c014b62d8f493919791" prefix=" " category="inline-code"></block>에 따라 조건부로 실행되는 경우) 제외.</block>
+  <block id="21a0e93a539a78f748f2394924d25025" category="admonition">AI 추론은 Bedrock 추론 프로필을 사용하여 AWS 계정 내에서 실행됩니다. AI 진단을 위해 계정 외부로 데이터가 전송되지 않습니다.</block>
+  <block id="088758c5f1801338b7483d3a2cda15aa" category="cell">새 볼륨 생성</block>
+  <block id="fa3b5cb3ebb4984a72ac0f175e377869" category="cell">볼륨 생성 불가</block>
+  <block id="f91674f3b22216fc484532cd24dda908" category="cell">볼륨 삭제</block>
+  <block id="6a86b9f15f03c4e25df7354fc53848a3" category="cell">볼륨 삭제 불가</block>
+  <block id="ea5cbd4d4ca7e99177668dafe74cdecb" category="cell">처리량 및 스토리지 용량 수정</block>
+  <block id="0026c0277af733fa58b5bf5b56c4e265" category="cell">파일 시스템 업데이트 및 자동 용량 관리 비활성화</block>
+  <block id="3dff03a0108a146e5d7154a9412532a5" category="cell">SVM 설정 수정</block>
+  <block id="015f1b5e4ee18c67d546a973495094ff" category="cell">SVM 구성 변경이 불가능합니다</block>
+  <block id="0113c8f82c61f60bac546b96483a5960" category="cell">볼륨 크기, 티어링 및 QoS 수정</block>
+  <block id="fbec9af804af9f8cdb2c2e2ef488ae4d" category="cell">볼륨 변경은 불가능합니다</block>
+  <block id="c91ff5b89781f9b20673d63d2fbc4481" category="cell">온디맨드 백업 생성</block>
+  <block id="65ab8b07001bb8f8b516a7e5eb550827" category="cell">수동 백업 생성 불가</block>
+  <block id="51240a355c39cfd66a0dc4e3e8311430" category="cell">백업에서 볼륨 복원</block>
+  <block id="c62c97ef77ae0db142dfb07dccc3e7a0" category="cell">백업에서 복원할 수 없습니다</block>
+  <block id="031c48368130399d783d057806883851" category="cell">백업 제거</block>
+  <block id="3a780af44e8536909502bbf9e9e02c00" category="cell">백업 삭제 불가</block>
+  <block id="1a4bc448942085bf81642f5ba9a6e727" category="cell">fsx:TagResource / fsx:UntagResource</block>
+  <block id="bf3b22d9591f3b1d31c0103e827da7cd" category="cell">FSx 리소스 태그 관리</block>
+  <block id="a55fbfcda3bd24df11266b58443ddc3d" category="cell">태깅 작업 실패</block>
+  <block id="b79df2be7588aa32a38e03b1888992f6" category="cell">볼륨에 S3 액세스 포인트 생성</block>
+  <block id="4d7db9d34f315ceb6bc5ee516b3a74d1" category="cell">S3 액세스 포인트 생성 불가</block>
+  <block id="0cdc355d34ed398e9ae2c2154646189e" category="cell">볼륨에서 S3 액세스 포인트 제거</block>
+  <block id="2a8c0e99bf92338e0c9b10c92620864a" category="cell">S3 액세스 포인트 제거 불가</block>
+  <block id="3baeda83791b2f68c03a99f71a079535" category="cell">s3:CreateAccessPoint / s3:DeleteAccessPoint</block>
+  <block id="af24761a596ceceabee701dc0e1c8245" category="cell">S3 액세스 포인트 수명 주기</block>
+  <block id="954bbc1cc4345916892531a5bc5283ed" category="cell">S3 액세스 포인트 작업 실패</block>
+  <block id="3117fb917dfb2476d00e378e0dde69b6" category="cell">s3:TagResource / s3:UntagResource / s3:ListTagsForResource</block>
+  <block id="31b604571bc5de88d264b18de4038cc3" category="cell">S3 리소스 태깅</block>
+  <block id="25e4e02c8161668fc14b96627068af2b" category="cell">S3 태그 작업 실패</block>
+  <block id="fc3ce0ffe9d7ccf3d0d6479c35ec1c4d" category="cell">s3:GetObjectTagging / s3:ListBucket</block>
+  <block id="494b2a25d3033a0b4f5de2b94792e2ee" category="cell">메타데이터 카탈로그 콘텐츠 조회</block>
+  <block id="94c03df3b871107621049af61a785a3f" category="cell">메타데이터 카탈로그 쿼리 성능 저하</block>
+  <block id="e0dc40d5af80e57b143ff08a2fcce26d" category="cell">bedrock:InvokeModel / bedrock:InvokeModelWithResponseStream</block>
+  <block id="51dd2eb2b4db20f3cdb9ddc0b87ba5db" category="cell">AI 기반 분석 및 진단</block>
+  <block id="631cf95ad93ec9fd57dd9c5eb61d6127" category="cell">AI 분석 기능 사용 불가</block>
+  <block id="b77076d555e0b023ea73d0f161eab78c" category="cell">bedrock:ListInferenceProfiles / bedrock:GetInferenceProfile</block>
+  <block id="8dd2176fbb44f4139adb8fdece97b03e" category="cell">사용 가능한 AI 모델을 나열하십시오</block>
+  <block id="bf4c64fe2d90e193626b89daf73a739f" category="cell">AI 기능을 구성할 수 없습니다</block>
+  <block id="90fe2d58743cddcc65e1d8e3e758b9e8" category="cell">s3tables:CreateTableBucket / s3tables:CreateTable / s3tables:CreateNamespace</block>
+  <block id="7fbbbd1670a5f39a9477bb85f3eb7e8a" category="cell">메타데이터 카탈로그 구조 생성</block>
+  <block id="e5283afcc997fc2ec9f88b61a713f5a2" category="cell">메타데이터 카탈로그 생성 실패</block>
+  <block id="2c4952cb6325725129c69ac68f677912" category="cell">s3tables:GetTable / s3tables:GetTableBucket / s3tables:GetNamespace / s3tables:GetTableMetadataLocation</block>
+  <block id="0467b47e3228d90b8d834456ff16af46" category="cell">메타데이터 카탈로그 구성 읽기</block>
+  <block id="f9e1f60bd1409074b891847bdf518602" category="cell">메타데이터 카탈로그 읽기 실패</block>
+  <block id="0c2803db512e334e32fc98dcd2eaee34" category="cell">s3tables:PutTableData / s3tables:GetTableData</block>
+  <block id="52706d77b4afd4a328e789a641721c64" category="cell">메타데이터 카탈로그 항목을 작성하고 읽습니다</block>
+  <block id="c878418605a08d6767c8e14f791b78e4" category="cell">메타데이터 카탈로그 작업 실패</block>
+  <block id="a4117636cfc7c6353f5ca920356303a1" category="cell">s3tables:ListTables / s3tables:ListNamespaces / s3tables:ListTableBuckets</block>
+  <block id="ca91427d83081e1b24fe493470645a74" category="cell">메타데이터 카탈로그 객체를 열거합니다.</block>
+  <block id="12942890e74425896c753a486d3c3f52" category="cell">메타데이터 카탈로그 탐색 실패</block>
+  <block id="6134c676616d96ebf74a26f3d96ca946" category="cell">카탈로그 메타데이터 포인터 업데이트</block>
+  <block id="3e803c28c81b5d228d093d7576c7f906" category="cell">카탈로그 위치 업데이트 실패</block>
+  <block id="5cc6b90b4c24e189563c6ffcffc1e11a" category="cell">s3tables:ListTagsForResource / s3tables:TagResource</block>
+  <block id="aa1e61f534734e88502defb09c9bef79" category="cell">메타데이터 카탈로그 태깅</block>
+  <block id="068eb08210f9914b343b9655d2f75b56" category="cell">카탈로그 태그 작업 실패</block>
+  <block id="aa6ff5a3cb85056a88da316b1d008d64" category="cell">cloudtrail:PutEventSelectors / cloudtrail:GetEventSelectors</block>
+  <block id="bede9cda144ea785638f340cb29690dc" category="cell">메타데이터 카탈로그 변경 저널링</block>
+  <block id="e573fb6c3e15dd1c0cecaa569db55cee" category="cell">카탈로그 저널링 불가</block>
+  <block id="5718ba980466f79bc709fc4be4130e2a" category="example-title">파일 시스템 생성 권한</block>
+  <block id="8de260ceaa34ef074c48f6d89e713eca" category="paragraph">파일 시스템 생성 권한을 통해 FSx for ONTAP 파일 시스템 및 스토리지 VM을 프로비저닝 및 프로비저닝 해제할 수 있습니다.</block>
+  <block id="81c5909b882cae4c4b6b321177bb8185" category="cell">새로운 FSx for ONTAP 파일 시스템 프로비저닝</block>
+  <block id="cd044d577ec15a914900168bdbc15798" category="cell">파일 시스템 생성 불가</block>
+  <block id="3bde7ff5999ce728621d93fd54b590c2" category="cell">파일 시스템 삭제</block>
+  <block id="f85eec4522faaeb814f92f972069c711" category="cell">파일 시스템 삭제 불가</block>
+  <block id="00310f2ddf48124910dd598ccd60ac9b" category="cell">스토리지 VM 생성</block>
+  <block id="fb448a1ba6fb548e45d11c2ba8d90788" category="cell">SVM 생성 불가</block>
+  <block id="9393c776921e41141dd5017cc128f31f" category="cell">스토리지 VM 삭제</block>
+  <block id="9e16a199e6e5e3a788e086fa947ee5ab" category="cell">SVM 삭제 불가</block>
+  <block id="3218ddc767a21d559cc078a9102f2bd2" category="cell">생성 시 리소스에 태그를 지정합니다</block>
+  <block id="7ced2dcc7533261162d7d75c0a562d3d" category="cell">생성된 리소스에 태그가 지정되지 않음</block>
+  <block id="0039975c150eb5aacb73e63dda42c7d8" category="cell">FSx가 저장 데이터 암호화에 KMS 키를 사용하도록 허용하십시오.</block>
+  <block id="cec50985cf3b3429d7f8846b9ab95324" category="cell">암호화된 파일 시스템 생성 실패</block>
+  <block id="584110ac03ea059316953df05f8288bc" category="cell">kms:DescribeKey / kms:ListKeys / kms:ListAliases</block>
+  <block id="582a11f3a4d812bfc0a502125c20b72a" category="cell">선택 가능한 KMS 키를 나열합니다</block>
+  <block id="51170b88c3e026cdb768bcbda4d7f7ad" category="cell">KMS 키 선택기 비어 있음</block>
+  <block id="feaeaac2e35c4ff125e0472b2966f32b" category="cell">FSx 서비스 연결 역할을 생성합니다(일회성)</block>
+  <block id="7936bd9fe06e71969c73e7d44a9f5835" category="cell">역할이 존재하지 않으면 첫 번째 파일 시스템 생성이 실패합니다</block>
+  <block id="60a4cb5647a6fe7c5fa2b4530ed22536" category="cell">ec2:CreateSecurityGroup / ec2:CreateTags</block>
+  <block id="de37761a04065672d4ee465d0ceb7a6a" category="cell">새 파일 시스템에 대한 보안 그룹을 생성합니다</block>
+  <block id="b89940bc45125055d0e9a289c04d000f" category="cell">파일 시스템 생성 실패</block>
+  <block id="61c92add34d163913b5b31eae6302cf3" category="cell">기본 스토리지 상태를 확인합니다</block>
+  <block id="b6f32473834007a410d5abddd5f177f8" category="cell">상태 점검 저하</block>
+  <block id="c285fdd035eeb8fc83856000cb9c0dd6" category="cell">ec2:AuthorizeSecurityGroupEgress / ec2:AuthorizeSecurityGroupIngress</block>
+  <block id="f88b006360d3a818966f84f1a48cef2b" category="cell">ONTAP 액세스에 대한 보안 그룹 규칙을 구성합니다.</block>
+  <block id="019a7e154e0d017cf041ac3bea3d683b" category="cell">네트워크 규칙이 적용되지 않았습니다</block>
+  <block id="1b83f78839e2aa92852e3c3d54d1c9ca" category="cell">ec2:RevokeSecurityGroupEgress / ec2:RevokeSecurityGroupIngress</block>
+  <block id="5a8a6f2066c5b040adad4a0704399cf0" category="cell">삭제 시 보안 그룹 규칙 정리</block>
+  <block id="0bf129bc06af30babee90ce8b1bba8a4" category="cell">오래된 규칙이 남아 있습니다</block>
+  <block id="0a5a55ef86ce8d6a99addaac01429ff1" category="cell">파일 시스템 삭제 시 보안 그룹 제거</block>
+  <block id="ce2e385c56a5fe4ee43ddce918ace3d0" category="cell">고아 보안 그룹</block>
+  <block id="129816675b3df3f0fe475cfb20d8f666" category="paragraph">리소스 범위: 보안 그룹 수정 작업(권한 부여, 취소, 삭제)은 태그가 지정된 리소스로 제한됩니다<block ref="ca26362c93e15a413626a4bafd6cc62f" prefix=" " category="inline-code"></block>.</block>
 </blocks>
